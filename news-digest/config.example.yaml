@@ -13,6 +13,7 @@ settings:
   model: claude-haiku-4-5     # classifier model (verify against current docs before deploy)
   seen_store_path: state/seen.json   # durable cross-day dedup (committed by the workflow)
   seen_ttl_days: 30
+  combine_tolerance: balanced # how aggressively to merge same-story articles: strict|balanced|broad
   sources:                    # authoritative-first
     - federal_register
     - courtlistener

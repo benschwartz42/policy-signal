@@ -34,6 +34,8 @@ class Settings:
     model: str = "claude-haiku-4-5"
     seen_store_path: str = "state/seen.json"
     seen_ttl_days: int = 30
+    # How aggressively to merge articles about the same story: strict | balanced | broad
+    combine_tolerance: str = "balanced"
     sources: list[str] = field(default_factory=lambda: ["federal_register", "google_news"])
 
 
@@ -98,11 +100,14 @@ def parse_config(data: dict[str, Any]) -> Config:
         model=str(s.get("model", "claude-haiku-4-5")),
         seen_store_path=str(s.get("seen_store_path", "state/seen.json")),
         seen_ttl_days=int(s.get("seen_ttl_days", 30)),
+        combine_tolerance=str(s.get("combine_tolerance", "balanced")).lower(),
         sources=[str(x) for x in _as_list(s.get("sources"), "settings.sources")]
         or ["federal_register", "google_news"],
     )
     if not 0.0 <= settings.min_relevance <= 1.0:
         raise ConfigError("settings.min_relevance must be between 0 and 1")
+    if settings.combine_tolerance not in ("strict", "balanced", "broad"):
+        settings.combine_tolerance = "balanced"
 
     d = data.get("delivery") or {}
     if not isinstance(d, dict):

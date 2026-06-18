@@ -137,19 +137,36 @@ def _extract_json(text: str) -> dict:
     return {"relevant": False, "score": 0.0, "reason": "unparseable model output", "summary": ""}
 
 
-_CLUSTER_SYSTEM = (
-    "You group news/document items that report the SAME underlying development — "
-    "the same rule, ruling, filing, announcement, or event — even when the "
-    "headlines are worded differently or come from different outlets. Items about "
-    "DIFFERENT developments must stay in separate groups; when unsure, keep them "
-    "separate. Respond with ONLY a JSON object {\"clusters\": [[indices], ...]} "
-    "where every item index appears exactly once."
-)
+# Grouping guidance by tolerance level, injected into the clustering prompt.
+_TOLERANCE_RULES = {
+    "strict": "Group ONLY items that report the exact same document, ruling, "
+              "filing, or event. If two items cover different angles, different "
+              "actions, or different events, keep them in separate groups.",
+    "balanced": "Group items that report the SAME underlying development — the "
+                "same rule, ruling, filing, announcement, or event — even when "
+                "headlines differ or come from different outlets. Items about "
+                "DIFFERENT developments stay separate; when unsure, keep separate.",
+    "broad": "Group items that cover the same overall development OR closely "
+             "related aspects, reactions, and analysis of it, even from different "
+             "angles. Prefer fewer, broader groups; only separate items that are "
+             "about clearly distinct developments.",
+}
 
 
-def cluster_same_story(articles: list[Article], client=None, model: str = "") -> list[Article]:
+def _cluster_system(tolerance: str) -> str:
+    rule = _TOLERANCE_RULES.get(tolerance, _TOLERANCE_RULES["balanced"])
+    return (
+        "You group related news/document items for a policy digest. " + rule +
+        " Respond with ONLY a JSON object {\"clusters\": [[indices], ...]} "
+        "where every item index appears exactly once."
+    )
+
+
+def cluster_same_story(articles: list[Article], client=None, model: str = "",
+                       tolerance: str = "balanced") -> list[Article]:
     """Merge items reporting the same development into one, attaching the others
-    as `also` (secondary links). The most relevant/authoritative item is the
+    as `also` (secondary links). `tolerance` (strict|balanced|broad) controls how
+    aggressively items are grouped. The most relevant/authoritative item is the
     primary and keeps its summary. Requires the LLM client; offline it is a
     no-op (returns the list unchanged), so the self-test is unaffected."""
     if client is None or len(articles) < 2:
@@ -163,7 +180,7 @@ def cluster_same_story(articles: list[Article], client=None, model: str = "") ->
         msg = client.messages.create(
             model=model,
             max_tokens=1024,
-            system=_CLUSTER_SYSTEM,
+            system=_cluster_system(tolerance),
             messages=[{"role": "user", "content": "ITEMS:\n" + listing}],
         )
         text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")

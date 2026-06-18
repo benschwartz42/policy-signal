@@ -99,7 +99,8 @@ def process(
 
     # Merge items reporting the same development (different headlines/outlets)
     # into one, with the others attached as secondary links. No-op offline.
-    kept = relevance.cluster_same_story(kept, client=client, model=s.model)
+    kept = relevance.cluster_same_story(kept, client=client, model=s.model,
+                                        tolerance=s.combine_tolerance)
     return kept
 
 

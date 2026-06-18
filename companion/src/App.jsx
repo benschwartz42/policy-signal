@@ -26,7 +26,15 @@ function Shell({ header, body }) {
         {header}
       </div>
       <div className="ps-body">{body}</div>
-      <div className="ps-foot">Policy Signal · public sources only · authoritative-first</div>
+      <div className="ps-foot">
+        <div className="ps-legend">
+          <span className="ps-legend-label">Relevance score:</span>
+          <span><i style={{ background: "#137333" }} />High ≥ 0.85</span>
+          <span><i style={{ background: "#1457b8" }} />Medium ≥ 0.65</span>
+          <span><i style={{ background: "#9a6700" }} />Lower ≥ 0.50</span>
+        </div>
+        Policy Signal · public sources only · authoritative-first
+      </div>
     </div>
   );
 }

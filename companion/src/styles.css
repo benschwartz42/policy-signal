@@ -100,6 +100,10 @@ button:active { transform: translateY(1px); }
 .ps-also { margin-top: 10px; padding-top: 9px; border-top: 1px solid #eef1f5; font-size: 12px; color: #8a98aa; }
 .ps-also a { color: #1457b8; text-decoration: none; }
 .ps-foot { background: #f7f9fc; border-top: 1px solid #e6eaf1; padding: 16px 30px; font-size: 12px; color: #90a0b3; }
+.ps-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-bottom: 10px; color: #6b7a90; }
+.ps-legend .ps-legend-label { font-weight: 600; color: #5b6b80; }
+.ps-legend span { display: inline-flex; align-items: center; gap: 5px; }
+.ps-legend i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
 .ps-note { color: #6b7a90; text-align: center; padding: 36px 12px; font-size: 15px; }
 .ps-note.error { color: #b00020; }
 
@@ -110,7 +114,7 @@ button:active { transform: translateY(1px); }
 .cfg section { margin: 22px 0; }
 .cfg h3 { font-size: 15px; margin: 0 0 10px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
 .cfg .field { display: flex; flex-direction: column; gap: 5px; font-size: 12px; color: var(--muted); margin: 12px 0; }
-.cfg .field input[type="text"], .cfg .field input[type="email"], .cfg .field input[type="number"], .cfg textarea {
+.cfg .field input[type="text"], .cfg .field input[type="email"], .cfg .field input[type="number"], .cfg .field select, .cfg textarea {
   font-size: 14px; color: var(--fg); padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; width: 100%; }
 .cfg textarea { resize: vertical; font-family: inherit; }
 .cfg .row { display: flex; gap: 8px; align-items: center; margin: 4px 0; }

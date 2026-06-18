@@ -195,6 +195,14 @@ export default function ConfigPage() {
                 <input type="text" value={cfg.settings.model || ""}
                        onChange={(e) => update((c) => { c.settings.model = e.target.value; })} />
               </label>
+              <label className="field">Combine similar articles
+                <select value={cfg.settings.combine_tolerance || "balanced"}
+                        onChange={(e) => update((c) => { c.settings.combine_tolerance = e.target.value; })}>
+                  <option value="strict">Strict — only the exact same item</option>
+                  <option value="balanced">Balanced — same development</option>
+                  <option value="broad">Broad — same story &amp; reactions</option>
+                </select>
+              </label>
             </div>
             <div className="field">
               <span>Sources</span>
