@@ -1,0 +1,56 @@
+# Policy Signal — live configuration (source of truth for the daily run).
+# Editable via the Configure page in the companion app, or by hand here.
+# Topics are config, not code: `description` is the relevance rubric the LLM uses.
+settings:
+  lookback_hours: 720
+  max_items_per_topic: 12
+  min_relevance: 0.5
+  model: claude-haiku-4-5
+  seen_store_path: state/seen.json
+  seen_ttl_days: 30
+  sources:
+    - federal_register
+    - courtlistener
+    - google_news
+delivery:
+  sender: Policy Signal <ben@zdkinnovations.com>
+  subject_prefix: "[Policy Signal]"
+  recipients:
+    - bschwartz@altevarcm.com
+topics:
+  - name: No Surprises Act
+    description: >-
+      The federal No Surprises Act and its implementation: HHS/CMS/DOL/Treasury
+      rulemaking, the Independent Dispute Resolution (IDR) process, balance-billing
+      protections, and related federal litigation. Relevant items move or interpret
+      the rules; general explainers are not.
+    keywords:
+      - no surprises act
+      - balance billing
+      - independent dispute resolution
+      - IDR
+      - surprise billing
+  - name: Prior Authorization Reform
+    description: >-
+      Federal and state changes to payer prior-authorization requirements,
+      including CMS interoperability/prior-auth rules and major payer policy shifts.
+    keywords:
+      - prior authorization
+      - prior auth
+      - utilization management
+  - name: Federal IDR
+    description: >-
+      The federal Independent Dispute Resolution (IDR) process under the No
+      Surprises Act: CMS/HHS/DOL operational rules and guidance, the IDR portal,
+      administrative fee and certified-IDRE fee changes, batching and eligibility
+      determinations, arbitrator (IDRE) decisions, and litigation over the IDR
+      process or the qualifying payment amount. Relevant items change or interpret
+      how out-of-network payment disputes are arbitrated; general explainers are not.
+    keywords:
+      - independent dispute resolution
+      - IDR
+      - federal IDR
+      - certified IDR entity
+      - qualifying payment amount
+      - QPA
+      - arbitration

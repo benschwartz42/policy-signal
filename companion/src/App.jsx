@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
+import ConfigPage from "./ConfigPage.jsx";
 
-// The companion is preview/export only: it loads the structured digest the
-// backend publishes (digests/latest.json) and lets you browse, filter, and
-// export it. No live search, no API keys in the browser.
+// The companion has two tabs: a preview/export view of the published digest,
+// and a Configure view that edits the backend config via the GitHub API.
 
 const DIGEST_URL = import.meta.env.BASE_URL + "digests/latest.json";
 
@@ -38,7 +38,7 @@ function download(filename, text, type) {
   URL.revokeObjectURL(url);
 }
 
-export default function App() {
+function DigestView() {
   const [payload, setPayload] = useState(null);
   const [error, setError] = useState(null);
   const [topicFilter, setTopicFilter] = useState("all");
@@ -154,5 +154,20 @@ export default function App() {
 
       <div className="foot">Policy Signal · public sources only · authoritative-first · preview &amp; export</div>
     </div>
+  );
+}
+
+export default function App() {
+  const [tab, setTab] = useState("digest");
+  return (
+    <>
+      <div className="wrap tabbar">
+        <nav className="tabs">
+          <button className={tab === "digest" ? "tab active" : "tab"} onClick={() => setTab("digest")}>Digest</button>
+          <button className={tab === "config" ? "tab active" : "tab"} onClick={() => setTab("config")}>Configure</button>
+        </nav>
+      </div>
+      {tab === "digest" ? <DigestView /> : <div className="wrap"><ConfigPage /></div>}
+    </>
   );
 }

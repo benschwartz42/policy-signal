@@ -4,10 +4,11 @@ __pycache__/
 .venv/
 news-digest/.venv/
 
-# Local secrets and config (examples are committed; real ones are not)
+# Local secrets (examples are committed; real ones are not)
 .env
 news-digest/.env
-news-digest/config.yaml
+# NOTE: news-digest/config.yaml IS committed — it is the live source of truth,
+# edited via the Configure page. Recipient emails live here (public repo).
 
 # Local run artifacts
 news-digest/digest.html

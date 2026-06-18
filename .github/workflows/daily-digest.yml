@@ -36,12 +36,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Prepare config
-        run: cp config.example.yaml config.yaml
-        # For real recipients/topics, commit a config.yaml instead of copying the
-        # example, or template it here from a secret.
-
       - name: Run digest
+        # config.yaml is the committed source of truth (topics, settings, sender,
+        # recipients) — edited via the Configure page. Only auth/transport creds
+        # come from secrets.
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Email transport: Google Workspace SMTP (no RESEND_API_KEY -> SMTP path)
@@ -49,9 +47,6 @@ jobs:
           SMTP_PORT: "587"
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          # Sender + recipients come from secrets (repo is public)
-          DIGEST_SENDER: Policy Signal <${{ secrets.SMTP_USER }}>
-          DIGEST_RECIPIENTS: ${{ secrets.DIGEST_RECIPIENTS }}
           # Optional source keys
           REGS_GOV_API_KEY: ${{ secrets.REGS_GOV_API_KEY }}
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
