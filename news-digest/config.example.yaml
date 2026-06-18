@@ -1,0 +1,48 @@
+# Policy Signal — configuration
+# Copy to config.yaml and edit. Topics are config, not code: the `description`
+# field is the plain-English rubric the LLM judges relevance against.
+
+settings:
+  lookback_hours: 24          # drop items older than this (undated items are kept)
+  max_items_per_topic: 12     # cap per topic after scoring
+  min_relevance: 0.5          # 0..1 LLM score cutoff
+  model: claude-haiku-4-5     # classifier model (verify against current docs before deploy)
+  seen_store_path: state/seen.json   # durable cross-day dedup (committed by the workflow)
+  seen_ttl_days: 30
+  sources:                    # authoritative-first
+    - federal_register
+    - courtlistener
+    - google_news
+    # - regulations_gov       # needs REGS_GOV_API_KEY
+    # - rss                   # uses each topic's extra_rss list
+
+delivery:
+  sender: "Policy Signal <digest@your-verified-domain.com>"
+  subject_prefix: "[Policy Signal]"
+  recipients:
+    - rcm-team@example.com
+
+topics:
+  - name: No Surprises Act
+    description: >
+      The federal No Surprises Act and its implementation: HHS/CMS/DOL/Treasury
+      rulemaking, the Independent Dispute Resolution (IDR) process, balance-billing
+      protections, and related federal litigation. Relevant items move or interpret
+      the rules; general explainers are not.
+    keywords:
+      - no surprises act
+      - balance billing
+      - independent dispute resolution
+      - IDR
+      - surprise billing
+    # extra_rss:
+    #   - https://example-trade-press.com/feed   # confirm the feed is live before enabling
+
+  - name: Prior Authorization Reform
+    description: >
+      Federal and state changes to payer prior-authorization requirements,
+      including CMS interoperability/prior-auth rules and major payer policy shifts.
+    keywords:
+      - prior authorization
+      - prior auth
+      - utilization management

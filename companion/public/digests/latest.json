@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-06-17T12:00:00+00:00",
+  "topic_count": 2,
+  "item_count": 3,
+  "topics": [
+    {
+      "name": "No Surprises Act",
+      "items": [
+        {
+          "title": "CMS issues No Surprises Act IDR final rule",
+          "url": "https://www.federalregister.gov/documents/example",
+          "source": "Federal Register",
+          "published": "2026-06-17T08:00:00+00:00",
+          "published_display": "Jun 17, 2026",
+          "score": 0.95,
+          "reason": "Authoritative rulemaking directly implementing the IDR process.",
+          "summary": "CMS finalized changes to the Independent Dispute Resolution process under the No Surprises Act. The rule adjusts fee structures and batching eligibility."
+        },
+        {
+          "title": "Fifth Circuit rules on No Surprises Act IDR process",
+          "url": "https://www.courtlistener.com/opinion/example",
+          "source": "CourtListener (5th Cir.)",
+          "published": "2026-06-16T15:00:00+00:00",
+          "published_display": "Jun 16, 2026",
+          "score": 0.88,
+          "reason": "Federal appellate decision interpreting the dispute-resolution scheme.",
+          "summary": "The appeals court addressed how arbitrators must weigh the qualifying payment amount. The decision remands portions of the prior guidance."
+        }
+      ]
+    },
+    {
+      "name": "Prior Authorization Reform",
+      "items": [
+        {
+          "title": "Major insurer overhauls prior authorization requirements",
+          "url": "https://news.example.com/prior-auth",
+          "source": "Trade Press",
+          "published": "2026-06-17T06:30:00+00:00",
+          "published_display": "Jun 17, 2026",
+          "score": 0.72,
+          "reason": "Significant payer policy shift affecting utilization management.",
+          "summary": "A national payer announced it will drop prior-authorization requirements for several hundred procedure codes. The change takes effect next quarter."
+        }
+      ]
+    }
+  ]
+}

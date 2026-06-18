@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+news-digest/.venv/
+
+# Local secrets and config (examples are committed; real ones are not)
+.env
+news-digest/.env
+news-digest/config.yaml
+
+# Local run artifacts
+news-digest/digest.html
+news-digest/digest.txt
+
+# Node / Vite
+companion/node_modules/
+companion/dist/
+
+# NOTE: intentionally NOT ignored (they are committed by the daily workflow):
+#   news-digest/state/seen.json        -> durable cross-day dedup
+#   companion/public/digests/*.json    -> published digests for the companion
