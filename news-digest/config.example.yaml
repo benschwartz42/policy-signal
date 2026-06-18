@@ -46,3 +46,20 @@ topics:
       - prior authorization
       - prior auth
       - utilization management
+
+  - name: Federal IDR
+    description: >
+      The federal Independent Dispute Resolution (IDR) process under the No
+      Surprises Act: CMS/HHS/DOL operational rules and guidance, the IDR portal,
+      administrative fee and certified-IDRE fee changes, batching and eligibility
+      determinations, arbitrator (IDRE) decisions, and litigation over the IDR
+      process or the qualifying payment amount. Relevant items change or interpret
+      how out-of-network payment disputes are arbitrated; general explainers are not.
+    keywords:
+      - independent dispute resolution
+      - IDR
+      - federal IDR
+      - certified IDR entity
+      - qualifying payment amount
+      - QPA
+      - arbitration
