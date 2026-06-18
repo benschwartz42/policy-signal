@@ -184,14 +184,37 @@ def cluster_same_story(articles: list[Article], client=None, model: str = "",
             messages=[{"role": "user", "content": "ITEMS:\n" + listing}],
         )
         text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
-        clusters = _extract_json(text).get("clusters")
-        flat = [i for c in clusters for i in c]
-        if sorted(flat) != list(range(len(articles))):
-            log.warning("clustering returned an invalid index cover — skipping merge")
+        raw = _extract_json(text).get("clusters")
+        if not isinstance(raw, list):
+            log.warning("clustering returned no clusters — leaving items unmerged")
             return articles
     except Exception as exc:
         log.warning("clustering failed — leaving items unmerged: %s", exc)
         return articles
+
+    # Repair rather than reject: keep valid, in-range, first-seen indices; an
+    # imperfect grouping from the model still merges what it can, and any item
+    # it omitted simply stays on its own (a safe singleton).
+    n = len(articles)
+    clusters: list[list[int]] = []
+    assigned: set[int] = set()
+    for group in raw:
+        if not isinstance(group, list):
+            continue
+        kept_idx = []
+        for i in group:
+            try:
+                idx = int(i)
+            except (TypeError, ValueError):
+                continue
+            if 0 <= idx < n and idx not in assigned:
+                assigned.add(idx)
+                kept_idx.append(idx)
+        if kept_idx:
+            clusters.append(kept_idx)
+    for idx in range(n):
+        if idx not in assigned:
+            clusters.append([idx])
 
     merged: list[Article] = []
     for cluster in clusters:

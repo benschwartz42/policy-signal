@@ -183,7 +183,14 @@ def filter_unseen(articles: list[Article], store: SeenStore) -> list[Article]:
 
 def mark_delivered(articles: list[Article], store: SeenStore) -> None:
     """Record both keys for each delivered article so neither the exact link nor
-    the same story via another outlet is re-sent on a later run."""
+    the same story via another outlet is re-sent on a later run. Also marks the
+    secondary ('also') articles folded into each item, so they don't resurface
+    as standalone items next time."""
     for a in articles:
         store.mark(a.dedup_key)
         store.mark(a.content_key)
+        for sec in getattr(a, "also", None) or []:
+            ghost = Article(topic="", title=sec.get("title", ""),
+                            url=sec.get("url", ""), source=sec.get("source", ""))
+            store.mark(ghost.dedup_key)
+            store.mark(ghost.content_key)
