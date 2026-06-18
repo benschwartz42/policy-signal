@@ -3,7 +3,11 @@
 # field is the plain-English rubric the LLM judges relevance against.
 
 settings:
-  lookback_hours: 72          # drop items older than this (undated items are kept)
+  # Rolling window. These policy topics are low-volume and the search APIs skew
+  # toward older results, so a wide window + durable dedup is the right model:
+  # the first run emails the recent backlog, then each day only net-new items
+  # (the seen-store suppresses anything already sent). 720h = 30 days.
+  lookback_hours: 720
   max_items_per_topic: 12     # cap per topic after scoring
   min_relevance: 0.5          # 0..1 LLM score cutoff
   model: claude-haiku-4-5     # classifier model (verify against current docs before deploy)
