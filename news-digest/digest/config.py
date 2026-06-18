@@ -27,6 +27,14 @@ class Topic:
 
 
 @dataclass
+class Feed:
+    """A custom RSS/Atom source, scanned for every topic and filtered by the
+    usual keyword prefilter + LLM scoring."""
+    url: str
+    name: str = ""
+
+
+@dataclass
 class Settings:
     lookback_hours: int = 24
     max_items_per_topic: int = 12
@@ -51,6 +59,7 @@ class Config:
     topics: list[Topic]
     settings: Settings
     delivery: Delivery
+    feeds: list[Feed] = field(default_factory=list)
     raw: dict[str, Any] = field(default_factory=dict)
 
 
@@ -118,7 +127,21 @@ def parse_config(data: dict[str, Any]) -> Config:
         subject_prefix=str(d.get("subject_prefix", "[Policy Signal]")),
     )
 
-    return Config(topics=topics, settings=settings, delivery=delivery, raw=data)
+    feeds: list[Feed] = []
+    for i, f in enumerate(_as_list(data.get("feeds"), "feeds")):
+        if isinstance(f, str):
+            url = f.strip()
+            name = ""
+        elif isinstance(f, dict):
+            url = str(f.get("url", "")).strip()
+            name = str(f.get("name", "")).strip()
+        else:
+            raise ConfigError(f"feeds[{i}] must be a URL string or a mapping")
+        if not url:
+            raise ConfigError(f"feeds[{i}] missing 'url'")
+        feeds.append(Feed(url=url, name=name))
+
+    return Config(topics=topics, settings=settings, delivery=delivery, feeds=feeds, raw=data)
 
 
 def apply_delivery_overrides(config: Config, env: dict | None = None) -> Config:

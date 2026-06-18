@@ -170,16 +170,14 @@ def courtlistener(topic: Topic, env: dict) -> list[Article]:
 
 # --- Press: Google News RSS + generic RSS -----------------------------------
 
-def _parse_feed(feed_url: str, topic: Topic, source_name: str, authority: int) -> list[Article]:
-    import feedparser  # imported lazily; heavy-ish
-    parsed = feedparser.parse(feed_url, request_headers=_UA)
+def _entries_to_articles(parsed, topic_name: str, source_name: str, authority: int) -> list[Article]:
     out = []
     for e in parsed.entries[:25]:
         published = None
         if getattr(e, "published_parsed", None):
             published = datetime(*e.published_parsed[:6], tzinfo=timezone.utc)
         out.append(Article(
-            topic=topic.name,
+            topic=topic_name,
             title=getattr(e, "title", "").strip(),
             url=getattr(e, "link", ""),
             source=getattr(getattr(e, "source", None), "title", source_name) or source_name,
@@ -188,6 +186,12 @@ def _parse_feed(feed_url: str, topic: Topic, source_name: str, authority: int) -
             snippet=getattr(e, "summary", "").strip(),
         ))
     return out
+
+
+def _parse_feed(feed_url: str, topic: Topic, source_name: str, authority: int) -> list[Article]:
+    import feedparser  # imported lazily; heavy-ish
+    parsed = feedparser.parse(feed_url, request_headers=_UA)
+    return _entries_to_articles(parsed, topic.name, source_name, authority)
 
 
 def google_news(topic: Topic, env: dict) -> list[Article]:
@@ -216,9 +220,10 @@ REGISTRY: dict[str, Callable[[Topic, dict], list[Article]]] = {
 }
 
 
-def ingest(topics: list[Topic], source_ids: list[str], env: dict | None = None) -> list[Article]:
-    """Query every enabled source for every topic. A failing source is logged
-    and skipped, never fatal."""
+def ingest(topics: list[Topic], source_ids: list[str], env: dict | None = None,
+           feeds: list | None = None) -> list[Article]:
+    """Query every enabled source for every topic, plus any custom feeds. A
+    failing source/feed is logged and skipped, never fatal."""
     env = env or dict(os.environ)
     collected: list[Article] = []
     for source_id in source_ids:
@@ -233,4 +238,22 @@ def ingest(topics: list[Topic], source_ids: list[str], env: dict | None = None) 
                 collected.extend(items)
             except Exception as exc:
                 log.warning("source '%s' failed for topic '%s': %s", source_id, topic.name, exc)
+
+    # Custom feeds: fetch each once, then fan out to every topic so the keyword
+    # prefilter + LLM scoring decide which topic(s) each item belongs to.
+    import feedparser
+    for feed in feeds or []:
+        url = getattr(feed, "url", None) or (feed.get("url") if isinstance(feed, dict) else None)
+        if not url:
+            continue
+        name = getattr(feed, "name", "") or (feed.get("name", "") if isinstance(feed, dict) else "")
+        try:
+            parsed = feedparser.parse(url, request_headers=_UA)
+            label = name or getattr(parsed.feed, "title", "") or "Custom feed"
+            for topic in topics:
+                items = _entries_to_articles(parsed, topic.name, label, AUTHORITY["rss"])
+                collected.extend(items)
+            log.info("feed '%s' -> %d entries x %d topics", label, len(parsed.entries[:25]), len(topics))
+        except Exception as exc:
+            log.warning("feed '%s' failed: %s", name or url, exc)
     return collected

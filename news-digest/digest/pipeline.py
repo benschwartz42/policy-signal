@@ -120,7 +120,7 @@ def run(
     store: SeenStore = JSONSeenStore(s.seen_store_path, s.seen_ttl_days)
     client = _make_client(s, env)
 
-    candidates = sources.ingest(config.topics, s.sources, env)
+    candidates = sources.ingest(config.topics, s.sources, env, feeds=config.feeds)
     log.info("ingested %d candidate items", len(candidates))
 
     kept = process(candidates, config, store, client=client)

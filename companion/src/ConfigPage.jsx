@@ -40,6 +40,9 @@ export default function ConfigPage() {
       parsed.delivery.recipients = parsed.delivery.recipients || [];
       parsed.settings.sources = parsed.settings.sources || [];
       parsed.topics = parsed.topics || [];
+      // Normalize feeds to {url, name} objects (YAML may have bare URL strings).
+      parsed.feeds = (parsed.feeds || []).map((f) =>
+        typeof f === "string" ? { url: f, name: "" } : { url: f.url || "", name: f.name || "" });
       setCfg(parsed);
       setSha(sha);
       say("ok", "Config loaded.");
@@ -91,7 +94,10 @@ export default function ConfigPage() {
     setBusy(true);
     say("info", "Saving…");
     try {
-      const text = yaml.dump(cfg, { lineWidth: 100, noRefs: true });
+      const out = clone(cfg);
+      // Drop blank feeds so a half-typed row can't break the pipeline config.
+      out.feeds = (out.feeds || []).filter((f) => f.url && f.url.trim());
+      const text = yaml.dump(out, { lineWidth: 100, noRefs: true });
       const res = await putConfigFile(token, text, sha, "chore(config): update via Configure page");
       setSha(res.content.sha);
       say("ok", "Saved and committed. The next scheduled run will use it — or hit ‘Run now’.");
@@ -219,6 +225,28 @@ export default function ConfigPage() {
                 ))}
               </div>
             </div>
+          </section>
+
+          <section>
+            <h3>Custom sources (RSS / Atom feeds)</h3>
+            <p className="hint" style={{ margin: "0 0 10px" }}>
+              Add a feed URL — an agency newsroom, trade publication, or blog. Its items
+              are scanned against every topic's keywords and scored like any other source.
+              The label is optional (shown as the source name).
+            </p>
+            {(cfg.feeds || []).map((f, fi) => (
+              <div className="row" key={fi}>
+                <input type="text" placeholder="Label (optional)" value={f.name || ""}
+                       style={{ flex: "0 0 160px" }}
+                       onChange={(e) => update((c) => { c.feeds[fi].name = e.target.value; })} />
+                <input type="url" placeholder="https://example.com/feed.xml" value={f.url || ""}
+                       onChange={(e) => update((c) => { c.feeds[fi].url = e.target.value; })} />
+                <button className="danger" onClick={() => update((c) => { c.feeds.splice(fi, 1); })}>Remove</button>
+              </div>
+            ))}
+            <button className="secondary" onClick={() => update((c) => {
+              c.feeds = c.feeds || []; c.feeds.push({ name: "", url: "" });
+            })}>+ Add feed</button>
           </section>
 
           <section>

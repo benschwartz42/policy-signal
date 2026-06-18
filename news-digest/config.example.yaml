@@ -21,6 +21,12 @@ settings:
     # - regulations_gov       # needs REGS_GOV_API_KEY
     # - rss                   # uses each topic's extra_rss list
 
+# Custom RSS/Atom sources, scanned for every topic (filtered by keywords + LLM).
+# Add via the Configure page, or here. Confirm each feed URL is live first.
+feeds: []
+  # - { name: "Fierce Healthcare", url: "https://www.fiercehealthcare.com/rss/xml" }
+  # - { name: "CMS Newsroom", url: "https://www.cms.gov/newsroom/rss.xml" }
+
 delivery:
   sender: "Policy Signal <digest@your-verified-domain.com>"
   subject_prefix: "[Policy Signal]"
