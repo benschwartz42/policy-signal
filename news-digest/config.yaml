@@ -21,6 +21,10 @@ feeds:
     name: Healthcare Finance
   - url: https://kffhealthnews.org/feed/
     name: KFF Health News
+  - name: Politco
+    url: https://www.politico.com/
+  - name: Stat news
+    url: https://www.statnews.com/
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
