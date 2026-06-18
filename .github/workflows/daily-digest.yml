@@ -10,7 +10,12 @@ on:
     # 12:00 UTC = 8:00 AM US Eastern during daylight saving (EDT, Mar-Nov),
     # 7:00 AM during standard time (EST). GitHub cron is fixed UTC (no DST).
     - cron: "0 12 * * *"
-  workflow_dispatch: {}   # allow manual runs from the Actions tab
+  workflow_dispatch:
+    inputs:
+      test_recipients:
+        description: "One-off TEST send to these address(es), comma-separated. Uses a fresh window (ignores saved dedup) and does NOT update saved state or the companion. Leave blank for a normal run."
+        required: false
+        default: ""
 
 permissions:
   contents: write          # to commit the seen-store + published digest
@@ -36,6 +41,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Fresh window for test send
+        if: ${{ github.event.inputs.test_recipients != '' }}
+        run: rm -f state/seen.json   # re-surface recent items for the test only
+
       - name: Run digest
         # config.yaml is the committed source of truth (topics, settings, sender,
         # recipients) — edited via the Configure page. Only auth/transport creds
@@ -47,6 +56,8 @@ jobs:
           SMTP_PORT: "587"
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          # Empty on scheduled runs (uses config recipients); set for a test send.
+          DIGEST_RECIPIENTS: ${{ github.event.inputs.test_recipients }}
           # "View online" link in the email footer
           COMPANION_URL: https://benschwartz42.github.io/policy-signal/
           # Optional source keys
@@ -61,6 +72,7 @@ jobs:
              ../companion/public/digests/$(date -u +%F).json
 
       - name: Commit seen-store and published digest
+        if: ${{ github.event.inputs.test_recipients == '' }}   # test sends never persist
         run: |
           cd "$GITHUB_WORKSPACE"
           git config user.name  "policy-signal-bot"
