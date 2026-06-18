@@ -27,6 +27,8 @@ feeds:
     url: https://www.statnews.com/
   - name: Becker
     url: https://www.beckershospitalreview.com/
+  - name: The Hill
+    url: ' https://thehill.com/'
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
