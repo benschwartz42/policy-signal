@@ -26,6 +26,7 @@ delivery:
   subject_prefix: '[Policy Signal]'
   recipients:
     - bschwartz@altevarcm.com
+    - ederdik@altevarcm.com
 topics:
   - name: No Surprises Act Litigation
     description: >-
