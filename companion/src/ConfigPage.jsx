@@ -228,11 +228,12 @@ export default function ConfigPage() {
           </section>
 
           <section>
-            <h3>Custom sources (RSS / Atom feeds)</h3>
+            <h3>Custom sources (any site or feed)</h3>
             <p className="hint" style={{ margin: "0 0 10px" }}>
-              Add a feed URL — an agency newsroom, trade publication, or blog. Its items
-              are scanned against every topic's keywords and scored like any other source.
-              The label is optional (shown as the source name).
+              Add any URL — an RSS/Atom feed, or just a website's news page. Feeds are used
+              directly; for a plain page we look for a hidden feed and otherwise read the
+              page and let the model pick out the article links. Items are scanned against
+              every topic and scored like any other source. Label is optional.
             </p>
             {(cfg.feeds || []).map((f, fi) => (
               <div className="row" key={fi}>

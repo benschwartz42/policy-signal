@@ -12,8 +12,9 @@ from __future__ import annotations
 import logging
 import os
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from typing import Callable
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urljoin, urlsplit
 
 import requests
 
@@ -211,6 +212,137 @@ def rss(topic: Topic, env: dict) -> list[Article]:
     return out
 
 
+# --- Custom sources: any feed OR any website -------------------------------
+
+class _PageParser(HTMLParser):
+    """Collects <a href> links (with text) and any <link> feed auto-discovery
+    hrefs from a page, using only the stdlib."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.links: list[tuple[str, str]] = []   # (href, anchor text)
+        self.feeds: list[str] = []               # discovered rss/atom hrefs
+        self._href: str | None = None
+        self._text: list[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        d = dict(attrs)
+        if tag == "a" and d.get("href"):
+            self._href, self._text = d["href"], []
+        elif tag == "link" and d.get("href"):
+            typ = (d.get("type") or "").lower()
+            rel = (d.get("rel") or "").lower()
+            if "rss" in typ or "atom" in typ or ("alternate" in rel and "xml" in typ):
+                self.feeds.append(d["href"])
+
+    def handle_data(self, data):
+        if self._href is not None:
+            self._text.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self._href is not None:
+            self.links.append((self._href, " ".join("".join(self._text).split())))
+            self._href, self._text = None, []
+
+
+def _host(url: str) -> str:
+    return (urlsplit(url).hostname or "").lower().removeprefix("www.")
+
+
+def _same_site(a: str, b: str) -> bool:
+    ha, hb = _host(a), _host(b)
+    return bool(ha) and (ha == hb or ha.endswith("." + hb) or hb.endswith("." + ha))
+
+
+def _article_candidates(links: list[tuple[str, str]], base_url: str) -> list[tuple[str, str]]:
+    """Filter raw anchors to plausible article links: same site, substantive
+    anchor text, de-duplicated. Returns (text, absolute_url)."""
+    seen, out = set(), []
+    for href, text in links:
+        absu = urljoin(base_url, href).split("#")[0]
+        if not absu.startswith("http") or not _same_site(absu, base_url):
+            continue
+        words = len(text.split())
+        if words < 3 or words > 40 or absu in seen:
+            continue
+        seen.add(absu)
+        out.append((text, absu))
+        if len(out) >= 80:
+            break
+    return out
+
+
+_EXTRACT_SYSTEM = (
+    "You are given links scraped from a web page. Return ONLY the ones that are "
+    "individual news articles, press releases, or policy/document items — NOT "
+    "navigation, section/category/tag pages, logins, or ads. Respond with ONLY "
+    'JSON: {"articles": [{"title": "...", "url": "..."}]}. Use the exact url '
+    "from the list; never invent a url."
+)
+
+
+def _llm_pick_articles(candidates, page_url, client, model) -> list[dict]:
+    from .relevance import _extract_json  # shared tolerant JSON parser
+
+    listing = "\n".join(f"- {t} | {u}" for t, u in candidates)
+    msg = client.messages.create(
+        model=model, max_tokens=1500, system=_EXTRACT_SYSTEM,
+        messages=[{"role": "user", "content": f"PAGE: {page_url}\nLINKS:\n{listing}"}],
+    )
+    text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+    valid = {u: t for t, u in candidates}
+    out = []
+    for a in _extract_json(text).get("articles", []) or []:
+        url = str(a.get("url", "")).split("#")[0]
+        if url in valid:
+            out.append({"title": (a.get("title") or valid[url]).strip(), "url": url})
+    return out
+
+
+def ingest_custom_source(url: str, name: str, topics: list[Topic],
+                         client=None, model: str = "") -> tuple[list[Article], str]:
+    """Resolve a custom source URL three ways, in order: a real feed,
+    an auto-discovered feed, or scraped+LLM-extracted article links."""
+    import feedparser
+
+    # 1. The URL is itself a feed.
+    parsed = feedparser.parse(url, request_headers=_UA)
+    if parsed.entries:
+        label = name or getattr(parsed.feed, "title", "") or _host(url)
+        arts = [a for t in topics for a in _entries_to_articles(parsed, t.name, label, AUTHORITY["rss"])]
+        return arts, f"feed ({len(parsed.entries[:25])} entries)"
+
+    # Fetch the page once for both auto-discovery and scraping.
+    r = requests.get(url, headers=_UA, timeout=_TIMEOUT)
+    r.raise_for_status()
+    page = _PageParser()
+    page.feed(r.text[:600000])
+
+    # 2. Auto-discovered feed in the page <head>.
+    for fl in page.feeds:
+        try:
+            p2 = feedparser.parse(urljoin(url, fl.strip()), request_headers=_UA)
+        except Exception:
+            continue  # malformed discovered href — skip
+        if p2.entries:
+            label = name or getattr(p2.feed, "title", "") or _host(url)
+            arts = [a for t in topics for a in _entries_to_articles(p2, t.name, label, AUTHORITY["rss"])]
+            return arts, f"auto-discovered feed ({len(p2.entries[:25])} entries)"
+
+    # 3. Scrape + LLM extraction (needs the model).
+    if client is None:
+        return [], "no feed found; LLM unavailable"
+    candidates = _article_candidates(page.links, url)
+    picked = _llm_pick_articles(candidates, url, client, model)
+    label = name or _host(url)
+    arts = [
+        Article(topic=t.name, title=it["title"], url=it["url"], source=label,
+                authority=AUTHORITY["rss"], published=None, snippet=it["title"])
+        for t in topics for it in picked[:25]
+    ]
+    return arts, f"scraped ({len(picked)} articles)"
+
+
 REGISTRY: dict[str, Callable[[Topic, dict], list[Article]]] = {
     "federal_register": federal_register,
     "regulations_gov": regulations_gov,
@@ -221,9 +353,9 @@ REGISTRY: dict[str, Callable[[Topic, dict], list[Article]]] = {
 
 
 def ingest(topics: list[Topic], source_ids: list[str], env: dict | None = None,
-           feeds: list | None = None) -> list[Article]:
-    """Query every enabled source for every topic, plus any custom feeds. A
-    failing source/feed is logged and skipped, never fatal."""
+           feeds: list | None = None, client=None, model: str = "") -> list[Article]:
+    """Query every enabled source for every topic, plus any custom sources (a
+    feed URL or any website). A failing source is logged and skipped, never fatal."""
     env = env or dict(os.environ)
     collected: list[Article] = []
     for source_id in source_ids:
@@ -239,21 +371,18 @@ def ingest(topics: list[Topic], source_ids: list[str], env: dict | None = None,
             except Exception as exc:
                 log.warning("source '%s' failed for topic '%s': %s", source_id, topic.name, exc)
 
-    # Custom feeds: fetch each once, then fan out to every topic so the keyword
-    # prefilter + LLM scoring decide which topic(s) each item belongs to.
-    import feedparser
+    # Custom sources: each is resolved (feed / auto-discovered feed / scraped),
+    # fetched once, and fanned out to every topic; the keyword prefilter + LLM
+    # scoring decide which topic(s) each item belongs to.
     for feed in feeds or []:
         url = getattr(feed, "url", None) or (feed.get("url") if isinstance(feed, dict) else None)
         if not url:
             continue
         name = getattr(feed, "name", "") or (feed.get("name", "") if isinstance(feed, dict) else "")
         try:
-            parsed = feedparser.parse(url, request_headers=_UA)
-            label = name or getattr(parsed.feed, "title", "") or "Custom feed"
-            for topic in topics:
-                items = _entries_to_articles(parsed, topic.name, label, AUTHORITY["rss"])
-                collected.extend(items)
-            log.info("feed '%s' -> %d entries x %d topics", label, len(parsed.entries[:25]), len(topics))
+            items, how = ingest_custom_source(url, name, topics, client=client, model=model)
+            log.info("custom source '%s' via %s -> %d items", name or url, how, len(items))
+            collected.extend(items)
         except Exception as exc:
-            log.warning("feed '%s' failed: %s", name or url, exc)
+            log.warning("custom source '%s' failed: %s", name or url, exc)
     return collected
