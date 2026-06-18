@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-06-18T13:59:21.991272+00:00",
-  "topic_count": 0,
-  "item_count": 0,
-  "topics": []
+  "generated_at": "2026-06-18T14:55:56.139189+00:00",
+  "topic_count": 1,
+  "item_count": 1,
+  "topics": [
+    {
+      "name": "No Surprises Act",
+      "items": [
+        {
+          "title": "Bipartisan bill would boost No Surprises Act enforcement - American Medical Association",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTExicGxhcU1TOUNQRFpMNDNXUXJjRTh5N3kxQThMdFpvSnZocnRicWZrTFd3N05LY3dfZkVFcnE2eFlHblVEcV82SWJzdDQ3Q01zUS1BMlhLVU1VMVI0T2ItcWVqWDhJYXBOX3AxWkFIcDgxbm01ZmxSRWE1T3ZiTkFBMEpMcDg5VTFKS21hNnJJRTU3cXY5UHduUnVOaGZDOVo2cnVndmdybjdnb0ZqY1NwZ0k?oc=5",
+          "source": "American Medical Association",
+          "published": "2026-05-21T07:00:00+00:00",
+          "published_display": "May 21, 2026",
+          "score": 0.85,
+          "reason": "A bipartisan bill advancing No Surprises Act enforcement represents a direct policy development affecting the regulatory framework governing balance billing and surprise billing protections that revenue-cycle teams must comply with.",
+          "summary": "A bipartisan legislative proposal aims to strengthen enforcement mechanisms for the No Surprises Act, the federal law protecting patients from surprise medical bills. While the excerpt does not specify the bill's name, sponsor details, or concrete enforcement provisions, the initiative signals congressional intent to enhance compliance and oversight of existing No Surprises Act protections. Revenue-cycle teams will need to monitor this bill's passage and any resulting enforcement priorities from HHS/CMS, as enhanced enforcement could increase audit risk, compliance obligations, and operational requirements for balance-billing processes and Independent Dispute Resolution (IDR) procedures.",
+          "also": []
+        }
+      ]
+    }
+  ]
 }
