@@ -37,6 +37,7 @@ delivery:
   recipients:
     - bschwartz@altevarcm.com
     - ederdik@altevarcm.com
+    - neal@altevarcm.com
 topics:
   - name: No Surprises Act Litigation
     description: >-
