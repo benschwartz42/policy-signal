@@ -31,10 +31,19 @@ def _fmt_date(dt: datetime | None) -> str:
     return dt.strftime("%b %d, %Y") if dt else "undated"
 
 
-def build_payload(articles: list[Article], generated_at: datetime | None = None) -> dict:
-    """The structured digest consumed by both the email renderer and the companion."""
+def build_payload(articles: list[Article], generated_at: datetime | None = None,
+                  topic_order: list[str] | None = None) -> dict:
+    """The structured digest consumed by both the email renderer and the companion.
+
+    `topic_order` (the config topic order) controls the order of topic sections;
+    topics not in the list are appended in their data order.
+    """
     generated_at = generated_at or datetime.now(timezone.utc)
     groups = group_by_topic(articles)
+    names = list(groups.keys())
+    if topic_order:
+        rank = {name: i for i, name in enumerate(topic_order)}
+        names.sort(key=lambda n: rank.get(n, len(rank)))
     return {
         "generated_at": generated_at.isoformat(),
         "topic_count": len(groups),
@@ -54,10 +63,10 @@ def build_payload(articles: list[Article], generated_at: datetime | None = None)
                         "summary": a.summary,
                         "also": a.also,
                     }
-                    for a in items
+                    for a in groups[topic]
                 ],
             }
-            for topic, items in groups.items()
+            for topic in names
         ],
     }
 

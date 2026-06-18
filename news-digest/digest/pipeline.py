@@ -125,7 +125,7 @@ def run(
     kept = process(candidates, config, store, client=client)
     log.info("kept %d relevant items after scoring", len(kept))
 
-    payload = render.build_payload(kept)
+    payload = render.build_payload(kept, topic_order=[t.name for t in config.topics])
     html = render.render_html(payload, companion_url=env.get("COMPANION_URL"))
     text = render.render_text(payload)
     json_str = render.render_json(payload)

@@ -15,6 +15,7 @@ export default function ConfigPage() {
   const [status, setStatus] = useState(null); // {kind, msg}
   const [busy, setBusy] = useState(false);
   const [seenCount, setSeenCount] = useState(null);
+  const [testAddr, setTestAddr] = useState("ben@zdkinnovations.com");
 
   const say = (kind, msg) => setStatus({ kind, msg });
 
@@ -107,7 +108,22 @@ export default function ConfigPage() {
     say("info", "Triggering a run…");
     try {
       await dispatchWorkflow(token);
-      say("ok", "Run triggered. Check the Actions tab; a digest email will follow.");
+      say("ok", "Run triggered — emails the configured recipients (not you, unless you're listed). Check the Actions tab.");
+    } catch (e) {
+      say("error", e.message);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function sendTest() {
+    if (!token) return say("error", "Paste a GitHub token first (needs Actions: Read & Write).");
+    if (!testAddr.trim()) return say("error", "Enter an address to send the test to.");
+    setBusy(true);
+    say("info", `Sending a test digest to ${testAddr}…`);
+    try {
+      await dispatchWorkflow(token, { test_recipients: testAddr.trim() });
+      say("ok", `Test send triggered to ${testAddr}. Fresh window; the team is not emailed and saved state is untouched.`);
     } catch (e) {
       say("error", e.message);
     } finally {
@@ -204,6 +220,10 @@ export default function ConfigPage() {
                 <div className="row">
                   <input className="topic-name" type="text" value={t.name || ""} placeholder="Topic name"
                          onChange={(e) => update((c) => { c.topics[ti].name = e.target.value; })} />
+                  <button className="secondary" title="Move up" disabled={ti === 0}
+                          onClick={() => update((c) => { const a = c.topics; [a[ti - 1], a[ti]] = [a[ti], a[ti - 1]]; })}>↑</button>
+                  <button className="secondary" title="Move down" disabled={ti === cfg.topics.length - 1}
+                          onClick={() => update((c) => { const a = c.topics; [a[ti + 1], a[ti]] = [a[ti], a[ti + 1]]; })}>↓</button>
                   <button className="danger" onClick={() => update((c) => { c.topics.splice(ti, 1); })}>Delete topic</button>
                 </div>
                 <label className="field">Description (the relevance rubric the LLM judges against)
@@ -233,6 +253,19 @@ export default function ConfigPage() {
           </section>
 
           <section>
+            <h3>Preview / test send</h3>
+            <p className="hint" style={{ margin: "0 0 10px" }}>
+              Sends a one-off digest to the address below using a fresh window. The
+              configured recipients are NOT emailed and saved dedup is untouched.
+            </p>
+            <div className="row">
+              <input type="email" value={testAddr} placeholder="you@example.com"
+                     onChange={(e) => setTestAddr(e.target.value)} />
+              <button className="secondary" onClick={sendTest} disabled={busy}>Send test</button>
+            </div>
+          </section>
+
+          <section>
             <h3>Sent history</h3>
             <p className="hint" style={{ margin: "0 0 10px" }}>
               {seenCount === null
@@ -244,7 +277,7 @@ export default function ConfigPage() {
 
           <div className="save-bar">
             <button onClick={save} disabled={busy}>Save config</button>
-            <button className="secondary" onClick={runNow} disabled={busy}>Run now</button>
+            <button className="secondary" onClick={runNow} disabled={busy} title="Emails the configured recipients now">Run now (email recipients)</button>
           </div>
         </>
       )}

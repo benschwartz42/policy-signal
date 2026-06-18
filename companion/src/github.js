@@ -111,12 +111,13 @@ export async function resetSeenStore(token) {
   return { reset: true };
 }
 
-// Trigger the daily digest workflow now.
-export async function dispatchWorkflow(token) {
+// Trigger the daily digest workflow. Pass inputs (e.g. {test_recipients}) for
+// the test-send / preview modes.
+export async function dispatchWorkflow(token, inputs = {}) {
   return gh(
     `/repos/${REPO.owner}/${REPO.name}/actions/workflows/${REPO.workflow}/dispatches`,
     token,
-    { method: "POST", body: JSON.stringify({ ref: REPO.branch }) }
+    { method: "POST", body: JSON.stringify({ ref: REPO.branch, inputs }) }
   );
 }
 
