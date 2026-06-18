@@ -25,6 +25,8 @@ feeds:
     url: https://www.politico.com/
   - name: Stat news
     url: https://www.statnews.com/
+  - name: Becker
+    url: https://www.beckershospitalreview.com/
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
