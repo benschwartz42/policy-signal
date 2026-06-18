@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import yaml from "js-yaml";
-import { getConfigFile, putConfigFile, dispatchWorkflow, whoami, REPO } from "./github.js";
+import { getConfigFile, putConfigFile, dispatchWorkflow, whoami, getSeenCount, resetSeenStore, REPO } from "./github.js";
 
 const KNOWN_SOURCES = ["federal_register", "courtlistener", "google_news", "regulations_gov", "rss"];
 const TOKEN_KEY = "ps_gh_token";
@@ -14,6 +14,7 @@ export default function ConfigPage() {
   const [sha, setSha] = useState(null);
   const [status, setStatus] = useState(null); // {kind, msg}
   const [busy, setBusy] = useState(false);
+  const [seenCount, setSeenCount] = useState(null);
 
   const say = (kind, msg) => setStatus({ kind, msg });
 
@@ -35,6 +36,28 @@ export default function ConfigPage() {
       setCfg(parsed);
       setSha(sha);
       say("ok", "Config loaded.");
+      try { setSeenCount(await getSeenCount(token)); } catch { setSeenCount(null); }
+    } catch (e) {
+      say("error", e.message);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function resetSent() {
+    if (!token) return say("error", "Paste a GitHub token first (needs Contents: Read & Write).");
+    const ok = window.confirm(
+      "Reset sent history?\n\nThis clears the record of what's already been emailed. " +
+      "The next run will re-surface and re-send the recent backlog to ALL configured " +
+      "recipients. Use this for a new recipient or to rebuild a full digest."
+    );
+    if (!ok) return;
+    setBusy(true);
+    say("info", "Resetting sent history…");
+    try {
+      const r = await resetSeenStore(token);
+      setSeenCount(0);
+      say("ok", r.alreadyEmpty ? "Sent history was already empty." : "Sent history reset — the next run will re-send the recent backlog.");
     } catch (e) {
       say("error", e.message);
     } finally {
@@ -201,6 +224,16 @@ export default function ConfigPage() {
             <button className="secondary" onClick={() => update((c) => {
               c.topics.push({ name: "", description: "", keywords: [] });
             })}>+ Add topic</button>
+          </section>
+
+          <section>
+            <h3>Sent history</h3>
+            <p className="hint" style={{ margin: "0 0 10px" }}>
+              {seenCount === null
+                ? "Tracks what's already been emailed so it isn't sent twice."
+                : `${seenCount} dedup ${seenCount === 1 ? "entry" : "entries"} remembered (≈${Math.ceil(seenCount / 2)} items). These won't be re-sent.`}
+            </p>
+            <button className="danger" onClick={resetSent} disabled={busy}>Reset sent history</button>
           </section>
 
           <div className="save-bar">

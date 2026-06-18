@@ -8,6 +8,7 @@ export const REPO = {
   name: "policy-signal",
   branch: "main",
   configPath: "news-digest/config.yaml",
+  seenPath: "news-digest/state/seen.json",
   workflow: "daily-digest.yml",
 };
 
@@ -57,6 +58,49 @@ export async function putConfigFile(token, text, sha, message) {
       branch: REPO.branch,
     }),
   });
+}
+
+// How many dedup entries are currently remembered (0 if the store is absent).
+// The store keys both the URL and the story of each delivered item, so the
+// entry count is roughly twice the number of distinct items sent.
+export async function getSeenCount(token) {
+  try {
+    const data = await gh(
+      `/repos/${REPO.owner}/${REPO.name}/contents/${REPO.seenPath}?ref=${REPO.branch}`,
+      token
+    );
+    const obj = JSON.parse(b64decode(data.content) || "{}");
+    return Object.keys(obj).length;
+  } catch (e) {
+    if (String(e.message).includes("404")) return 0;
+    throw e;
+  }
+}
+
+// Clear the seen-store so the next run re-surfaces the recent backlog.
+export async function resetSeenStore(token) {
+  let sha = null;
+  try {
+    const data = await gh(
+      `/repos/${REPO.owner}/${REPO.name}/contents/${REPO.seenPath}?ref=${REPO.branch}`,
+      token
+    );
+    sha = data.sha;
+    if (b64decode(data.content).trim() === "{}") return { alreadyEmpty: true };
+  } catch (e) {
+    if (String(e.message).includes("404")) return { alreadyEmpty: true };
+    throw e;
+  }
+  await gh(`/repos/${REPO.owner}/${REPO.name}/contents/${REPO.seenPath}`, token, {
+    method: "PUT",
+    body: JSON.stringify({
+      message: "chore(state): reset sent history via Configure page",
+      content: b64encode("{}\n"),
+      sha,
+      branch: REPO.branch,
+    }),
+  });
+  return { reset: true };
 }
 
 // Trigger the daily digest workflow now.
