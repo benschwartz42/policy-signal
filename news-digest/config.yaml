@@ -11,6 +11,7 @@ settings:
     - google_news
     - regulations_gov
     - rss
+  combine_tolerance: broad
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
