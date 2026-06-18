@@ -7,7 +7,9 @@ name: Daily Digest
 
 on:
   schedule:
-    - cron: "0 12 * * *" # 12:00 UTC daily
+    # 12:00 UTC = 8:00 AM US Eastern during daylight saving (EDT, Mar-Nov),
+    # 7:00 AM during standard time (EST). GitHub cron is fixed UTC (no DST).
+    - cron: "0 12 * * *"
   workflow_dispatch: {}   # allow manual runs from the Actions tab
 
 permissions:
@@ -42,7 +44,15 @@ jobs:
       - name: Run digest
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          # Email transport: Google Workspace SMTP (no RESEND_API_KEY -> SMTP path)
+          SMTP_HOST: smtp.gmail.com
+          SMTP_PORT: "587"
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          # Sender + recipients come from secrets (repo is public)
+          DIGEST_SENDER: Policy Signal <${{ secrets.SMTP_USER }}>
+          DIGEST_RECIPIENTS: ${{ secrets.DIGEST_RECIPIENTS }}
+          # Optional source keys
           REGS_GOV_API_KEY: ${{ secrets.REGS_GOV_API_KEY }}
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
         run: |

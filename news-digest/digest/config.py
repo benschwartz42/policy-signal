@@ -116,10 +116,29 @@ def parse_config(data: dict[str, Any]) -> Config:
     return Config(topics=topics, settings=settings, delivery=delivery, raw=data)
 
 
-def load_config(path: str) -> Config:
-    """Read a YAML file from disk and validate it."""
+def apply_delivery_overrides(config: Config, env: dict | None = None) -> Config:
+    """Let env vars override delivery details so recipient emails and the sender
+    can live in secrets rather than in a (public) committed config file.
+
+      DIGEST_SENDER       -> delivery.sender
+      DIGEST_RECIPIENTS   -> delivery.recipients (comma- or whitespace-separated)
+    """
+    env = env if env is not None else os.environ
+    sender = env.get("DIGEST_SENDER")
+    if sender:
+        config.delivery.sender = sender.strip()
+    recipients = env.get("DIGEST_RECIPIENTS")
+    if recipients:
+        parts = [r.strip() for r in recipients.replace("\n", ",").replace(" ", ",").split(",")]
+        config.delivery.recipients = [r for r in parts if r]
+    return config
+
+
+def load_config(path: str, env: dict | None = None) -> Config:
+    """Read a YAML file from disk, validate it, and apply env delivery overrides."""
     if not os.path.exists(path):
         raise ConfigError(f"config file not found: {path}")
     with open(path, "r", encoding="utf-8") as fh:
         data = yaml.safe_load(fh)
-    return parse_config(data or {})
+    config = parse_config(data or {})
+    return apply_delivery_overrides(config, env)
