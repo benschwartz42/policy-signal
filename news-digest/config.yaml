@@ -12,6 +12,15 @@ settings:
     - regulations_gov
     - rss
   combine_tolerance: broad
+feeds:
+  - name: Fierce Healthcare
+    url: https://www.fiercehealthcare.com/rss/xml
+  - name: Healthcare Dive
+    url: https://www.healthcaredive.com/feeds/news/
+  - name: Healthcare Finance
+    url: https://www.healthcarefinancenews.com/home/feed
+  - name: KFF Health News
+    url: https://kffhealthnews.org/feed/
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
