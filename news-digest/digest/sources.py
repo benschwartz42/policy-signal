@@ -33,7 +33,13 @@ AUTHORITY = {
 }
 
 _TIMEOUT = 20
-_UA = {"User-Agent": "policy-signal/1.0 (+https://github.com/) digest-bot"}
+# A normal browser User-Agent: many sites reject obvious bot agents but serve
+# their public pages/feeds fine to a browser. (Sites behind a WAF still 403.)
+_UA = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"),
+    "Accept": "text/html,application/xhtml+xml,application/xml,*/*;q=0.8",
+}
 
 
 def _query_terms(topic: Topic) -> str:
