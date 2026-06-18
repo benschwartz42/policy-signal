@@ -29,6 +29,8 @@ feeds:
     name: The Hill Health
   - name: Trade off
     url: https://tradeoffs.org/
+  - name: Axios
+    url: https://www.axios.com/
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
