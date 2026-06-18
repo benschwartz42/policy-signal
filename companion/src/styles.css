@@ -63,6 +63,8 @@ button:active { transform: translateY(1px); }
 .item .src { color: var(--muted); font-size: 12px; margin: 2px 0; }
 .item .sum { font-size: 14px; color: #333; margin: 4px 0 0; }
 .item .reason { font-size: 12px; color: var(--muted); font-style: italic; margin-top: 2px; }
+.item .also { font-size: 12px; color: var(--muted); margin-top: 8px; padding-top: 7px; border-top: 1px solid var(--line); }
+.item .also a { color: var(--accent); text-decoration: none; }
 
 .empty, .loading, .error { color: var(--muted); font-style: italic; padding: 40px 0; text-align: center; }
 .error { color: #b00020; }

@@ -52,6 +52,7 @@ def build_payload(articles: list[Article], generated_at: datetime | None = None)
                         "score": a.score,
                         "reason": a.reason,
                         "summary": a.summary,
+                        "also": a.also,
                     }
                     for a in items
                 ],
@@ -85,6 +86,8 @@ def render_text(payload: dict) -> str:
             if it["summary"]:
                 lines.append(f"    {it['summary']}")
             lines.append(f"    {it['url']}")
+            for x in it.get("also") or []:
+                lines.append(f"    also: {x['source']} — {x['url']}")
             lines.append("")
     return "\n".join(lines)
 
@@ -178,8 +181,18 @@ def render_html(payload: dict, companion_url: str | None = None) -> str:
                 f'<span style="background:{bg};color:{fg};border-radius:10px;padding:2px 8px;font-size:11px;font-weight:700;">{score}</span>'
                 '</div>'
                 f'<div style="font-size:14px;line-height:1.6;color:#36424f;">{summary}</div>'
-                '</td></tr></table>'
             )
+            also = it.get("also") or []
+            if also:
+                links = " &nbsp;·&nbsp; ".join(
+                    f'<a href="{e(x["url"])}" style="color:#1457b8;text-decoration:none;">{e(x["source"])}</a>'
+                    for x in also
+                )
+                p.append(
+                    '<div style="margin-top:10px;padding-top:9px;border-top:1px solid #eef1f5;'
+                    'font-size:12px;color:#8a98aa;">Also covered by:&nbsp; ' + links + '</div>'
+                )
+            p.append('</td></tr></table>')
     p.append('</td></tr>')
     # Footer
     link = ""

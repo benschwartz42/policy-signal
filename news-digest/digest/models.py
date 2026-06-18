@@ -140,6 +140,10 @@ class Article:
     reason: str = ""
     summary: str = ""
 
+    # Secondary articles covering the same story, attached by the clustering
+    # pass. Each is {"title", "url", "source"}; shown as "Also covered by" links.
+    also: list = field(default_factory=list)
+
     canonical_url: str = field(default="", init=False)
 
     def __post_init__(self) -> None:

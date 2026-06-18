@@ -137,6 +137,59 @@ def _extract_json(text: str) -> dict:
     return {"relevant": False, "score": 0.0, "reason": "unparseable model output", "summary": ""}
 
 
+_CLUSTER_SYSTEM = (
+    "You group news/document items that report the SAME underlying development — "
+    "the same rule, ruling, filing, announcement, or event — even when the "
+    "headlines are worded differently or come from different outlets. Items about "
+    "DIFFERENT developments must stay in separate groups; when unsure, keep them "
+    "separate. Respond with ONLY a JSON object {\"clusters\": [[indices], ...]} "
+    "where every item index appears exactly once."
+)
+
+
+def cluster_same_story(articles: list[Article], client=None, model: str = "") -> list[Article]:
+    """Merge items reporting the same development into one, attaching the others
+    as `also` (secondary links). The most relevant/authoritative item is the
+    primary and keeps its summary. Requires the LLM client; offline it is a
+    no-op (returns the list unchanged), so the self-test is unaffected."""
+    if client is None or len(articles) < 2:
+        return articles
+
+    listing = "\n".join(
+        f"[{i}] ({a.source}) {a.title} — {(a.summary or '')[:240]}"
+        for i, a in enumerate(articles)
+    )
+    try:
+        msg = client.messages.create(
+            model=model,
+            max_tokens=1024,
+            system=_CLUSTER_SYSTEM,
+            messages=[{"role": "user", "content": "ITEMS:\n" + listing}],
+        )
+        text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
+        clusters = _extract_json(text).get("clusters")
+        flat = [i for c in clusters for i in c]
+        if sorted(flat) != list(range(len(articles))):
+            log.warning("clustering returned an invalid index cover — skipping merge")
+            return articles
+    except Exception as exc:
+        log.warning("clustering failed — leaving items unmerged: %s", exc)
+        return articles
+
+    merged: list[Article] = []
+    for cluster in clusters:
+        members = [articles[i] for i in cluster]
+        primary = max(members, key=lambda a: ((a.score or 0.0), a.authority, len(a.summary or "")))
+        secondaries = sorted((m for m in members if m is not primary),
+                             key=lambda a: a.authority, reverse=True)
+        primary.also = [{"title": m.title, "url": m.url, "source": m.source} for m in secondaries]
+        merged.append(primary)
+
+    if len(merged) < len(articles):
+        log.info("clustering merged %d items into %d", len(articles), len(merged))
+    return merged
+
+
 def score_articles(
     articles: list[Article],
     topic: Topic,

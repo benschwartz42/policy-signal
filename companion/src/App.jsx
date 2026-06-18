@@ -145,6 +145,17 @@ function DigestView() {
                 <a href={it.url} target="_blank" rel="noopener noreferrer">{it.title}</a>
                 <div className="src">{it.source} · {it.published_display} · score {scoreLabel(it.score)}</div>
                 {it.summary && <p className="sum">{it.summary}</p>}
+                {Array.isArray(it.also) && it.also.length > 0 && (
+                  <div className="also">
+                    Also covered by:{" "}
+                    {it.also.map((x, j) => (
+                      <React.Fragment key={x.url + j}>
+                        {j > 0 && " · "}
+                        <a href={x.url} target="_blank" rel="noopener noreferrer">{x.source}</a>
+                      </React.Fragment>
+                    ))}
+                  </div>
+                )}
                 {it.reason && <div className="reason">{it.reason}</div>}
               </div>
             ))}

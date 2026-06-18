@@ -97,6 +97,9 @@ def process(
                  top, len(relevant), s.min_relevance)
         kept.extend(relevant[: s.max_items_per_topic])
 
+    # Merge items reporting the same development (different headlines/outlets)
+    # into one, with the others attached as secondary links. No-op offline.
+    kept = relevance.cluster_same_story(kept, client=client, model=s.model)
     return kept
 
 
