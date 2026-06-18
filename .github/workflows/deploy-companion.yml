@@ -19,7 +19,10 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # Don't cancel an in-flight deploy: let each queue and run so the most recent
+  # commit (e.g. a freshly published digest) always ends up deployed, rather
+  # than a newer deploy cancelling the one carrying the latest content.
+  cancel-in-progress: false
 
 jobs:
   build:
