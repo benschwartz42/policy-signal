@@ -23,8 +23,14 @@ export default function ConfigPage() {
     say("info", "Loading config…");
     try {
       if (token) {
-        const me = await whoami(token);
-        say("info", `Authenticated as ${me.login}. Loading config…`);
+        // Best-effort greeting. Fine-grained tokens often can't read /user
+        // (needs account permissions we don't require) — don't let it block.
+        try {
+          const me = await whoami(token);
+          say("info", `Authenticated as ${me.login}. Loading config…`);
+        } catch {
+          say("info", "Loading config…");
+        }
       }
       const { text, sha } = await getConfigFile(token);
       const parsed = yaml.load(text) || {};
