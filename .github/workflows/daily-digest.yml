@@ -68,7 +68,10 @@ jobs:
           cd "$GITHUB_WORKSPACE"
           git config user.name  "policy-signal-bot"
           git config user.email "actions@github.com"
-          git add news-digest/state/seen.json companion/public/digests/ || true
+          # Stage separately: a missing seen.json (no items kept) must not abort
+          # the add and leave the published digest unstaged.
+          git add companion/public/digests/
+          git add news-digest/state/seen.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "nothing to commit"
           else
