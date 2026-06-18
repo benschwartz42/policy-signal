@@ -135,7 +135,11 @@ function DigestView() {
       </div>
 
       {totalShown === 0 ? (
-        <div className="empty">No items match the current filters.</div>
+        <div className="empty">
+          {payload.item_count === 0
+            ? "The latest digest is empty — the most recent run found no new items. New items appear here after a run that finds them."
+            : "No items match the current filters."}
+        </div>
       ) : (
         filtered.map((topic) => (
           <section className="topic" key={topic.name}>

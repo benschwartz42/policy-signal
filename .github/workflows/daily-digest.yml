@@ -13,9 +13,14 @@ on:
   workflow_dispatch:
     inputs:
       test_recipients:
-        description: "One-off TEST send to these address(es), comma-separated. Uses a fresh window (ignores saved dedup) and does NOT update saved state or the companion. Leave blank for a normal run."
+        description: "One-off TEST send to these address(es), comma-separated. Fresh window; does NOT email the team, update state, or the companion. Leave blank for a normal run."
         required: false
         default: ""
+      publish_only:
+        description: "Refresh the companion with a fresh digest WITHOUT emailing anyone or changing dedup state. Useful to repopulate the Digest page."
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write          # to commit the seen-store + published digest
@@ -41,14 +46,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fresh window for test send
-        if: ${{ github.event.inputs.test_recipients != '' }}
-        run: rm -f state/seen.json   # re-surface recent items for the test only
-
       - name: Run digest
         # config.yaml is the committed source of truth (topics, settings, sender,
         # recipients) — edited via the Configure page. Only auth/transport creds
         # come from secrets.
+        #
+        # Modes (manual dispatch):
+        #   normal        — email recipients, persist dedup, publish if non-empty
+        #   test_recipients — email those addresses with a fresh window, persist nothing
+        #   publish_only  — no email; fresh window; publish the digest to the companion
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Email transport: Google Workspace SMTP (no RESEND_API_KEY -> SMTP path)
@@ -58,18 +64,24 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           # Empty on scheduled runs (uses config recipients); set for a test send.
           DIGEST_RECIPIENTS: ${{ github.event.inputs.test_recipients }}
-          # "View online" link in the email footer
+          # Fresh window (throwaway seen-store) for test/preview modes; the real
+          # committed seen.json is left untouched.
+          SEEN_STORE_PATH: ${{ (github.event.inputs.test_recipients != '' || github.event.inputs.publish_only == 'true') && '/tmp/fresh-seen.json' || '' }}
           COMPANION_URL: https://benschwartz42.github.io/policy-signal/
-          # Optional source keys
           REGS_GOV_API_KEY: ${{ secrets.REGS_GOV_API_KEY }}
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
         run: |
-          python run.py \
-            --config config.yaml \
-            --emit-json ../companion/public/digests/latest.json
-          # also archive a dated copy
-          cp ../companion/public/digests/latest.json \
-             ../companion/public/digests/$(date -u +%F).json
+          DRY=""
+          if [ "${{ github.event.inputs.publish_only }}" = "true" ]; then DRY="--dry-run"; fi
+          python run.py --config config.yaml $DRY --emit-json out/digest.json
+          ITEMS=$(grep -o '"item_count": [0-9]*' out/digest.json | grep -o '[0-9]*' || echo 0)
+          echo "items=${ITEMS:-0}"
+          # Publish to the companion only for non-test runs, and only when the
+          # digest is non-empty — so a quiet day never blanks the Digest page.
+          if [ "${ITEMS:-0}" -gt 0 ] && [ "${{ github.event.inputs.test_recipients }}" = "" ]; then
+            cp out/digest.json ../companion/public/digests/latest.json
+            cp out/digest.json ../companion/public/digests/$(date -u +%F).json
+          fi
 
       - name: Commit seen-store and published digest
         if: ${{ github.event.inputs.test_recipients == '' }}   # test sends never persist

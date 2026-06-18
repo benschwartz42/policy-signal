@@ -131,6 +131,11 @@ def apply_delivery_overrides(config: Config, env: dict | None = None) -> Config:
     if recipients:
         parts = [r.strip() for r in recipients.replace("\n", ",").replace(" ", ",").split(",")]
         config.delivery.recipients = [r for r in parts if r]
+    # Lets a run use a throwaway seen-store (fresh window) without touching the
+    # committed one — used by the test-send / preview modes.
+    seen_path = env.get("SEEN_STORE_PATH")
+    if seen_path:
+        config.settings.seen_store_path = seen_path
     return config
 
 
