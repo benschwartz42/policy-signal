@@ -1,20 +1,219 @@
 {
-  "generated_at": "2026-06-18T14:55:56.139189+00:00",
-  "topic_count": 1,
-  "item_count": 1,
+  "generated_at": "2026-06-18T15:05:01.251882+00:00",
+  "topic_count": 2,
+  "item_count": 12,
   "topics": [
     {
       "name": "No Surprises Act",
       "items": [
         {
-          "title": "Bipartisan bill would boost No Surprises Act enforcement - American Medical Association",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTExicGxhcU1TOUNQRFpMNDNXUXJjRTh5N3kxQThMdFpvSnZocnRicWZrTFd3N05LY3dfZkVFcnE2eFlHblVEcV82SWJzdDQ3Q01zUS1BMlhLVU1VMVI0T2ItcWVqWDhJYXBOX3AxWkFIcDgxbm01ZmxSRWE1T3ZiTkFBMEpMcDg5VTFKS21hNnJJRTU3cXY5UHduUnVOaGZDOVo2cnVndmdybjdnb0ZqY1NwZ0k?oc=5",
-          "source": "American Medical Association",
-          "published": "2026-05-21T07:00:00+00:00",
-          "published_display": "May 21, 2026",
+          "title": "Federal Independent Dispute Resolution Operations",
+          "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11140/federal-independent-dispute-resolution-operations",
+          "source": "Federal Register",
+          "published": "2026-06-04T00:00:00+00:00",
+          "published_display": "Jun 04, 2026",
+          "score": 0.95,
+          "reason": "This is a Federal Register final rule document directly implementing No Surprises Act provisions, specifically the IDR process, disclosure requirements, claim coding standards, and fee structures—core regulatory changes that revenue-cycle teams must operationalize.",
+          "summary": "The Department of Health and Human Services finalized rules implementing key provisions of the No Surprises Act's Federal Independent Dispute Resolution (IDR) process, established under the Consolidated Appropriations Act, 2021. The rule requires group health plans and health insurance issuers to disclose specific information with initial payment or denial notices, and mandates use of claim adjustment reason codes (CARCs) and remittance advice remark codes (RARCs) on paper and electronic remittance advice for non-contracted entities. The final rule also amends requirements governing the open negotiation period before IDR initiation, IDR eligibility review, administrative and IDR entity fee collection, bundled payment definitions, and batched service handling. These operational changes directly impact how revenue-cycle teams process claims, communicate with payers, manage the dispute resolution timeline, and handle fees in surprise billing scenarios.",
+          "also": [
+            {
+              "title": "CMS releases final rule on updates to No Surprises Act independent dispute resolution process - American Hospital Association",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSGZqN1EtT0lldUdHcDB6RnVsR2diUHBpRmQyLWtpbGhZQnh2YXZyWVBtdmJZeUZ4emNOdHFVbGY3YzZuY3dCUXB6WEk1TUdWUzU2WlN1bFBiMUZYTGJad1pjMFBIbnZxRmxiNEpQd1dIYjNfcDBSUnFqSU55Y29JcDR4TkNvNWFCNVljVklZeUIzdzVKbUhVeGwtMlY4Y2I1a0pTazRqSU5nWFg1aDFFNU1QQmtOWHd4OWNiclVkU29lMUN4TGU2UlJuNjk?oc=5",
+              "source": "American Hospital Association"
+            },
+            {
+              "title": "CMS Finalizes Federal IDR Operations Rule: Key Changes to the No Surprises Act Dispute Resolution Process for Providers - Baker Donelson",
+              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMzBiVHB2UEpsU1dxSlgzRUV3ZlNTTWt2X0xmTWNLNzF3Ym8xYmtjWmF2cV9kUzNWY1dSNUM4VXBKcUFsX2tRUGZrN0REc1ZlVkJscEFZNC1mcklxNDNJMXU2RHRrREcycEpGc05XM281cV9VSXBma2V4VWxsdXF2OFk4SFNZbVVoMGtJcmtpUDBydUlWeUlnWkJoaFNQTzZKYTAyc0w2cl9EbjU1UnJFbHIwNHVRX3hzT3IyTk50Nm1pVEZBd0Y2cmZ3VFJjZkNFM3cxVGprX2EyZlh6RTRmNTN3?oc=5",
+              "source": "Baker Donelson"
+            },
+            {
+              "title": "CMS finalizes changes to No Surprises Act dispute resolution process - Fierce Healthcare",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRTlmSnJWeG1qR0Y1c2I4VzdZaUM3dmw2eERpN0tXYllXcjVjZmNjYi1YdjJzUk9Zd193TVNKajFWazU2Y2wzNTRCOE0xbDdHUWs0cEplS3laYUpZaWVHN0lWSFlxUllqTVhsVlNqeVpZVHBiWjJ5eU4tMDBiRnAyZWNTSDdBcVF3dkpsb193dEhsb2dNeWtHc1pDQWtpMjUtNzl1dnNiTVNIVW9iRFE?oc=5",
+              "source": "Fierce Healthcare"
+            },
+            {
+              "title": "CMS Finalizes Rule to Simplify Payer-Provider Disputes Under No Surprises Act - MedCity News",
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56OGI3d2ZkRDhGU2p3cGVFWW1WWkFMU011N0hMb3JwTC1WbnUtd0NBakRKQTAtUXBST2Y0VFY4dVhseHlKMzk5TVpPX1k1aVVWZGN4Zzh1eEhMNFNfckhselByNA?oc=5",
+              "source": "MedCity News"
+            },
+            {
+              "title": "Final Rule Issued to Streamline No Surprises Act Dispute Resolution - AAMC",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRUhmSmRlZ3c1ZFoyX0Foc3ZkR1JZX1Y3eFhJSkNvZlFnbURINExaTTdXMjFiTDhmbXIxSTQtRzkyNV8zbklFc1NkbEtERnU3cV9VWFpxOWhWU05uNWpWc3Q0bWlzc3pfb3ZYaTgzWjNvV0hGNTVKQ0RPQV94VG5KNWswaEJGbEx1UFROamJKTnN6QkgyQUc2bHZxYXkySUR3WWlhZ3lBMl90UVhHYk5mZ09wVFZ3UEllaEEtU1ViX1U?oc=5",
+              "source": "AAMC"
+            },
+            {
+              "title": "Trump administration reforms surprise billing dispute resolution - Healthcare Dive",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkppRWxoTkJkeHBNRGxnWk1wTGhRc0t3b0xsQVBzd0NQMjdfV0tZYzNNUU9GNUtWbnFXSzZNU0x6T0hEWlM5Wk1heWh3UW9wc05TMHJhNzhNOUtraG1MUThaX1hacUprQzRVRmcxcWNEcGdRaWxDYXZ3eEk2OVhXbDlXTW5pQko5WlhQNmtFOG5Ia29HbDJBdkRGSHB2U1F4WnV4MEVMakRFUU1rbjdNNE5xNA?oc=5",
+              "source": "Healthcare Dive"
+            },
+            {
+              "title": "New Federal Rules Aim to Partially Fix the No Surprises Act’s IDR Process - Law.com",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWNMUTczSHAzZWZOT045RUh1UzVZWFBkWUZiVGRPbWhaRzVxeGdDbC1fb2pPSC1vTWJZbmlDN0kteFdGdGxJSV9ESlFZUkNjc3AwWmxFdUUyS2RWRVJuZHJYOWJZeDliSER3c1hnMllhUmpVVkFGQ0NiNDZrMlpZRk9tNVFwTU9DU0dMVHJ1RHd6WE9kOWZUSjZWX0tfYk1lVUp5TGVRMkdjUzFyb1Vha191Q2swV1pq?oc=5",
+              "source": "Law.com"
+            },
+            {
+              "title": "New Rule Amends No Surprises Act Dispute Process for Out-of-Network Health Care Payments - Jones Day",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZnVoREhUcHE5RktTZVJMSXVVczRIZHVIRDhRQXhJU29BRnpZT3l6RHpUbWd0Q0c4NFpwSHFrSVZ6UzR1TWQ5dTZQdE9lMWQ4X1FMMWF4akR0aE5tYk9tLXlaQnFzdlBvOVRraGM4dTN5cW5nb0xrd1NkWXZPM2JKaTFraGc3MEdxbkxyTDV4ajFvVFdBUUk3UF85MkdXLVNDTkVXMzJHNHgweHB2YXVIMXhudFB1YjVtZnJVMHNZNXpKWWlQdlRhd05TWQ?oc=5",
+              "source": "Jones Day"
+            },
+            {
+              "title": "New IDR Operations Rule Offers Meaningful Improvements for Physicians, But Concerns Remain - Reed Smith LLP",
+              "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMVhWeW1mNVk4b1NtRm1ZYUZtTGRmLWVMRVpSV2hnaWhlVUhrVTZlQk1tNkpwRk5ZU2k4WnpUdk1KSnRDWmY3OS1aQUxRMWdoRVJ0eWhKd3JzUldUYTJGbVloeDRlS2gzVkJFdWFmWm9nTDdaeFpKWVFORVc3Zy1jaUYtcE53RUtVZUZjMkpKcXhWT1ctTjF3TnZ0ZF9TeURHUWdqem9QOTNGdUh2cUI2V0IxT0JhNGNrNTZnS1dmM1FfTVI5Y0xGRXdHOVU3WFU0NUhEaUlGU19rWFVmeTJsdzQ1RVlVc0p6UUZHYTJHY1lMSmtlQlVlWW93TQ?oc=5",
+              "source": "Reed Smith LLP"
+            },
+            {
+              "title": "Federal IDR fee drops from $115 to $15: 6 things spine and orthopedic leaders should know - beckersspine.com",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX1BfQ01VWmNBc0s0ZDkzRFJzVnJ6WGFLMW5vNFBhMWZTMnk3SzFXYjVBc2xKYncxRWN6UGl0d3I3TThNcFhncjlBdzRlRUFNS01PREE5QjlhSUQ5TkwzSXNKM2NaVGp4YjlzSTlQcElQREpUX2hVV1B4MjlDT3Y3WXhGWHVqcERfYldndXRPOW9uTGx5bF9oTW95aHItdUJqZkNuR3ZYelRkX21tdDcxWmZZclNXR0h3MTFuQU9UcS1qV0tDT0E?oc=5",
+              "source": "beckersspine.com"
+            },
+            {
+              "title": "It’s been served: The Federal IDR Operations final rule is here - JD Supra",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUFA4cVlILV9zV3QzZ2ttVU5aZWhDMXc1LVNNZl9JRTV5UWZNamtSdTZPVzJhTmhnZkJfYzNUdjZ1bEJtb0JONmpqU3Uwc1I0eWJQTjdvV0NFQlB1UWM5dmxOQzN4Y1l2enhIWlM2MmE3aGFaNWdQVEtXT3lPRVZIRg?oc=5",
+              "source": "JD Supra"
+            }
+          ]
+        },
+        {
+          "title": "Independent Dispute Resolution (IDR): How New Rules Affect Oncology Practices - Oncology News Central",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd3lvXzNDUi02b05YaHp2UFoyZE1IZW9lbzhkNHQwSFRwRnBUVGRGdnV3Y1NEZEV3U1NoVUNtM05JMEVuTXoyYUlJUlAzRzNxeDY2WXJiRmxwdV9KUUlYbDZYbDNHa3Axeno2TVZfOGdwSFlIYU5DbGw5UDdGVGVUdU1acVZoNU5ZR2l6R1VYYmNWc2dORHFScHdIR3pDaEU0eGE1Y1NfRVFQSEZ6SnlR?oc=5",
+          "source": "Oncology News Central",
+          "published": "2026-06-17T11:01:58+00:00",
+          "published_display": "Jun 17, 2026",
           "score": 0.85,
-          "reason": "A bipartisan bill advancing No Surprises Act enforcement represents a direct policy development affecting the regulatory framework governing balance billing and surprise billing protections that revenue-cycle teams must comply with.",
-          "summary": "A bipartisan legislative proposal aims to strengthen enforcement mechanisms for the No Surprises Act, the federal law protecting patients from surprise medical bills. While the excerpt does not specify the bill's name, sponsor details, or concrete enforcement provisions, the initiative signals congressional intent to enhance compliance and oversight of existing No Surprises Act protections. Revenue-cycle teams will need to monitor this bill's passage and any resulting enforcement priorities from HHS/CMS, as enhanced enforcement could increase audit risk, compliance obligations, and operational requirements for balance-billing processes and Independent Dispute Resolution (IDR) procedures.",
+          "reason": "The item directly addresses how No Surprises Act IDR rules are being implemented and their impact on a specific provider segment, which falls squarely within the topic's focus on IDR process and rule implementation.",
+          "summary": "This article examines how the Independent Dispute Resolution (IDR) process established under the No Surprises Act is affecting oncology practices. The piece discusses new regulatory rules governing IDR and their concrete operational implications for oncology providers who engage in the dispute resolution mechanism. Oncology practices are directly affected as they navigate IDR requirements when disputes arise over out-of-network billing, making this relevant to understanding sector-specific impacts of federal balance-billing protections on provider revenue cycles.",
+          "also": []
+        },
+        {
+          "title": "‘A missed opportunity’: Payers lash out against surprise billing final rule - Healthcare Dive",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTndSSjFBc2ZkSXlLTWhNQmZMYTI1ZGNfaDRiemhfbUlYdHJsZllFTTVRMW5lM0JYZHZQMmJfeEl5VnFTLTdDaUI4RFJZZzhYTGswOEhfQ2x4ZGprb3JsVW9MLVhJTjd5Ylc0dkFRN2VzV2F5T2l5c1loTmZGeHV5QlNDczV0N1A2WXhtSWktMzNUUGp0bFVSXw?oc=5",
+          "source": "Healthcare Dive",
+          "published": "2026-05-29T07:00:00+00:00",
+          "published_display": "May 29, 2026",
+          "score": 0.85,
+          "reason": "The item reports on payer reactions to a surprise billing final rule, which directly relates to No Surprises Act implementation and regulatory developments that affect revenue-cycle operations.",
+          "summary": "Payers have publicly criticized a surprise billing final rule as a missed opportunity, according to Healthcare Dive reporting. The article documents industry pushback against regulatory decisions related to the No Surprises Act's implementation, likely addressing provisions affecting balance billing, IDR processes, or network adequacy standards. Payer feedback on final rules is significant for revenue-cycle teams as it signals regulatory friction points and potential compliance challenges in the surprise billing space. The specific criticisms from payers may indicate areas where operational practices or claim-processing workflows will face ongoing complexity or require adjustment.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Prior Authorization Reform",
+      "items": [
+        {
+          "title": "AHA provides recommendations to CMS on proposed rule for interoperability standards and prior authorization for drugs - American Hospital Association",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQV3YwMWRHX0xoVXlyU3Zabk1QM0xIYmtwcXBnWHdGcGlwRXNsa3JIck0tMXM0UHlWQWpuMHF1THdwaXpvLW9RYWdIVkJfUjFqV1ZjcThneXRNaXpmakZOV3NYckdxc0xEUVo5ODFIMVJ6WHM0YWpULXUxTnJDdjN6ampSR1N3MDFKbmtTTWxiSTRxNlp2VXVITjNpT003bGN2VEhMeHIyczhzUTFYM2VHSWgtZEgyR1h0ZUE5Q0F6bXZ0ZlNXWU4wRl9RR2JBSkF0NU41aUNlRzNOZw?oc=5",
+          "source": "American Hospital Association",
+          "published": "2026-06-15T20:37:49+00:00",
+          "published_display": "Jun 15, 2026",
+          "score": 0.95,
+          "reason": "The item directly addresses CMS prior authorization reform and interoperability standards, which are core components of the topic definition covering federal prior-authorization regulatory changes.",
+          "summary": "The American Hospital Association submitted recommendations to CMS regarding a proposed rule on interoperability standards and prior authorization for drugs. The AHA's input addresses federal regulatory changes designed to streamline prior-authorization processes through interoperability requirements. This engagement with CMS's proposed rule is significant for revenue-cycle teams because changes to prior-authorization standards and drug-approval workflows directly impact claim submission timelines, payment delays, and administrative burden. The recommendations from major healthcare organizations like the AHA help shape the final regulatory requirements that providers must implement.",
+          "also": [
+            {
+              "title": "AASM submits comments on CMS interoperability and prior authorization proposed rule - American Academy of Sleep Medicine | AASM",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSGsyaWpRZXN4NjRkNlhHckxtaktuZnFSazk0T2tweVlGbndCMEo2RzRwX3J6cmUzcVBybUxlQlRCUlJjck9fdHM3RkZOSnpyQVlBZHVOUm4wUW9Kd3pRb1VPeTNlWGFOV1g2aVgtcHZoOG9tNGJZTThTcWFBZ0V0Qjk0Tk1ZZFdRQS1qemt0OUtlWWp5NTBiYlpR?oc=5",
+              "source": "American Academy of Sleep Medicine | AASM"
+            },
+            {
+              "title": "ADA urges dental-specific approach in CMS interoperability, prior authorization proposal - American Dental Association",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOFlkdXZnUmRQaXVkYXJObEdKM1FoaktSX3BPQ0o2R1ZlNFJua054T196TDVpM0ZoeFhORWpNRTNIVmRuWExjUVgyeE42NExfOG1mV0swZXBheHJoYmxJVDlNMGtyQmNmT19zckh5ZE9TR1M2UWdtaVpmMXhjdV9QQlNpZUFQQVI0Q1lELUFpS0I1VXJFWkhWbXptMmduM09tZ3NNdHhJSVhCOVZEb0pKcm5CVWk2b3BvMlBFVlpVaVYtN3hyeEVB?oc=5",
+              "source": "American Dental Association"
+            }
+          ]
+        },
+        {
+          "title": "OIG: 3 Largest MA Insurers Deny Prior Auth Requests at High Rates for Long-Term Acute Care, Inpatient Rehab - MedCity News",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdTMzNDVqV1loendLUUlHVXV2NFdvR1FfUkN0VVNua3dnU2RJUDhBMTBSMHlQUEN6eGxKZXEtVjJ2NDBoaWJnclB6Q0c3X2VfZGEtV19BYnhDWFBrTE9ac2k3MkRFZFB3eWNKZ3QwemV0Z1ZrdEhGaVBrNTJTM0x1VA?oc=5",
+          "source": "MedCity News",
+          "published": "2026-06-12T22:23:56+00:00",
+          "published_display": "Jun 12, 2026",
+          "score": 0.92,
+          "reason": "This item directly addresses payer prior-authorization practices and denial rates for major insurers, which is a core component of prior authorization reform affecting revenue-cycle operations.",
+          "summary": "The Office of Inspector General (OIG) released findings showing that the three largest Medicare Advantage insurers deny prior authorization requests at notably high rates for long-term acute care and inpatient rehabilitation services. The report documents concerning denial patterns by these major payers, which directly impacts revenue-cycle teams' ability to obtain timely approvals and process patient admissions to post-acute care settings. These high denial rates highlight operational challenges in the prior authorization process and may inform discussions around payer accountability and potential regulatory reform. Revenue-cycle teams managing MA patients face increased authorization delays and denials, requiring additional follow-up efforts and potentially affecting cash flow and patient access to necessary care.",
+          "also": [
+            {
+              "title": "OIG: Frequent MA prior authorization denials for long-term care hospitals, inpatient rehab - Fierce Healthcare",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZWhocVNvSFdfTjZadDl3NmRhaWtFbXFCY3Q1clZDQ1B1NUo0ZFB6WTFudV9sSDZCaF9VeUVYRHR6cFhFSXlZODZnOE1WRVdZd0Q0aF9odl9WZzdiUnE2T3MwOGkzaHhfcmRHX1U1eTJCdjJpM0dqZmsyRUxzTWdVbTVRRmVIa0VtMm13LTZjajZDbDdZQW1raHdHSDlaa1RFTXFRTWlrWTBxUl9KSlFhUnRhQWZ3bldVNjFmQg?oc=5",
+              "source": "Fierce Healthcare"
+            }
+          ]
+        },
+        {
+          "title": "House Panel Moves to Block CMS’s AI-Driven Prior Authorization Program: What the WISeR Rider Could Mean for Providers - JD Supra",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeFBfUGpLUU5HMnFMSjBFQU1GX2E2eFZrRU93SWlzQkladUx1aHdwWGZvakxnckVVUG9JN1lHUXVkVVBjUEVKM2ZMeDdVbmQ0d0NfYnA0OEVCS0NDOERlN2J1UXRJUWptZGhrRkxyTVdPd3pnS1NMbGt0MWdRNVhkalBreG0?oc=5",
+          "source": "JD Supra",
+          "published": "2026-06-12T03:47:05+00:00",
+          "published_display": "Jun 12, 2026",
+          "score": 0.92,
+          "reason": "This item directly addresses a federal CMS prior-authorization program and legislative action to block it, which is a major payer policy shift affecting prior-authorization requirements.",
+          "summary": "A House panel is moving to block CMS's AI-driven prior authorization program through the WISeR (Wise Enforcement of Standards in Healthcare Reviews) rider legislation. The rider would prevent CMS from implementing or expanding an artificial intelligence-based prior authorization system that the agency has been developing. This legislative effort reflects provider concerns about automated prior-authorization decision-making and represents a significant federal intervention in CMS's authority over prior-auth processes. If enacted, the WISeR rider would directly impact how payers and CMS handle prior-authorization requirements, potentially preserving existing human-review processes and delaying or eliminating AI-driven automation in authorization determinations.",
+          "also": []
+        },
+        {
+          "title": "West Virginia Changes Prior Authorization Law After Man's Treatment Delay and Death - AJMC",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmhta2pZd2pFeHpJcHNoMGthRmVsVXhtSTJJYnI5TG1tZWdGM1NIU1ZraWhpdU5jcXNuWkhDY2hxSUZxWHYtZHZTOWZfUnEyRHlNS0xPaVphLXVkVkItNFQxTmtPNVE5djBXaWtDMS0wN0FFaG43djVtMEVCU1VoX3pHNGZkdUhrODRqeExJZXpHclBLT2p6b0ZSaEkzXzVxZ1J4bnZjUm5ZRGZ3SEE?oc=5",
+          "source": "AJMC",
+          "published": "2026-06-16T03:22:09+00:00",
+          "published_display": "Jun 16, 2026",
+          "score": 0.85,
+          "reason": "West Virginia's state-level prior authorization law change directly fits the topic definition of state changes to payer prior-authorization requirements affecting revenue-cycle operations.",
+          "summary": "West Virginia enacted legislation reforming its prior authorization requirements in response to a case where treatment delays contributed to a patient's death. The state law change modifies how payers must process prior authorization requests, affecting the authorization workflows that revenue-cycle teams manage when seeking approval for patient treatments. This state-level reform is relevant to healthcare revenue-cycle teams because it alters the prior-authorization procedures they must follow when working with payers operating in West Virginia, potentially reducing approval delays and improving claims processing timelines.",
+          "also": []
+        },
+        {
+          "title": "Prior authorization bill now eligible for House fast track - Roll Call",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmhZZW9IR19Xalh6OXlnc1RKb1Bsa21aY1ZleE9KY2duWG9OVk5Id1pPRnpmY0F4S3FBd050S1JqOHhLRTFTYkU2cHVlZ2dqbXByaW5KNkhIVXBCM2x3VEc0dTZCZzI2cFpLRTJFUEVHR0lNLXFPeXlBLUc3S3Bqc2xyMVZkLVdNY2RwSlRYWlY1YzNJdlE?oc=5",
+          "source": "Roll Call",
+          "published": "2026-06-10T15:47:27+00:00",
+          "published_display": "Jun 10, 2026",
+          "score": 0.85,
+          "reason": "The item discusses legislative movement on prior authorization reform at the federal level, which directly aligns with the topic of federal changes to payer prior-authorization requirements.",
+          "summary": "A prior authorization reform bill has been made eligible for House fast-track consideration, advancing its legislative pathway in Congress. This development indicates ongoing federal efforts to address prior authorization processes that affect healthcare payers and providers. The fast-track designation suggests momentum for legislation intended to reform prior-authorization requirements, though the excerpt does not specify the bill's name, specific provisions, or expected timeline for passage. For revenue-cycle teams, movement toward prior authorization reform at the federal level could materially impact claim processing workflows, payer policies, and operational timelines once enacted.",
+          "also": []
+        },
+        {
+          "title": "Ohio House Passes Prior Authorization Reform to Reduce Delays and Improve Patient Care - Ohio House of Representatives (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVWFDVXVSdEdKcHRfNnFiNml5MXR3MDl0UGJSVFRrT2NfTXdDUmhWZmV1VnR3S3RleWVtWi10RnVZNENYeHJOejk5aWxRVDAxSmFwWlhGQVdOUTUwaUJMSVl1VGYyUU5TSFItR1ZieTJzaVdGcmlaYW9pckg5SHR6Z3ZZNW9mNDhWeGxfcVJ3NC1HUUdXb2c0MzQ3YjgyZGNHMGdyY2V4N01OaXlfQ1BXcWVPODdlWmtKN0FwempNQmRIQ2RyMUpPSzdfYnR1Z1I5MW13d0QtcEFNQQ?oc=5",
+          "source": "Ohio House of Representatives (.gov)",
+          "published": "2026-06-04T07:16:01+00:00",
+          "published_display": "Jun 04, 2026",
+          "score": 0.85,
+          "reason": "Ohio House passage of prior authorization reform directly addresses state-level changes to payer prior-authorization requirements, which is core to the topic definition of prior authorization reform.",
+          "summary": "The Ohio House of Representatives passed prior authorization reform legislation aimed at reducing delays and improving patient care. While specific legislative details (bill number, effective date, and concrete requirements) are not provided in this excerpt, the passage of state-level prior authorization reform affects Ohio-based healthcare providers and payers. This development is relevant to revenue-cycle teams because state prior-authorization reforms typically impact claim processing timelines, administrative burden, and cash flow by streamlining or modifying how payers evaluate authorization requests before payment.",
+          "also": []
+        },
+        {
+          "title": "Latest prior auth survey shows promised reform remains elusive - American Medical Association",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbXVSQ2tlMFRPbnE1NVJxSzkwWkZ1bENvRzZjQTl4bmZRR0lvTTU4b21ZS0JRNHJYb0ZnRmk0bUV5cFh5TGNiSDJ4TjdaRGh5VS15bi05bzdobWtwTEdBVDZoRFh6TVVwZ1Uta19yVE9wVnk5azhxU1FxOTkzT0NncUZoYjIyeXUwMXdLMTZ6ZElMMVVEdXdtNUNZVlVuWHFKVUNjOGx2Zw?oc=5",
+          "source": "American Medical Association",
+          "published": "2026-06-04T07:00:00+00:00",
+          "published_display": "Jun 04, 2026",
+          "score": 0.85,
+          "reason": "This AMA survey directly addresses the status of prior authorization reform implementation, which is a core component of the topic definition covering major payer policy shifts and reform progress.",
+          "summary": "The American Medical Association released a survey finding that prior authorization reform initiatives have not yet delivered the promised improvements for healthcare providers and patients. The survey indicates that despite regulatory changes and payer commitments to streamline prior-authorization processes, barriers remain in place that continue to complicate care delivery and revenue cycle operations. This development is significant for revenue-cycle teams because persistent prior-authorization delays directly impact claim processing timelines, cash flow, and administrative costs, meaning promised efficiencies have not yet materialized in practice.",
+          "also": []
+        },
+        {
+          "title": "The missing piece in prior authorization reform? Providers, some argue. - Healthcare Brew",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONUpvTTV0QVY2MnlSYTR3NzZKWlBUZTNIb3hFWVBPbnc0RHl6ZDNjWENibGtyOUJibVQwYlhNRWFqNmRLbVBsYkRxaWpyWVk0NnRNclpKYnJ5QmlvTU4xYm1FeWN0RW5yV1JrOEpjODJ6bi16djhQSENrNC0tUHhhai10emVOLW5Yc0dJOGhhRThTQl9C?oc=5",
+          "source": "Healthcare Brew",
+          "published": "2026-06-01T19:10:55+00:00",
+          "published_display": "Jun 01, 2026",
+          "score": 0.85,
+          "reason": "The article directly addresses prior authorization reform and provider perspectives on implementation gaps, which is central to understanding how reform policies affect healthcare revenue cycle operations.",
+          "summary": "Healthcare Brew reports on provider arguments regarding missing elements in prior authorization reform efforts. The article highlights that providers believe certain critical components are absent from current reform initiatives, though specific regulatory changes, effective dates, or dollar amounts are not detailed in the excerpt provided. This perspective is relevant for revenue-cycle teams because provider feedback on prior-authorization reform implementation can influence how organizations adapt their authorization workflows and systems to comply with evolving requirements and reduce claim denials.",
+          "also": []
+        },
+        {
+          "title": "Medicare Advantage in 2026: Premiums, Out-of-Pocket Limits, Supplemental Benefits, and Prior Authorization - KFF",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUtnRU5EVHFjNzQxOVJUaFB5MFc5RXBUbDFCZlY0Y0RwS0lMYmFueDVrZWxSYnlhMUZLTGZsRXRPVFp6a3JhSkJSQ1hzamJMY2dJcGRyTGVSakdxQ3phcDIwWnN5enFtbmw4ZDlRRERURHg4WjM5YlU4RVgtcVJIWkhrWGpfeV9SMEl1cm11bUlQWFRka0JIZEY3VjJWbWRJekFwcGU4SXJucTN3Z01GM2tRZW1KZUh0MlVEZGZsQ2ltSzliaXJCOGt5Sk8?oc=5",
+          "source": "KFF",
+          "published": "2026-06-05T07:00:00+00:00",
+          "published_display": "Jun 05, 2026",
+          "score": 0.75,
+          "reason": "The article directly addresses Medicare Advantage prior authorization changes for 2026, which is a major payer policy shift affecting CMS-regulated plans and directly impacts revenue-cycle operations.",
+          "summary": "KFF analysis covers Medicare Advantage plan changes effective in 2026, including modifications to prior authorization requirements alongside premiums, out-of-pocket limits, and supplemental benefits. The prior authorization component reflects ongoing payer policy shifts within the MA program under CMS oversight. This affects revenue-cycle teams managing authorizations for the approximately 28+ million Medicare Advantage beneficiaries, as plan-specific prior auth rules and processes will change with the 2026 plan year. Changes to prior auth procedures directly impact claim submission timelines, denial rates, and appeals workflows for healthcare providers billing MA plans.",
           "also": []
         }
       ]
