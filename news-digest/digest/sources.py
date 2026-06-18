@@ -36,7 +36,11 @@ _UA = {"User-Agent": "policy-signal/1.0 (+https://github.com/) digest-bot"}
 
 
 def _query_terms(topic: Topic) -> str:
-    """Build a search string from the topic name plus its keywords."""
+    """Build a search string from the topic name plus its keywords.
+
+    Used by the structured government/court APIs, whose term search tolerates a
+    longer phrase. NOT used for press search — see _press_query.
+    """
     terms = [topic.name] + list(topic.keywords)
     # De-dup while preserving order.
     seen, out = set(), []
@@ -46,6 +50,26 @@ def _query_terms(topic: Topic) -> str:
             seen.add(tl)
             out.append(t)
     return " ".join(out)
+
+
+def _press_query(topic: Topic) -> str:
+    """High-recall OR query for press/RSS search.
+
+    Google News treats a long space-separated query as a near-AND search, which
+    collapses recall and drops relevant articles that don't echo most terms. So
+    we OR together quoted phrases: the topic name plus any *multi-word* keyword.
+    Single-token keywords (e.g. 'IDR', 'arbitration', 'QPA') are deliberately
+    left to the keyword prefilter / LLM stage rather than the search, to avoid
+    flooding results with generic-term noise.
+    """
+    phrases = [topic.name] + [k for k in topic.keywords if " " in k.strip()]
+    seen, out = set(), []
+    for p in phrases:
+        p = p.strip()
+        if p and p.lower() not in seen:
+            seen.add(p.lower())
+            out.append(f'"{p}"')
+    return " OR ".join(out)
 
 
 def _parse_dt(value: str | None) -> datetime | None:
@@ -167,7 +191,7 @@ def _parse_feed(feed_url: str, topic: Topic, source_name: str, authority: int) -
 
 
 def google_news(topic: Topic, env: dict) -> list[Article]:
-    q = quote_plus(_query_terms(topic))
+    q = quote_plus(_press_query(topic))
     feed = f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
     return _parse_feed(feed, topic, "Google News", AUTHORITY["google_news"])
 
