@@ -13,31 +13,35 @@ settings:
     - rss
   combine_tolerance: broad
 feeds:
-  - name: Fierce Healthcare
-    url: https://www.fiercehealthcare.com/rss/xml
-  - name: Healthcare Dive
-    url: https://www.healthcaredive.com/feeds/news/
-  - name: Healthcare Finance
-    url: https://www.healthcarefinancenews.com/home/feed
-  - name: KFF Health News
-    url: https://kffhealthnews.org/feed/
+  - url: https://www.fiercehealthcare.com/rss/xml
+    name: Fierce Healthcare
+  - url: https://www.healthcaredive.com/feeds/news/
+    name: Healthcare Dive
+  - url: https://www.healthcarefinancenews.com/home/feed
+    name: Healthcare Finance
+  - url: https://kffhealthnews.org/feed/
+    name: KFF Health News
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
   recipients:
     - bschwartz@altevarcm.com
 topics:
-  - name: No Surprises Act
+  - name: No Surprises Act Litigation
     description: >-
       The federal No Surprises Act and its implementation: HHS/CMS/DOL/Treasury rulemaking, the
       Independent Dispute Resolution (IDR) process, balance-billing protections, and related federal
-      litigation. Relevant items move or interpret the rules; general explainers are not.
+      litigation. Litigation and lawsuits related to enforcement of this law in all states. Relevant
+      items move or interpret the rules; general explainers are not.
     keywords:
       - no surprises act
       - balance billing
       - independent dispute resolution
       - IDR
       - surprise billing
+      - litigation
+      - lawsuit
+      - complaint filing
   - name: Federal IDR
     description: >-
       The federal Independent Dispute Resolution (IDR) process under the No Surprises Act:
@@ -54,11 +58,5 @@ topics:
       - qualifying payment amount
       - QPA
       - arbitration
-  - name: Prior Authorization Reform
-    description: >-
-      Federal and state changes to payer prior-authorization requirements, including CMS
-      interoperability/prior-auth rules and major payer policy shifts.
-    keywords:
-      - prior authorization
-      - prior auth
-      - utilization management
+      - NSA
+      - No Surprise act
