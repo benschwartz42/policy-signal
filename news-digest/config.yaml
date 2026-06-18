@@ -21,16 +21,12 @@ feeds:
     name: Healthcare Finance
   - url: https://kffhealthnews.org/feed/
     name: KFF Health News
-  - name: Politco
-    url: https://www.politico.com/
-  - name: Stat news
-    url: https://www.statnews.com/
-  - name: Becker
-    url: https://www.beckershospitalreview.com/
-  - name: The Hill
-    url: ' https://thehill.com/'
-  - name: Bloomeberg
-    url: https://www.bloomberg.com/
+  - name: Politico Health
+    url: https://rss.politico.com/healthcare.xml
+  - name: STAT News Health
+    url: https://www.statnews.com/category/health/feed/
+  - name: The Hill Health
+    url: https://thehill.com/policy/healthcare/feed/
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
