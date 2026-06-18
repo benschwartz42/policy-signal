@@ -27,6 +27,8 @@ feeds:
     name: STAT News Health
   - url: https://thehill.com/policy/healthcare/feed/
     name: The Hill Health
+  - name: Trade off
+    url: https://tradeoffs.org/
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
