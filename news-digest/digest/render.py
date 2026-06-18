@@ -89,45 +89,108 @@ def render_text(payload: dict) -> str:
     return "\n".join(lines)
 
 
-_CSS = """
-body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.5;max-width:680px;margin:0 auto;padding:24px}
-h1{font-size:20px;margin:0 0 4px}
-.meta{color:#666;font-size:13px;margin-bottom:24px}
-h2{font-size:16px;border-bottom:2px solid #eee;padding-bottom:6px;margin:28px 0 12px}
-.item{margin:0 0 18px;padding-left:12px;border-left:3px solid #e6e6e6}
-.item a{color:#0b5cad;text-decoration:none;font-weight:600;font-size:15px}
-.src{color:#777;font-size:12px;margin:2px 0}
-.sum{font-size:14px;margin:4px 0;color:#333}
-.score{display:inline-block;background:#eef4fb;color:#0b5cad;border-radius:10px;padding:0 8px;font-size:11px;font-weight:600}
-.empty{color:#777;font-style:italic}
-.foot{margin-top:32px;color:#999;font-size:12px;border-top:1px solid #eee;padding-top:12px}
-"""
+_ACCENT = "#0f2a4a"
 
 
-def render_html(payload: dict) -> str:
+def _score_palette(score) -> tuple[str, str]:
+    """(text, background) colors for a score chip / accent — green/blue/amber."""
+    if score is None:
+        return ("#5b6b80", "#eef1f5")
+    if score >= 0.85:
+        return ("#137333", "#e6f4ea")
+    if score >= 0.65:
+        return ("#1457b8", "#e8f0fc")
+    return ("#9a6700", "#fef7e0")
+
+
+def _date_label(iso: str) -> str:
+    try:
+        return datetime.fromisoformat(iso).strftime("%A, %b %-d, %Y")
+    except (ValueError, TypeError):
+        try:
+            return datetime.fromisoformat(iso).strftime("%A, %b %d, %Y")
+        except (ValueError, TypeError):
+            return (iso or "")[:10]
+
+
+def render_html(payload: dict, companion_url: str | None = None) -> str:
+    """Modern, email-client-safe HTML digest: centered 600px card, table layout,
+    inline styles (so Gmail/Outlook/Apple Mail render it consistently)."""
     e = html.escape
-    parts = [
-        "<!doctype html><html><head><meta charset='utf-8'>",
-        f"<style>{_CSS}</style></head><body>",
-        "<h1>Policy Signal — Daily Digest</h1>",
-        f"<div class='meta'>{e(payload['generated_at'])} · "
-        f"{payload['item_count']} items · {payload['topic_count']} topics</div>",
-    ]
-    if payload["item_count"] == 0:
-        parts.append("<p class='empty'>No new relevant items today.</p>")
+    n = payload["item_count"]
+    items_word = "item" if n == 1 else "items"
+    date_label = _date_label(payload["generated_at"])
+    font = "-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+
+    p: list[str] = []
+    p.append(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<meta name="color-scheme" content="light only"></head>'
+        '<body style="margin:0;padding:0;background:#eef1f5;-webkit-text-size-adjust:100%;">'
+    )
+    # Hidden preheader (inbox preview text).
+    p.append(
+        '<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#eef1f5;">'
+        f'{n} {items_word} across {payload["topic_count"]} topics — {e(date_label)}</div>'
+    )
+    p.append(
+        '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+        'style="background:#eef1f5;"><tr><td align="center" style="padding:24px 12px;">'
+        '<table role="presentation" width="600" cellpadding="0" cellspacing="0" '
+        'style="width:600px;max-width:600px;background:#ffffff;border-radius:14px;'
+        f'overflow:hidden;box-shadow:0 1px 4px rgba(15,42,74,0.10);font-family:{font};">'
+    )
+    # Header
+    p.append(
+        f'<tr><td style="background:{_ACCENT};padding:26px 32px;">'
+        '<div style="color:#ffffff;font-size:21px;font-weight:700;letter-spacing:.2px;">Policy&nbsp;Signal</div>'
+        f'<div style="color:#9db6d6;font-size:13px;margin-top:6px;">Daily regulatory &amp; legal digest&nbsp;·&nbsp;{e(date_label)}</div>'
+        f'<div style="color:#cfe0f2;font-size:13px;margin-top:2px;">{n} {items_word}&nbsp;·&nbsp;{payload["topic_count"]} topics</div>'
+        '</td></tr>'
+    )
+    # Body
+    p.append('<tr><td style="padding:18px 24px 6px;">')
+    if n == 0:
+        p.append('<p style="color:#6b7a90;font-size:15px;text-align:center;padding:30px 10px;margin:0;">'
+                 'No new items today — all clear. 👍</p>')
     for topic in payload["topics"]:
-        parts.append(f"<h2>{e(topic['name'])} <span class='score'>{len(topic['items'])}</span></h2>")
+        count = len(topic["items"])
+        p.append(
+            '<div style="margin:22px 0 12px;border-bottom:2px solid #eef1f5;padding-bottom:7px;">'
+            f'<span style="text-transform:uppercase;letter-spacing:.6px;font-size:13px;font-weight:700;color:{_ACCENT};">{e(topic["name"])}</span>'
+            f'<span style="background:#eef1f5;color:#5b6b80;border-radius:9px;padding:2px 8px;font-size:11px;font-weight:700;margin-left:8px;">{count}</span>'
+            '</div>'
+        )
         for it in topic["items"]:
-            score = f"{it['score']:.2f}" if it["score"] is not None else "—"
-            parts.append("<div class='item'>")
-            parts.append(f"<a href='{e(it['url'])}'>{e(it['title'])}</a>")
-            parts.append(
-                f"<div class='src'>{e(it['source'])} · {e(it['published_display'])} "
-                f"· <span class='score'>{score}</span></div>"
+            fg, bg = _score_palette(it["score"])
+            score = f'{it["score"]:.2f}' if it["score"] is not None else "—"
+            summary = e(it["summary"]) if it["summary"] else ""
+            p.append(
+                '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+                'style="margin:0 0 14px;border:1px solid #e6eaf1;border-radius:10px;">'
+                f'<tr><td style="padding:15px 17px;border-left:4px solid {fg};">'
+                f'<a href="{e(it["url"])}" style="color:#0f2a4a;font-size:16px;font-weight:700;'
+                f'line-height:1.35;text-decoration:none;">{e(it["title"])}</a>'
+                '<div style="margin:8px 0 9px;font-size:12px;color:#6b7a90;">'
+                f'<span style="background:#f1f4f8;border-radius:6px;padding:2px 7px;">{e(it["source"])}</span>'
+                f'&nbsp;·&nbsp;{e(it["published_display"])}&nbsp;·&nbsp;'
+                f'<span style="background:{bg};color:{fg};border-radius:10px;padding:2px 8px;font-size:11px;font-weight:700;">{score}</span>'
+                '</div>'
+                f'<div style="font-size:14px;line-height:1.6;color:#36424f;">{summary}</div>'
+                '</td></tr></table>'
             )
-            if it["summary"]:
-                parts.append(f"<div class='sum'>{e(it['summary'])}</div>")
-            parts.append("</div>")
-    parts.append("<div class='foot'>Policy Signal · public sources only · authoritative-first</div>")
-    parts.append("</body></html>")
-    return "".join(parts)
+    p.append('</td></tr>')
+    # Footer
+    link = ""
+    if companion_url:
+        link = (f'<br><a href="{e(companion_url)}" style="color:#1457b8;text-decoration:none;font-weight:600;">'
+                'View the full digest online →</a>')
+    p.append(
+        '<tr><td style="background:#f7f9fc;border-top:1px solid #e6eaf1;padding:16px 32px;">'
+        f'<div style="font-size:12px;color:#90a0b3;line-height:1.7;font-family:{font};">'
+        f'Policy Signal · public sources only · authoritative-first{link}</div>'
+        '</td></tr>'
+    )
+    p.append('</table></td></tr></table></body></html>')
+    return "".join(p)

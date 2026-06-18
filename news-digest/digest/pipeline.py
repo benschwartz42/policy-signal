@@ -123,7 +123,7 @@ def run(
     log.info("kept %d relevant items after scoring", len(kept))
 
     payload = render.build_payload(kept)
-    html = render.render_html(payload)
+    html = render.render_html(payload, companion_url=env.get("COMPANION_URL"))
     text = render.render_text(payload)
     json_str = render.render_json(payload)
 

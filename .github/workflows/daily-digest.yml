@@ -47,6 +47,8 @@ jobs:
           SMTP_PORT: "587"
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          # "View online" link in the email footer
+          COMPANION_URL: https://benschwartz42.github.io/policy-signal/
           # Optional source keys
           REGS_GOV_API_KEY: ${{ secrets.REGS_GOV_API_KEY }}
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}

@@ -73,13 +73,43 @@ def canonicalize_url(url: str) -> str:
 
 _WORD_RE = re.compile(r"[a-z0-9]+")
 
+# Short, high-frequency words that carry no identity signal for story matching.
+_STOPWORDS = frozenset({
+    "the", "a", "an", "of", "to", "in", "for", "and", "or", "with", "at", "by",
+    "from", "as", "is", "are", "on", "its", "this", "that", "will", "after",
+    "amid", "over", "into", "how", "what", "why",
+})
 
-def normalize_title(title: str) -> str:
-    """Lowercase, alphanumeric-only, whitespace-collapsed title for fuzzy matching."""
+# Separators Google News and others use before the publisher name.
+_PUBLISHER_SEPS = (" - ", " — ", " – ", " | ", " :: ")
+
+
+def strip_publisher(title: str) -> str:
+    """Drop a trailing ' - Publisher' / ' | Publisher' segment (Google News style)
+    so the same headline from different outlets matches. Only strips when the tail
+    looks like a source name (<= 6 words), to avoid eating real headline content."""
     if not title:
         return ""
-    tokens = _WORD_RE.findall(title.lower())
-    return " ".join(tokens)
+    for sep in _PUBLISHER_SEPS:
+        if sep in title:
+            head, tail = title.rsplit(sep, 1)
+            if head.strip() and 0 < len(tail.split()) <= 6:
+                title = head
+    return title.strip()
+
+
+def normalize_title(title: str) -> str:
+    """Lowercase, alphanumeric-only, whitespace-collapsed title."""
+    if not title:
+        return ""
+    return " ".join(_WORD_RE.findall(title.lower()))
+
+
+def story_tokens(title: str) -> list[str]:
+    """Significant tokens identifying a story: publisher stripped, lowercased,
+    stopwords removed. Used for both the exact story key and fuzzy matching."""
+    headline = strip_publisher(title)
+    return [t for t in _WORD_RE.findall(headline.lower()) if t not in _STOPWORDS]
 
 
 def _sha1(s: str) -> str:
@@ -124,12 +154,13 @@ class Article:
 
     @property
     def content_key(self) -> str:
-        """Identity of *this story* for near-duplicate collapse across outlets.
+        """Identity of *this story* for near-duplicate collapse.
 
-        Same normalized title => same wire story. Scoped by topic so an
-        identically-titled item under two topics is still shown under each.
+        Global (not topic-scoped) so the same wire story relevant to two topics
+        is shown once, not once per topic. Built from publisher-stripped,
+        stopword-filtered tokens so cross-outlet variants of one headline match.
         """
-        return "c:" + _sha1(f"{self.topic}\n{normalize_title(self.title)}")
+        return "c:" + _sha1(" ".join(story_tokens(self.title)))
 
     def to_dict(self) -> dict:
         d = asdict(self)

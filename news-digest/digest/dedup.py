@@ -104,20 +104,57 @@ class MemorySeenStore:
 
 
 def collapse_near_duplicates(articles: list[Article]) -> list[Article]:
-    """Fold same-story duplicates (by content_key) to the most authoritative copy.
+    """Fold same-story duplicates to the single most authoritative copy.
 
-    Ties on authority are broken by the presence of a publish date, then by the
-    longer snippet (more context), then stably by URL.
+    Two passes:
+      1. exact story key (content_key) — publisher-stripped, stopword-filtered,
+         so cross-outlet variants of one headline match;
+      2. fuzzy token-overlap — catches near-identical headlines the exact key
+         misses (e.g. an added 'Appeals' or reordered words).
+
+    Ties on authority break by presence of a publish date, then longer snippet,
+    then stably by URL.
     """
+    # Pass 1: exact key.
     best: dict[str, Article] = {}
     for art in articles:
         key = art.content_key
         incumbent = best.get(key)
         if incumbent is None or _prefer(art, incumbent):
             best[key] = art
-    # Preserve original ordering of the winners.
     winners = set(id(a) for a in best.values())
-    return [a for a in articles if id(a) in winners]
+    survivors = [a for a in articles if id(a) in winners]
+
+    # Pass 2: conservative fuzzy collapse.
+    return _fuzzy_collapse(survivors)
+
+
+def _fuzzy_collapse(articles: list[Article], threshold: float = 0.85,
+                    min_tokens: int = 5) -> list[Article]:
+    """Collapse survivors whose significant-token sets overlap >= threshold
+    (Jaccard). Conservative: only compares titles with enough tokens, so short
+    generic headlines aren't wrongly merged."""
+    from .models import story_tokens
+
+    kept: list[Article] = []
+    kept_sets: list[set] = []
+    for art in articles:
+        toks = set(story_tokens(art.title))
+        merged = False
+        if len(toks) >= min_tokens:
+            for i, ks in enumerate(kept_sets):
+                if len(ks) < min_tokens:
+                    continue
+                union = toks | ks
+                if union and len(toks & ks) / len(union) >= threshold:
+                    if _prefer(art, kept[i]):
+                        kept[i], kept_sets[i] = art, toks
+                    merged = True
+                    break
+        if not merged:
+            kept.append(art)
+            kept_sets.append(toks)
+    return kept
 
 
 def _prefer(candidate: Article, incumbent: Article) -> bool:

@@ -58,11 +58,19 @@ def keyword_prefilter(articles: list[Article], topic: Topic) -> list[Article]:
 # --- Scoring -----------------------------------------------------------------
 
 _SYSTEM = (
-    "You are a precise relevance classifier for a policy-monitoring digest. "
-    "Given a topic definition and a news/document item, decide whether the item "
-    "is genuinely relevant to the topic, score your confidence 0.0-1.0, give a "
-    "one-sentence reason, and write a two-sentence neutral summary. "
-    "Respond with ONLY a JSON object: "
+    "You are a policy analyst writing a daily digest for a healthcare "
+    "revenue-cycle team. Given a topic definition and a news/document item, "
+    "judge whether the item is genuinely relevant to the topic and score your "
+    "confidence 0.0-1.0.\n"
+    "Then write a SELF-CONTAINED summary of 3-5 sentences that lets a busy "
+    "reader fully understand the development WITHOUT opening the article. Cover: "
+    "what happened; the concrete specifics (agency/court, rule or case name, "
+    "effective dates, dollar amounts, percentages, deadlines); who is affected; "
+    "and why it matters for a revenue-cycle team. Be factual and neutral, do not "
+    "speculate beyond the source, and do not just restate the headline. If a "
+    "detail isn't in the source, omit it rather than inventing it.\n"
+    "Also give a one-sentence reason for the relevance decision.\n"
+    'Respond with ONLY a JSON object: '
     '{"relevant": bool, "score": number, "reason": string, "summary": string}.'
 )
 
@@ -93,14 +101,14 @@ def score_offline(topic: Topic, article: Article) -> dict:
         "relevant": score >= 0.5,
         "score": score,
         "reason": f"Matched {int(hits_ratio * len(terms))}/{len(terms)} topic terms (offline stub).",
-        "summary": (article.snippet[:200] or article.title).strip(),
+        "summary": (article.snippet[:600] or article.title).strip(),
     }
 
 
 def _score_llm(topic: Topic, article: Article, client, model: str) -> dict:
     msg = client.messages.create(
         model=model,
-        max_tokens=400,
+        max_tokens=800,
         system=_SYSTEM,
         messages=[{"role": "user", "content": _build_prompt(topic, article)}],
     )
