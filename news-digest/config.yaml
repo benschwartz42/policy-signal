@@ -29,6 +29,8 @@ feeds:
     url: https://www.beckershospitalreview.com/
   - name: The Hill
     url: ' https://thehill.com/'
+  - name: Bloomeberg
+    url: https://www.bloomberg.com/
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
