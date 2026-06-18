@@ -33,6 +33,14 @@ async function gh(path, token, opts = {}) {
   if (!res.ok) {
     let detail = "";
     try { detail = (await res.json()).message; } catch { /* ignore */ }
+    if (res.status === 403 && opts.method && opts.method !== "GET") {
+      throw new Error(
+        "GitHub 403 — your token can't write to this repo. Create a fine-grained " +
+        "token with “Only select repositories → policy-signal” (NOT “Public " +
+        "repositories”), and Repository permissions: Contents = Read and write, " +
+        "Actions = Read and write. Then paste it again."
+      );
+    }
     throw new Error(`GitHub ${res.status}: ${detail || res.statusText}`);
   }
   return res.status === 204 ? null : res.json();
