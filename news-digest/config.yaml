@@ -21,12 +21,12 @@ feeds:
     name: Healthcare Finance
   - url: https://kffhealthnews.org/feed/
     name: KFF Health News
-  - name: Politico Health
-    url: https://rss.politico.com/healthcare.xml
-  - name: STAT News Health
-    url: https://www.statnews.com/category/health/feed/
-  - name: The Hill Health
-    url: https://thehill.com/policy/healthcare/feed/
+  - url: https://rss.politico.com/healthcare.xml
+    name: Politico Health
+  - url: https://www.statnews.com/category/health/feed/
+    name: STAT News Health
+  - url: https://thehill.com/policy/healthcare/feed/
+    name: The Hill Health
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: '[Policy Signal]'
@@ -34,6 +34,7 @@ delivery:
     - bschwartz@altevarcm.com
     - ederdik@altevarcm.com
     - neal@altevarcm.com
+    - YBernstein@altevarcm.com
 topics:
   - name: No Surprises Act Litigation
     description: >-
