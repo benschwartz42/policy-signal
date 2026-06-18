@@ -14,11 +14,11 @@ body {
   margin: 0;
   font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: var(--fg);
-  background: var(--bg);
+  background: #eef1f5;
   line-height: 1.5;
 }
 
-.wrap { max-width: 820px; margin: 0 auto; padding: 24px 20px 64px; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px 64px; }
 
 header h1 { font-size: 22px; margin: 0 0 2px; }
 header .meta { color: var(--muted); font-size: 13px; }
@@ -71,11 +71,40 @@ button:active { transform: translateY(1px); }
 .foot { margin-top: 40px; color: #aaa; font-size: 12px; border-top: 1px solid var(--line); padding-top: 12px; }
 
 /* Tabs */
-.tabbar { padding-bottom: 0; padding-top: 18px; }
-.tabs { display: flex; gap: 4px; border-bottom: 2px solid var(--line); }
+.wrap.tabbar { max-width: 640px; padding-bottom: 0; padding-top: 18px; }
+.tabs { display: flex; gap: 4px; border-bottom: 2px solid #dde3ec; }
 .tab { background: transparent; color: var(--muted); border: none; border-bottom: 2px solid transparent;
   border-radius: 0; margin-bottom: -2px; padding: 8px 14px; font-weight: 600; }
-.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.tab.active { color: #0f2a4a; border-bottom-color: #0f2a4a; }
+
+/* Digest — mirrors the HTML email design */
+.ps-card { max-width: 640px; margin: 14px auto 48px; background: #fff; border: 1px solid #e6eaf1;
+  border-radius: 14px; overflow: hidden; box-shadow: 0 1px 4px rgba(15,42,74,0.10); }
+.ps-header { background: #0f2a4a; padding: 24px 30px; }
+.ps-title { color: #fff; font-size: 21px; font-weight: 700; letter-spacing: .2px; }
+.ps-sub { color: #9db6d6; font-size: 13px; margin-top: 6px; }
+.ps-sub2 { color: #cfe0f2; font-size: 13px; margin-top: 2px; }
+.ps-body { padding: 14px 24px 6px; }
+.ps-topic-head { margin: 20px 0 12px; border-bottom: 2px solid #eef1f5; padding-bottom: 7px;
+  display: flex; align-items: center; gap: 8px; }
+.ps-topic-name { text-transform: uppercase; letter-spacing: .6px; font-size: 13px; font-weight: 700; color: #0f2a4a; }
+.ps-badge { background: #eef1f5; color: #5b6b80; border-radius: 9px; padding: 2px 8px; font-size: 11px; font-weight: 700; }
+.ps-item { border: 1px solid #e6eaf1; border-left-width: 4px; border-radius: 10px; padding: 14px 16px; margin-bottom: 14px; }
+.ps-item-title { color: #0f2a4a; font-size: 16px; font-weight: 700; line-height: 1.35; text-decoration: none; }
+.ps-item-title:hover { text-decoration: underline; }
+.ps-meta { margin: 8px 0 9px; font-size: 12px; color: #6b7a90; }
+.ps-srcchip { background: #f1f4f8; border-radius: 6px; padding: 2px 7px; }
+.ps-dot { color: #c2ccd8; margin: 0 5px; }
+.ps-score { display: inline-block; border-radius: 10px; padding: 2px 8px; font-size: 11px; font-weight: 700; }
+.ps-summary { font-size: 14px; line-height: 1.6; color: #36424f; }
+.ps-also { margin-top: 10px; padding-top: 9px; border-top: 1px solid #eef1f5; font-size: 12px; color: #8a98aa; }
+.ps-also a { color: #1457b8; text-decoration: none; }
+.ps-foot { background: #f7f9fc; border-top: 1px solid #e6eaf1; padding: 16px 30px; font-size: 12px; color: #90a0b3; }
+.ps-note { color: #6b7a90; text-align: center; padding: 36px 12px; font-size: 15px; }
+.ps-note.error { color: #b00020; }
+
+/* Configure — sits in a white panel on the gray page */
+.panel { background: #fff; border: 1px solid #e6eaf1; border-radius: 14px; padding: 18px 24px; }
 
 /* Configure page */
 .cfg section { margin: 22px 0; }
