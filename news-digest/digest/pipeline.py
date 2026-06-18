@@ -43,12 +43,15 @@ class RunResult:
 def _make_client(settings: Settings, env: dict):
     """Return an Anthropic client if a key is present, else None (offline stub)."""
     if not env.get("ANTHROPIC_API_KEY"):
+        log.info("no ANTHROPIC_API_KEY present — using offline deterministic scorer "
+                 "(strict; expect few items)")
         return None
     try:
         import anthropic
     except ImportError:
         log.warning("anthropic SDK not installed — falling back to offline scoring")
         return None
+    log.info("scoring via Anthropic model %s", settings.model)
     return anthropic.Anthropic(api_key=env["ANTHROPIC_API_KEY"])
 
 
@@ -88,6 +91,10 @@ def process(
         relevant = [a for a in scored if (a.score or 0.0) >= s.min_relevance and a.relevant]
         # 7. cap per topic (already score-sorted later in render, sort here for the cap)
         relevant.sort(key=lambda x: x.score or 0.0, reverse=True)
+        top = max((a.score or 0.0 for a in scored), default=0.0)
+        log.info("topic '%s': %d candidates -> %d prefiltered -> top score %.2f, "
+                 "%d at/above cutoff %.2f", topic_name, len(items), len(pre),
+                 top, len(relevant), s.min_relevance)
         kept.extend(relevant[: s.max_items_per_topic])
 
     return kept
