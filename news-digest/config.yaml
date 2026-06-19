@@ -33,7 +33,7 @@ feeds:
     name: Axios
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
-  subject_prefix: '[Policy Signal]'
+  subject_prefix: 'IDR Updates '
   recipients:
     - bschwartz@altevarcm.com
     - ederdik@altevarcm.com
