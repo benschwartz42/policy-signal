@@ -1,131 +1,21 @@
 {
-  "generated_at": "2026-06-19T14:49:59.768864+00:00",
-  "topic_count": 2,
-  "item_count": 4,
+  "generated_at": "2026-06-19T15:38:17.423028+00:00",
+  "topic_count": 1,
+  "item_count": 1,
   "topics": [
     {
       "name": "No Surprises Act Litigation",
       "items": [
         {
-          "title": "HaloMD faces lawsuit alleging No Surprises Act middleman used ‘sham letter,’ misleading data - statnews.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEd5VHZ6LXNESE5Jb1Y4ZlFieXE3Y3JLeEJFdXN4WGRuNHJrYXNfck5sOEMyYXhrNlMydVE4Z04wSlFrX2lqRkZxUk0yNDVzdnpLWGRqNVlZc1N3c0d4Zlp0V1dSVTVYbWU4UTdHLTJLZjdxXzhnTW9mUW5lQUJ6SkxiZVptMGxpbTI2dGpFQkVTNFJqRVBvcWhlckRMQmhSWWw1MQ?oc=5",
-          "source": "statnews.com",
-          "published": "2026-06-03T07:00:00+00:00",
-          "published_display": "Jun 03, 2026",
-          "score": 0.85,
-          "reason": "This item directly concerns litigation related to No Surprises Act enforcement, specifically alleging misconduct by a third-party intermediary in the IDR/balance-billing process.",
-          "summary": "HaloMD, a third-party administrator involved in the No Surprises Act's Independent Dispute Resolution process, faces a lawsuit alleging it used a 'sham letter' and misleading data in its role as a middleman. The suit challenges HaloMD's practices in handling balance-billing disputes and IDR claims, which are central to the NSA's consumer protection mechanisms. This litigation directly impacts revenue-cycle teams by raising questions about the integrity and reliability of third-party vendors managing NSA compliance and dispute resolution, potentially exposing healthcare organizations to liability if using compromised intermediaries.",
-          "also": []
-        },
-        {
-          "title": "‘A missed opportunity’: Payers lash out against surprise billing final rule - Healthcare Dive",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTndSSjFBc2ZkSXlLTWhNQmZMYTI1ZGNfaDRiemhfbUlYdHJsZllFTTVRMW5lM0JYZHZQMmJfeEl5VnFTLTdDaUI4RFJZZzhYTGswOEhfQ2x4ZGprb3JsVW9MLVhJTjd5Ylc0dkFRN2VzV2F5T2l5c1loTmZGeHV5QlNDczV0N1A2WXhtSWktMzNUUGp0bFVSXw?oc=5",
-          "source": "Healthcare Dive",
-          "published": "2026-05-29T07:00:00+00:00",
-          "published_display": "May 29, 2026",
-          "score": 0.85,
-          "reason": "The item addresses payer reactions to a No Surprises Act final rule, directly concerning regulatory implementation and rule interpretation that affects revenue-cycle operations.",
-          "summary": "Payers have criticized a surprise billing final rule as a missed opportunity, though the specific rule changes and effective dates are not detailed in the excerpt provided. The criticism from payers suggests the rule may impose new compliance obligations or limitations on balance-billing protections that affect how healthcare organizations manage patient billing and reimbursement. Revenue-cycle teams should monitor payer guidance and compliance requirements stemming from this final rule update to the No Surprises Act framework.",
-          "also": [
-            {
-              "title": "AHIP cites 'provider-driven' abuse in IDR process - Healthcare Finance News",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdkxzUExMZk0zOThMSWFzdldJaWhQMWFJSW9jcXdxLUplZXBGVERHbVM2N2pGR1M3M2phYkRWdEg2di1xbWdWWFZkMmJ6a0dmSW1wSFY5YXM5UDFDTWgwclhpSy1tMkprMU4teEdrTk0zaE1lZVlwaVpQcTliWVpINVBhWjRVdzRjemFVdlRkUkw?oc=5",
-              "source": "Healthcare Finance News"
-            }
-          ]
-        },
-        {
-          "title": "Judge Tosses Aetna’s Case Claiming Medivacs Abuse Surprise Billing - Bloomberg Law News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY1dtZlpJbkZQVDRVSUFNc2JnWU5wa01WRl9ablFsQVJ5X2FSUnp5NlNVV1FZUE1WYUtkc015ZUIxOVhNQVdDVEV6OEJzRkY1MnFselZqY1lwR3B2eGFzR3RUWGZIekhxUWVvM19odXFacEVwMzNrU3JpOHdMVFZ2cDBkR3JFVFRkdWVjUGpXWnFnQ2EyemszczVRcVJXNzFCOU1DT01uY1BBTmZrQ21kZEd6R3hucWhkOFJv?oc=5",
-          "source": "Bloomberg Law News",
-          "published": "2026-06-17T15:13:00+00:00",
-          "published_display": "Jun 17, 2026",
-          "score": 0.78,
-          "reason": "This case directly involves litigation over surprise billing practices and No Surprises Act enforcement, specifically addressing whether air ambulance providers are improperly exploiting balance-billing protections.",
-          "summary": "A federal judge dismissed Aetna's lawsuit alleging that medical air transport companies (medivacs) are abusing surprise billing protections under the No Surprises Act. Aetna claimed these providers systematically bill patients for out-of-network services while shielding themselves from balance-billing liability, generating significant out-of-pocket costs. The court's dismissal affects how insurers can challenge provider behavior under the federal surprise billing framework and has implications for revenue-cycle teams managing claims involving air ambulance services and interpreting balance-billing law applicability across different provider types.",
-          "also": []
-        }
-      ]
-    },
-    {
-      "name": "Federal IDR",
-      "items": [
-        {
-          "title": "Federal Independent Dispute Resolution Operations",
-          "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11140/federal-independent-dispute-resolution-operations",
-          "source": "Federal Register",
-          "published": "2026-06-04T00:00:00+00:00",
+          "title": "Inside the new No Surprises Act arbitration rules - Modern Healthcare News",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2x5Y2ZTOF9MWXpFMUFaaW9NYzl2OUJrMzY0TUlDY1NtUzhVQWR0Ukkya3VqMlRzQ0t3dGkyU2dCYVF6WlJOenRLQkZYVUNHZENIalFsdmNZTW4xeUN3c0VEUUFLN0FuSmxBSFNpdTV1RWVhYjVrODVSTnE0R0h6NUZ4eEVINmNxa1pZU2dyUVVXQW83YVpuWg?oc=5",
+          "source": "Modern Healthcare News",
+          "published": "2026-06-04T07:00:00+00:00",
           "published_display": "Jun 04, 2026",
-          "score": 0.95,
-          "reason": "This Federal Register document directly addresses final rules on core IDR operational mechanics including eligibility determinations, administrative and IDRE fees, batching requirements, and open negotiation periods—all central to how the federal IDR process functions.",
-          "summary": "The Federal Register published final rules implementing key operational provisions of the No Surprises Act's federal IDR process, including requirements for group health plans and issuers to disclose specific information using standardized claim adjustment reason codes (CARCs) and remittance advice remark codes (RARCs) when denying or paying surprise bills. The rules modify requirements for the open negotiation period before IDR, dispute eligibility review procedures, payment and collection of administrative fees and certified IDRE entity fees, and introduce amendments to bundled payment definitions and batching rules. These changes directly affect how out-of-network payment disputes are initiated, evaluated, and processed, impacting both payers and healthcare providers involved in the arbitration process.",
-          "also": [
-            {
-              "title": "Federal IDR fee drops from $115 to $15: 6 things spine and orthopedic leaders should know - beckersspine.com",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX1BfQ01VWmNBc0s0ZDkzRFJzVnJ6WGFLMW5vNFBhMWZTMnk3SzFXYjVBc2xKYncxRWN6UGl0d3I3TThNcFhncjlBdzRlRUFNS01PREE5QjlhSUQ5TkwzSXNKM2NaVGp4YjlzSTlQcElQREpUX2hVV1B4MjlDT3Y3WXhGWHVqcERfYldndXRPOW9uTGx5bF9oTW95aHItdUJqZkNuR3ZYelRkX21tdDcxWmZZclNXR0h3MTFuQU9UcS1qV0tDT0E?oc=5",
-              "source": "beckersspine.com"
-            },
-            {
-              "title": "It’s been served: The Federal IDR Operations final rule is here - JD Supra",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUFA4cVlILV9zV3QzZ2ttVU5aZWhDMXc1LVNNZl9JRTV5UWZNamtSdTZPVzJhTmhnZkJfYzNUdjZ1bEJtb0JONmpqU3Uwc1I0eWJQTjdvV0NFQlB1UWM5dmxOQzN4Y1l2enhIWlM2MmE3aGFaNWdQVEtXT3lPRVZIRg?oc=5",
-              "source": "JD Supra"
-            },
-            {
-              "title": "New IDR Operations Rule Offers Meaningful Improvements for Physicians, But Concerns Remain - Reed Smith LLP",
-              "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMVhWeW1mNVk4b1NtRm1ZYUZtTGRmLWVMRVpSV2hnaWhlVUhrVTZlQk1tNkpwRk5ZU2k4WnpUdk1KSnRDWmY3OS1aQUxRMWdoRVJ0eWhKd3JzUldUYTJGbVloeDRlS2gzVkJFdWFmWm9nTDdaeFpKWVFORVc3Zy1jaUYtcE53RUtVZUZjMkpKcXhWT1ctTjF3TnZ0ZF9TeURHUWdqem9QOTNGdUh2cUI2V0IxT0JhNGNrNTZnS1dmM1FfTVI5Y0xGRXdHOVU3WFU0NUhEaUlGU19rWFVmeTJsdzQ1RVlVc0p6UUZHYTJHY1lMSmtlQlVlWW93TQ?oc=5",
-              "source": "Reed Smith LLP"
-            },
-            {
-              "title": "Client Alert: Navigating the Latest Overhaul of the No Surprises Act's Independent Dispute Resolution Process - JD Supra",
-              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZGl4OG1yb1QycnNmRnVMaE41dXZ4ZUlua3NhVExYaVBKa0JTWkxPbzk0TndUNWJaRG5Vekh0MjNXX0Q2UnpubEZabGJOZVItRGZRbXFCTGw5R1J6bWNnYVdZOExNMEE5OTV6NGZ5VVBuWmNEWHFhNnZObVEtVXdMWUpsbw?oc=5",
-              "source": "JD Supra"
-            },
-            {
-              "title": "CMS releases final rule on updates to No Surprises Act independent dispute resolution process - American Hospital Association",
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSGZqN1EtT0lldUdHcDB6RnVsR2diUHBpRmQyLWtpbGhZQnh2YXZyWVBtdmJZeUZ4emNOdHFVbGY3YzZuY3dCUXB6WEk1TUdWUzU2WlN1bFBiMUZYTGJad1pjMFBIbnZxRmxiNEpQd1dIYjNfcDBSUnFqSU55Y29JcDR4TkNvNWFCNVljVklZeUIzdzVKbUhVeGwtMlY4Y2I1a0pTazRqSU5nWFg1aDFFNU1QQmtOWHd4OWNiclVkU29lMUN4TGU2UlJuNjk?oc=5",
-              "source": "American Hospital Association"
-            },
-            {
-              "title": "New Rule Amends No Surprises Act Dispute Process for Out-of-Network Health Care Payments - Jones Day",
-              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZnVoREhUcHE5RktTZVJMSXVVczRIZHVIRDhRQXhJU29BRnpZT3l6RHpUbWd0Q0c4NFpwSHFrSVZ6UzR1TWQ5dTZQdE9lMWQ4X1FMMWF4akR0aE5tYk9tLXlaQnFzdlBvOVRraGM4dTN5cW5nb0xrd1NkWXZPM2JKaTFraGc3MEdxbkxyTDV4ajFvVFdBUUk3UF85MkdXLVNDTkVXMzJHNHgweHB2YXVIMXhudFB1YjVtZnJVMHNZNXpKWWlQdlRhd05TWQ?oc=5",
-              "source": "Jones Day"
-            },
-            {
-              "title": "CMS Finalizes Federal IDR Operations Rule: Key Changes to the No Surprises Act Dispute Resolution Process for Providers - Baker Donelson",
-              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMzBiVHB2UEpsU1dxSlgzRUV3ZlNTTWt2X0xmTWNLNzF3Ym8xYmtjWmF2cV9kUzNWY1dSNUM4VXBKcUFsX2tRUGZrN0REc1ZlVkJscEFZNC1mcklxNDNJMXU2RHRrREcycEpGc05XM281cV9VSXBma2V4VWxsdXF2OFk4SFNZbVVoMGtJcmtpUDBydUlWeUlnWkJoaFNQTzZKYTAyc0w2cl9EbjU1UnJFbHIwNHVRX3hzT3IyTk50Nm1pVEZBd0Y2cmZ3VFJjZkNFM3cxVGprX2EyZlh6RTRmNTN3?oc=5",
-              "source": "Baker Donelson"
-            },
-            {
-              "title": "CMS finalizes changes to No Surprises Act dispute resolution process - Fierce Healthcare",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRTlmSnJWeG1qR0Y1c2I4VzdZaUM3dmw2eERpN0tXYllXcjVjZmNjYi1YdjJzUk9Zd193TVNKajFWazU2Y2wzNTRCOE0xbDdHUWs0cEplS3laYUpZaWVHN0lWSFlxUllqTVhsVlNqeVpZVHBiWjJ5eU4tMDBiRnAyZWNTSDdBcVF3dkpsb193dEhsb2dNeWtHc1pDQWtpMjUtNzl1dnNiTVNIVW9iRFE?oc=5",
-              "source": "Fierce Healthcare"
-            },
-            {
-              "title": "Final Rule Issued to Streamline No Surprises Act Dispute Resolution - AAMC",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRUhmSmRlZ3c1ZFoyX0Foc3ZkR1JZX1Y3eFhJSkNvZlFnbURINExaTTdXMjFiTDhmbXIxSTQtRzkyNV8zbklFc1NkbEtERnU3cV9VWFpxOWhWU05uNWpWc3Q0bWlzc3pfb3ZYaTgzWjNvV0hGNTVKQ0RPQV94VG5KNWswaEJGbEx1UFROamJKTnN6QkgyQUc2bHZxYXkySUR3WWlhZ3lBMl90UVhHYk5mZ09wVFZ3UEllaEEtU1ViX1U?oc=5",
-              "source": "AAMC"
-            },
-            {
-              "title": "What Plan Sponsors Need to Know About the Federal Independent Dispute Resolution (“IDR”) Operations Final Rules - Five Takeaways - JD Supra",
-              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT2RTeGNUTUFWUHdLaEFrTnV4VEctbGJuN2pwV214dDQ5THNmUDFpd1ZEaExTVGZ2dkszT1JFU1FuSFgweEtGdE5RNlcxUjNDSVlFcjhNcEptT3g5ZEpQNDlQcURPUnFhRVZMNDNER28yREEzM2VqUmJCLXEzam8tRDhzTzEwM0U?oc=5",
-              "source": "JD Supra"
-            },
-            {
-              "title": "Trump administration reforms surprise billing dispute resolution - Healthcare Dive",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkppRWxoTkJkeHBNRGxnWk1wTGhRc0t3b0xsQVBzd0NQMjdfV0tZYzNNUU9GNUtWbnFXSzZNU0x6T0hEWlM5Wk1heWh3UW9wc05TMHJhNzhNOUtraG1MUThaX1hacUprQzRVRmcxcWNEcGdRaWxDYXZ3eEk2OVhXbDlXTW5pQko5WlhQNmtFOG5Ia29HbDJBdkRGSHB2U1F4WnV4MEVMakRFUU1rbjdNNE5xNA?oc=5",
-              "source": "Healthcare Dive"
-            },
-            {
-              "title": "New Federal Rules Aim to Partially Fix the No Surprises Act’s IDR Process - Law.com",
-              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWNMUTczSHAzZWZOT045RUh1UzVZWFBkWUZiVGRPbWhaRzVxeGdDbC1fb2pPSC1vTWJZbmlDN0kteFdGdGxJSV9ESlFZUkNjc3AwWmxFdUUyS2RWRVJuZHJYOWJZeDliSER3c1hnMllhUmpVVkFGQ0NiNDZrMlpZRk9tNVFwTU9DU0dMVHJ1RHd6WE9kOWZUSjZWX0tfYk1lVUp5TGVRMkdjUzFyb1Vha191Q2swV1pq?oc=5",
-              "source": "Law.com"
-            },
-            {
-              "title": "CMS Revamps No Surprises Act IDR: Key Impacts for Providers - Clark Hill",
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT3A5SHlTbTM1V1MtWHlCM2lETVp2RlMwdGdNdElMelZGQnZRYmM0eEdYX1c4ZzQ2RzFLenB1Rm9CN0FuVm9LazZTRm9mN2E3c2dUaW1RMk1pR0VxdkFnMDZCN2NSQ19WM0oyNnpNemN5cmNMMllNMWVydnYzTXVuRzBDbmhWa1l5ejhiNldsZDBxQS1vWUFacTdHSHFjeHk3TkpyclN1SQ?oc=5",
-              "source": "Clark Hill"
-            }
-          ]
+          "score": 0.85,
+          "reason": "This article directly addresses the Independent Dispute Resolution (IDR) arbitration process and its rules, which are core components of No Surprises Act implementation that revenue-cycle teams must navigate.",
+          "summary": "Modern Healthcare News published an article examining the new arbitration rules under the No Surprises Act's Independent Dispute Resolution (IDR) process. The IDR process is the federal mechanism through which disputes over out-of-network surprise bills are resolved when patients and insurers cannot agree on payment amounts. These rules directly impact how healthcare organizations and revenue-cycle teams handle balance-billing disputes and determine final payment obligations for surprise medical bills. Understanding the updated arbitration framework is critical for revenue-cycle operations managing claim denials and payment determinations under the Act.",
+          "also": []
         }
       ]
     }
