@@ -2,14 +2,13 @@ name: Daily Digest
 
 # Runs the pipeline once a day: ingest -> score -> email -> publish JSON.
 # The seen-store and the published digest are committed back so dedup is durable
-# and the companion app shows the latest results. (GitHub cron is UTC and may be
-# delayed a few minutes under load — fine for a daily digest.)
+# and the companion app shows the latest results.
+#
+# Triggering: an EXTERNAL timezone-aware scheduler (cron-job.org) fires this via
+# the workflow_dispatch API at 08:00 America/New_York. GitHub's own `schedule`
+# cron was removed because it runs scheduled jobs hours late at popular slots.
 
 on:
-  schedule:
-    # 12:00 UTC = 8:00 AM US Eastern during daylight saving (EDT, Mar-Nov),
-    # 7:00 AM during standard time (EST). GitHub cron is fixed UTC (no DST).
-    - cron: "0 12 * * *"
   workflow_dispatch:
     inputs:
       test_recipients:
