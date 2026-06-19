@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T15:38:17.423028+00:00",
+  "generated_at": "2026-06-19T16:57:21.957540+00:00",
   "topic_count": 1,
   "item_count": 1,
   "topics": [
@@ -7,14 +7,14 @@
       "name": "No Surprises Act Litigation",
       "items": [
         {
-          "title": "Inside the new No Surprises Act arbitration rules - Modern Healthcare News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2x5Y2ZTOF9MWXpFMUFaaW9NYzl2OUJrMzY0TUlDY1NtUzhVQWR0Ukkya3VqMlRzQ0t3dGkyU2dCYVF6WlJOenRLQkZYVUNHZENIalFsdmNZTW4xeUN3c0VEUUFLN0FuSmxBSFNpdTV1RWVhYjVrODVSTnE0R0h6NUZ4eEVINmNxa1pZU2dyUVVXQW83YVpuWg?oc=5",
-          "source": "Modern Healthcare News",
-          "published": "2026-06-04T07:00:00+00:00",
-          "published_display": "Jun 04, 2026",
-          "score": 0.85,
-          "reason": "This article directly addresses the Independent Dispute Resolution (IDR) arbitration process and its rules, which are core components of No Surprises Act implementation that revenue-cycle teams must navigate.",
-          "summary": "Modern Healthcare News published an article examining the new arbitration rules under the No Surprises Act's Independent Dispute Resolution (IDR) process. The IDR process is the federal mechanism through which disputes over out-of-network surprise bills are resolved when patients and insurers cannot agree on payment amounts. These rules directly impact how healthcare organizations and revenue-cycle teams handle balance-billing disputes and determine final payment obligations for surprise medical bills. Understanding the updated arbitration framework is critical for revenue-cycle operations managing claim denials and payment determinations under the Act.",
+          "title": "CMS Finalizes Rule to Simplify Payer-Provider Disputes Under No Surprises Act - MedCity News",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56OGI3d2ZkRDhGU2p3cGVFWW1WWkFMU011N0hMb3JwTC1WbnUtd0NBakRKQTAtUXBST2Y0VFY4dVhseHlKMzk5TVpPX1k1aVVWZGN4Zzh1eEhMNFNfckhselByNA?oc=5",
+          "source": "MedCity News",
+          "published": "2026-05-28T07:00:00+00:00",
+          "published_display": "May 28, 2026",
+          "score": 0.92,
+          "reason": "This item reports on CMS finalizing a rule directly related to No Surprises Act implementation, specifically addressing the Independent Dispute Resolution (IDR) process for payer-provider disputes, which is a core component of the topic definition.",
+          "summary": "CMS has finalized a rule to streamline the payer-provider dispute resolution process under the No Surprises Act. The rule simplifies procedures for resolving disagreements between payers and providers regarding out-of-network billing and balance-billing claims under the IDR framework. This regulatory update directly impacts how healthcare providers and payers manage claims disputes and compliance with No Surprises Act protections. Revenue-cycle teams must understand the procedural changes to adjust dispute submission processes, documentation requirements, and timelines for IDR cases.",
           "also": []
         }
       ]
