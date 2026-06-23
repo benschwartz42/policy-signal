@@ -286,20 +286,36 @@ def _same_site(a: str, b: str) -> bool:
     return bool(ha) and (ha == hb or ha.endswith("." + hb) or hb.endswith("." + ha))
 
 
-def _article_candidates(links: list[tuple[str, str]], base_url: str) -> list[tuple[str, str]]:
-    """Filter raw anchors to plausible article links: same site, substantive
-    anchor text, de-duplicated. Returns (text, absolute_url)."""
+# Path fragments that mark navigation / account / utility links, not articles.
+_SKIP_URL_PARTS = (
+    "login", "signin", "sign-in", "register", "member-center", "/account",
+    "/cart", "checkout", "/search", "subscribe", "donate", "javascript:",
+    "mailto:", "/sitemap", "/privacy", "/terms",
+)
+
+
+def _article_candidates(links: list[tuple[str, str]], base_url: str,
+                        limit: int = 250) -> list[tuple[str, str]]:
+    """Filter raw anchors to plausible article links: same site, not a nav/utility
+    link, substantive anchor text, de-duplicated. The cap is high because page
+    navigation (which precedes content in source order) would otherwise fill a
+    small budget before the article links are reached; the LLM does the final
+    pick. Returns (text, absolute_url)."""
+    base = base_url.split("#")[0].rstrip("/")
     seen, out = set(), []
     for href, text in links:
         absu = urljoin(base_url, href).split("#")[0]
         if not absu.startswith("http") or not _same_site(absu, base_url):
+            continue
+        low = absu.lower()
+        if any(part in low for part in _SKIP_URL_PARTS) or absu.rstrip("/") == base:
             continue
         words = len(text.split())
         if words < 3 or words > 40 or absu in seen:
             continue
         seen.add(absu)
         out.append((text, absu))
-        if len(out) >= 80:
+        if len(out) >= limit:
             break
     return out
 
