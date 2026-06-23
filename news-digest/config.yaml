@@ -31,6 +31,8 @@ feeds:
     name: Trade off
   - url: https://www.axios.com/
     name: Axios
+  - url: https://www.asahq.org/advocacy-and-asapac/fda-and-washington-alerts/washington-alerts
+    name: ASA Washington Alerts
 delivery:
   sender: Policy Signal <ben@zdkinnovations.com>
   subject_prefix: 'IDR Updates '

@@ -45,6 +45,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Cache Playwright browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-v1
+
+      - name: Install Playwright Chromium
+        run: python -m playwright install --with-deps chromium
+
       - name: Run digest
         # config.yaml is the committed source of truth (topics, settings, sender,
         # recipients) — edited via the Configure page. Only auth/transport creds

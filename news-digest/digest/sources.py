@@ -251,6 +251,32 @@ class _PageParser(HTMLParser):
             self._href, self._text = None, []
 
 
+def _render_html(url: str) -> str | None:
+    """Render a page with a headless browser so JavaScript-built listings (which
+    return no article links in raw HTML) become readable. Returns the rendered
+    HTML, or None if Playwright isn't installed or rendering fails."""
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        return None
+    try:
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(args=["--no-sandbox"])
+            page = browser.new_page(user_agent=_UA["User-Agent"])
+            page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            try:
+                page.wait_for_load_state("networkidle", timeout=8000)
+            except Exception:
+                pass  # some SPAs never fully idle; the content is usually there
+            page.wait_for_timeout(1500)
+            html = page.content()
+            browser.close()
+            return html
+    except Exception as exc:
+        log.warning("headless render failed for %s: %s", url, exc)
+        return None
+
+
 def _host(url: str) -> str:
     return (urlsplit(url).hostname or "").lower().removeprefix("www.")
 
@@ -338,7 +364,16 @@ def ingest_custom_source(url: str, name: str, topics: list[Topic],
     # 3. Scrape + LLM extraction (needs the model).
     if client is None:
         return [], "no feed found; LLM unavailable"
-    candidates = _article_candidates(page.links, url)
+    links, how = page.links, "scraped"
+    # If the raw HTML yields no article-ish links, the page is likely JS-built —
+    # render it with a headless browser and use the resulting DOM.
+    if len(_article_candidates(page.links, url)) == 0:
+        rendered = _render_html(url)
+        if rendered:
+            rp = _PageParser()
+            rp.feed(rendered[:1_500_000])
+            links, how = rp.links, "rendered+scraped"
+    candidates = _article_candidates(links, url)
     picked = _llm_pick_articles(candidates, url, client, model)
     label = name or _host(url)
     arts = [
@@ -346,7 +381,7 @@ def ingest_custom_source(url: str, name: str, topics: list[Topic],
                 authority=AUTHORITY["rss"], published=None, snippet=it["title"])
         for t in topics for it in picked[:25]
     ]
-    return arts, f"scraped ({len(picked)} articles)"
+    return arts, f"{how} ({len(picked)} articles)"
 
 
 REGISTRY: dict[str, Callable[[Topic, dict], list[Article]]] = {
