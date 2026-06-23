@@ -361,18 +361,18 @@ def ingest_custom_source(url: str, name: str, topics: list[Topic],
             arts = [a for t in topics for a in _entries_to_articles(p2, t.name, label, AUTHORITY["rss"])]
             return arts, f"auto-discovered feed ({len(p2.entries[:25])} entries)"
 
-    # 3. Scrape + LLM extraction (needs the model).
+    # 3. Scrape + LLM extraction (needs the model). Render with a headless
+    # browser first so JS-built listings (whose raw HTML carries only nav/chrome
+    # links) are read from the populated DOM; fall back to the raw HTML.
     if client is None:
         return [], "no feed found; LLM unavailable"
-    links, how = page.links, "scraped"
-    # If the raw HTML yields no article-ish links, the page is likely JS-built —
-    # render it with a headless browser and use the resulting DOM.
-    if len(_article_candidates(page.links, url)) == 0:
-        rendered = _render_html(url)
-        if rendered:
-            rp = _PageParser()
-            rp.feed(rendered[:1_500_000])
-            links, how = rp.links, "rendered+scraped"
+    rendered = _render_html(url)
+    if rendered:
+        rp = _PageParser()
+        rp.feed(rendered[:1_500_000])
+        links, how = rp.links, "rendered+scraped"
+    else:
+        links, how = page.links, "scraped"
     candidates = _article_candidates(links, url)
     picked = _llm_pick_articles(candidates, url, client, model)
     label = name or _host(url)
