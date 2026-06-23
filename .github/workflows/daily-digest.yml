@@ -16,7 +16,7 @@ on:
         required: false
         default: ""
       publish_only:
-        description: "Refresh the companion with a fresh digest WITHOUT emailing anyone or changing dedup state. Useful to repopulate the Digest page."
+        description: "Dry run for debugging: fresh window, NO email, NO state change, and does NOT touch the Digest page (results visible in the run log only). The page only ever reflects what was actually emailed."
         type: boolean
         required: false
         default: false
@@ -84,15 +84,18 @@ jobs:
           python run.py --config config.yaml $DRY --emit-json out/digest.json
           ITEMS=$(grep -o '"item_count": [0-9]*' out/digest.json | grep -o '[0-9]*' || echo 0)
           echo "items=${ITEMS:-0}"
-          # Publish to the companion only for non-test runs, and only when the
-          # digest is non-empty — so a quiet day never blanks the Digest page.
-          if [ "${ITEMS:-0}" -gt 0 ] && [ "${{ github.event.inputs.test_recipients }}" = "" ]; then
+          # Publish to the companion ONLY for a real emailing run (not test sends,
+          # not publish_only dry runs) and only when non-empty — so the Digest
+          # page always matches what was actually emailed, and a quiet day never
+          # blanks it.
+          if [ "${ITEMS:-0}" -gt 0 ] && [ "${{ github.event.inputs.test_recipients }}" = "" ] && [ "${{ github.event.inputs.publish_only }}" != "true" ]; then
             cp out/digest.json ../companion/public/digests/latest.json
             cp out/digest.json ../companion/public/digests/$(date -u +%F).json
           fi
 
       - name: Commit seen-store and published digest
-        if: ${{ github.event.inputs.test_recipients == '' }}   # test sends never persist
+        # Only real emailing runs persist state / publish the page.
+        if: ${{ github.event.inputs.test_recipients == '' && github.event.inputs.publish_only != 'true' }}
         run: |
           cd "$GITHUB_WORKSPACE"
           git config user.name  "policy-signal-bot"
