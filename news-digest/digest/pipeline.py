@@ -69,39 +69,55 @@ def process(
     fresh = relevance.filter_recent(articles, s.lookback_hours)
     # 2. cross-day dedup against the durable seen-store
     unseen = filter_unseen(fresh, store)
-    # 3. near-duplicate collapse (same wire story across outlets)
-    collapsed = collapse_near_duplicates(unseen)
 
+    # 3. Score each topic INDEPENDENTLY (collapse within-topic, prefilter, score,
+    #    cutoff, cap). The same story can be a candidate under several topics; we
+    #    judge it against each topic's own rubric here, BEFORE deduping across
+    #    topics — otherwise a global pre-collapse would assign a story to one
+    #    (possibly wrong) topic and drop it when that rubric doesn't match.
     kept: list[Article] = []
     by_topic: dict[str, Topic] = {t.name: t for t in config.topics}
-    # group survivors by topic for per-topic prefilter + scoring + cap
     per_topic: dict[str, list[Article]] = {}
-    for a in collapsed:
+    for a in unseen:
         per_topic.setdefault(a.topic, []).append(a)
 
     for topic_name, items in per_topic.items():
         topic = by_topic.get(topic_name)
         if topic is None:
             continue
-        # 4. keyword prefilter
-        pre = relevance.keyword_prefilter(items, topic)
-        # 5. LLM (or offline) scoring
+        collapsed = collapse_near_duplicates(items)         # within-topic near-dupes
+        pre = relevance.keyword_prefilter(collapsed, topic)
         scored = relevance.score_articles(pre, topic, s, client=client)
-        # 6. relevance cutoff
         relevant = [a for a in scored if (a.score or 0.0) >= s.min_relevance and a.relevant]
-        # 7. cap per topic (already score-sorted later in render, sort here for the cap)
         relevant.sort(key=lambda x: x.score or 0.0, reverse=True)
         top = max((a.score or 0.0 for a in scored), default=0.0)
         log.info("topic '%s': %d candidates -> %d prefiltered -> top score %.2f, "
-                 "%d at/above cutoff %.2f", topic_name, len(items), len(pre),
+                 "%d at/above cutoff %.2f", topic_name, len(collapsed), len(pre),
                  top, len(relevant), s.min_relevance)
         kept.extend(relevant[: s.max_items_per_topic])
 
-    # Merge items reporting the same development (different headlines/outlets)
-    # into one, with the others attached as secondary links. No-op offline.
+    # 4. Cross-topic dedup: a story kept under multiple topics is shown once,
+    #    under the topic where it scored highest.
+    kept = _dedupe_keep_best(kept)
+
+    # 5. Merge items reporting the same development (different headlines/outlets)
+    #    into one, with the others attached as secondary links. No-op offline.
     kept = relevance.cluster_same_story(kept, client=client, model=s.model,
                                         tolerance=s.combine_tolerance)
     return kept
+
+
+def _dedupe_keep_best(articles: list[Article]) -> list[Article]:
+    """Collapse same-story items kept across multiple topics, keeping the copy
+    with the highest (score, authority) — i.e. the topic it best fits."""
+    best: dict[str, Article] = {}
+    for a in articles:
+        key = a.content_key
+        cur = best.get(key)
+        if cur is None or (a.score or 0.0, a.authority) > (cur.score or 0.0, cur.authority):
+            best[key] = a
+    winners = {id(a) for a in best.values()}
+    return [a for a in articles if id(a) in winners]
 
 
 def run(
