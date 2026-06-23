@@ -1,27 +1,143 @@
 {
-  "generated_at": "2026-06-23T12:01:49.897087+00:00",
-  "topic_count": 1,
-  "item_count": 1,
+  "generated_at": "2026-06-23T16:27:48.287616+00:00",
+  "topic_count": 2,
+  "item_count": 6,
   "topics": [
     {
       "name": "No Surprises Act Litigation",
       "items": [
         {
-          "title": "A win for practices: No Surprises Act dispute fee falls to $15 - Medical Economics",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQajJXQ0Z3Z0JnNkhsS3RMNEljVll4d3g2aGNHSjJtNjdVZk0waE9RbjZ6NVM0Wk5ncHk4d1hUa1Z3NlZ3RW5LdUFIMDRqUERyU0lneElsMU1VbmUybk1Yc2hoU05sOU9oS1gxZTdFU0YtY2Z0R2FpRDNuX1R1TXBTVDJTTWRNc0EwcXRtTDNEWEVCZG9USGt5Q3VuTUgzWnVPVFE?oc=5",
-          "source": "Medical Economics",
-          "published": "2026-06-22T17:56:45+00:00",
+          "title": "Congressional Budget Office contends provider wins undermining No Surprises Act - Radiology Business",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNeXpXbFNqbnRzeDg0Y29uMFhzaWZhek1vZ1FxZUxlRFdNM3VDXzlXTHN6OFBBdU9EblNZV0pONEltekNnUmoya1VZd3E2aURKS1ZfNWtFb3VRWHk5bE1nUExkQTlmOXcxT1RGSXItRXp2YmxIblRLbnYzQTVFVk1FeS1RM1FVSnFMYTZCa2dmU1hiNEhTSUF3VGlyTWVMX2Y5NXVmVHZlWTc5VjkxekxiVVBLaXBzTDFDQmpxY1gwc2E1VVI2TGkwYUdCbkJUa0NzdlVVMmE2UGUwaHJ2ODY1TGJ2blZXal9ZZHBDSQ?oc=5",
+          "source": "Radiology Business",
+          "published": "2026-06-22T09:51:35+00:00",
           "published_display": "Jun 22, 2026",
-          "score": 0.92,
-          "reason": "This item directly addresses a concrete change to the Independent Dispute Resolution (IDR) process under the No Surprises Act—specifically a reduction in dispute filing fees—which is a substantive rule modification affecting healthcare providers and revenue-cycle operations.",
-          "summary": "The dispute filing fee for the No Surprises Act's Independent Dispute Resolution (IDR) process has been reduced to $15, according to Medical Economics. This represents a decrease from previously established fee levels and constitutes a favorable change for medical practices engaged in payment disputes under the Act. The lower IDR filing fee reduces the financial barrier for providers to challenge insurance payment decisions, potentially increasing participation in the dispute resolution process. This modification directly impacts revenue-cycle teams' cost-benefit analysis when deciding whether to pursue IDR claims for out-of-network claim disputes.",
+          "score": 0.85,
+          "reason": "This item discusses Congressional Budget Office analysis of provider litigation wins that are undermining No Surprises Act enforcement, directly addressing litigation and implementation challenges to the federal law.",
+          "summary": "The Congressional Budget Office has issued a contention that recent provider legal victories are undermining the effectiveness of the No Surprises Act's protections against surprise billing. The report suggests that provider wins in litigation are eroding the law's balance-billing safeguards, though specific cases, rulings, or financial impacts are not detailed in the excerpt provided. This assessment is relevant to revenue-cycle teams as it indicates potential gaps in NSA enforcement and may signal emerging litigation trends that could affect provider compliance obligations and reimbursement practices.",
+          "also": []
+        },
+        {
+          "title": "Trump administration reforms surprise billing dispute resolution - Healthcare Dive",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkppRWxoTkJkeHBNRGxnWk1wTGhRc0t3b0xsQVBzd0NQMjdfV0tZYzNNUU9GNUtWbnFXSzZNU0x6T0hEWlM5Wk1heWh3UW9wc05TMHJhNzhNOUtraG1MUThaX1hacUprQzRVRmcxcWNEcGdRaWxDYXZ3eEk2OVhXbDlXTW5pQko5WlhQNmtFOG5Ia29HbDJBdkRGSHB2U1F4WnV4MEVMakRFUU1rbjdNNE5xNA?oc=5",
+          "source": "Healthcare Dive",
+          "published": "2026-05-28T07:00:00+00:00",
+          "published_display": "May 28, 2026",
+          "score": 0.85,
+          "reason": "The item directly addresses Trump administration reforms to the No Surprises Act's Independent Dispute Resolution (IDR) process, which is a core component of the federal rulemaking and implementation landscape covered by the topic definition.",
+          "summary": "The Trump administration has implemented reforms to the surprise billing dispute resolution process under the No Surprises Act. While the excerpt does not provide specific details about the reforms, deadlines, or affected parties, this development represents a substantive policy change to the IDR process that directly impacts how surprise billing disputes are handled. Revenue-cycle teams should monitor the full details of these reforms as they will affect balance-billing compliance procedures and dispute-resolution protocols.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Federal IDR",
+      "items": [
+        {
+          "title": "Federal Independent Dispute Resolution Operations",
+          "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11140/federal-independent-dispute-resolution-operations",
+          "source": "Federal Register",
+          "published": "2026-06-04T00:00:00+00:00",
+          "published_display": "Jun 04, 2026",
+          "score": 0.95,
+          "reason": "This Federal Register document directly addresses final rules on the federal IDR process under the No Surprises Act, including operational requirements for disclosure, CARC/RARC codes, open negotiation periods, dispute eligibility review, administrative and IDRE fees, batching, bundled payments, and timeline extensions—all core components of IDR administration.",
+          "summary": "The Federal Register published final rules amending operational requirements for the federal IDR process established under the No Surprises Act. The rules require group health plans and health insurance issuers to disclose specified information with initial payments or denials using claim adjustment reason codes (CARCs) and remittance advice remark codes (RARCs) for out-of-network entities. Additionally, the final rules modify requirements governing the open negotiation period, dispute eligibility review, batching of items and services, administrative and certified-IDRE fee collection, bundled payment arrangement definitions, and timeline extensions for extenuating circumstances. These changes directly affect how revenue-cycle teams and payers must process out-of-network disputes and communicate with non-contracted providers, impacting claim adjudication workflows and IDR portal operations.",
           "also": [
             {
-              "title": "Congressional Budget Office contends provider wins undermining No Surprises Act - Radiology Business",
-              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNeXpXbFNqbnRzeDg0Y29uMFhzaWZhek1vZ1FxZUxlRFdNM3VDXzlXTHN6OFBBdU9EblNZV0pONEltekNnUmoya1VZd3E2aURKS1ZfNWtFb3VRWHk5bE1nUExkQTlmOXcxT1RGSXItRXp2YmxIblRLbnYzQTVFVk1FeS1RM1FVSnFMYTZCa2dmU1hiNEhTSUF3VGlyTWVMX2Y5NXVmVHZlWTc5VjkxekxiVVBLaXBzTDFDQmpxY1gwc2E1VVI2TGkwYUdCbkJUa0NzdlVVMmE2UGUwaHJ2ODY1TGJ2blZXal9ZZHBDSQ?oc=5",
-              "source": "Radiology Business"
+              "title": "The Federal IDR Final Operations Rule is Out: Now What? - Modern Healthcare",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOFNzVUlJTngteE82SU5MbXc5TGxNbl9RczAyb19VdjlBelFTcHdTNGs3dlRMZGY3S19CSG5zaFVfUTVyMGdXdnZBUzdGZlNHaVlpcHllbHNocFpkbUVPS1c1eTY3UFJPMU1aR2tWV3JJNjZtcUV5TkxoZEwyN3Y3OHpjNS1aRGllQnNabzhjbFg0MjVTWTIxcWJiUEtINS1CbzVIa2hGdmJfalg2M3RXSw?oc=5",
+              "source": "Modern Healthcare"
+            },
+            {
+              "title": "It’s been served: The Federal IDR Operations final rule is here - JD Supra",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUFA4cVlILV9zV3QzZ2ttVU5aZWhDMXc1LVNNZl9JRTV5UWZNamtSdTZPVzJhTmhnZkJfYzNUdjZ1bEJtb0JONmpqU3Uwc1I0eWJQTjdvV0NFQlB1UWM5dmxOQzN4Y1l2enhIWlM2MmE3aGFaNWdQVEtXT3lPRVZIRg?oc=5",
+              "source": "JD Supra"
+            },
+            {
+              "title": "CMS releases final rule on updates to No Surprises Act independent dispute resolution process - American Hospital Association",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSGZqN1EtT0lldUdHcDB6RnVsR2diUHBpRmQyLWtpbGhZQnh2YXZyWVBtdmJZeUZ4emNOdHFVbGY3YzZuY3dCUXB6WEk1TUdWUzU2WlN1bFBiMUZYTGJad1pjMFBIbnZxRmxiNEpQd1dIYjNfcDBSUnFqSU55Y29JcDR4TkNvNWFCNVljVklZeUIzdzVKbUhVeGwtMlY4Y2I1a0pTazRqSU5nWFg1aDFFNU1QQmtOWHd4OWNiclVkU29lMUN4TGU2UlJuNjk?oc=5",
+              "source": "American Hospital Association"
+            },
+            {
+              "title": "CMS Finalizes Federal IDR Operations Rule: Key Changes to the No Surprises Act Dispute Resolution Process for Providers - Baker Donelson",
+              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMzBiVHB2UEpsU1dxSlgzRUV3ZlNTTWt2X0xmTWNLNzF3Ym8xYmtjWmF2cV9kUzNWY1dSNUM4VXBKcUFsX2tRUGZrN0REc1ZlVkJscEFZNC1mcklxNDNJMXU2RHRrREcycEpGc05XM281cV9VSXBma2V4VWxsdXF2OFk4SFNZbVVoMGtJcmtpUDBydUlWeUlnWkJoaFNQTzZKYTAyc0w2cl9EbjU1UnJFbHIwNHVRX3hzT3IyTk50Nm1pVEZBd0Y2cmZ3VFJjZkNFM3cxVGprX2EyZlh6RTRmNTN3?oc=5",
+              "source": "Baker Donelson"
+            },
+            {
+              "title": "CMS finalizes changes to No Surprises Act dispute resolution process - Fierce Healthcare",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRTlmSnJWeG1qR0Y1c2I4VzdZaUM3dmw2eERpN0tXYllXcjVjZmNjYi1YdjJzUk9Zd193TVNKajFWazU2Y2wzNTRCOE0xbDdHUWs0cEplS3laYUpZaWVHN0lWSFlxUllqTVhsVlNqeVpZVHBiWjJ5eU4tMDBiRnAyZWNTSDdBcVF3dkpsb193dEhsb2dNeWtHc1pDQWtpMjUtNzl1dnNiTVNIVW9iRFE?oc=5",
+              "source": "Fierce Healthcare"
+            },
+            {
+              "title": "New Rule Amends No Surprises Act Dispute Process for Out-of-Network Health Care Payments - Jones Day",
+              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZnVoREhUcHE5RktTZVJMSXVVczRIZHVIRDhRQXhJU29BRnpZT3l6RHpUbWd0Q0c4NFpwSHFrSVZ6UzR1TWQ5dTZQdE9lMWQ4X1FMMWF4akR0aE5tYk9tLXlaQnFzdlBvOVRraGM4dTN5cW5nb0xrd1NkWXZPM2JKaTFraGc3MEdxbkxyTDV4ajFvVFdBUUk3UF85MkdXLVNDTkVXMzJHNHgweHB2YXVIMXhudFB1YjVtZnJVMHNZNXpKWWlQdlRhd05TWQ?oc=5",
+              "source": "Jones Day"
+            },
+            {
+              "title": "Federal Agencies Finalize Overhaul of No Surprises Act Dispute Resolution Process - ArentFox Schiff",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMzV0QWg0SVh6SGswT1E5Q3FUUFBlbzdNZ19VcS1xUTlwSnBfS3huUURJS2V5VFN3UE5QVFV1RXFiYWViTVVDb2hET3BSandFbUc2cm5HZTVCX3pEekUzVzYwVTFITWFBbmR6RE9Xc1lpRDh5X3d0TEFxbmlvVzQ4dDRvOTZ2R3ZhMjdvZ2F4LTR3Q1BvWXFrSGhRRDVNLVJEbHoxV2g2dFNPQlRjSXJmVk9IUDMxNUEtVzM4TmdB?oc=5",
+              "source": "ArentFox Schiff"
+            },
+            {
+              "title": "What Plan Sponsors Need to Know About the Federal Independent Dispute Resolution (“IDR”) Operations Final Rules - Five Takeaways - JD Supra",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT2RTeGNUTUFWUHdLaEFrTnV4VEctbGJuN2pwV214dDQ5THNmUDFpd1ZEaExTVGZ2dkszT1JFU1FuSFgweEtGdE5RNlcxUjNDSVlFcjhNcEptT3g5ZEpQNDlQcURPUnFhRVZMNDNER28yREEzM2VqUmJCLXEzam8tRDhzTzEwM0U?oc=5",
+              "source": "JD Supra"
+            },
+            {
+              "title": "New Federal Rules Aim to Partially Fix the No Surprises Act’s IDR Process - Law.com",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWNMUTczSHAzZWZOT045RUh1UzVZWFBkWUZiVGRPbWhaRzVxeGdDbC1fb2pPSC1vTWJZbmlDN0kteFdGdGxJSV9ESlFZUkNjc3AwWmxFdUUyS2RWRVJuZHJYOWJZeDliSER3c1hnMllhUmpVVkFGQ0NiNDZrMlpZRk9tNVFwTU9DU0dMVHJ1RHd6WE9kOWZUSjZWX0tfYk1lVUp5TGVRMkdjUzFyb1Vha191Q2swV1pq?oc=5",
+              "source": "Law.com"
+            },
+            {
+              "title": "CMS Revamps No Surprises Act IDR: Key Impacts for Providers - Clark Hill",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT3A5SHlTbTM1V1MtWHlCM2lETVp2RlMwdGdNdElMelZGQnZRYmM0eEdYX1c4ZzQ2RzFLenB1Rm9CN0FuVm9LazZTRm9mN2E3c2dUaW1RMk1pR0VxdkFnMDZCN2NSQ19WM0oyNnpNemN5cmNMMllNMWVydnYzTXVuRzBDbmhWa1l5ejhiNldsZDBxQS1vWUFacTdHSHFjeHk3TkpyclN1SQ?oc=5",
+              "source": "Clark Hill"
+            },
+            {
+              "title": "Inside the new No Surprises Act arbitration rules - Modern Healthcare",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2x5Y2ZTOF9MWXpFMUFaaW9NYzl2OUJrMzY0TUlDY1NtUzhVQWR0Ukkya3VqMlRzQ0t3dGkyU2dCYVF6WlJOenRLQkZYVUNHZENIalFsdmNZTW4xeUN3c0VEUUFLN0FuSmxBSFNpdTV1RWVhYjVrODVSTnE0R0h6NUZ4eEVINmNxa1pZU2dyUVVXQW83YVpuWg?oc=5",
+              "source": "Modern Healthcare"
             }
           ]
+        },
+        {
+          "title": "Federal IDR fee drops from $115 to $15: 6 things spine and orthopedic leaders should know - beckersspine.com",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX1BfQ01VWmNBc0s0ZDkzRFJzVnJ6WGFLMW5vNFBhMWZTMnk3SzFXYjVBc2xKYncxRWN6UGl0d3I3TThNcFhncjlBdzRlRUFNS01PREE5QjlhSUQ5TkwzSXNKM2NaVGp4YjlzSTlQcElQREpUX2hVV1B4MjlDT3Y3WXhGWHVqcERfYldndXRPOW9uTGx5bF9oTW95aHItdUJqZkNuR3ZYelRkX21tdDcxWmZZclNXR0h3MTFuQU9UcS1qV0tDT0E?oc=5",
+          "source": "beckersspine.com",
+          "published": "2026-05-28T07:00:00+00:00",
+          "published_display": "May 28, 2026",
+          "score": 0.95,
+          "reason": "This item directly addresses a significant change to the federal IDR certified-IDRE administrative fee structure, which is a core component of the topic definition.",
+          "summary": "The federal IDR certified-IDRE administrative fee has been reduced from $115 to $15 per dispute, a substantial decrease that impacts the cost structure for out-of-network payment arbitrations under the No Surprises Act. This fee reduction affects spine and orthopedic practices and other providers involved in IDR disputes, lowering the financial barrier to pursuing independent dispute resolution. The change is relevant to revenue-cycle teams managing claim denials and payment disputes, as it may increase participation in the IDR process by making arbitration more accessible and cost-effective for both providers and insurers.",
+          "also": [
+            {
+              "title": "A win for practices: No Surprises Act dispute fee falls to $15 - Medical Economics",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQajJXQ0Z3Z0JnNkhsS3RMNEljVll4d3g2aGNHSjJtNjdVZk0waE9RbjZ6NVM0Wk5ncHk4d1hUa1Z3NlZ3RW5LdUFIMDRqUERyU0lneElsMU1VbmUybk1Yc2hoU05sOU9oS1gxZTdFU0YtY2Z0R2FpRDNuX1R1TXBTVDJTTWRNc0EwcXRtTDNEWEVCZG9USGt5Q3VuTUgzWnVPVFE?oc=5",
+              "source": "Medical Economics"
+            }
+          ]
+        },
+        {
+          "title": "Client Alert: Navigating the Latest Overhaul of the No Surprises Act's Independent Dispute Resolution Process - JD Supra",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZGl4OG1yb1QycnNmRnVMaE41dXZ4ZUlua3NhVExYaVBKa0JTWkxPbzk0TndUNWJaRG5Vekh0MjNXX0Q2UnpubEZabGJOZVItRGZRbXFCTGw5R1J6bWNnYVdZOExNMEE5OTV6NGZ5VVBuWmNEWHFhNnZObVEtVXdMWUpsbw?oc=5",
+          "source": "JD Supra",
+          "published": "2026-06-04T18:40:01+00:00",
+          "published_display": "Jun 04, 2026",
+          "score": 0.85,
+          "reason": "The item discusses an overhaul of the No Surprises Act's IDR process, which directly addresses operational changes to how out-of-network payment disputes are arbitrated—a core topic for revenue-cycle teams managing IDR claims.",
+          "summary": "JD Supra published a client alert addressing significant changes to the No Surprises Act's Independent Dispute Resolution process. The alert guides healthcare organizations through the latest procedural and operational updates affecting how out-of-network payment disputes are arbitrated and resolved. These IDR process modifications impact how revenue-cycle teams manage dispute batching, eligibility determinations, and interactions with certified independent dispute resolution entities (IDREs). The overhaul likely affects administrative procedures, timelines, or fee structures that healthcare providers must navigate when pursuing or defending against IDR claims.",
+          "also": []
+        },
+        {
+          "title": "AHIP cites 'provider-driven' abuse in IDR process - Healthcare Finance News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdkxzUExMZk0zOThMSWFzdldJaWhQMWFJSW9jcXdxLUplZXBGVERHbVM2N2pGR1M3M2phYkRWdEg2di1xbWdWWFZkMmJ6a0dmSW1wSFY5YXM5UDFDTWgwclhpSy1tMkprMU4teEdrTk0zaE1lZVlwaVpQcTliWVpINVBhWjRVdzRjemFVdlRkUkw?oc=5",
+          "source": "Healthcare Finance News",
+          "published": "2026-06-01T07:00:00+00:00",
+          "published_display": "Jun 01, 2026",
+          "score": 0.72,
+          "reason": "The item addresses alleged abuse within the federal IDR process itself, which directly impacts how out-of-network disputes are arbitrated and how the process operates administratively, though the excerpt alone does not specify what changes or interpretations AHIP is advocating.",
+          "summary": "AHIP (America's Health Insurance Plans) has raised concerns about what it characterizes as 'provider-driven' abuse occurring within the federal Independent Dispute Resolution (IDR) process established under the No Surprises Act. The statement indicates insurers are experiencing problems with how providers are using or manipulating the IDR arbitration system, though the specific practices cited and any proposed regulatory or operational changes are not detailed in the excerpt. This development is relevant to revenue-cycle teams managing out-of-network payment disputes, as it signals potential pressure on CMS/HHS to adjust IDR operational rules or enforcement to address insurer complaints about dispute process administration.",
+          "also": []
         }
       ]
     }
