@@ -23,6 +23,7 @@ on:
 
 permissions:
   contents: write          # to commit the seen-store + published digest
+  actions: write           # to dispatch the Pages deploy after committing
 
 concurrency:
   group: daily-digest      # never let two runs overlap (protects the seen-store)
@@ -96,6 +97,8 @@ jobs:
       - name: Commit seen-store and published digest
         # Only real emailing runs persist state / publish the page.
         if: ${{ github.event.inputs.test_recipients == '' && github.event.inputs.publish_only != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd "$GITHUB_WORKSPACE"
           git config user.name  "policy-signal-bot"
@@ -107,8 +110,10 @@ jobs:
           if git diff --cached --quiet; then
             echo "nothing to commit"
           else
-            # No [skip ci]: this commit touches companion/** and must trigger the
-            # Pages deploy so the Digest page reflects the new digest.
             git commit -m "chore(digest): update seen-store and published digest"
             git push
+            # A push made with GITHUB_TOKEN does NOT trigger the push-based deploy
+            # workflow, so dispatch it explicitly (workflow_dispatch IS allowed
+            # from GITHUB_TOKEN). This is what keeps the live page in sync.
+            gh workflow run deploy-companion.yml --ref main
           fi
