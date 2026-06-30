@@ -94,7 +94,7 @@ def process(
         log.info("topic '%s': %d candidates -> %d prefiltered -> top score %.2f, "
                  "%d at/above cutoff %.2f", topic_name, len(collapsed), len(pre),
                  top, len(relevant), s.min_relevance)
-        kept.extend(relevant[: s.max_items_per_topic])
+        kept.extend(relevant)   # cap applied AFTER dedup + clustering (step 6)
 
     # 4. Cross-topic dedup: a story kept under multiple topics is shown once,
     #    under the topic where it scored highest.
@@ -104,7 +104,23 @@ def process(
     #    into one, with the others attached as secondary links. No-op offline.
     kept = relevance.cluster_same_story(kept, client=client, model=s.model,
                                         tolerance=s.combine_tolerance)
+
+    # 6. Per-topic cap, applied LAST so it bounds the final deduped+clustered set
+    #    (not a pre-dedup count) — each topic keeps its top max_items_per_topic.
+    kept = _cap_per_topic(kept, s.max_items_per_topic)
     return kept
+
+
+def _cap_per_topic(articles: list[Article], cap: int) -> list[Article]:
+    """Keep the top `cap` items (by score) within each topic."""
+    by_topic: dict[str, list[Article]] = {}
+    for a in articles:
+        by_topic.setdefault(a.topic, []).append(a)
+    out: list[Article] = []
+    for items in by_topic.values():
+        items.sort(key=lambda x: x.score or 0.0, reverse=True)
+        out.extend(items[:cap])
+    return out
 
 
 def _dedupe_keep_best(articles: list[Article]) -> list[Article]:
