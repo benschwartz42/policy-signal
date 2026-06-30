@@ -11,7 +11,7 @@ settings:
     - google_news
     - regulations_gov
     - rss
-  combine_tolerance: broad
+  combine_tolerance: balanced
 feeds:
   - url: https://www.fiercehealthcare.com/rss/xml
     name: Fierce Healthcare
