@@ -24,6 +24,7 @@ class Topic:
     description: str           # plain-English relevance rubric the LLM judges against
     keywords: list[str] = field(default_factory=list)
     extra_rss: list[str] = field(default_factory=list)
+    queries: list[str] = field(default_factory=list)  # explicit Google News searches
 
 
 @dataclass
@@ -96,6 +97,7 @@ def parse_config(data: dict[str, Any]) -> Config:
                 description=desc,
                 keywords=[str(k) for k in _as_list(t.get("keywords"), f"{name}.keywords")],
                 extra_rss=[str(u) for u in _as_list(t.get("extra_rss"), f"{name}.extra_rss")],
+                queries=[str(q) for q in _as_list(t.get("queries"), f"{name}.queries")],
             )
         )
 

@@ -79,24 +79,39 @@ topics:
       - arbitration
       - NSA
       - No Surprise act
-  - name: Payer Network Practices & Litigation
+  - name: Payer Litigation & Enforcement
     description: >-
-      State and federal laws, regulations, and litigation governing how health plans treat
-      providers based on network status — especially payer policies that reduce, penalize,
-      suspend, or terminate hospital/facility contracts or reimbursement because affiliated
-      physicians are out-of-network (e.g. Anthem/Elevance facility-reimbursement penalties),
-      state laws restricting such practices (e.g. Louisiana, Indiana), and provider or
-      medical-society lawsuits challenging them (e.g. California Medical Association v. Anthem).
-      Relevant items report new payer policies, state/federal laws or regulations, or
-      litigation; general explainers and routine network-expansion announcements are not.
+      Litigation, regulatory enforcement, and sanctions involving health insurers/payers
+      (Aetna, Elevance/Anthem, UnitedHealthcare, Cigna, Humana, Kaiser, BCBS, etc.). Includes
+      state attorney-general suits, provider and member lawsuits, fund-diversion/fiduciary/ERISA
+      claims, claims-denial and downcoding suits, CMS/Medicare Advantage sanctions and penalties,
+      and payer policies that penalize providers over network status (e.g. Anthem/Elevance
+      out-of-network facility penalties) plus state laws restricting them (e.g. Louisiana,
+      Indiana). Relevant items report a lawsuit, ruling, settlement, regulatory action, sanction,
+      or new payer policy; routine earnings, market-share, or network-expansion news is not.
     keywords:
       - out-of-network
-      - out of network
       - network adequacy
-      - insurer penalties
       - reimbursement penalty
-      - hospital contract
-      - physician advocacy
-      - balance billing
-      - Anthem
+      - Medicare Advantage
+      - claims denial
+      - downcoding
+      - attorney general
+      - lawsuit
+      - sues
+      - settlement
+      - sanctions
+      - Aetna
       - Elevance
+      - Anthem
+      - UnitedHealthcare
+      - Cigna
+    queries:
+      - health insurer lawsuit
+      - insurer sued attorney general
+      - Aetna lawsuit
+      - Elevance Medicare Advantage sanctions
+      - UnitedHealthcare lawsuit
+      - Cigna lawsuit
+      - Medicare Advantage sanctions
+      - health plan settlement

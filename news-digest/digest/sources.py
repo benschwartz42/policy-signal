@@ -202,9 +202,25 @@ def _parse_feed(feed_url: str, topic: Topic, source_name: str, authority: int) -
 
 
 def google_news(topic: Topic, env: dict) -> list[Article]:
-    q = quote_plus(_press_query(topic))
-    feed = f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
-    return _parse_feed(feed, topic, "Google News", AUTHORITY["google_news"])
+    """Search Google News. Runs the topic's explicit `queries` (verbatim — best
+    for precise recall, e.g. 'Aetna lawsuit') plus the auto-built keyword query,
+    merging and de-duplicating the results."""
+    queries = list(getattr(topic, "queries", []) or [])
+    queries.append(_press_query(topic))
+    out: list[Article] = []
+    seen: set[str] = set()
+    for q in queries:
+        if not q.strip():
+            continue
+        feed = f"https://news.google.com/rss/search?q={quote_plus(q)}&hl=en-US&gl=US&ceid=US:en"
+        try:
+            for a in _parse_feed(feed, topic, "Google News", AUTHORITY["google_news"]):
+                if a.canonical_url not in seen:
+                    seen.add(a.canonical_url)
+                    out.append(a)
+        except Exception as exc:
+            log.warning("google_news query failed (%s): %s", q[:50], exc)
+    return out
 
 
 def rss(topic: Topic, env: dict) -> list[Article]:

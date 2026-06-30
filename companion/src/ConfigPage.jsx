@@ -97,6 +97,10 @@ export default function ConfigPage() {
       const out = clone(cfg);
       // Drop blank feeds so a half-typed row can't break the pipeline config.
       out.feeds = (out.feeds || []).filter((f) => f.url && f.url.trim());
+      // Drop blank query lines per topic.
+      (out.topics || []).forEach((t) => {
+        if (Array.isArray(t.queries)) t.queries = t.queries.map((q) => q.trim()).filter(Boolean);
+      });
       const text = yaml.dump(out, { lineWidth: 100, noRefs: true });
       const res = await putConfigFile(token, text, sha, "chore(config): update via Configure page");
       setSha(res.content.sha);
@@ -282,6 +286,11 @@ export default function ConfigPage() {
                     })}>+ keyword</button>
                   </div>
                 </div>
+                <label className="field">Search queries (one per line) — exact Google News searches, e.g. “Aetna lawsuit”
+                  <textarea rows={3} value={(t.queries || []).join("\n")}
+                            placeholder={"health insurer lawsuit\nElevance Medicare Advantage sanctions"}
+                            onChange={(e) => update((c) => { c.topics[ti].queries = e.target.value.split("\n"); })} />
+                </label>
               </div>
             ))}
             <button className="secondary" onClick={() => update((c) => {
