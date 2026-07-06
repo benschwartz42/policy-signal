@@ -81,14 +81,14 @@ topics:
       - No Surprise act
   - name: Payer Litigation & Enforcement
     description: >-
-      Litigation, regulatory enforcement, and sanctions involving health insurers/payers
-      (Aetna, Elevance/Anthem, UnitedHealthcare, Cigna, Humana, Kaiser, BCBS, etc.). Includes
-      state attorney-general suits, provider and member lawsuits, fund-diversion/fiduciary/ERISA
-      claims, claims-denial and downcoding suits, CMS/Medicare Advantage sanctions and penalties,
-      and payer policies that penalize providers over network status (e.g. Anthem/Elevance
-      out-of-network facility penalties) plus state laws restricting them (e.g. Louisiana,
-      Indiana). Relevant items report a lawsuit, ruling, settlement, regulatory action, sanction,
-      or new payer policy; routine earnings, market-share, or network-expansion news is not.
+      Litigation, regulatory enforcement, and sanctions involving health insurers/payers (Aetna,
+      Elevance/Anthem, UnitedHealthcare, Cigna, Humana, Kaiser, BCBS, etc.). Includes state
+      attorney-general suits, provider and member lawsuits, fund-diversion/fiduciary/ERISA claims,
+      claims-denial and downcoding suits, CMS/Medicare Advantage sanctions and penalties, and payer
+      policies that penalize providers over network status (e.g. Anthem/Elevance out-of-network
+      facility penalties) plus state laws restricting them (e.g. Louisiana, Indiana). Relevant items
+      report a lawsuit, ruling, settlement, regulatory action, sanction, or new payer policy;
+      routine earnings, market-share, or network-expansion news is not.
     keywords:
       - out-of-network
       - network adequacy
@@ -115,3 +115,164 @@ topics:
       - Cigna lawsuit
       - Medicare Advantage sanctions
       - health plan settlement
+  - name: Alteva in the News
+    description: >-
+      The AI should treat Alteva RCM and M&D Capital Premier Billing as related/rebranded entities
+      unless the page clearly indicates otherwise.
+
+
+      The AI must distinguish this company from unrelated companies named Alteva, especially the
+      historical telecommunications / VoIP / cloud communications company formerly associated with
+      Momentum Telecom. If the page is about Alteva telecom, hosted VoIP, UCaaS, cloud
+      communications, WVT, Momentum Telecom, Philadelphia telecom, or ticker ALTV, and does not
+      mention healthcare revenue cycle management, medical billing, IDR, NSA, or Alteva RCM,
+      classify it as a false positive.
+
+
+      Do not expose or store patient information. If a page contains PHI, summarize only at a high
+      level and flag for compliance review.
+
+
+      For each scraped result, classify:
+
+      1. Is this actually about Alteva RCM / M&D Capital Premier Billing?
+
+      2. Is it a direct mention, indirect mention, related person mention, or false positive?
+
+      3. What is the source type?
+
+      4. What is the risk level?
+
+      5. Is the tone positive, neutral, negative, or unknown?
+
+      6. Does it require business action?
+
+
+      Source categories:
+
+      - News article
+
+      - Press release
+
+      - Healthcare article
+
+      - Legal filing / lawsuit / settlement
+
+      - Regulatory / government page
+
+      - Cybersecurity / data breach page
+
+      - Business directory
+
+      - Job posting
+
+      - LinkedIn / social media
+
+      - Payer / insurance document
+
+      - Client / provider mention
+
+      - Conference / event
+
+      - Blog / SEO article
+
+      - Unknown
+
+
+      Risk categories:
+
+      Critical:
+
+      - Data breach
+
+      - HIPAA issue
+
+      - HHS OCR mention
+
+      - Class action
+
+      - Lawsuit
+
+      - Government investigation
+
+      - Regulatory enforcement
+
+      - Negative press
+
+      - Allegations involving billing, fraud, compliance, cyber, privacy, or patient data
+
+
+      High:
+
+      - Attorney advertising page mentioning the company
+
+      - Settlement page
+
+      - Public complaint
+
+      - Payer dispute
+
+      - Client dispute
+
+      - Court docket
+
+      - State attorney general mention
+
+      - Public negative review with specific allegations
+
+
+      Medium:
+
+      - Business filing update
+
+      - Trademark mention
+
+      - Job posting
+
+      - Public employee mention
+
+      - Partner/client mention
+
+      - Industry article
+
+      - Conference/event mention
+
+
+      Low:
+
+      - Generic business directory
+
+      - SEO scraper page
+
+      - Duplicate listing
+
+      - Old cached listing
+
+      - Non-substantive backlink
+
+
+      False positive:
+
+      - Unrelated Alteva telecom / VoIP / UCaaS company
+
+      - Unrelated person or company named Alteva
+
+      - Pages where “MD Capital” clearly refers to another business, finance firm, real estate firm,
+      or unrelated investment entity
+
+      - Pages that only contain one weak keyword with no healthcare/RCM context
+    keywords:
+      - Alteva RCM
+      - AltevaRCM
+      - Alteva Revenue Cycle Management
+      - Alteva medical billing
+      - Alteva billing
+      - M&D Capital Premier Billing
+      - M & D Capital Premier Billing
+      - M and D Capital Premier Billing
+      - MD Capital Premier Billing
+      - M.D. Capital Premier Billing
+      - MD Capital Billing
+      - M&D Capital
+      - ' MD Capital'
+      - ''
