@@ -67,7 +67,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Email transport: Google Workspace SMTP (no RESEND_API_KEY -> SMTP path)
-          SMTP_HOST: smtp.gmail.com
+          SMTP_HOST: smtp.mailgun.org
           SMTP_PORT: "587"
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}

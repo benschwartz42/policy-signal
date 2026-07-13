@@ -34,7 +34,7 @@ feeds:
   - url: https://www.asahq.org/advocacy-and-asapac/fda-and-washington-alerts/washington-alerts
     name: ASA Washington Alerts
 delivery:
-  sender: Policy Signal <ben@zdkinnovations.com>
+  sender: Policy Signal <digest@news.altevarcm.com>
   subject_prefix: 'IDR Updates '
   recipients:
     - bschwartz@altevarcm.com
