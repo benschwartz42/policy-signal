@@ -1,65 +1,21 @@
 {
-  "generated_at": "2026-10-10T12:03:39.715151+00:00",
+  "generated_at": "2026-10-11T12:03:09.956503+00:00",
   "topic_count": 2,
-  "item_count": 4,
+  "item_count": 3,
   "topics": [
     {
       "name": "No Surprises Act Litigation",
       "items": [
         {
-          "title": "Health Plan Takeaways After 2nd Circ. No Surprises Act Ruling - Law360",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZmh5b0RUVGw1RGxoekJYNmZJQTFDUG1WS241dTJlQUs4Ulg2YjdkbkhxYmRWSG94Ujh5ZHRoQlRQU3F3Y0lJd2V5UjNuRUpPRmg2QnJwcDVfY1dYYnhPRVlJa2pXM0M0UVdHQkhyTlhqQ1Z4Y3JTcDY4OEo1cTczeFRtNmUxT29BNGV1bXhfaDJjaVVyVTdQR0E2RkVJQi1FdUxRYWZYbGVTS0txZEtkaXFlMWxQUHBQeHVxWC0yM1lKcU9MTXd2dXJFUV92SmpLOWo2UFpB0gFyQVVfeXFMTzRNVDAza0VfYzZTeF9GSmNPNHhNc2JWU25DcTBxQ2tPaHV4NkFGVGJuUVdNcVhiaGlXTTNrMUxiWEhvOWJSU01iMkZJdjdBMlpva1NMZUlSNks1R05wT1B4dGNUcndnUjVUNW82cWF5OXBR?oc=5",
-          "source": "Law360",
-          "published": "2026-10-09T16:07:02+00:00",
-          "published_display": "Oct 09, 2026",
-          "score": 0.85,
-          "reason": "This is a Second Circuit federal court ruling on the No Surprises Act, which directly addresses litigation and legal interpretation of the NSA—a core topic element.",
-          "summary": "The Second Circuit Court of Appeals issued a ruling on the No Surprises Act that has implications for health plan operations and compliance. While the excerpt does not provide the specific holding or case name, the ruling addresses legal questions central to NSA implementation. Health plans must review the court's interpretation to understand obligations regarding balance-billing protections and IDR processes. Revenue-cycle teams should monitor this decision for guidance on claim handling, payment determinations, and regulatory compliance requirements.",
-          "also": []
-        },
-        {
-          "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/rep-pallone-introduces-bill-replacing-no-surprises-acts-arbitration-process\" hreflang=\"en\">Rep. Pallone introduces bill replacing No Surprises Act's arbitration process</a>",
-          "url": "https://www.fiercehealthcare.com/regulatory/rep-pallone-introduces-bill-replacing-no-surprises-acts-arbitration-process",
-          "source": "Fierce Healthcare",
-          "published": null,
-          "published_display": "undated",
-          "score": 0.85,
-          "reason": "Legislative proposal to modify the IDR process established under the No Surprises Act directly addresses implementation and potential rulemaking changes to the Act's dispute resolution framework.",
-          "summary": "Rep. Frank Pallone, a principal author of the No Surprises Act, introduced legislation to replace the Independent Dispute Resolution (IDR) arbitration process for out-of-network payment disputes with a market-based benchmarking system. The proposal characterizes the current IDR system as \"broken,\" suggesting the Pallone bill aims to modify how disputes between plans/insurers and providers over balance-billing and out-of-network rates are resolved. If enacted, this would fundamentally alter the No Surprises Act's implementation mechanism for settling payment disagreements. This matters for revenue-cycle teams because changes to the IDR process directly affect how out-of-network payment disputes are adjudicated and could shift reimbursement methodologies away from the current arbitration-based approach.",
-          "also": [
-            {
-              "title": "Bill would overhaul controversial Independent Dispute Resolution process - Healthcare Finance News",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObEw5bjAxQjU4bnZwYkt0SFRpNWFfMUppbk8tbkZYbTBXemM5aXh3Y2FjQ0J1NXRoLWpUSGliUGFmcW9NcjZUQlIyZVlmWE82LWZzSEV1bVZBVldIbnRZbHJ6Y3NpSE9pdWcyUEsyYVQwUXptVWpRbk9LdUpvUU1jQXJfRWNyZGgxNXExX3V1MnhKOG9FdVdwQzN0aXUzTjI0Y19WZXhSMUphSXRGdFdLWjgtcEl0QQ?oc=5",
-              "source": "Healthcare Finance News"
-            },
-            {
-              "title": "Pallone Bill Would End Surprise Billing Arbitration in 2028 and Set Out-of-Network Pay at Insurers' Median Rates - Medical Daily",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNakkyMmZrb3dfUldFM2t4SEFGWjBaQmM0REpnU3ZtaEp6ckNjZzBEb1piTjVEYWpTZzVCRE42YlZTMEUyREt6Y0hjVEdwdEJGQnNiUTR3RjI2NVo1bDRkY3UzNUt6Y2p5ZXJRckJZQUc0cjZsdTRKbHlDSFp3dGl3cVIzaHUwNzh2REh3SWozSE8zNDg?oc=5",
-              "source": "Medical Daily"
-            },
-            {
-              "title": "Rep. Pallone introduces bill replacing No Surprises Act's arbitration process - Fierce Healthcare",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbDdjSjhRc3RzY21ILThvZW16N2pFLWlTQnUxM3l0MXRSaVdVdXNGVDZCeUZjNkxYLXpuN1hBRUQ3MTNNOHc3bTEyWFRLMjVuaVZ4dXdoNTJtcUZhSy00X3cxOW5zVzRrcVE0TkcwZ2JHQnlJSUZUb1l4UHNGclJVaE1wS0I4Tlgta2pzSEsyMEM2S0JxQnpfUk80a1dOOTNPX1RPYTc0VkVDcDI3VlRaUkpNWnBWY3REOFhN?oc=5",
-              "source": "Fierce Healthcare"
-            }
-          ]
-        },
-        {
-          "title": "New legislation seeks to shuffle the deck chairs on the sinking No Surprises Act - Competitive Enterprise Institute",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUG5GUkdCa1Z2TWZycHRMMkphZTlTdmxqMkNhZHhyQTU2NW1jNHpPb1RteXJzNEVZWHJHV1ZTQk55NnVOcVBEVkcwU29DTDNFSElaQWZJUHUzaE1meTgyN3dMaEQ5dXRkRnQzS2FhY0V5WTRWeDVQMzcwa3ktd2hZWUkySzA5V2lucTRvcDRoREN3dzRRdVBBVG5FaU1sQXRLYXJoag?oc=5",
-          "source": "Competitive Enterprise Institute",
-          "published": "2026-10-09T18:43:35+00:00",
+          "title": "Doctors decry No Surprises Act fix - Politico",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX3R0bEpLWWw5TGFwTkdRc1puaGV6anBKMDh6eng4c0xvYThOWlhUd0dTZ0VUdDF3Yno0bnFtOU4wbzN5M2p0aTFOaGU4SVBXbTV0WE1NMEZWODRONFF5QUQ4OTZJSldjdkJYWUdHN1AwZ0JvR0p5cFlmQndITWdLeHBScEx3RVd0QzFpaURwX000RHhiVUxlalZrOGNEWDQxUU41SWNnVjNldw?oc=5",
+          "source": "Politico",
+          "published": "2026-10-09T14:00:00+00:00",
           "published_display": "Oct 09, 2026",
           "score": 0.75,
-          "reason": "The article discusses new legislative proposals related to the No Surprises Act, which directly addresses rulemaking and legal/policy changes affecting the Act's implementation, though the excerpt alone does not provide specific legislative details needed to assess concrete impact.",
-          "summary": "The Competitive Enterprise Institute has published commentary on newly proposed legislation aimed at modifying the No Surprises Act's framework. While the excerpt does not specify the legislative proposal details, effective dates, or sponsoring agencies, the article addresses legislative efforts to reshape the Act's implementation, which affects how balance-billing protections and dispute resolution processes operate. Revenue-cycle teams should monitor specific legislative language and any resulting amendments to HHS/CMS guidance or IDR procedures that could alter compliance requirements and claims processing workflows.",
-          "also": [
-            {
-              "title": "Radiologists criticize congressman’s proposed No Surprises Act shakeup - Radiology Business",
-              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRXp2UERoaVpsM3d2VVBaNFowXzItU3ZaMFZoc1BTOFo5NEU0U3FOTk1YMzI4N29ORzhfOUxHdU5JSFBLYkgtSWZQUDJpZGdaM0lxcHdMcXVuLUhLWmF1VWllZ2lzRWJsNnkxNzhOcmRFc2RyN3h4TDA3TklkYmgxMy1wZHk5WVYtTURURUtLTTNNWXNHLXRJUTlDNWM2VXFnZk1Iak50UmJ3ajNUUnZQNzBfMnFkNGMzWjhibk1Oa05VVFptSzNGNnVTWVd1WWhwbmRNWS1sNkxnRkdHU0Mw?oc=5",
-              "source": "Radiology Business"
-            }
-          ]
+          "reason": "The article addresses physician reactions to a No Surprises Act fix or regulatory action, which directly pertains to implementation and enforcement of the federal law, though the excerpt alone lacks specific details about the regulatory change itself.",
+          "summary": "Physicians have expressed opposition to a specific fix or adjustment to the No Surprises Act implementation, according to reporting in Politico. The article indicates there is physician dissatisfaction with a particular regulatory action or policy modification related to the Act, though the excerpt does not specify which agency implemented the change, what the specific fix entails, its effective date, or which healthcare revenue-cycle functions are affected. This development is relevant to revenue-cycle teams because physician advocacy against regulatory modifications could signal pending changes to balance-billing protections, IDR processes, or reimbursement rules that directly impact claim processing and payment disputes.",
+          "also": []
         }
       ]
     },
@@ -67,21 +23,26 @@
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "Michigan Attorney General Sues Blue Cross, Alleging Its 65% Market Share Raises Premiums and Cuts Provider Pay - inkl",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcXdrdW5BdWpZbW1CRmVjRDBaQ1VuczBRV28xNzZHYmdnRWswVjRLNWFkSkZCUDJRV3lpeE1KdnItM2hFZzd0RTNkMXBPdnphVE9ZMTFBU2xONzRxOFhpMGV6ekVCOG1DaXduR3VaZGZ3YzNad2xwZV9pOXBLNzJJMmhDRlU0a0M5X0MxR2sxcHlncGpUclNWQ0k5bEFrcEs3RHZEU253dnBDVlRiNVV2Z0M0ckYxYkVkaUhsRGVLREpIWkVwakVwWEZ4bDRkR0U?oc=5",
-          "source": "inkl",
-          "published": "2026-10-10T03:00:32+00:00",
-          "published_display": "Oct 10, 2026",
+          "title": "Federal audit seeks $47M refund from UnitedHealthcare - Star Tribune",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOXdFMndqdVFDZGNBMVNWeWZfcTlrTGc4bDBvY2lOM3oxNzFwcm9wOHowTFc4UnlFSEcybVRuUzhFeDByUFRaTHBlV1g4cm0wZTc2YnVfYlFuQThYcGg1ZEpwV1M0Z0w4SUVnWlFGaFJ6dUIzX3UzeGdwdl9aUXJNOHQ1b2VySTRXWmw3ZTZLN2NJZFZy?oc=5",
+          "source": "Star Tribune",
+          "published": "2026-09-17T07:00:00+00:00",
+          "published_display": "Sep 17, 2026",
           "score": 0.95,
-          "reason": "This is a state attorney general enforcement action against a major BCBS payer (Blue Cross Blue Shield of Michigan) alleging anticompetitive conduct involving premium increases and provider payment cuts, directly matching the topic's scope of payer litigation and regulatory enforcement.",
-          "summary": "Michigan's Attorney General filed a lawsuit against Blue Cross Blue Shield of Michigan, alleging that its 65% market share in the state enables it to raise premiums for consumers and reduce payments to healthcare providers. The complaint targets anticompetitive conduct stemming from the insurer's dominant market position. This action affects all Michigan-based providers contracting with Blue Cross and all state residents with Blue Cross coverage, and is significant for revenue-cycle teams as it may result in regulatory constraints on payer rate-setting practices or market remedies that could impact future payment negotiations and network participation terms.",
-          "also": [
-            {
-              "title": "Michigan Attorney General Sues State’s Blue Cross Health Insurer - Bloomberg.com",
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlNIZDIwLWEtNzM4dF9oOWJLQTNvMEVNTXBmblF3eVFvcGpHTVl6TWdhZ04wYlZmWnd6dGh6NXQzbGEzd1lWeWZJeXN2dkU3VDlxNThSRDUwSXJVTEJsV3hUNi1jdmNKbXRxbjRnN1FKZC1ONnBNWVF5OVl3aWNQUFNDNVlDSnV6M1M3YjNsajB4a3ZnOXBWTGViWEF5ajQ4b2ZzcGhnTWlsa19HZ09pQ0hB?oc=5",
-              "source": "Bloomberg.com"
-            }
-          ]
+          "reason": "This reports a federal regulatory enforcement action seeking a monetary penalty from a major payer (UnitedHealthcare), which directly falls within payer litigation and enforcement activities.",
+          "summary": "A federal audit has identified that UnitedHealthcare owes approximately $47 million in refunds, according to reporting by the Star Tribune. The specific nature of the audit findings, the auditing agency, the timeline for repayment, and the underlying cause of the overpayment or billing issue are not detailed in the excerpt provided. This enforcement action against a major national payer represents a significant regulatory penalty that revenue-cycle teams should monitor, as it may signal broader compliance vulnerabilities in claims processing, billing practices, or regulatory submissions that could affect reimbursement processes and payer-provider relationships.",
+          "also": []
+        },
+        {
+          "title": "The states largest health insurer is facing a lawsuit over alleged monopoly - Spectrum News",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVWcxMUFUMm9oa1Y2cVpnbGU2WXpiYkJsTVlzUnUxbXNWY2QtYVBRd0hOdGZFMjFCWFM5SlZiQW1uV1pEX1Q4cHlVMW05RllzVGd6YnhhRG81WHNTdzVWUGhpTVd1b2pWdDFPdmF3ZkZHT3JNOHQ2SUtFVkUzSVNkSVFqNFR0dEU?oc=5",
+          "source": "Spectrum News",
+          "published": "2026-10-09T13:21:00+00:00",
+          "published_display": "Oct 09, 2026",
+          "score": 0.85,
+          "reason": "This item reports a lawsuit against a state's largest health insurer over alleged monopoly practices, which falls directly under payer litigation and enforcement activity covered by the topic definition.",
+          "summary": "A state's largest health insurer is facing a lawsuit alleging monopolistic practices. While the excerpt does not provide specific details about the lawsuit's name, filing court, defendant insurer identity, claims specifics, or timeline, the case represents regulatory/legal enforcement action against a major payer that could affect provider contracting, network management, and reimbursement practices. Revenue-cycle teams should monitor the outcome, as monopoly findings could result in penalties, network restrictions, or required policy changes affecting their payer relationships.",
+          "also": []
         }
       ]
     }
