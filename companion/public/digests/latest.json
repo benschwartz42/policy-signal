@@ -1,47 +1,20 @@
 {
-  "generated_at": "2026-10-11T12:03:09.956503+00:00",
-  "topic_count": 2,
-  "item_count": 3,
+  "generated_at": "2026-10-12T12:03:07.999415+00:00",
+  "topic_count": 1,
+  "item_count": 1,
   "topics": [
-    {
-      "name": "No Surprises Act Litigation",
-      "items": [
-        {
-          "title": "Doctors decry No Surprises Act fix - Politico",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX3R0bEpLWWw5TGFwTkdRc1puaGV6anBKMDh6eng4c0xvYThOWlhUd0dTZ0VUdDF3Yno0bnFtOU4wbzN5M2p0aTFOaGU4SVBXbTV0WE1NMEZWODRONFF5QUQ4OTZJSldjdkJYWUdHN1AwZ0JvR0p5cFlmQndITWdLeHBScEx3RVd0QzFpaURwX000RHhiVUxlalZrOGNEWDQxUU41SWNnVjNldw?oc=5",
-          "source": "Politico",
-          "published": "2026-10-09T14:00:00+00:00",
-          "published_display": "Oct 09, 2026",
-          "score": 0.75,
-          "reason": "The article addresses physician reactions to a No Surprises Act fix or regulatory action, which directly pertains to implementation and enforcement of the federal law, though the excerpt alone lacks specific details about the regulatory change itself.",
-          "summary": "Physicians have expressed opposition to a specific fix or adjustment to the No Surprises Act implementation, according to reporting in Politico. The article indicates there is physician dissatisfaction with a particular regulatory action or policy modification related to the Act, though the excerpt does not specify which agency implemented the change, what the specific fix entails, its effective date, or which healthcare revenue-cycle functions are affected. This development is relevant to revenue-cycle teams because physician advocacy against regulatory modifications could signal pending changes to balance-billing protections, IDR processes, or reimbursement rules that directly impact claim processing and payment disputes.",
-          "also": []
-        }
-      ]
-    },
     {
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "Federal audit seeks $47M refund from UnitedHealthcare - Star Tribune",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOXdFMndqdVFDZGNBMVNWeWZfcTlrTGc4bDBvY2lOM3oxNzFwcm9wOHowTFc4UnlFSEcybVRuUzhFeDByUFRaTHBlV1g4cm0wZTc2YnVfYlFuQThYcGg1ZEpwV1M0Z0w4SUVnWlFGaFJ6dUIzX3UzeGdwdl9aUXJNOHQ1b2VySTRXWmw3ZTZLN2NJZFZy?oc=5",
-          "source": "Star Tribune",
-          "published": "2026-09-17T07:00:00+00:00",
-          "published_display": "Sep 17, 2026",
-          "score": 0.95,
-          "reason": "This reports a federal regulatory enforcement action seeking a monetary penalty from a major payer (UnitedHealthcare), which directly falls within payer litigation and enforcement activities.",
-          "summary": "A federal audit has identified that UnitedHealthcare owes approximately $47 million in refunds, according to reporting by the Star Tribune. The specific nature of the audit findings, the auditing agency, the timeline for repayment, and the underlying cause of the overpayment or billing issue are not detailed in the excerpt provided. This enforcement action against a major national payer represents a significant regulatory penalty that revenue-cycle teams should monitor, as it may signal broader compliance vulnerabilities in claims processing, billing practices, or regulatory submissions that could affect reimbursement processes and payer-provider relationships.",
-          "also": []
-        },
-        {
-          "title": "The states largest health insurer is facing a lawsuit over alleged monopoly - Spectrum News",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVWcxMUFUMm9oa1Y2cVpnbGU2WXpiYkJsTVlzUnUxbXNWY2QtYVBRd0hOdGZFMjFCWFM5SlZiQW1uV1pEX1Q4cHlVMW05RllzVGd6YnhhRG81WHNTdzVWUGhpTVd1b2pWdDFPdmF3ZkZHT3JNOHQ2SUtFVkUzSVNkSVFqNFR0dEU?oc=5",
-          "source": "Spectrum News",
-          "published": "2026-10-09T13:21:00+00:00",
-          "published_display": "Oct 09, 2026",
+          "title": "Cigna allegedly ran the clock on a teen's mental health claims - Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNTNzTEMyUkUtWGRUWm4yczZ3OFJtM0VvX2EzX3RJMmVGRG1nLWlCUmI1LU05bTJMT2F1UzBiSVIxaE1JUnpLdk9BTWMxdUc3S2FUdklRNWR0LW1DQWd6TVV6OWhGX3RoS3pyRnZ5eWhEenU4VTdkOXRMaEpCNk9BMHFDOWpoZXJsVGpYb2RvWVdfYWVKOTB6dUt5SGd3NVNGMHIwTldwNmVtejNvOGdkSjVLc1FIaGVMd1lVWW15RTNtc294cFV0X1luMnpSenhoZTRaNWRObw?oc=5",
+          "source": "Insurance Business",
+          "published": "2026-09-23T07:00:00+00:00",
+          "published_display": "Sep 23, 2026",
           "score": 0.85,
-          "reason": "This item reports a lawsuit against a state's largest health insurer over alleged monopoly practices, which falls directly under payer litigation and enforcement activity covered by the topic definition.",
-          "summary": "A state's largest health insurer is facing a lawsuit alleging monopolistic practices. While the excerpt does not provide specific details about the lawsuit's name, filing court, defendant insurer identity, claims specifics, or timeline, the case represents regulatory/legal enforcement action against a major payer that could affect provider contracting, network management, and reimbursement practices. Revenue-cycle teams should monitor the outcome, as monopoly findings could result in penalties, network restrictions, or required policy changes affecting their payer relationships.",
+          "reason": "This reports an alleged claim-denial/delay practice by Cigna (a major payer) involving mental health claims, which falls directly under payer litigation and enforcement related to claims-denial suits.",
+          "summary": "Cigna is facing allegations that it deliberately delayed processing a teenager's mental health insurance claims, effectively running out the clock on coverage. The article describes a claims-handling practice by the payer that resulted in claim denials or processing delays for mental health services. This type of allegation—involving improper claims handling and potential denials by a major insurer—directly impacts revenue-cycle operations by highlighting payer enforcement exposure, claims-processing disputes, and potential regulatory scrutiny of Cigna's claim adjudication practices that revenue-cycle teams must monitor for industry-wide patterns.",
           "also": []
         }
       ]
