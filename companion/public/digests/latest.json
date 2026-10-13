@@ -1,21 +1,70 @@
 {
-  "generated_at": "2026-10-12T12:03:07.999415+00:00",
-  "topic_count": 1,
-  "item_count": 1,
+  "generated_at": "2026-10-13T12:03:28.081419+00:00",
+  "topic_count": 2,
+  "item_count": 3,
   "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "New bill would overhaul the No Surprises Act’s arbitration process - Healthcare Dive",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ0d4SFJKZGo1QnpHTk1pTzRnZGx2RE14V21BdzhLUW02Tm1jNUJiY21qWmFxYkZuTkR2dXd1RzFwSHhqSmhhQWZLX253MHJuN0IxY1ZFMnJtS25rejlMSkk1bmFIUWQzMlQ2UDFhaTJvVTgxaHNBNHlVaktJdjJjdWQwS04xdEI1LVI5NkFQNVJZOWZUSEZkb1ZWSXZSY3FuV3N1OExoSU9VTlh3cFo3a2ZaaVNDZDVLRTRN?oc=5",
+          "source": "Healthcare Dive",
+          "published": "2026-10-12T16:45:25+00:00",
+          "published_display": "Oct 12, 2026",
+          "score": 0.85,
+          "reason": "This item directly addresses proposed legislative changes to the No Surprises Act's Independent Dispute Resolution (IDR) arbitration process, which is a core component of the NSA implementation affecting revenue-cycle operations.",
+          "summary": "Healthcare Dive reports on a new bill that would modify the No Surprises Act's arbitration process, specifically the Independent Dispute Resolution (IDR) mechanism used to resolve balance-billing disputes. While the excerpt does not provide the bill's specific name, sponsor, or detailed provisions, this legislative proposal directly impacts how revenue-cycle teams will manage disputed claims and arbitration outcomes. The changes proposed could alter payment adjudication timelines, dispute procedures, or arbitrator selection criteria that currently govern IDR proceedings under the NSA. Revenue-cycle teams should monitor this bill's progress as substantive modifications to the IDR process would require operational adjustments to claim dispute management workflows.",
+          "also": [
+            {
+              "title": "ACR opposes bill to end No Surprises Act arbitration - AuntMinnie",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOVVFd3lqM0RGSFl4c3NtTGhFNW50cFFqcjIteEthQlJaZDVGVllRMU1pSy12NEtlTmpYSVNobnBRc09ndzNtaWdySHZfbFJnUzhzREI3d1k5MV9yLTlteVZ6M2lvT0NJQmNHWHdIaGhSZzFhdDcwRzZtVWQ5dWVicFd3ck9qb2d4N19ERlk1NFhPSnlFSjJrSmdBZGg2MXVjckt4d1hCa0lMekxCUThBM2pBSVRZMGFrYUQzUHhkWFdJQjA?oc=5",
+              "source": "AuntMinnie"
+            },
+            {
+              "title": "House bill targets No Surprises Act dispute arbitration - BenefitsPRO",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONS1uNFdqOFl5RlFYeUxlMU42Snd5U2wwRVFBM3BabmVyX1lZNjN5ZW52blpFRGQ4VGVEZjdBMVU4ZGt3ekpKTWZsVVdFcWF1ZDZySWtyS01SRmtBeTNSb0FGM1lGVHVsNGk5dmhMVnZTTDNIdm9lNUM2LWIzcjg0XzNWZEM3aTBEemtkRnYwSzRELUhYUUFhb2xDYw?oc=5",
+              "source": "BenefitsPRO"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "Cigna allegedly ran the clock on a teen's mental health claims - Insurance Business",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNTNzTEMyUkUtWGRUWm4yczZ3OFJtM0VvX2EzX3RJMmVGRG1nLWlCUmI1LU05bTJMT2F1UzBiSVIxaE1JUnpLdk9BTWMxdUc3S2FUdklRNWR0LW1DQWd6TVV6OWhGX3RoS3pyRnZ5eWhEenU4VTdkOXRMaEpCNk9BMHFDOWpoZXJsVGpYb2RvWVdfYWVKOTB6dUt5SGd3NVNGMHIwTldwNmVtejNvOGdkSjVLc1FIaGVMd1lVWW15RTNtc294cFV0X1luMnpSenhoZTRaNWRObw?oc=5",
-          "source": "Insurance Business",
-          "published": "2026-09-23T07:00:00+00:00",
-          "published_display": "Sep 23, 2026",
-          "score": 0.85,
-          "reason": "This reports an alleged claim-denial/delay practice by Cigna (a major payer) involving mental health claims, which falls directly under payer litigation and enforcement related to claims-denial suits.",
-          "summary": "Cigna is facing allegations that it deliberately delayed processing a teenager's mental health insurance claims, effectively running out the clock on coverage. The article describes a claims-handling practice by the payer that resulted in claim denials or processing delays for mental health services. This type of allegation—involving improper claims handling and potential denials by a major insurer—directly impacts revenue-cycle operations by highlighting payer enforcement exposure, claims-processing disputes, and potential regulatory scrutiny of Cigna's claim adjudication practices that revenue-cycle teams must monitor for industry-wide patterns.",
+          "title": "Blue Cross faces Michigan lawsuit over alleged monopoly and pricing practices - InsuranceNewsNet",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ3laaU9SaHItaXB3aElscHlid0JRcm9peExtWEdZWndIbjE4TmZaVkNXZDNjRmRRcDlDRDlONElUcElISXloalZTMzZoeXRzN3ZtcWVFXzRxNzhzNTMyMV9ZcUdGbExKSndTeWswaVZEeFk3bVduVS1PWk5URDRPbEhiQmNpekxON0NPeGl6WTYzODJBV1dEOHliNnR4c3VaWmtPUmlRRjJhZXR1S002SWduckwtMDMz?oc=5",
+          "source": "InsuranceNewsNet",
+          "published": "2026-10-12T20:27:18+00:00",
+          "published_display": "Oct 12, 2026",
+          "score": 0.95,
+          "reason": "This item reports a lawsuit against a major payer (Blue Cross) involving alleged monopoly and pricing practices, which directly falls within the payer litigation and enforcement topic.",
+          "summary": "Blue Cross is facing a lawsuit in Michigan alleging monopoly and pricing practices. The suit challenges the insurer's market dominance and pricing behavior in the state. This litigation directly impacts revenue-cycle operations as pricing and reimbursement disputes with major payers can affect provider claims processing, contract negotiations, and payment rates, making the outcome relevant for healthcare financial management and compliance monitoring.",
           "also": []
+        },
+        {
+          "title": "<a href=\"https://www.fiercehealthcare.com/payers/alignment-healthcare-sues-cms-over-its-2027-medicare-advantage-star-ratings\" hreflang=\"en\">Alignment Healthcare sues CMS over its 2027 Medicare Advantage star ratings</a>",
+          "url": "https://www.fiercehealthcare.com/payers/alignment-healthcare-sues-cms-over-its-2027-medicare-advantage-star-ratings",
+          "source": "Fierce Healthcare",
+          "published": null,
+          "published_display": "undated",
+          "score": 0.92,
+          "reason": "This is a direct Medicare Advantage regulatory enforcement action involving a payer challenging CMS sanctions/penalties through litigation, which falls squarely within the topic's scope of payer litigation and CMS/Medicare Advantage sanctions.",
+          "summary": "Alignment Healthcare filed a lawsuit against the Centers for Medicare & Medicaid Services (CMS), challenging its 2027 Medicare Advantage star ratings and alleging they were determined in violation of federal statute. Star ratings directly affect Medicare Advantage plan payments and competitive positioning, making rating determinations a material regulatory matter. The suit represents a payer challenge to CMS regulatory action and is relevant to revenue-cycle teams because MA star ratings influence plan profitability, member enrollment, and insurer payment adjustments that ultimately affect provider reimbursement and network relationships.",
+          "also": [
+            {
+              "title": "Alignment Healthcare sues CMS over its 2027 Medicare Advantage star ratings - Fierce Healthcare",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcmRoNkl3eFZoeFhPM0VnX3BDRU5UT29TSVdmMHN4TEh5TWxZNl9yeExKRjBKQzA3TjhtaXd0Qlp4ZzZpaktxa2ZNcHMxNUJHYk9zcFBVY3QtVUhNRnI5cXBXWTdJYWczazNSc1ZJLVAyNjYteW1nWE5ULTA4OUwzLVMyOExVb1I3OE92ZUJfaVhKUFdId1V1SmFJOFM1OFBSdURzMmhNV2Z0UTNUNzU1Z2RvREtNZw?oc=5",
+              "source": "Fierce Healthcare"
+            },
+            {
+              "title": "Insurer files lawsuit as CMS releases 2027 Medicare Advantage star ratings - HealthExec",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb2JOajcyUFF0cnJUVmx2QnJCNEg1cUt4c296UXdfV25qZkRsY2dFejM3U3pnTFBCRF85YWdfTU1vQUQ5eEV3NlFxZzF1c1htbkpNSFBKMDlMYmtfd2ZrbXBRMXNGaWhKZjJ0a0oxQ2Q1LVFJdjJVVUlSMDBCYUdhdWhjN0hmaFgwVExaYi1PaFI1dFhybGdpTnE0T3k0My1KdUNZczJHRm9pd2t0LTI2a0VzeWtzY0YyaE1qeXo1ejFBRUNoS21aMnJlTTBQNHc?oc=5",
+              "source": "HealthExec"
+            }
+          ]
         }
       ]
     }
