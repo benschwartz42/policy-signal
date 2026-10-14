@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-10-14T12:04:20.442632+00:00",
+  "topic_count": 2,
+  "item_count": 3,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Bill from a No Surprises Act author would end arbitration over out-of-network physician pay - Medical Economics",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYTFpNjBHOWk4MHpMaE1YNkVhaTFMSWxhX2dvRi1SeDAyYmNXTGNoSVdsQ3RZaWxZYy1yRFpKZGNDNGM2V1BNV2VSOE9oNmk5WVlpT0ZPVVh2ak9Gc1NvVENjeUIzdlNxN0hxYnFoNUpXRXVDdkZtaGZRVjV3QmJqSmxZTHpPSWJJTlBlVGd2eEs5NHU4Zm1oMXNybkVPd3g3R3VXYUZMZmEwazUxR1MzdzlmazYtblZGYWJCeXhwR3I2SU81bHBqMg?oc=5",
+          "source": "Medical Economics",
+          "published": "2026-10-13T19:38:01+00:00",
+          "published_display": "Oct 13, 2026",
+          "score": 0.85,
+          "reason": "This item directly addresses proposed legislation that would modify the No Surprises Act's Independent Dispute Resolution (IDR) process for out-of-network physician payments, which is a core component of NSA implementation and a material change to revenue-cycle operations.",
+          "summary": "A bill authored by a No Surprises Act sponsor proposes ending the arbitration process (IDR) currently used to resolve payment disputes between insurers and out-of-network physicians, fundamentally altering how out-of-network reimbursement disputes are handled. The legislation would shift from the existing independent dispute resolution framework to an alternative mechanism for determining out-of-network physician compensation. This change would directly impact healthcare providers' and payers' revenue-cycle workflows, dispute resolution timelines, and payment determination methodologies currently governed by the NSA's IDR rules. The proposal represents a significant potential modification to the federal no-surprise billing framework that has been in effect since 2022.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Cigna Sued for Profiting on Out-of-Network Ambulance Charges - Bloomberg Law News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNak5BOE5lSXhLWFlVMVBwSC1aT0lvbzFTTE1ZeVU5TkNkWmk4bGNJTUFEWEM3cjhLMXpXRWlYdmFZZUJFTmNMb2x2bTFSWnBmQUIzMzU2bkVWSENxMXNZZ3lCVGFxVHJ5M294UFRuQllwNzNqVW9KRV9KSWxvOW0zSFNUaEJmWkRsdVhxdjJ4SEVGWndSNGFaWTNPdWN0dFpyMHl0WEhvdFA2UUlJQVZBS1NkRkU?oc=5",
+          "source": "Bloomberg Law News",
+          "published": "2026-10-13T19:49:00+00:00",
+          "published_display": "Oct 13, 2026",
+          "score": 0.95,
+          "reason": "This reports a lawsuit against a major payer (Cigna) alleging improper profit practices related to out-of-network charges, which directly falls under payer litigation and enforcement involving claims-denial/reimbursement disputes.",
+          "summary": "Cigna is being sued for allegedly profiting on out-of-network ambulance charges, according to Bloomberg Law News. The lawsuit targets the payer's practices around how it handles and reimburses ambulance services provided outside its network, suggesting the company may be inappropriately benefiting from these claims. This matter is relevant to revenue-cycle teams because it involves potential payer policies that could affect how out-of-network ambulance providers are reimbursed and how disputes over such claims are handled, with potential implications for network adequacy and reimbursement rates.",
+          "also": []
+        },
+        {
+          "title": "Alignment sues CMS over 2027 Medicare Advantage star ratings crash",
+          "url": "https://www.healthcaredive.com/news/alignment-lawsuit-2027-medicare-advantage-star-ratings-cms/832774/",
+          "source": "Healthcare Dive",
+          "published": "2026-10-13T14:03:33+00:00",
+          "published_display": "Oct 13, 2026",
+          "score": 0.92,
+          "reason": "This item reports a lawsuit by a Medicare Advantage payer (Alignment) against CMS over star ratings, which is directly within the scope of payer litigation and CMS/Medicare Advantage regulatory enforcement.",
+          "summary": "Alignment Healthcare has filed a lawsuit against CMS challenging the 2027 Medicare Advantage star ratings methodology, following the company's disclosure to investors that it would pursue all available legal actions to address anticipated declines in its quality scores. The lawsuit represents a direct legal challenge by a payer to a CMS regulatory decision affecting Medicare Advantage plan ratings and financial performance. Star rating changes have direct revenue implications for MA plans through quality bonus payments and enrollment competitiveness, making this enforcement action material to payers' financial outlooks and operational strategy.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
