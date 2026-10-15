@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-10-15T12:02:55.267498+00:00",
+  "topic_count": 2,
+  "item_count": 2,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Surprise Billing Fight Splits Into Two Paths as Congress Weighs Pallone Overhaul Against Doctor-Backed Enforcement Bill - Medical Daily",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYlF2dzVJMnhQNi1lMVAzNVpkNk1vT0hmM0JyakZsdmdENV9rUF9rQ2RsbjhVQVB0VEd3eW9DSjg0eEZ2aC03MVpmZFNLLTFtcWlTeEMzNU81VVhTLW9CYVBkY1dCMFdhckZMRWF4V29GTDhxYWJTM2VSeEl1N1JuWm9PMVdQSHZ0aVpnUi1LX0d6eHZOMkZN?oc=5",
+          "source": "Medical Daily",
+          "published": "2026-10-14T22:43:00+00:00",
+          "published_display": "Oct 14, 2026",
+          "score": 0.85,
+          "reason": "The item discusses congressional legislative proposals regarding surprise billing enforcement and the No Surprises Act implementation, which directly relates to federal rulemaking and policy direction affecting the Act's enforcement mechanisms.",
+          "summary": "Congress is considering two competing legislative approaches to surprise billing: Congressman Pallone's proposed overhaul and a doctor-backed enforcement bill. The split reflects divergent priorities on how to strengthen or modify No Surprises Act enforcement, with implications for how independent dispute resolution and balance-billing protections are administered. Revenue-cycle teams should monitor these proposals as legislative changes could alter compliance requirements, IDR procedures, or enforcement timelines for out-of-network billing scenarios.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Medicare Advantage star ratings trigger stock jumps, lawsuit - Healthcare Brew",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYWtCa0Y3dll5WGwtcVFvRmRoOHlFVGt4RmM4WVFFaExQc29CTW1DZUtfbXZDWEluamR2TVlYeWZXSnI0NGVNVTRiS0RwSXZFeG5yMHNrNGtVLTBmV05ZSGE2eHAyVWxRbHNmWTB1WVR5alE0dzlQM1BEa1VxZ2gyYzdoR1M0azFIVWR4QXRqNzE1c0UzMGJRUVZtNXI1QUhD?oc=5",
+          "source": "Healthcare Brew",
+          "published": "2026-10-14T21:17:47+00:00",
+          "published_display": "Oct 14, 2026",
+          "score": 0.78,
+          "reason": "The item references a lawsuit involving Medicare Advantage, which falls within payer litigation and enforcement scope, though the excerpt alone does not provide sufficient detail about the lawsuit's nature, parties, or claims.",
+          "summary": "Medicare Advantage star ratings have triggered both stock market movement and litigation, according to Healthcare Brew. The item indicates that star-rating outcomes prompted a lawsuit, likely related to how ratings affect payer performance and financial results; however, the excerpt does not specify the lawsuit's parties, claims, relief sought, or the timing/status of proceedings. This development is relevant to revenue-cycle teams as Medicare Advantage litigation and regulatory actions involving payer performance metrics can affect network policies, reimbursement terms, and provider-payer disputes.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
