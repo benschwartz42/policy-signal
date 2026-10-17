@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-10-17T12:03:23.090360+00:00",
+  "topic_count": 2,
+  "item_count": 3,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "CMS opens petition period for 5 independent dispute resolution entities seeking recertification - American Hospital Association",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNS1rQTN2UUVaMk9QMC1XTml1RUhDMDJEUUY4MVBTVmZ2Y3ZBVFhMcFQxTlYwdG8wc1pJdERwanZxQnFCZ3lVUHZ2U0xWLXFPMDM1Ty14U21KWFZYbVRqUEtKNkQ1QV9uMVExekl6a3ZVd0toYjdwdUtGVlYxUVlEdk5ETnItZHd5aEpCSEhPejFzYkVBOHpNVUZEemhQTTBfV3VfYm1BaHluTlhvZU9fWFE4QThmY3duMEtkZlFSako2TXRFOC00S1pzbC1pOF9YU0E?oc=5",
+          "source": "American Hospital Association",
+          "published": "2026-10-16T20:02:28+00:00",
+          "published_display": "Oct 16, 2026",
+          "score": 0.85,
+          "reason": "This item directly addresses IDR entity recertification, which is a core administrative component of No Surprises Act implementation that affects the dispute resolution process revenue-cycle teams must navigate.",
+          "summary": "The Centers for Medicare & Medicaid Services (CMS) has opened a petition period for five independent dispute resolution (IDR) entities to seek recertification under the No Surprises Act. IDR entities are responsible for resolving payment disputes between health plans and providers when balance-billing disagreements arise, making their certification status critical to the functioning of the federal balance-billing protections. Revenue-cycle teams depend on certified IDR entities to process disputes, so changes to which entities are recertified will directly impact their dispute-resolution workflows and timelines.",
+          "also": []
+        },
+        {
+          "title": "Pallone’s Proposal to End IDR Arbitration Could Face Near-Term Challenges, But Signals Growing Pressure to Overhaul No Surprises Act, Sources Say - The Capitol Forum",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQQnR4dTUyQVdlemVfS3lvdUtpMlNTekhUVTRzdTZrSUs4Vk1jYXRfSWptUEROUnU2TGRhdEdsMEZPb216VmtlN3l3aFhjSDZWUHZSMG9ueE9JdGU3Rm1LSURENTFtOEtudDg2REJoTDRMNkp4b014dXFxSUNKR3BZTVJOd1pQV2gtdWQwMTE4OUtpdm5aZWhsZ2FNYXhRZGozQ3hwYURZVFRxc0I2M3JER0c1bHVndHVCbzctSTNlcGg1UTY3eFRRVk5qM3NvWkpya3V1T2ZoOGpKMTU0UkpqZGhpZFd0SFhMRDUxUVI5SGhFT3Y0NWFieVBBdjJrRWpE?oc=5",
+          "source": "The Capitol Forum",
+          "published": "2026-10-15T07:00:00+00:00",
+          "published_display": "Oct 15, 2026",
+          "score": 0.85,
+          "reason": "The article directly addresses proposed legislative changes to the Independent Dispute Resolution (IDR) process under the No Surprises Act, which is core to the topic of NSA implementation and litigation/regulatory pressure.",
+          "summary": "Rep. Pallone has proposed legislation to end the Independent Dispute Resolution (IDR) arbitration process established under the No Surprises Act, signaling growing congressional pressure to overhaul the balance-billing law. While the proposal faces near-term procedural challenges to passage, it reflects mounting concerns about the current IDR framework's effectiveness or implementation. The development indicates that stakeholders are actively seeking legislative modifications to the NSA's dispute resolution mechanisms, which revenue-cycle teams rely on for handling out-of-network billing disputes. This pressure suggests potential future changes to how IDR claims are adjudicated, directly impacting claims processing workflows and dispute resolution strategies.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/cms-proposes-ma-ghost-network-pbm-transparency-requirements\" hreflang=\"en\">CMS proposes MA 'ghost network,' PBM transparency requirements</a>",
+          "url": "https://www.fiercehealthcare.com/regulatory/cms-proposes-ma-ghost-network-pbm-transparency-requirements",
+          "source": "Fierce Healthcare",
+          "published": null,
+          "published_display": "undated",
+          "score": 0.92,
+          "reason": "CMS enforcement action proposing new transparency and compliance requirements for Medicare Advantage plans and PBMs directly affects payer regulatory obligations and revenue-cycle operations.",
+          "summary": "CMS has proposed new regulatory requirements to address Medicare Advantage 'ghost networks'—inaccurate provider directories—and to increase pharmacy benefit manager (PBM) pricing transparency. The proposal aims to codify statutory reforms that ensure MA plans maintain accurate provider listings and collect detailed pricing data from PBMs. This affects Medicare Advantage insurers' compliance obligations and impacts provider network accuracy and claims processing. For revenue-cycle teams, these requirements will likely necessitate enhanced directory verification processes, claims reconciliation workflows, and documentation of network participation to reduce claim denials based on inaccurate network status.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,20 +1,31 @@
 {
-  "generated_at": "2026-10-15T12:02:55.267498+00:00",
+  "generated_at": "2026-10-17T12:03:23.090360+00:00",
   "topic_count": 2,
-  "item_count": 2,
+  "item_count": 3,
   "topics": [
     {
       "name": "No Surprises Act Litigation",
       "items": [
         {
-          "title": "Surprise Billing Fight Splits Into Two Paths as Congress Weighs Pallone Overhaul Against Doctor-Backed Enforcement Bill - Medical Daily",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYlF2dzVJMnhQNi1lMVAzNVpkNk1vT0hmM0JyakZsdmdENV9rUF9rQ2RsbjhVQVB0VEd3eW9DSjg0eEZ2aC03MVpmZFNLLTFtcWlTeEMzNU81VVhTLW9CYVBkY1dCMFdhckZMRWF4V29GTDhxYWJTM2VSeEl1N1JuWm9PMVdQSHZ0aVpnUi1LX0d6eHZOMkZN?oc=5",
-          "source": "Medical Daily",
-          "published": "2026-10-14T22:43:00+00:00",
-          "published_display": "Oct 14, 2026",
+          "title": "CMS opens petition period for 5 independent dispute resolution entities seeking recertification - American Hospital Association",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNS1rQTN2UUVaMk9QMC1XTml1RUhDMDJEUUY4MVBTVmZ2Y3ZBVFhMcFQxTlYwdG8wc1pJdERwanZxQnFCZ3lVUHZ2U0xWLXFPMDM1Ty14U21KWFZYbVRqUEtKNkQ1QV9uMVExekl6a3ZVd0toYjdwdUtGVlYxUVlEdk5ETnItZHd5aEpCSEhPejFzYkVBOHpNVUZEemhQTTBfV3VfYm1BaHluTlhvZU9fWFE4QThmY3duMEtkZlFSako2TXRFOC00S1pzbC1pOF9YU0E?oc=5",
+          "source": "American Hospital Association",
+          "published": "2026-10-16T20:02:28+00:00",
+          "published_display": "Oct 16, 2026",
           "score": 0.85,
-          "reason": "The item discusses congressional legislative proposals regarding surprise billing enforcement and the No Surprises Act implementation, which directly relates to federal rulemaking and policy direction affecting the Act's enforcement mechanisms.",
-          "summary": "Congress is considering two competing legislative approaches to surprise billing: Congressman Pallone's proposed overhaul and a doctor-backed enforcement bill. The split reflects divergent priorities on how to strengthen or modify No Surprises Act enforcement, with implications for how independent dispute resolution and balance-billing protections are administered. Revenue-cycle teams should monitor these proposals as legislative changes could alter compliance requirements, IDR procedures, or enforcement timelines for out-of-network billing scenarios.",
+          "reason": "This item directly addresses IDR entity recertification, which is a core administrative component of No Surprises Act implementation that affects the dispute resolution process revenue-cycle teams must navigate.",
+          "summary": "The Centers for Medicare & Medicaid Services (CMS) has opened a petition period for five independent dispute resolution (IDR) entities to seek recertification under the No Surprises Act. IDR entities are responsible for resolving payment disputes between health plans and providers when balance-billing disagreements arise, making their certification status critical to the functioning of the federal balance-billing protections. Revenue-cycle teams depend on certified IDR entities to process disputes, so changes to which entities are recertified will directly impact their dispute-resolution workflows and timelines.",
+          "also": []
+        },
+        {
+          "title": "Pallone’s Proposal to End IDR Arbitration Could Face Near-Term Challenges, But Signals Growing Pressure to Overhaul No Surprises Act, Sources Say - The Capitol Forum",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQQnR4dTUyQVdlemVfS3lvdUtpMlNTekhUVTRzdTZrSUs4Vk1jYXRfSWptUEROUnU2TGRhdEdsMEZPb216VmtlN3l3aFhjSDZWUHZSMG9ueE9JdGU3Rm1LSURENTFtOEtudDg2REJoTDRMNkp4b014dXFxSUNKR3BZTVJOd1pQV2gtdWQwMTE4OUtpdm5aZWhsZ2FNYXhRZGozQ3hwYURZVFRxc0I2M3JER0c1bHVndHVCbzctSTNlcGg1UTY3eFRRVk5qM3NvWkpya3V1T2ZoOGpKMTU0UkpqZGhpZFd0SFhMRDUxUVI5SGhFT3Y0NWFieVBBdjJrRWpE?oc=5",
+          "source": "The Capitol Forum",
+          "published": "2026-10-15T07:00:00+00:00",
+          "published_display": "Oct 15, 2026",
+          "score": 0.85,
+          "reason": "The article directly addresses proposed legislative changes to the Independent Dispute Resolution (IDR) process under the No Surprises Act, which is core to the topic of NSA implementation and litigation/regulatory pressure.",
+          "summary": "Rep. Pallone has proposed legislation to end the Independent Dispute Resolution (IDR) arbitration process established under the No Surprises Act, signaling growing congressional pressure to overhaul the balance-billing law. While the proposal faces near-term procedural challenges to passage, it reflects mounting concerns about the current IDR framework's effectiveness or implementation. The development indicates that stakeholders are actively seeking legislative modifications to the NSA's dispute resolution mechanisms, which revenue-cycle teams rely on for handling out-of-network billing disputes. This pressure suggests potential future changes to how IDR claims are adjudicated, directly impacting claims processing workflows and dispute resolution strategies.",
           "also": []
         }
       ]
@@ -23,14 +34,14 @@
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "Medicare Advantage star ratings trigger stock jumps, lawsuit - Healthcare Brew",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYWtCa0Y3dll5WGwtcVFvRmRoOHlFVGt4RmM4WVFFaExQc29CTW1DZUtfbXZDWEluamR2TVlYeWZXSnI0NGVNVTRiS0RwSXZFeG5yMHNrNGtVLTBmV05ZSGE2eHAyVWxRbHNmWTB1WVR5alE0dzlQM1BEa1VxZ2gyYzdoR1M0azFIVWR4QXRqNzE1c0UzMGJRUVZtNXI1QUhD?oc=5",
-          "source": "Healthcare Brew",
-          "published": "2026-10-14T21:17:47+00:00",
-          "published_display": "Oct 14, 2026",
-          "score": 0.78,
-          "reason": "The item references a lawsuit involving Medicare Advantage, which falls within payer litigation and enforcement scope, though the excerpt alone does not provide sufficient detail about the lawsuit's nature, parties, or claims.",
-          "summary": "Medicare Advantage star ratings have triggered both stock market movement and litigation, according to Healthcare Brew. The item indicates that star-rating outcomes prompted a lawsuit, likely related to how ratings affect payer performance and financial results; however, the excerpt does not specify the lawsuit's parties, claims, relief sought, or the timing/status of proceedings. This development is relevant to revenue-cycle teams as Medicare Advantage litigation and regulatory actions involving payer performance metrics can affect network policies, reimbursement terms, and provider-payer disputes.",
+          "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/cms-proposes-ma-ghost-network-pbm-transparency-requirements\" hreflang=\"en\">CMS proposes MA 'ghost network,' PBM transparency requirements</a>",
+          "url": "https://www.fiercehealthcare.com/regulatory/cms-proposes-ma-ghost-network-pbm-transparency-requirements",
+          "source": "Fierce Healthcare",
+          "published": null,
+          "published_display": "undated",
+          "score": 0.92,
+          "reason": "CMS enforcement action proposing new transparency and compliance requirements for Medicare Advantage plans and PBMs directly affects payer regulatory obligations and revenue-cycle operations.",
+          "summary": "CMS has proposed new regulatory requirements to address Medicare Advantage 'ghost networks'—inaccurate provider directories—and to increase pharmacy benefit manager (PBM) pricing transparency. The proposal aims to codify statutory reforms that ensure MA plans maintain accurate provider listings and collect detailed pricing data from PBMs. This affects Medicare Advantage insurers' compliance obligations and impacts provider network accuracy and claims processing. For revenue-cycle teams, these requirements will likely necessitate enhanced directory verification processes, claims reconciliation workflows, and documentation of network participation to reduce claim denials based on inaccurate network status.",
           "also": []
         }
       ]
