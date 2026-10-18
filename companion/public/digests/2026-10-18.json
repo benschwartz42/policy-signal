@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-18T12:03:08.936956+00:00",
+  "topic_count": 1,
+  "item_count": 2,
+  "topics": [
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Blue Cross antitrust lawsuit alleges insurer overcharged Michigan - Top Class Actions",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWkNJM0NzaWVoMEZKanJCY0lMMkg1TTk1V0loMjZBdjJqbXQ1bXZKT19IQkdWZTF1SHoxMUlMN3NyU241TXhzUEh4aHpFdEdzNVZTeDNFOXFrc29JUHhRZU5KVmRDTVRrV29uYlpHazcyelJDbXBNWHo2SVdTVTdCb3FIQ2VpT1d3c0xpS0J0TnNIS2RHMjBDZGkzWk93d2d3dmxaemNBWDhCQjRUS2czOVh0Y3UwcmROVDFQRzRSQTdMTWhxbnc?oc=5",
+          "source": "Top Class Actions",
+          "published": "2026-10-17T15:07:13+00:00",
+          "published_display": "Oct 17, 2026",
+          "score": 0.92,
+          "reason": "This reports an antitrust lawsuit against a Blue Cross entity (a major BCBS payer) for alleged overcharging, which directly falls under payer litigation and enforcement actions that revenue-cycle teams monitor.",
+          "summary": "An antitrust lawsuit has been filed against Blue Cross alleging that the insurer overcharged customers in Michigan. The suit represents a significant enforcement action against a major Blue Cross Blue Shield entity for potentially anticompetitive pricing practices. Revenue-cycle teams should monitor this case as antitrust findings against payers can result in penalties, rate adjustments, and settlements that affect reimbursement structures and payer-provider relationships. The outcome may influence how this payer negotiates contracts and sets rates going forward.",
+          "also": []
+        },
+        {
+          "title": "SMH and United Healthcare at odds on Medicare Advantage pact - Sarasota Herald-Tribune",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb0c4VXNPTEVYZFk4YkViX1Jqd2dxcVp2bVJ1NHV3TXZIRUlCTDRDc2dYRDh3NU1XRVRJZzd3NXpBUl9FWUR3dkRVeE43WXNldmVZTWlBU0hQVmpnOHI2ZThhZUtWZTFqRFhZREpoa1AyS3pDemt3V1ppejFZVHpYbjYtVC1ZeFZZMURKdFFhaEViclY0dzdNSTdzR3BLUE84V09aNlVHV0xTTEdNazVjSVFOb09qWmpXNHVxMTlGS1d1SWc3Sm14Y21ncmtCMzFFVDU4TG5LSQ?oc=5",
+          "source": "Sarasota Herald-Tribune",
+          "published": "2026-10-17T20:02:00+00:00",
+          "published_display": "Oct 17, 2026",
+          "score": 0.78,
+          "reason": "This reports a contractual dispute between a provider system (SMH) and UnitedHealthcare over Medicare Advantage terms, which falls within payer-provider litigation and enforcement actions affecting revenue-cycle operations.",
+          "summary": "Sarasota Memorial Hospital (SMH) and UnitedHealthcare are in a dispute over the terms of their Medicare Advantage agreement, according to reporting by the Sarasota Herald-Tribune. While the excerpt does not provide specific details on the nature of the disagreement, contract disputes between major provider systems and large insurers like UnitedHealthcare typically involve reimbursement rates, network status, claims processing, or payment terms that directly impact provider revenue cycles. This type of payer-provider conflict can result in payment delays, claim denials, or network exclusions that affect billing operations. The case is relevant to healthcare revenue-cycle teams as it exemplifies the ongoing tensions between providers and major Medicare Advantage insurers that can escalate to formal litigation or regulatory involvement.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
