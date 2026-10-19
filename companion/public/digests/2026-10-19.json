@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-10-19T12:03:29.846017+00:00",
+  "topic_count": 2,
+  "item_count": 4,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "How the No Surprises Act’s nonprofit arbitrators are operating like 'mini gods' and getting rich doing it - STAT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeTRpR3YxcE9hTDhhbkxGeFJhZGNPamlqQ0lNSndRNlFCZmFsZ1NMdjIySUswSFY2OXFMN0pBQTRuSEh2Zzd1UnBOakEtU1UtWl9TYm1oNG94WlkyVDdzcUVrMWtwci11WDFYbUtZRzBGX0ZOOTYyMGNTXzJFSWJtMS1md2JlcEM1WEdMUURsZlliMzRFOHA3U2wyN2Q0VjBmSmc?oc=5",
+          "source": "STAT",
+          "published": "2026-10-19T08:33:19+00:00",
+          "published_display": "Oct 19, 2026",
+          "score": 0.85,
+          "reason": "The article directly addresses the Independent Dispute Resolution (IDR) arbitrator system under the No Surprises Act, examining operational practices and compensation structures that affect how the IDR process functions.",
+          "summary": "STAT reports on concerns about how nonprofit arbitrators administering the No Surprises Act's Independent Dispute Resolution (IDR) process are operating, specifically examining their compensation practices and decision-making authority. The article characterizes these arbitrators as functioning with significant power and financial incentives in the IDR system, which resolves payment disputes between insurers and healthcare providers when they cannot agree on out-of-network costs. These operational practices directly impact the balance-billing and payment dispute resolution mechanisms central to No Surprises Act implementation, making arbitrator conduct and compensation structures relevant to revenue-cycle teams managing IDR claims and outcomes.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Cigna sued over out-of-network addiction treatment payments - Beinsure",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUkJVNkJDNnczM0IzYVZkc2xoTXJoeWdlWVFUdUNNQWVOWk9UZGllT3JvWnNFYzdJRTZjR0VZREphQ0ZLWlkwVVJOak1kUXdQWlR6VzFfWk9tODByb2dQUEktY0tuMXF1em9EY0VQTHg4N3dCSDJhc3VWbDJaS0RjeDM1ajRDZk1PWlBxaGFxMA?oc=5",
+          "source": "Beinsure",
+          "published": "2026-09-25T07:00:00+00:00",
+          "published_display": "Sep 25, 2026",
+          "score": 0.95,
+          "reason": "This reports a lawsuit against a major payer (Cigna) involving claims-denial and payment practices for out-of-network services, which directly falls under payer litigation enforcement and affects revenue-cycle operations.",
+          "summary": "Cigna has been sued over its handling of out-of-network addiction treatment payments. The lawsuit concerns Cigna's payment practices and reimbursement policies for addiction treatment services provided outside the insurer's network. This litigation is relevant to healthcare revenue-cycle teams as it addresses payer reimbursement disputes and out-of-network payment practices that directly impact provider cash flow and claims processing procedures, particularly in the behavioral health sector.",
+          "also": []
+        },
+        {
+          "title": "Medicare Advantage Members Who Rely on Wrong Doctor Listings Would Owe Only In-Network Costs Under CMS Proposal - Medical Daily",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQkFqaE52V2ppUEdxdktHb1FzRDZJVEVOSHBMb1Q4NGlsY2d6MGd4alNTUjJEVkszWjJRLWloLWltNHV6akRBeVZ1S3FwVVpVMnJ0Q0RPTkxMcW44RjhLY0R2SWZyeTZYWm56Tm1pZ01nRS1EOFIwS21lWTgyQmtGZGdPVEQ1VV8xMHU4S21jWXNJbXRwLVZ2cm51MnZIQQ?oc=5",
+          "source": "Medical Daily",
+          "published": "2026-10-19T10:15:45+00:00",
+          "published_display": "Oct 19, 2026",
+          "score": 0.87,
+          "reason": "This item reports a CMS regulatory proposal that directly affects Medicare Advantage payer policies on member cost-sharing and provider network disputes, which is enforcement-related payer regulation within the scope of revenue-cycle impact.",
+          "summary": "The Centers for Medicare & Medicaid Services (CMS) has proposed a rule requiring Medicare Advantage plans to limit member out-of-pocket costs to in-network rates when members receive care from providers listed incorrectly in plan directories. This proposal addresses a long-standing problem where MA members face unexpected balance bills when relying on inaccurate provider network information. The change would shift financial responsibility from members to plans when directory errors occur, effectively restricting MA payers' ability to pass through out-of-network costs in such situations. Revenue-cycle teams should monitor this proposal's finalization, as it will affect claims processing, denials, and member liability determinations for affected MA plans.",
+          "also": []
+        },
+        {
+          "title": "87,000 Iowans face Medicare Advantage plan cancellations. What to know - The Des Moines Register",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbDR4WDZUTUZsaFBqbnE4T1dWSF8wOEhOcXdlYnVod09tT2p4dS05OVp6SnlMakh1RXRGdjRjcGVPOUtOX3ZCRUVYWTlzeEZHVTRUUGRXMFNXZWUzU1JXcVVUT1otcEZybzZjZG5XbW1acUVUbDl1TmV0b2FSWHU0bTNrd3pWYWd0bDJRaGNLZ0Zvb3J0Q0o0N04wSjJSdkhiTTA2WlVfNms5MHYzQXhBMXF0MHhQd3ZRLVlrZHhhU2Z4ak13RGJ4UVlzbw?oc=5",
+          "source": "The Des Moines Register",
+          "published": "2026-10-19T10:50:00+00:00",
+          "published_display": "Oct 19, 2026",
+          "score": 0.72,
+          "reason": "Medicare Advantage plan cancellations represent a significant payer action affecting beneficiary enrollment and claims processing workflows, falling within CMS/Medicare Advantage enforcement scope, though the item appears to focus on consumer impact rather than litigation or regulatory sanctions.",
+          "summary": "Approximately 87,000 Iowans enrolled in Medicare Advantage plans face plan cancellations, according to reporting by The Des Moines Register. While the excerpt does not specify the underlying cause, effective date, or which payers are involved, plan cancellations represent a material payer action that disrupts beneficiary coverage and claims routing for revenue-cycle operations. Medicare Advantage plan changes trigger member notification requirements, disenrollment processing, and potential claims complications as patients transition between coverage options. Revenue-cycle teams must prepare for associated changes in claim submission, authorization protocols, and patient eligibility verification during the transition period.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
