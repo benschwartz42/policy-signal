@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-20T12:03:15.429900+00:00",
+  "topic_count": 1,
+  "item_count": 1,
+  "topics": [
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "<a href=\"https://www.fiercehealthcare.com/payers/commercial-plans-mental-health-provider-directories-routinely-inaccurate-secret-shopper\" hreflang=\"en\">Commercial plans' mental health provider directories routinely inaccurate, secret shopper study finds</a>",
+          "url": "https://www.fiercehealthcare.com/payers/commercial-plans-mental-health-provider-directories-routinely-inaccurate-secret-shopper",
+          "source": "Fierce Healthcare",
+          "published": null,
+          "published_display": "undated",
+          "score": 0.72,
+          "reason": "This study documents systematic directory inaccuracy by commercial payers that could support enforcement actions and provider litigation claims over network adequacy and access failures, which are enforcement concerns relevant to payer litigation.",
+          "summary": "A secret shopper study found that commercial health plans' mental health provider directories are routinely inaccurate, with fewer than 25% of calls to listed providers resulting in scheduled appointments due to outdated contact information and directory errors. The findings document systemic network adequacy failures across multiple payers' directories. This research provides evidence that could support regulatory enforcement actions by state attorneys general and member/provider litigation regarding payer failures to maintain accurate, accessible network information—a key revenue-cycle concern as directory failures directly impact patient access and can trigger coverage disputes.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
