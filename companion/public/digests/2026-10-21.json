@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-10-21T12:03:09.221454+00:00",
+  "topic_count": 2,
+  "item_count": 3,
+  "topics": [
+    {
+      "name": "Federal IDR",
+      "items": [
+        {
+          "title": "CMS releases 2 qualifying payment amount audits - American Hospital Association",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR3cybUthMVpoQ3JTM0ZrQjA3d3ZQcUlOeU90Ry1oTWdqM2F6Q2pWMTRrSjY1R21SVmk3MFdkRlZWUjB0TVpkMHdxRmZhcV9EdDhGTzRiUC1TbDJaTE9rU3lEQnRwRWF1UXMxR1YtUmU2MUhNWmJYam9XdjA5MVM0aHNXWGlMUU9fZHVlSEthNHJoUWJDd3NN?oc=5",
+          "source": "American Hospital Association",
+          "published": "2026-10-20T21:16:44+00:00",
+          "published_display": "Oct 20, 2026",
+          "score": 0.85,
+          "reason": "CMS audits of qualifying payment amounts directly impact IDR eligibility determinations and dispute resolution outcomes under the No Surprises Act, as the QPA is the central metric for triggering and framing IDR disputes.",
+          "summary": "CMS has released two qualifying payment amount (QPA) audits, which are critical to the IDR process since the QPA serves as the benchmark for determining whether out-of-network claims are eligible for federal dispute resolution and establishes the payment target range for arbitrators. These audits assess the accuracy and compliance of QPA calculations by health plans, which directly affect revenue-cycle teams' ability to challenge denied or underpaid claims through IDR. The audits represent CMS enforcement activity on a foundational component of the No Surprises Act's dispute mechanism.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Jefferson Health-Independence contract dispute worries Jefferson patients with IBX Medicare Advantage plans - Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbXVHX2NLQVUxMjBLaEl2QXZvUV9QMXdQV1J4SzdFVy15cHpxVnFYemtWZ2I1WGloSE84eVBHdFdvTEdpU3huYnZyZk9nQlBhSjRvTUZyLXBEa1YwQk5EdGdvLU1OSUc0Y01TMEFRLUFPVHBhLWR4ZDhLbXlaLTJUZVFXZk1IYldXRW9CZDY4STZwck0?oc=5",
+          "source": "Inquirer.com",
+          "published": "2026-10-21T09:01:00+00:00",
+          "published_display": "Oct 21, 2026",
+          "score": 0.92,
+          "reason": "This reports a contract dispute between a major provider system (Jefferson Health) and a payer (Independence Blue Cross/IBX), directly affecting Medicare Advantage members and triggering potential network/coverage disruptions—a core payer-provider enforcement and contractual conflict that impacts revenue cycle.",
+          "summary": "Jefferson Health and Independence Blue Cross (IBX) are engaged in a contract dispute that threatens to disrupt care for Jefferson patients enrolled in IBX Medicare Advantage plans. The disagreement centers on contract terms and could result in Jefferson facilities being removed from IBX's network or patients losing coverage, creating immediate uncertainty for affected members and potential claims and billing complications for the Jefferson revenue-cycle team. This type of high-stakes payer-provider dispute directly affects claim submission, payment processing, and patient financial responsibility determinations, making it critical for revenue teams to monitor resolution timelines and interim payment policies.",
+          "also": []
+        },
+        {
+          "title": "UnitedHealth’s OptumHealth Must Remain in Opioid Lawsuits, Judge Rules - Law Commentary",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1hIZDRhNlNDMEdpLXY3cDJRS2FIQ0M2a1ozTTkzZTVvSjhtTlVvdnVtbTRTNXltZ01aTEJHN3g1UnVLUF9uclM4ci1yWktFMktONHhySEpyZkpkc2tUYUFTdDBmeEhQZ25abU1XVFRpNTdscllCbk1vWGxraC1WQTRBU0pVUGtjRDlfRVFBRVEzZUlz?oc=5",
+          "source": "Law Commentary",
+          "published": "2026-10-20T21:02:54+00:00",
+          "published_display": "Oct 20, 2026",
+          "score": 0.85,
+          "reason": "This is a litigation matter involving UnitedHealth/OptumHealth (a major payer), specifically a judicial ruling on whether the defendant must remain in opioid-related lawsuits—a clear enforcement and litigation development affecting a major health insurer.",
+          "summary": "A judge has ruled that UnitedHealth's OptumHealth division must remain as a defendant in opioid litigation, rejecting an apparent motion to dismiss or exit the lawsuits. The ruling affects UnitedHealth Group and its subsidiary OptumHealth in ongoing opioid-related claims. This litigation development is relevant to revenue-cycle teams because major payer settlements and enforcement actions can affect payer financial stability, claims-payment capacity, and network relationships with providers.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
