@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-10-22T12:03:52.270409+00:00",
+  "topic_count": 2,
+  "item_count": 3,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Arkansas Independent Dispute Resolution (IDR) Determinations Under the No Surprises Act, 2025 - Arkansas Center for Health Improvement - ACHI",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHh5S3Bic0JqaEVLeFdPbjM4NVc5NU1qSk5Md2EyNU90RlpiWWNuTUFudHhqaV9DU1BwLTM3ejRjcjY4cTRlTGNlT2FuVmFUZGQ5TC1MOGVOS2tUSUNXdjZaZHdhczdDN0ZUWThKdUk2WEdoSFNKc0pHSDNSeTNGZGloamJ6cEE1eHNPV2F6bUowdU9zUHp4MTFJRTVkQ2U4NHFmaHVQc2N0dkxMREhUR3JtNmI3Tmt4bnNKUDRR?oc=5",
+          "source": "Arkansas Center for Health Improvement - ACHI",
+          "published": "2026-10-16T13:42:51+00:00",
+          "published_display": "Oct 16, 2026",
+          "score": 0.75,
+          "reason": "This item directly addresses IDR determinations under the No Surprises Act in a specific state, which falls within the topic's scope of NSA implementation and the IDR process, though the excerpt alone does not contain sufficient detail to confirm whether it reports on rule changes, litigation, or enforcement actions.",
+          "summary": "The Arkansas Center for Health Improvement (ACHI) has published data or analysis on Independent Dispute Resolution (IDR) determinations under the No Surprises Act for 2025. IDR is the federal mechanism established by the NSA for resolving payment disputes between insurers and healthcare providers when a provider receives less than the requested amount. This Arkansas-specific report provides insights into how the IDR process is functioning at the state level under the federal NSA framework. Revenue-cycle teams benefit from state-level IDR data to understand dispute resolution trends, outcomes, and potential impacts on cash flow and reimbursement recovery strategies.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Nessel files federal antitrust lawsuit against Blue Cross Blue Shield of Michigan - Michigan Advance",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMm94b2Z0Q1U5UXN5dXgwSmt0aUhIS0V0Q3NfVmFDaUROMklKYUlHRk9yWnNsMTI0eVZieW9zYUtOZXV0TFJ4aXNzdFh5SjRTWHJQQlppUnQ4MGRkTWZsUE5SUFc1WEpIb3Y3YzRCSl80NFdIQ2xCZGRmTjRvVWFNcnBtZ3htWHpHSmFFU043NWh5YlBmWGFqTzRzTFBSX1l1YmU2UEI5ZzAtTHljRVQ0WEVmaFZWZ1lWbUtYYjVR?oc=5",
+          "source": "Michigan Advance",
+          "published": "2026-10-08T07:00:00+00:00",
+          "published_display": "Oct 08, 2026",
+          "score": 0.95,
+          "reason": "This is a state attorney-general antitrust enforcement action against a major Blue Cross Blue Shield payer, directly matching the litigation and regulatory enforcement category in the topic definition.",
+          "summary": "Michigan Attorney General Dana Nessel filed a federal antitrust lawsuit against Blue Cross Blue Shield of Michigan (BCBSM), one of the state's largest health insurers. The suit alleges anticompetitive conduct by the payer, though the excerpt does not specify the particular claims, remedies sought, or effective dates. This enforcement action directly impacts provider networks and claims processing practices that revenue-cycle teams must navigate, and may affect payer policies on network status, reimbursement rates, and claims adjudication.",
+          "also": []
+        },
+        {
+          "title": "Alignment Health sues over 2027 star ratings - Modern Healthcare",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEJxUmtfTmExVWVOZTRjakZDM1k0dkRRcmdzeUNGWUpoclpmUmY0ZDBsYXJ2N0FjdWhmWlU4TXFOX202Ml9hLWpXaGJQWjYyT3Q0bnE3aTlLZV9SdEh2aktNNFV6SDJOUlQteTQxTF9Lc191STFwNmlybTJRM084ZWJ4bGZfLTBfWkg5X0ZfTTlubnZSTEczZzJxcw?oc=5",
+          "source": "Modern Healthcare",
+          "published": "2026-10-12T07:00:00+00:00",
+          "published_display": "Oct 12, 2026",
+          "score": 0.75,
+          "reason": "This reports litigation involving a health plan (Alignment Health) against a regulatory entity over Medicare Advantage star ratings, which directly impacts payer operations and regulatory enforcement—a core component of payer litigation.",
+          "summary": "Alignment Health has filed a lawsuit challenging CMS's 2027 Medicare Advantage star ratings methodology or application. The suit represents a payer challenging federal regulatory enforcement actions that affect plan performance metrics and potentially financial penalties or market standing. Star rating disputes can result in reduced enrollment, lower payment rates, and competitive disadvantages, making this enforcement action material to payers' operational and financial planning in the Medicare Advantage space.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}

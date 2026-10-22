@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-21T12:03:09.221454+00:00",
+  "generated_at": "2026-10-22T12:03:52.270409+00:00",
   "topic_count": 2,
   "item_count": 3,
   "topics": [
     {
-      "name": "Federal IDR",
+      "name": "No Surprises Act Litigation",
       "items": [
         {
-          "title": "CMS releases 2 qualifying payment amount audits - American Hospital Association",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR3cybUthMVpoQ3JTM0ZrQjA3d3ZQcUlOeU90Ry1oTWdqM2F6Q2pWMTRrSjY1R21SVmk3MFdkRlZWUjB0TVpkMHdxRmZhcV9EdDhGTzRiUC1TbDJaTE9rU3lEQnRwRWF1UXMxR1YtUmU2MUhNWmJYam9XdjA5MVM0aHNXWGlMUU9fZHVlSEthNHJoUWJDd3NN?oc=5",
-          "source": "American Hospital Association",
-          "published": "2026-10-20T21:16:44+00:00",
-          "published_display": "Oct 20, 2026",
-          "score": 0.85,
-          "reason": "CMS audits of qualifying payment amounts directly impact IDR eligibility determinations and dispute resolution outcomes under the No Surprises Act, as the QPA is the central metric for triggering and framing IDR disputes.",
-          "summary": "CMS has released two qualifying payment amount (QPA) audits, which are critical to the IDR process since the QPA serves as the benchmark for determining whether out-of-network claims are eligible for federal dispute resolution and establishes the payment target range for arbitrators. These audits assess the accuracy and compliance of QPA calculations by health plans, which directly affect revenue-cycle teams' ability to challenge denied or underpaid claims through IDR. The audits represent CMS enforcement activity on a foundational component of the No Surprises Act's dispute mechanism.",
+          "title": "Arkansas Independent Dispute Resolution (IDR) Determinations Under the No Surprises Act, 2025 - Arkansas Center for Health Improvement - ACHI",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHh5S3Bic0JqaEVLeFdPbjM4NVc5NU1qSk5Md2EyNU90RlpiWWNuTUFudHhqaV9DU1BwLTM3ejRjcjY4cTRlTGNlT2FuVmFUZGQ5TC1MOGVOS2tUSUNXdjZaZHdhczdDN0ZUWThKdUk2WEdoSFNKc0pHSDNSeTNGZGloamJ6cEE1eHNPV2F6bUowdU9zUHp4MTFJRTVkQ2U4NHFmaHVQc2N0dkxMREhUR3JtNmI3Tmt4bnNKUDRR?oc=5",
+          "source": "Arkansas Center for Health Improvement - ACHI",
+          "published": "2026-10-16T13:42:51+00:00",
+          "published_display": "Oct 16, 2026",
+          "score": 0.75,
+          "reason": "This item directly addresses IDR determinations under the No Surprises Act in a specific state, which falls within the topic's scope of NSA implementation and the IDR process, though the excerpt alone does not contain sufficient detail to confirm whether it reports on rule changes, litigation, or enforcement actions.",
+          "summary": "The Arkansas Center for Health Improvement (ACHI) has published data or analysis on Independent Dispute Resolution (IDR) determinations under the No Surprises Act for 2025. IDR is the federal mechanism established by the NSA for resolving payment disputes between insurers and healthcare providers when a provider receives less than the requested amount. This Arkansas-specific report provides insights into how the IDR process is functioning at the state level under the federal NSA framework. Revenue-cycle teams benefit from state-level IDR data to understand dispute resolution trends, outcomes, and potential impacts on cash flow and reimbursement recovery strategies.",
           "also": []
         }
       ]
@@ -23,25 +23,25 @@
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "Jefferson Health-Independence contract dispute worries Jefferson patients with IBX Medicare Advantage plans - Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbXVHX2NLQVUxMjBLaEl2QXZvUV9QMXdQV1J4SzdFVy15cHpxVnFYemtWZ2I1WGloSE84eVBHdFdvTEdpU3huYnZyZk9nQlBhSjRvTUZyLXBEa1YwQk5EdGdvLU1OSUc0Y01TMEFRLUFPVHBhLWR4ZDhLbXlaLTJUZVFXZk1IYldXRW9CZDY4STZwck0?oc=5",
-          "source": "Inquirer.com",
-          "published": "2026-10-21T09:01:00+00:00",
-          "published_display": "Oct 21, 2026",
-          "score": 0.92,
-          "reason": "This reports a contract dispute between a major provider system (Jefferson Health) and a payer (Independence Blue Cross/IBX), directly affecting Medicare Advantage members and triggering potential network/coverage disruptions—a core payer-provider enforcement and contractual conflict that impacts revenue cycle.",
-          "summary": "Jefferson Health and Independence Blue Cross (IBX) are engaged in a contract dispute that threatens to disrupt care for Jefferson patients enrolled in IBX Medicare Advantage plans. The disagreement centers on contract terms and could result in Jefferson facilities being removed from IBX's network or patients losing coverage, creating immediate uncertainty for affected members and potential claims and billing complications for the Jefferson revenue-cycle team. This type of high-stakes payer-provider dispute directly affects claim submission, payment processing, and patient financial responsibility determinations, making it critical for revenue teams to monitor resolution timelines and interim payment policies.",
+          "title": "Nessel files federal antitrust lawsuit against Blue Cross Blue Shield of Michigan - Michigan Advance",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMm94b2Z0Q1U5UXN5dXgwSmt0aUhIS0V0Q3NfVmFDaUROMklKYUlHRk9yWnNsMTI0eVZieW9zYUtOZXV0TFJ4aXNzdFh5SjRTWHJQQlppUnQ4MGRkTWZsUE5SUFc1WEpIb3Y3YzRCSl80NFdIQ2xCZGRmTjRvVWFNcnBtZ3htWHpHSmFFU043NWh5YlBmWGFqTzRzTFBSX1l1YmU2UEI5ZzAtTHljRVQ0WEVmaFZWZ1lWbUtYYjVR?oc=5",
+          "source": "Michigan Advance",
+          "published": "2026-10-08T07:00:00+00:00",
+          "published_display": "Oct 08, 2026",
+          "score": 0.95,
+          "reason": "This is a state attorney-general antitrust enforcement action against a major Blue Cross Blue Shield payer, directly matching the litigation and regulatory enforcement category in the topic definition.",
+          "summary": "Michigan Attorney General Dana Nessel filed a federal antitrust lawsuit against Blue Cross Blue Shield of Michigan (BCBSM), one of the state's largest health insurers. The suit alleges anticompetitive conduct by the payer, though the excerpt does not specify the particular claims, remedies sought, or effective dates. This enforcement action directly impacts provider networks and claims processing practices that revenue-cycle teams must navigate, and may affect payer policies on network status, reimbursement rates, and claims adjudication.",
           "also": []
         },
         {
-          "title": "UnitedHealth’s OptumHealth Must Remain in Opioid Lawsuits, Judge Rules - Law Commentary",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1hIZDRhNlNDMEdpLXY3cDJRS2FIQ0M2a1ozTTkzZTVvSjhtTlVvdnVtbTRTNXltZ01aTEJHN3g1UnVLUF9uclM4ci1yWktFMktONHhySEpyZkpkc2tUYUFTdDBmeEhQZ25abU1XVFRpNTdscllCbk1vWGxraC1WQTRBU0pVUGtjRDlfRVFBRVEzZUlz?oc=5",
-          "source": "Law Commentary",
-          "published": "2026-10-20T21:02:54+00:00",
-          "published_display": "Oct 20, 2026",
-          "score": 0.85,
-          "reason": "This is a litigation matter involving UnitedHealth/OptumHealth (a major payer), specifically a judicial ruling on whether the defendant must remain in opioid-related lawsuits—a clear enforcement and litigation development affecting a major health insurer.",
-          "summary": "A judge has ruled that UnitedHealth's OptumHealth division must remain as a defendant in opioid litigation, rejecting an apparent motion to dismiss or exit the lawsuits. The ruling affects UnitedHealth Group and its subsidiary OptumHealth in ongoing opioid-related claims. This litigation development is relevant to revenue-cycle teams because major payer settlements and enforcement actions can affect payer financial stability, claims-payment capacity, and network relationships with providers.",
+          "title": "Alignment Health sues over 2027 star ratings - Modern Healthcare",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEJxUmtfTmExVWVOZTRjakZDM1k0dkRRcmdzeUNGWUpoclpmUmY0ZDBsYXJ2N0FjdWhmWlU4TXFOX202Ml9hLWpXaGJQWjYyT3Q0bnE3aTlLZV9SdEh2aktNNFV6SDJOUlQteTQxTF9Lc191STFwNmlybTJRM084ZWJ4bGZfLTBfWkg5X0ZfTTlubnZSTEczZzJxcw?oc=5",
+          "source": "Modern Healthcare",
+          "published": "2026-10-12T07:00:00+00:00",
+          "published_display": "Oct 12, 2026",
+          "score": 0.75,
+          "reason": "This reports litigation involving a health plan (Alignment Health) against a regulatory entity over Medicare Advantage star ratings, which directly impacts payer operations and regulatory enforcement—a core component of payer litigation.",
+          "summary": "Alignment Health has filed a lawsuit challenging CMS's 2027 Medicare Advantage star ratings methodology or application. The suit represents a payer challenging federal regulatory enforcement actions that affect plan performance metrics and potentially financial penalties or market standing. Star rating disputes can result in reduced enrollment, lower payment rates, and competitive disadvantages, making this enforcement action material to payers' operational and financial planning in the Medicare Advantage space.",
           "also": []
         }
       ]
