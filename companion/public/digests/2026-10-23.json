@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-23T12:03:29.186872+00:00",
+  "topic_count": 2,
+  "item_count": 5,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Employers, insurers can review the No Surprises Act dispute umpires - BenefitsPRO",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV3RyVXJnZ2JxVUZ4emlXcVNFWk9lYi0yaUIxNk5RcGl0dmpDNG04TGloY2g4RFVxR2RhYkVfZW1iSDJjaVJDcllqcURmNktWeVh1S2VidVlacGZtamt3YzJ6dWxJYy1TX0hwSHl6b25NR0poTDJOa1phYjY3S2ZlYl96eFo5U2g2SlZsNzdwaUpLR2JhNlVRNHg2Z01zeGFKZ3N6dlFCTWpHdw?oc=5",
+          "source": "BenefitsPRO",
+          "published": "2026-10-22T23:07:43+00:00",
+          "published_display": "Oct 22, 2026",
+          "score": 0.78,
+          "reason": "The item addresses the Independent Dispute Resolution (IDR) process under the No Surprises Act, which is a core component of the federal law's implementation and directly affects revenue-cycle operations through dispute resolution mechanisms.",
+          "summary": "Employers and insurers can now review and evaluate the independent dispute resolution (IDR) arbitrators—called 'umpires'—who adjudicate No Surprises Act balance-billing disputes. The article discusses how stakeholders in the healthcare system can assess these neutral arbitrators who make binding decisions on out-of-network billing cases under the federal law. This development matters for revenue-cycle teams because understanding and potentially challenging IDR arbitrator qualifications and decision patterns directly impacts claims adjudication outcomes and financial recovery in balance-billing disputes.",
+          "also": [
+            {
+              "title": "How No Surprises Act disputes shift costs to workers - Modern Healthcare",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRnNsWkNBYkd1eS1xc1RfdEQ5OFpUVDhLaFV6WEd6TldkaUVwQnk3UzlPMmdpMnBBVUpuYzk0eElpMzFwcUdhU3Y4TkE5cDhhYi16LVlNc2VKNVozUUtHbkhrYlF4RlMzbFdEM2h2S0ZLQ2hDZWk4Q0JzNFIxdUV4dmY0dHVpekMxTVBGOW1IZ0U?oc=5",
+              "source": "Modern Healthcare"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Michigan AG sues Blue Cross Blue Shield of Michigan over alleged health insurance monopoly - Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQc3JtOHNveXhtODFwaERRaFdfTFNMQ3Y2OFVrdkVuWWlWY1ViNVEzdEVGbmkwc2daM0N2RGRYWHYzTVBabkc5QWdSNkluRjRoQ0R5ZjRSV3p5aFpyTTZYb2lyQ0tBdzdpQmRwSDZPZFBseDBCd2pReElaMlNnRW9LMU1fTGFiNzlBY1BiNVhHNThvdnNwM2lHSjFiNmRwSkZVQ0dzQ2lPTHl1ek9TazB4ekVZYVJSOFg5OEpSM1hKSzA3eDhsMFJRQ2dvXzJ5dDZyM1NMcUpsQTFhU1lRZEd6QWpNVnJVXzhCbTlIag?oc=5",
+          "source": "Insurance Business",
+          "published": "2026-10-08T07:00:00+00:00",
+          "published_display": "Oct 08, 2026",
+          "score": 0.95,
+          "reason": "This is a state attorney-general lawsuit against a major BCBS payer (Blue Cross Blue Shield of Michigan) for alleged monopolistic practices, which directly fits the payer litigation and enforcement topic.",
+          "summary": "Michigan's Attorney General has filed a lawsuit against Blue Cross Blue Shield of Michigan alleging monopolistic practices in the health insurance market. As a state AG enforcement action targeting a Blues plan operator, this litigation directly impacts payer regulatory compliance and could result in sanctions, remedies, or behavioral restrictions affecting how the payer manages claims, network contracting, and pricing—all material considerations for healthcare revenue-cycle teams contracting with or billing through BCBS of Michigan.",
+          "also": []
+        },
+        {
+          "title": "Healthfirst Sues CMS Over 3.5-Star Medicare Advantage Rating, Saying the Drop Will Cost It Over $380 Million - Medical Daily",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZEFYTFMxcF9ZOGFBckg0SFVBRE5oRzUzY2tNcDVYUDRUc2FVRXZUNVh2US15Wms2SFR3OFBTamhHZ2lCcEdCeURiMndaYnNKZEJ4S2lMcm4xN0M2TVh2VTZlbUtmbXF6bFBVeFVvRE9ZQWlORFlPYnBpX2RCY0N2elBEVkc5T0FGMzBxS3pPckd4aFYy?oc=5",
+          "source": "Medical Daily",
+          "published": "2026-10-23T10:30:18+00:00",
+          "published_display": "Oct 23, 2026",
+          "score": 0.92,
+          "reason": "This is a direct lawsuit by a health insurer (Healthfirst, a Medicare Advantage payer) against CMS involving a regulatory rating action with substantial financial consequences, which falls squarely within payer litigation and regulatory enforcement.",
+          "summary": "Healthfirst, a Medicare Advantage insurer, has filed a lawsuit against CMS challenging a downgrade of its star rating from a higher level to 3.5 stars, claiming the rating reduction will cost the plan over $380 million. Star ratings directly affect Medicare Advantage payment rates and member enrollment, making such downgrades materially damaging to payer finances and operations. This litigation represents a payer challenge to CMS regulatory action with direct revenue implications for the health plan and potential precedent for how rating disputes are resolved.",
+          "also": []
+        },
+        {
+          "title": "<a href=\"https://www.fiercehealthcare.com/payers/maryland-sues-optum-over-defective-computer-system\" hreflang=\"en\">Optum seeks to have Maryland lawsuit over 'defective' computer system dismissed</a>",
+          "url": "https://www.fiercehealthcare.com/payers/maryland-sues-optum-over-defective-computer-system",
+          "source": "Fierce Healthcare",
+          "published": null,
+          "published_display": "undated",
+          "score": 0.92,
+          "reason": "This is a state attorney-general enforcement action against a major payer (Optum/UnitedHealth) alleging fraud in Medicaid administration, which directly matches the litigation and regulatory enforcement category.",
+          "summary": "Maryland Attorney General Anthony Brown sued Optum in August alleging fraud for providing a defective computer system for the state's Medicaid behavioral health program. Optum is now seeking to have the lawsuit dismissed. The case involves allegations that Optum's faulty system defrauded Maryland's Medicaid program. Revenue-cycle teams should monitor this case as outcomes could impact how payers are required to operate their IT systems and manage Medicaid claims, setting precedent for state enforcement of payer operational failures.",
+          "also": []
+        },
+        {
+          "title": "UnitedHealthcare, Humana Medicare Advantage cancellations to affect 1 million",
+          "url": "https://thehill.com/policy/healthcare/6165587-unitedhealthcare-humana-medicare-advantage-cancellations-to-affect-1-million/",
+          "source": "The Hill Health",
+          "published": "2026-10-22T16:46:26+00:00",
+          "published_display": "Oct 22, 2026",
+          "score": 0.85,
+          "reason": "UnitedHealthcare and Humana plan cancellations affecting 1 million members represent significant payer policy changes impacting provider networks and enrollment, which directly affects revenue-cycle operations and network status implications for healthcare providers.",
+          "summary": "UnitedHealthcare and Humana are discontinuing Medicare Advantage plans affecting approximately 1 million members, with the canceled plans primarily being Preferred Provider Organizations (PPOs) that offer more flexible provider networks. This payer action alters network composition and member access to providers, creating operational implications for healthcare organizations regarding claims processing, network contracting, and member attribution. The shift away from PPO products may concentrate remaining enrollment in more restrictive plan designs, affecting provider reimbursement patterns and revenue-cycle workflows. Revenue-cycle teams should anticipate changes in claim submission requirements, authorization processes, and member eligibility verification related to these plan discontinuations.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
