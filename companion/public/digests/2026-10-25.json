@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-25T12:04:17.954091+00:00",
+  "topic_count": 1,
+  "item_count": 1,
+  "topics": [
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Florida Supreme Court opens door to some lawsuits against insurers - Florida Phoenix",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdFkwOHVpVXRjM1Y0d3BxWG5SUWllMlJOWmJrMFlVNUE5RENuRTV0X1pzSzU3eFRwZnFVUXZXeDVwaXZsUVEwMlBYSndWTmlONXJKU1pUWHBIdlQ5bVBkQnotU3A5dVVLaXc4NVFPRUctRnMwZnNLXzJtcDRQNDJnbTh4elRGM3RkVkpqSWJqS3pYem1vb2FVdnBqSGVMMnBLcm9iMTBuNV8?oc=5",
+          "source": "Florida Phoenix",
+          "published": "2026-10-22T21:59:22+00:00",
+          "published_display": "Oct 22, 2026",
+          "score": 0.78,
+          "reason": "A Florida Supreme Court ruling that opens avenues for lawsuits against insurers represents regulatory/judicial enforcement activity directly relevant to payer litigation, though the excerpt alone does not specify which insurers, claim types, or legal doctrines are involved.",
+          "summary": "The Florida Supreme Court issued a ruling that expands the ability of plaintiffs to bring lawsuits against insurers, creating new litigation pathways that were previously unavailable or restricted. While the excerpt does not detail the specific insurers affected, claim types involved, or the precise legal standards established, the decision represents a material shift in Florida's litigation environment for insurance-related claims. This ruling could significantly increase exposure for major health insurers operating in Florida and may expose new categories of claims related to claims denial, benefits disputes, or fiduciary obligations. Revenue-cycle teams should monitor the full decision and any subsequent cases to understand how this expands liability risk and potential claims volume.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
