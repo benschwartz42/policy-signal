@@ -1,21 +1,38 @@
 {
-  "generated_at": "2026-10-26T12:02:47.260303+00:00",
+  "generated_at": "2026-10-27T12:03:56.217375+00:00",
   "topic_count": 1,
-  "item_count": 1,
+  "item_count": 2,
   "topics": [
     {
-      "name": "No Surprises Act Litigation",
+      "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "ASA Pushes Back on Insurer Claims That the No Surprises Act IDR Process Is Broken",
-          "url": "https://www.asahq.org/advocacy-and-asapac/fda-and-washington-alerts/washington-alerts/2026/09/asa-pushes-back-on-insurer-claims-that-the-no-surprises-act-idr-process-is-broken",
-          "source": "ASA Washington Alerts",
-          "published": null,
-          "published_display": "undated",
-          "score": 0.92,
-          "reason": "The item addresses disputes over the Independent Dispute Resolution (IDR) process implementation under the No Surprises Act, directly covering enforcement and operational issues central to the law's administration.",
-          "summary": "The American Surgical Association (ASA) has responded to insurance industry arguments that the No Surprises Act's Independent Dispute Resolution (IDR) process is malfunctioning, challenging insurer claims about the process. This dispute reflects ongoing tension over how the IDR mechanism—a core component of the No Surprises Act designed to resolve billing disputes between providers and insurers—operates in practice. The exchange is significant for revenue-cycle teams because the IDR process directly impacts how out-of-network billing disputes are resolved and whether balance-billing protections are effectively enforced. The disagreement between provider and insurer stakeholders over IDR functionality may influence future regulatory adjustments or litigation related to the No Surprises Act's implementation.",
+          "title": "Michigan AG Dana Nessel sues Blue Cross Blue Shield, alleges insurance monopoly - WWMT",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNU3N0dHhIcVRfZTB1ZFMwWHVQdS05WnphamZNYjV6OHo1ZlJDbUwweGVoOUozOWkwMFBPMC1UckRKblhoNzhSY3VNRVlqX3ZFTXR3TmhjUVBnUFZDb09nTXRWRk90bHd5TldfNndGTkN1c2hfZ3ZsR2w1SmJzdnlMengzaXVmZkhpS29RVVdGek5iOGUzVE5iTkFSV0h3MG1lR25qSHByRUJlbU5QdlE3VXFUdllZd3RSS3VxSXpGT2lBZndQd2hkTlU5V2tIMU0wdkNlNTlmRS1kSFllWWsw?oc=5",
+          "source": "WWMT",
+          "published": "2026-10-08T07:00:00+00:00",
+          "published_display": "Oct 08, 2026",
+          "score": 0.95,
+          "reason": "This is a state attorney general lawsuit against a major BCBS payer (Blue Cross Blue Shield) alleging monopoly violations, which directly falls under payer litigation and enforcement actions that impact revenue-cycle operations.",
+          "summary": "Michigan Attorney General Dana Nessel has filed a lawsuit against Blue Cross Blue Shield alleging insurance monopoly practices. The suit represents enforcement action by a state AG against a major Blue Cross Blue Shield plan operator. Revenue-cycle teams should monitor this litigation as monopoly findings or settlements could result in operational changes, penalties, or restrictions on payer practices affecting provider contracting and claims processing.",
           "also": []
+        },
+        {
+          "title": "Centene sues the CMS over 2027 Medicare Advantage star ratings",
+          "url": "https://www.healthcaredive.com/news/centene-medicare-advantage-stars-lawsuit-cms-2027/833922/",
+          "source": "Healthcare Dive",
+          "published": "2026-10-26T12:55:44+00:00",
+          "published_display": "Oct 26, 2026",
+          "score": 0.92,
+          "reason": "This directly reports a payer (Centene) litigation action against CMS regarding Medicare Advantage star ratings, which is a regulatory enforcement matter involving payer sanctions and financial consequences.",
+          "summary": "Centene, a major health insurer, has filed a lawsuit against the Centers for Medicare & Medicaid Services (CMS) challenging its 2027 Medicare Advantage star ratings. The lawsuit is part of an expanding wave of insurer litigation seeking recalculation of quality scores that could result in hundreds of millions of dollars in additional payments to the payers. Star rating adjustments directly affect plan payment rates and bonuses under Medicare Advantage, making this actionable for revenue-cycle teams monitoring payer-specific rate impacts and potential payment disputes. The outcome could influence payment levels across the MA program and set precedent for other pending insurer challenges.",
+          "also": [
+            {
+              "title": "Centene sues federal health agencies over Medicare Advantage star ratings that could cost it $448M - The Business Journals",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONVdnYzdHNFBzUlNuZV9LUDdmRE5JVFAwUWVsTkNEZW5TeGtBNk4tM3B2bnZ5bWZpdnFkbDNoWDkzWUJtTXNhZjZmbnE0VHA2ZXRGbUItbXRKNHFfelI0Ylc2TVJGdUw3anlOUWhHY0ZUS0lFMjdQNXY2Q1J6TktKUE1MdFB6RTJnVWp1dFJPVTc0VGdNV0RnOE1TY1E2TGphNElqbkFuckVIOFU?oc=5",
+              "source": "The Business Journals"
+            }
+          ]
         }
       ]
     }
