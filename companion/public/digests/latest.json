@@ -1,38 +1,71 @@
 {
-  "generated_at": "2026-10-27T12:03:56.217375+00:00",
-  "topic_count": 1,
-  "item_count": 2,
+  "generated_at": "2026-10-28T12:03:09.121859+00:00",
+  "topic_count": 2,
+  "item_count": 4,
   "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "The Lower Premiums, Faster Payments Act Won’t 'Fix' the No Surprises Act’s Unbroken IDR Process - Law.com",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQWpzenhzYzFIcklsaFJ5UWNyRDEyeDU4QXdVUG13Vi1zWktkNEh2RXJ0bjhoM2thRjdBWWpiMDIyZmdHVWduOXBuWjU5QVJTbW1PRTgwS0FBdmt0M0VUX0tfdkVad2UzTkZuNGVzMmlmQ29kbDRUOUdTWHpxV3JPaHpUTjZxT25MM19zUERLZkRRMFR1c2FETmJRT0Q0XzhrM21zWVZvS0hERmEyem9Bd2xud09nMUhWMWJFamktRzBoTUoybHFmdEl5SzBhVHpX?oc=5",
+          "source": "Law.com",
+          "published": "2026-10-27T17:00:00+00:00",
+          "published_display": "Oct 27, 2026",
+          "score": 0.85,
+          "reason": "The article directly addresses the No Surprises Act's Independent Dispute Resolution (IDR) process and discusses proposed legislative changes meant to address its implementation issues, which falls squarely within NSA litigation and rulemaking impacts.",
+          "summary": "A Law.com analysis examines whether the proposed Lower Premiums, Faster Payments Act would address ongoing problems with the No Surprises Act's Independent Dispute Resolution (IDR) process. The article suggests that the proposed legislation does not adequately resolve persistent issues in the IDR system, which handles disputes over surprise medical bills and out-of-network payments. For healthcare revenue-cycle teams, this commentary indicates that current IDR process dysfunction will likely continue despite pending legislative proposals, potentially affecting claim adjudication timelines and payment recovery processes under NSA protections.",
+          "also": [
+            {
+              "title": "Congress Mulls Ways to Fix the Surprise Billing Law - MedPage Today",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96ZDhtOGstRUdranF5c2ZPbFh2WmdfeWxaMVp3QzJqcmVJNF84VWZpSkEzci1iM2dyd0d1WTR3ZWlyNVRtOWNHNmtoNUd1aXA3TXl3czNXdkNmSml2WUVZbEtHMHpNU1NiQjJXdVhmSGF2amtwaEdn?oc=5",
+              "source": "MedPage Today"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "Michigan AG Dana Nessel sues Blue Cross Blue Shield, alleges insurance monopoly - WWMT",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNU3N0dHhIcVRfZTB1ZFMwWHVQdS05WnphamZNYjV6OHo1ZlJDbUwweGVoOUozOWkwMFBPMC1UckRKblhoNzhSY3VNRVlqX3ZFTXR3TmhjUVBnUFZDb09nTXRWRk90bHd5TldfNndGTkN1c2hfZ3ZsR2w1SmJzdnlMengzaXVmZkhpS29RVVdGek5iOGUzVE5iTkFSV0h3MG1lR25qSHByRUJlbU5QdlE3VXFUdllZd3RSS3VxSXpGT2lBZndQd2hkTlU5V2tIMU0wdkNlNTlmRS1kSFllWWsw?oc=5",
-          "source": "WWMT",
-          "published": "2026-10-08T07:00:00+00:00",
-          "published_display": "Oct 08, 2026",
-          "score": 0.95,
-          "reason": "This is a state attorney general lawsuit against a major BCBS payer (Blue Cross Blue Shield) alleging monopoly violations, which directly falls under payer litigation and enforcement actions that impact revenue-cycle operations.",
-          "summary": "Michigan Attorney General Dana Nessel has filed a lawsuit against Blue Cross Blue Shield alleging insurance monopoly practices. The suit represents enforcement action by a state AG against a major Blue Cross Blue Shield plan operator. Revenue-cycle teams should monitor this litigation as monopoly findings or settlements could result in operational changes, penalties, or restrictions on payer practices affecting provider contracting and claims processing.",
+          "title": "Aetna sues over $2B Medicare Advantage star ratings loss - Modern Healthcare News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFJ6WUZjalZYWEx4OVdGcEJ0YUstYWVtdElYMU1lX25WVnlQSzBGYTh5cExyc2RnUTJNa2JhbDVrUXhlcUM3TVNYUUJZRjhYNUNGRzJGN0FsZGZUdVdMM3UwQkIwcGkwbmNtb0tDRmxJNHV5NlprdFJIazRvU2Q0MmZ1Tk1JM3c2bzMxRndiN2pObnB0UHo4?oc=5",
+          "source": "Modern Healthcare News",
+          "published": "2026-10-27T17:30:00+00:00",
+          "published_display": "Oct 27, 2026",
+          "score": 0.92,
+          "reason": "This reports litigation by a major payer (Aetna) involving Medicare Advantage operations and financial impact, directly matching the rubric's inclusion of payer lawsuits and CMS/Medicare Advantage-related enforcement matters.",
+          "summary": "Aetna has filed a lawsuit regarding a $2 billion loss connected to Medicare Advantage star ratings, according to Modern Healthcare News. Star ratings directly impact Medicare Advantage payment rates and plan competitiveness, making rating methodology disputes a material financial issue for payers and ultimately affecting provider payment and network negotiations. The litigation suggests Aetna is challenging either the star-rating calculation methodology or CMS's administration of these ratings. This matters to revenue-cycle teams because Medicare Advantage payment rates—which hinge on star ratings—influence payer contracting terms, payment levels, and potentially prior-authorization stringency that providers negotiate and manage operationally.",
+          "also": [
+            {
+              "title": "Lawsuits against CMS’ Medicare Advantage star ratings pile up as Aetna files complaint - HealthExec",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaS1UMUtEN1NVc3NUX0ptQXdpOW16d0FuT1VYREx6SFVtQm9ycmt6cVZXaWh1cExGWFgyN3JrRlBhNDBVR1dFVWhKSF91Q2NxdE5LTGwzaGFCM2tKT0J2WVU4ZHhucTM3My1raVVOWW44SF9VOTZnWDZwQXZILWZUQkpldm50MWR3bVh0NVdQMkJhMmp3dThMVzc1NDAyUlZXbUdlek1iUmd1QW50QWVQVEN0RTgxbDVqVkJIakpVbFJWSmQwUzdHamJDRzNtWFl0U1VqODJ6MTNPSVNHd3ZaYjNVOA?oc=5",
+              "source": "HealthExec"
+            }
+          ]
+        },
+        {
+          "title": "Late check torpedoes $5.2M settlement, sparks $20M insurer lawsuit - Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUHdTZ0tKMnlBZDNqOHcwU2JISkF2ZGw1aGctbVB5Sy1YNHZnX0RqQ2ZkMF90VGlkQTZxSDJFQWdSa2J5Rm5rV0pmYUJwSDdqSXAxVENSNXk4bWhUWE5MdnNNSnJoQlRjRmV3ZDI2RzcyX01GYjNqT1FzODNNREU3Rjl1amZ6OWFDLVJxMmJ5U1pvdGFnNTN5MUJzMHBHeElKVDRLelhpV3BqRkhrR2R4Qkk3aHRxMlZ1UTlfUTlRbjE2S1dJQ3FvWXkya1RRVUh0Um5nRFljRVBHZw?oc=5",
+          "source": "Insurance Business",
+          "published": "2026-10-27T09:33:19+00:00",
+          "published_display": "Oct 27, 2026",
+          "score": 0.85,
+          "reason": "This item reports on a lawsuit involving an insurer and a settlement dispute, which directly falls within payer litigation and enforcement actions that impact revenue-cycle operations.",
+          "summary": "A $5.2 million settlement between a health insurer and another party has collapsed due to a late check payment, triggering a $20 million counterclaim lawsuit by the insurer against the responsible party. The failure to deliver settlement funds on time voided the original agreement and escalated the dispute into significant litigation exposure. This type of settlement breakdown and resulting enforcement action demonstrates the financial and operational risks that arise from claims-resolution disputes and payer contractual obligations, which directly impact revenue-cycle teams managing claim settlements and payment cycles.",
           "also": []
         },
         {
-          "title": "Centene sues the CMS over 2027 Medicare Advantage star ratings",
-          "url": "https://www.healthcaredive.com/news/centene-medicare-advantage-stars-lawsuit-cms-2027/833922/",
-          "source": "Healthcare Dive",
-          "published": "2026-10-26T12:55:44+00:00",
-          "published_display": "Oct 26, 2026",
-          "score": 0.92,
-          "reason": "This directly reports a payer (Centene) litigation action against CMS regarding Medicare Advantage star ratings, which is a regulatory enforcement matter involving payer sanctions and financial consequences.",
-          "summary": "Centene, a major health insurer, has filed a lawsuit against the Centers for Medicare & Medicaid Services (CMS) challenging its 2027 Medicare Advantage star ratings. The lawsuit is part of an expanding wave of insurer litigation seeking recalculation of quality scores that could result in hundreds of millions of dollars in additional payments to the payers. Star rating adjustments directly affect plan payment rates and bonuses under Medicare Advantage, making this actionable for revenue-cycle teams monitoring payer-specific rate impacts and potential payment disputes. The outcome could influence payment levels across the MA program and set precedent for other pending insurer challenges.",
-          "also": [
-            {
-              "title": "Centene sues federal health agencies over Medicare Advantage star ratings that could cost it $448M - The Business Journals",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONVdnYzdHNFBzUlNuZV9LUDdmRE5JVFAwUWVsTkNEZW5TeGtBNk4tM3B2bnZ5bWZpdnFkbDNoWDkzWUJtTXNhZjZmbnE0VHA2ZXRGbUItbXRKNHFfelI0Ylc2TVJGdUw3anlOUWhHY0ZUS0lFMjdQNXY2Q1J6TktKUE1MdFB6RTJnVWp1dFJPVTc0VGdNV0RnOE1TY1E2TGphNElqbkFuckVIOFU?oc=5",
-              "source": "The Business Journals"
-            }
-          ]
+          "title": "Aetna Fights Not to Pay for Transgender Cosmetic Surgery - The Daily Signal",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZWN5dzhPaU1JSmREQjFWX0JKTEFDQlg4NE1iMGZVWktwUktzNExVb1B5dmlsVExGU0s4YWtBcHhTM2RXMnBYQ0luQXdnUksyQmVQbUZSQzRwa0FZYXdhNHl1YnVnczBGeXJvSVJzUVNuYUpZQUxXWlVQRzk3dmY1MmFTaTEwMk1oWGN3Z3RkdkV4dHRKOG1qMkd5eDhPQXFYdWZKTWRFMW04emZhazE0R1FUcFZoZWt3OS02V2VDdXZlM2FYTVVYS2kxcnB1MlZYZU03MEcwTQ?oc=5",
+          "source": "The Daily Signal",
+          "published": "2026-09-30T07:00:00+00:00",
+          "published_display": "Sep 30, 2026",
+          "score": 0.72,
+          "reason": "This reports a payer (Aetna) litigation involving coverage denial and claims-payment disputes, which falls within the scope of payer litigation and enforcement actions affecting revenue cycle.",
+          "summary": "Aetna is in litigation challenging its obligation to pay for transgender cosmetic surgery, representing a coverage denial dispute. The case involves a payer's refusal to cover a specific category of procedures, which affects both member claims and provider reimbursement workflows. This litigation is relevant to revenue-cycle teams as it illustrates payer coverage policies and claims-denial disputes that directly impact claim adjudication, member benefits interpretation, and potential revenue recognition issues. The outcome could affect how similar claims are processed and reimbursed across the payer's networks.",
+          "also": []
         }
       ]
     }
