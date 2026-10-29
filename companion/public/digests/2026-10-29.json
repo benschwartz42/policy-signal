@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-10-29T12:03:05.022847+00:00",
+  "topic_count": 2,
+  "item_count": 2,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Payers demand tougher No Surprises Act umpire review process - BenefitsPRO",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPc202bkpVN3FmUGlwVmRwVTAteHFabnVlLXV1aWZiQ19RbzlyckNoNEduVUFZT2h4cjFYM0RGdjJGdUZ1SnIzTjcyeWcxMkc2eEpkdlp2V3FEYWFRMnJmN3FONXJmMGsyR1FPb3IwNmlDVkxDa2UyVDZHWkVlNHVUV1pUR21qM0tWWlZvQTd2ZnZ1Z0ZrMjhfY2pRSm9zSkpvZHc?oc=5",
+          "source": "BenefitsPRO",
+          "published": "2026-10-26T20:39:14+00:00",
+          "published_display": "Oct 26, 2026",
+          "score": 0.85,
+          "reason": "This article directly addresses payer advocacy regarding the Independent Dispute Resolution (IDR) process under the No Surprises Act, which is a core regulatory mechanism within the topic's scope.",
+          "summary": "Payers are calling for stricter oversight and review procedures within the No Surprises Act's Independent Dispute Resolution (IDR) process, which serves as the mechanism for resolving payment disputes between insurers and healthcare providers. The article reports on payer demands to strengthen the IDR umpire review process, suggesting concerns about current implementation standards. This development is relevant to revenue-cycle teams because changes to IDR procedures directly affect how out-of-network payment disputes are resolved and could impact the timeline and outcomes of balance-billing cases involving surprise bills.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "CVS sues to prevent $2B Medicare Advantage star ratings hit",
+          "url": "https://www.healthcaredive.com/news/cvs-aetna-lawsuit-medicare-advantage-star-ratings-2027-cms-2-billion/873000/",
+          "source": "Healthcare Dive",
+          "published": "2026-10-28T13:09:10+00:00",
+          "published_display": "Oct 28, 2026",
+          "score": 0.92,
+          "reason": "This reports litigation by a major payer (CVS/Aetna) challenging a CMS Medicare Advantage star-ratings action, which directly falls under payer litigation and CMS/Medicare Advantage sanctions enforcement.",
+          "summary": "CVS has filed a lawsuit challenging a $2 billion reduction in its Medicare Advantage star ratings, making it at least the fifth insurer to pursue court action against the ratings decision. The suit involves a CMS regulatory action affecting payer performance metrics and reimbursement, which has material financial consequences for the insurer. This type of litigation over Medicare Advantage star ratings and their resulting payment impact is directly relevant to healthcare payers and their regulatory exposure, though the specific claims, court, and timeline are not detailed in the excerpt provided.",
+          "also": [
+            {
+              "title": "Aetna sues CMS over star ratings, citing more than $2B at stake - Healthcare Finance News",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMzF4OHB2T2pEaFFhOFhUQlpkQzc5UEg1WHIzbWlHcW5jalRET2ZhaHhZV21Ob19LWHZCQ1B4aW56c3VkZ2NBdW1lNDFVN0FWVUFmQklqTXJXUnUycUQyd1ZmcVZyWjlZR05PY3gtR0FtaVhRTHlNS0cyUzZ5NmtoeGdMLVBoSThxTmsxcUdNSy1DMEw5RkVLeXhJR1Q?oc=5",
+              "source": "Healthcare Finance News"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
