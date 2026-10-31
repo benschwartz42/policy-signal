@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-31T12:03:08.732145+00:00",
+  "topic_count": 1,
+  "item_count": 1,
+  "topics": [
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Oklahoma pharmacies due payouts in CVS Caremark settlement - Tulsa World",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQnBuUWtmY3MtcU1qNC1XUUFEWVBCRnZxam5aVjY0U0dfaDBsUXktWUdsdWEwR0FXcHhra2hPREh1MllEYndLaUZoX0FCck5uUWtxdWpBTDJFTERMQkhVay0yekdteU81RG1aZEN0Tmwtc3FyRXBTZFdWaFJTdVRJZWNHV3gyM0d3Wm5NRjZoNjN3Y3RpaUs1THRwV0FlY0FKNnY4dEllRHhIb1o4M2J6LW9R?oc=5",
+          "source": "Tulsa World",
+          "published": "2026-10-30T22:29:24+00:00",
+          "published_display": "Oct 30, 2026",
+          "score": 0.85,
+          "reason": "This reports a settlement involving CVS Caremark (a major pharmacy benefit manager functioning as a payer intermediary), with direct financial implications for healthcare providers (pharmacies), fitting the enforcement/settlement category of the topic.",
+          "summary": "Oklahoma pharmacies are receiving payouts through a settlement with CVS Caremark, a major pharmacy benefit manager. While the excerpt does not specify the settlement amount, effective date, or underlying claims, the resolution involves financial compensation to in-state pharmacy providers. This settlement is relevant to revenue-cycle teams because PBM payment disputes and enforcement actions can affect reimbursement rates, claims adjudication processes, and provider network relationships across multiple states.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
