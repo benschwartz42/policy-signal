@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-11-01T13:03:25.348244+00:00",
+  "topic_count": 2,
+  "item_count": 4,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Trump Administration Asks Supreme Court To Limit Universal Vacatur In No Surprises Act Case - Georgetown University",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUW9tb08yVkFVSGNaR0wwTWFKZ0NDSDBKaElrY1J4bkdEZmxISjZCWjZWZ0VOUDktdmNCdXNUM1NtVVdQNlcxX2N3dExqbnZldllrWno0RGx1NVN2clNMQjBkVVkweTdqVHZob1NkeldsMXExcXlSOW0zWkR6UlJPVEhBS3h1N1YxS0xvTmYzUFVZeG8zT1doanhiaHhlTE91MVVpUUt6eUlKQy1NOHd5VC11TkxnTGZuS0o0ZmlTcmNyTGNzTnYzNEFray1BRmlieE15d2F3?oc=5",
+          "source": "Georgetown University",
+          "published": "2026-10-20T07:00:00+00:00",
+          "published_display": "Oct 20, 2026",
+          "score": 0.92,
+          "reason": "This item directly concerns federal litigation related to the No Surprises Act, specifically a Supreme Court filing by the Trump Administration that seeks to limit the scope of judicial remedies (universal vacatur) in NSA cases.",
+          "summary": "The Trump Administration has filed a brief with the Supreme Court requesting that the Court limit the use of universal vacatur in No Surprises Act litigation, seeking to narrow the scope of judicial remedies available to plaintiffs challenging NSA regulations. Universal vacatur would nullify rules nationwide, whereas the Administration appears to argue for more limited relief. This case involves interpretation of enforcement mechanisms and the remedies available when NSA rules are challenged in court. The outcome will directly affect how aggressively courts can strike down NSA regulations and whether such strikes apply nationally or only to specific parties or regions, with significant implications for the stability and implementation of balance-billing protections.",
+          "also": []
+        },
+        {
+          "title": "Agencies issue batching and bundling guidance for IDR entities - American Hospital Association",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSUNRS0FtUkxQZVExQm5UcFd0N1ZpdHg1TTdtUUk4eGVsMGxodGw0ZWZqWmliWGRES0xHR2hFeFdKS2swSVZfSS12SV9QNTVVb3NmMVpyMzUzLXZEVWpEdjB1YVdMMTNZNlluLVhsb29jZ0NZNXhSNXVjc0dHRVZ4ejRCSUdMemJQZHJrdkV0aHZhczhCczlPNDQzeVRaVFdnMGphT2hB?oc=5",
+          "source": "American Hospital Association",
+          "published": "2026-10-30T20:09:53+00:00",
+          "published_display": "Oct 30, 2026",
+          "score": 0.85,
+          "reason": "This item reports on new agency guidance regarding IDR entity operations under the No Surprises Act, which directly affects how independent dispute resolution processes function—a core component of NSA implementation that revenue-cycle teams must navigate.",
+          "summary": "Federal agencies have issued guidance to Independent Dispute Resolution (IDR) entities on batching and bundling procedures under the No Surprises Act. This guidance clarifies how IDR entities should handle multiple claims and disputes, which affects the operational procedures that healthcare providers and insurers must follow when using the federal IDR process for balance-billing disputes. Revenue-cycle teams rely on understanding IDR procedures to manage surprise billing cases and cost containment, making this regulatory clarification operationally significant for dispute resolution workflows.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Cigna Patients Seek Hefty Class In Cigna Auto Denials Suit - Law360",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uMnk0UF9haUhvT2J1WWVNWUx0WW5UUXpPV3RZaU9vT2xLTm42QktCaVJ4Z21icGRnQndyRmgzOVNENmV3a2FBYjYzcVlRSWw4WUozLVhB0gFWQVVfeXFMTW4yeTRQX2FpSG9PYnVZZU1ZTHRZblRRek9XdFlpT29PbEtObjZCS0JpUnhnbWJwZGdCd3JGaDM5U0Q2ZXdrYUFiNjNxWVFJbDhZSjMtWEE?oc=5",
+          "source": "Law360",
+          "published": "2026-10-30T22:39:00+00:00",
+          "published_display": "Oct 30, 2026",
+          "score": 0.95,
+          "reason": "This is a class-action lawsuit against Cigna involving claims denials, which directly falls under payer litigation and enforcement actions affecting revenue cycle operations.",
+          "summary": "Cigna patients have filed a class-action lawsuit alleging automatic claims denials by the insurer, according to Law360. The suit seeks to represent a class of patients harmed by what plaintiffs characterize as systematic denial practices. This litigation is significant for revenue-cycle teams because claims-denial suits against major payers like Cigna directly impact claim adjudication processes, reimbursement rates, and may result in requirements for claim reprocessing or refunds if the plaintiffs prevail.",
+          "also": []
+        },
+        {
+          "title": "$2.1 million to be distributed to Oklahoma pharmacies in settlement - KOKH",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZXJUbVVvc20xcWlUUDktUUgxSHdTS2YzUzBFaS1YNHBVOEFNeXc3SUt6Z0RISG9iMUk4X3ZjLVdNdDBqZXJHd0ZLNTZjdDBUN0c0djY1eXVmcTVmVTFWS0ZWRTNwc2JNREc0cHFiNl83QU5wWVRSU1ozUEJ1QkNhTm9Id2hvRTZYS3o5ZG1NSkpsSzYtQWNXek04TQ?oc=5",
+          "source": "KOKH",
+          "published": "2026-10-30T16:37:11+00:00",
+          "published_display": "Oct 30, 2026",
+          "score": 0.75,
+          "reason": "This settlement involving payer distribution to pharmacies relates to payer enforcement/litigation, though the excerpt lacks specifics about the underlying claim, defendant payer, or claim type that would confirm full alignment with the defined scope.",
+          "summary": "Oklahoma pharmacies will receive $2.1 million in a settlement, though the excerpt does not specify the defendant payer, the underlying claim (e.g., reimbursement disputes, claims denial, underpayment), or settlement terms. Revenue-cycle teams should monitor the full details to understand whether this involves systematic underpayment, claims-denial practices, or other reimbursement enforcement issues affecting pharmacy networks and payment rates.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
