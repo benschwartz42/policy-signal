@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-11-04T13:03:15.255536+00:00",
+  "topic_count": 1,
+  "item_count": 1,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Health insurance scam alerts, a surprise billing standoff and possible changes to pregnant worker protections: Daily Dose of health headlines - WKYC",
+          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPX0JMSUZoU080TlU0bDE3OHdaUDRhak84OTZvM0ZYdDcyeHkzMXRSZFl6V1lXVjY0RUY1WkF5ZUhJQnhDNUl0LU9fbjZyaDd3WTRHZUVFRWJsSUdMWWN2T29CaEhHajVCTGZqSmtqTlJYZjN2NnYtbXhxbEJmOEp4RThpSVZMUTNGeVNfR25CWVdXc2pkNkxvNzNhWThUczItMkIwT09KTjFMeGc3d2tIRzhFNkh0NGNrZUl2OHplTHhhOVhjQURaUWZfNlhranBMVmhSRXYwaS1tYThGRmU3c1I5MkExVHpfbzhsOUIyNUJfeVQ1SWNUdFRyakJrZWFrUmltVEh1OFFxZnV3dXV4cGg3dUJWNFBJRzFXczhJdTRCNzU4MDhIY3BtYzgtNUFqY2hSWVdzTnh0eEQ1Rno5bUdIQ3R5LTNMOEF0YXVUZUpLeDV3bzFj?oc=5",
+          "source": "WKYC",
+          "published": "2026-11-03T19:30:00+00:00",
+          "published_display": "Nov 03, 2026",
+          "score": 0.72,
+          "reason": "The item mentions 'surprise billing standoff' which directly references No Surprises Act implementation challenges, though the excerpt alone does not provide sufficient detail to confirm the scope of coverage.",
+          "summary": "A WKYC health news roundup references a 'surprise billing standoff' as part of current healthcare policy developments, alongside coverage of insurance scams and pregnant worker protections. While the excerpt does not detail the specific nature of the standoff, the mention suggests ongoing tensions or disagreements related to surprise billing/No Surprises Act implementation. The full article would need to be reviewed to confirm whether this addresses IDR process issues, balance-billing disputes, or regulatory/litigation developments affecting revenue-cycle operations. This item is relevant only if the standoff discussion involves concrete updates to NSA enforcement or rules rather than general explainer content.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}

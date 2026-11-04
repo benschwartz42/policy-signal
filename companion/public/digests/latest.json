@@ -1,31 +1,20 @@
 {
-  "generated_at": "2026-11-03T13:03:08.041212+00:00",
+  "generated_at": "2026-11-04T13:03:15.255536+00:00",
   "topic_count": 1,
-  "item_count": 2,
+  "item_count": 1,
   "topics": [
     {
-      "name": "Payer Litigation & Enforcement",
+      "name": "No Surprises Act Litigation",
       "items": [
         {
-          "title": "Directories on the Hook: CMS Proposes New Medicare Advantage Directory Rules - Epstein Becker Green",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaDgyd0lkazY2OGpEQVFqbHEzYUNYZWpVM3dtN3B0U0dCTmVRSXZYNXpzQ0g1OVAwUzdrUXJ5YXNlZHkwT0t4RzZIbFdkVGZ3a09IbjZMTlFoUVFrV3JFZUNnWU9MVEs4VjdmUV9rdnp2ak1DYXV3MVo5Wk9BZFdlLWcydUc3VnVqQnpiZHZ0cXV4WGZwaEx5c1UydjZ4SlgzWEdSOFZOUGVsNzVfLWtzaWdOYmxwTVBIaUtlNg?oc=5",
-          "source": "Epstein Becker Green",
-          "published": "2026-11-02T20:54:22+00:00",
-          "published_display": "Nov 02, 2026",
-          "score": 0.78,
-          "reason": "CMS regulatory enforcement action targeting Medicare Advantage payer operations (directory accuracy) directly impacts payer compliance obligations and potential sanctions, affecting revenue-cycle workflows around network management.",
-          "summary": "CMS has proposed new regulatory rules governing Medicare Advantage plan directories, establishing stricter requirements for payer accuracy and maintenance of provider network information. The proposed rules represent a regulatory enforcement mechanism that will hold MA plans accountable for directory deficiencies, with non-compliance potentially triggering CMS sanctions. Revenue-cycle teams are affected because inaccurate directories create claim denials, payment delays, and provider network disputes; compliance requires coordinating with payers on directory updates and managing the operational burden of verification requirements. This matters for revenue-cycle teams as CMS enforcement against payers for directory failures can reduce claim denials attributable to network status mismatches and strengthen leverage in appealing previously denied claims.",
-          "also": []
-        },
-        {
-          "title": "<a href=\"https://www.fiercehealthcare.com/payers/unitedhealthcare-nix-nearly-two-thirds-pediatric-prior-auths\" hreflang=\"en\">UnitedHealthcare eliminates prior authorization requirements on 2K pediatric services</a>",
-          "url": "https://www.fiercehealthcare.com/payers/unitedhealthcare-nix-nearly-two-thirds-pediatric-prior-auths",
-          "source": "Fierce Healthcare",
-          "published": null,
-          "published_display": "undated",
+          "title": "Health insurance scam alerts, a surprise billing standoff and possible changes to pregnant worker protections: Daily Dose of health headlines - WKYC",
+          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPX0JMSUZoU080TlU0bDE3OHdaUDRhak84OTZvM0ZYdDcyeHkzMXRSZFl6V1lXVjY0RUY1WkF5ZUhJQnhDNUl0LU9fbjZyaDd3WTRHZUVFRWJsSUdMWWN2T29CaEhHajVCTGZqSmtqTlJYZjN2NnYtbXhxbEJmOEp4RThpSVZMUTNGeVNfR25CWVdXc2pkNkxvNzNhWThUczItMkIwT09KTjFMeGc3d2tIRzhFNkh0NGNrZUl2OHplTHhhOVhjQURaUWZfNlhranBMVmhSRXYwaS1tYThGRmU3c1I5MkExVHpfbzhsOUIyNUJfeVQ1SWNUdFRyakJrZWFrUmltVEh1OFFxZnV3dXV4cGg3dUJWNFBJRzFXczhJdTRCNzU4MDhIY3BtYzgtNUFqY2hSWVdzTnh0eEQ1Rno5bUdIQ3R5LTNMOEF0YXVUZUpLeDV3bzFj?oc=5",
+          "source": "WKYC",
+          "published": "2026-11-03T19:30:00+00:00",
+          "published_display": "Nov 03, 2026",
           "score": 0.72,
-          "reason": "This represents a significant payer policy change affecting prior authorization practices, which directly impacts revenue-cycle operations; while not litigation/enforcement per se, it reflects the type of payer policy shift that often results from or relates to regulatory pressure and enforcement actions against payers over claims-denial practices.",
-          "summary": "UnitedHealthcare announced it will eliminate prior authorization requirements for more than 2,000 pediatric service codes effective December 1. This policy change removes administrative barriers that revenue-cycle teams currently navigate when processing pediatric claims, reducing claim denials and rework. The elimination of prior-auth requirements on this scale reflects broader industry pressure around claims-denial practices and streamlines the authorization process for a high-volume service category, potentially improving claim acceptance rates and cash flow for pediatric providers.",
+          "reason": "The item mentions 'surprise billing standoff' which directly references No Surprises Act implementation challenges, though the excerpt alone does not provide sufficient detail to confirm the scope of coverage.",
+          "summary": "A WKYC health news roundup references a 'surprise billing standoff' as part of current healthcare policy developments, alongside coverage of insurance scams and pregnant worker protections. While the excerpt does not detail the specific nature of the standoff, the mention suggests ongoing tensions or disagreements related to surprise billing/No Surprises Act implementation. The full article would need to be reviewed to confirm whether this addresses IDR process issues, balance-billing disputes, or regulatory/litigation developments affecting revenue-cycle operations. This item is relevant only if the standoff discussion involves concrete updates to NSA enforcement or rules rather than general explainer content.",
           "also": []
         }
       ]
