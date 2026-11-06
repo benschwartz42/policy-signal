@@ -1,20 +1,53 @@
 {
-  "generated_at": "2026-11-04T13:03:15.255536+00:00",
-  "topic_count": 1,
-  "item_count": 1,
+  "generated_at": "2026-11-06T13:15:03.650604+00:00",
+  "topic_count": 2,
+  "item_count": 3,
   "topics": [
     {
       "name": "No Surprises Act Litigation",
       "items": [
         {
-          "title": "Health insurance scam alerts, a surprise billing standoff and possible changes to pregnant worker protections: Daily Dose of health headlines - WKYC",
-          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPX0JMSUZoU080TlU0bDE3OHdaUDRhak84OTZvM0ZYdDcyeHkzMXRSZFl6V1lXVjY0RUY1WkF5ZUhJQnhDNUl0LU9fbjZyaDd3WTRHZUVFRWJsSUdMWWN2T29CaEhHajVCTGZqSmtqTlJYZjN2NnYtbXhxbEJmOEp4RThpSVZMUTNGeVNfR25CWVdXc2pkNkxvNzNhWThUczItMkIwT09KTjFMeGc3d2tIRzhFNkh0NGNrZUl2OHplTHhhOVhjQURaUWZfNlhranBMVmhSRXYwaS1tYThGRmU3c1I5MkExVHpfbzhsOUIyNUJfeVQ1SWNUdFRyakJrZWFrUmltVEh1OFFxZnV3dXV4cGg3dUJWNFBJRzFXczhJdTRCNzU4MDhIY3BtYzgtNUFqY2hSWVdzTnh0eEQ1Rno5bUdIQ3R5LTNMOEF0YXVUZUpLeDV3bzFj?oc=5",
-          "source": "WKYC",
-          "published": "2026-11-03T19:30:00+00:00",
-          "published_display": "Nov 03, 2026",
+          "title": "Agencies deny recertification of 2 independent dispute resolution entities - American Hospital Association",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaUZaUTF5R1R0V0dIZWpub1RFcUhZbDN1OGVzTDdkOGRCWEU0ZjBUSmJJVVlMYXFGaDZTUXg1TEZaa0RJRFR6TkNJSHRpRklxaDJraWFTRzFQRHpIbnU4eVc5dEkzalZKVDl6RzZ0QjFybHdWcjJDbUZjM2dJR2VSUHdDQXQ5NlpmTncwSGNfb0dWalppVnl5WjZXdWJteTFIYTB2VW11NjVSdkNmbHhlVFJnbE5JY28?oc=5",
+          "source": "American Hospital Association",
+          "published": "2026-11-05T21:22:03+00:00",
+          "published_display": "Nov 05, 2026",
+          "score": 0.92,
+          "reason": "This item directly addresses enforcement and regulatory action affecting the Independent Dispute Resolution (IDR) process, a core component of No Surprises Act implementation.",
+          "summary": "HHS, CMS, DOL, and Treasury agencies have denied recertification of two Independent Dispute Resolution (IDR) entities under the No Surprises Act. IDR entities are third-party arbitrators responsible for resolving disputes between insurers and providers over out-of-network surprise bills when the parties cannot agree on payment amounts. The denial of recertification means these entities can no longer participate in the federal IDR program, affecting how surprise billing disputes are resolved. This regulatory action impacts both healthcare providers and insurers who rely on certified IDR entities for dispute resolution under the federal balance-billing protections.",
+          "also": [
+            {
+              "title": "Two No Surprises Act arbitrators lose government contracts to decide payment disputes - STAT",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVUQ0QzZlNRUmthQ2dRMFdMV2J3SlJDSVlyYVJGUDFfWER0cTh3XzNFQUdXYWJDVG5sOTE4eVd2X20wQWo3ZWkzMF91NkVBZmRTNEc4Nm10MDllY2lvWmE5dWFDdGdJclI2LXdlSzF0RkNDUndnYVU1ZWljcnFTclFsM3dTN3h1NTdZdzV1Q0p1VlJUeXRvTS1LV3hFWmtadVZ0LTV6ckFQRlU3T0lyVG1n?oc=5",
+              "source": "STAT"
+            }
+          ]
+        },
+        {
+          "title": "Investigating RFK Jr., Fixing Surprise Billing Law May Be on Agenda for New Congress - MedPage Today",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tM2V4dkk0OG9NdzlodVFULWNWYzM4VEJTVmJ1cGhPS1BlcU1QcUI0R0VEU1F5Z2stR0JqbjVLQmhObl9RWkl2Yjl3X2hWZUVtaDVCQ09ucUdsVF9PZnF1Q0hkcVBTXzdsRGFESHVkaldCNnZXYTFwZQ?oc=5",
+          "source": "MedPage Today",
+          "published": "2026-11-04T22:40:36+00:00",
+          "published_display": "Nov 04, 2026",
           "score": 0.72,
-          "reason": "The item mentions 'surprise billing standoff' which directly references No Surprises Act implementation challenges, though the excerpt alone does not provide sufficient detail to confirm the scope of coverage.",
-          "summary": "A WKYC health news roundup references a 'surprise billing standoff' as part of current healthcare policy developments, alongside coverage of insurance scams and pregnant worker protections. While the excerpt does not detail the specific nature of the standoff, the mention suggests ongoing tensions or disagreements related to surprise billing/No Surprises Act implementation. The full article would need to be reviewed to confirm whether this addresses IDR process issues, balance-billing disputes, or regulatory/litigation developments affecting revenue-cycle operations. This item is relevant only if the standoff discussion involves concrete updates to NSA enforcement or rules rather than general explainer content.",
+          "reason": "The item signals potential legislative action to modify or fix the No Surprises Act itself, which directly impacts the legal and regulatory framework governing balance-billing protections and IDR processes that revenue-cycle teams must implement.",
+          "summary": "Congressional leaders may prioritize investigating RFK Jr. and revising the surprise billing law (No Surprises Act) during the new Congress term, according to reporting from MedPage Today. While the excerpt does not specify concrete legislative proposals, timelines, or specific regulatory changes, the indication that lawmakers view the current surprise billing law as needing fixes suggests potential amendments to the IDR process, balance-billing rules, or enforcement mechanisms. Revenue-cycle teams should monitor upcoming legislative proposals, as modifications to the No Surprises Act could alter compliance requirements, dispute resolution procedures, and financial exposure related to out-of-network claims and balance-billing protections.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Star Ratings lawsuits are piling up: What you need to know - Modern Healthcare",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2c3N0lqMXdVSXZkaFRucFBuUmhESF9ieVZjMW5IeF9XRkZuM0d3NU9zSXNQSUZjLXdvcm9vNVVURDNxZnE3UG53S0hnckI1b1pKWjFzaW10YVFPZWJJUWFaY21jd0wydGs2bVdUSW1VUXd3b0duMy1EZ3U3SDZPRkM0ZERRT2t5SlRYdWJjOUlFaEpvN3NZ?oc=5",
+          "source": "Modern Healthcare",
+          "published": "2026-11-06T11:07:57+00:00",
+          "published_display": "Nov 06, 2026",
+          "score": 0.85,
+          "reason": "Star Ratings lawsuits involving Medicare Advantage payers are regulatory enforcement actions that directly affect payer behavior, network policies, and claims/coverage decisions—all of which materially impact provider revenue cycle operations and reimbursement.",
+          "summary": "Multiple lawsuits are being filed against Medicare Advantage insurers over Star Ratings manipulation, which are quality metrics that determine payer bonuses and member satisfaction scores. These lawsuits, brought by providers, states, and members, allege that payers are denying claims, downcoding services, and restricting network access to artificially inflate their Star Ratings and secure higher CMS bonuses. The litigation targets major insurers including UnitedHealthcare and Elevance/Anthem, with cases alleging violations of ERISA fiduciary duties and state consumer protection laws. For revenue-cycle teams, these enforcement actions signal increased regulatory scrutiny of payer claims-denial practices and potential policy changes that could affect claims processing, network participation terms, and payment rates.",
           "also": []
         }
       ]
