@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-11-07T13:03:14.543179+00:00",
+  "topic_count": 1,
+  "item_count": 2,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "No Surprises Act system managers eject two umpires - BenefitsPRO",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVFRUeTlHQTNsc3JoQVpucWV3QU4zbFRaemJGbFZ4Z1RZQWl5RW5kYlBJVm9wYjR4ZW1xdkxQSmxGc0FrckhmcHdyLTM0OW10aEROaC0xdktvOFBSRV9vQ2lxTEo4STQ1SFRSVERtcXE5RWs2RmUwcWZscXpnZUU4dXBhNGZTUW1HbmZHa3h1Y1NWZmpF?oc=5",
+          "source": "BenefitsPRO",
+          "published": "2026-11-06T20:54:39+00:00",
+          "published_display": "Nov 06, 2026",
+          "score": 0.78,
+          "reason": "This item directly addresses enforcement and operational management of the No Surprises Act's Independent Dispute Resolution (IDR) process, specifically removal of IDR umpires, which constitutes a material development in NSA implementation.",
+          "summary": "The No Surprises Act system managers have removed two Independent Dispute Resolution (IDR) umpires from the federal program that resolves payment disputes between insurers and healthcare providers. This action affects the IDR process, a core mechanism under the No Surprises Act for resolving out-of-network balance billing disputes. The removal of umpires could impact the efficiency and capacity of the IDR system to process disputes, which is relevant to revenue-cycle teams managing claim denials and out-of-network payment recovery.",
+          "also": []
+        },
+        {
+          "title": "Daily Dose: Health insurance scam alerts, a surprise billing standoff and possible changes to pregnant worker protections - KHOU",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQbUZ2UkNvVmcyS0NlQUlsU3VxWUc0LUxXRlNOOGlhQUpDSXdrWDFZLTI3Ym9Rd0NtalBPQ0s1VlRfX1BteXItNTV6R2Fta0N3azJIOFBCaXN5RGs3ZVJxWTFvVFFINm9mLXNJdGlrTnk1Nlo5LXlNc0VYMk5oeXdwUlZmcnhuYTRZSlNDWnE0d3dsTHF5YzNLMGtQSlZkb1BKVjlJdmhQUVJtWkI1NWR6bDZIdDBRZlJjTVk3UmE5WnRpcVVtMDV3Q2h1enlmZHNuR1FFQ2IyVnFjbVdJbEVKZC1PbUk5YzNja2lFUVViTEpFenVhNmxYUkFtQkRDN0VRMjdCUzdZaDRDMjItRmc?oc=5",
+          "source": "KHOU",
+          "published": "2026-11-03T19:44:49+00:00",
+          "published_display": "Nov 03, 2026",
+          "score": 0.72,
+          "reason": "The item explicitly references a 'surprise billing standoff' which directly relates to No Surprises Act implementation and disputes, though the excerpt alone does not provide sufficient detail to confirm the nature of the litigation or rulemaking development.",
+          "summary": "KHOU's Daily Dose news brief references a surprise billing standoff alongside health insurance scam alerts and pregnant worker protection changes. While the excerpt title indicates coverage of surprise billing disputes relevant to No Surprises Act implementation, the provided text does not include specifics about the standoff details, parties involved, litigation status, or regulatory developments. A revenue-cycle team would need to access the full article to determine whether this represents a material development in NSA enforcement, IDR process changes, or balance-billing protections.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
