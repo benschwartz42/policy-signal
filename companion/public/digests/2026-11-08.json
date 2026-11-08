@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-11-08T13:03:14.428334+00:00",
+  "topic_count": 2,
+  "item_count": 2,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Federal Regulators Remove Two Surprise Billing Arbiters, Including One That Sided With Providers Nearly 97% of the Time - Medical Daily",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNE5hZ0lTWlZzczVoX1NqZWZlcTFtNTdMTWYzOG8zc0tRM2hNY3NLdmlqZ0tzWElwUnB4a05DYWhLWlFQSW8zX3lDbVNFY293V3ljSGhoYmlYTDNwR1VmQlV1emR4TkFmS18zZnJycGtBQ2NPQTJRRVBfbFh5WWcxSUdybUlJVlNWSnlmOFowZVlGdFc0QzQ5c2p0dE9sUQ?oc=5",
+          "source": "Medical Daily",
+          "published": "2026-11-07T13:40:14+00:00",
+          "published_display": "Nov 07, 2026",
+          "score": 0.92,
+          "reason": "This item directly addresses enforcement and implementation of the No Surprises Act through regulatory action on Independent Dispute Resolution (IDR) providers, which is a core component of the topic.",
+          "summary": "Federal regulators removed two Independent Dispute Resolution (IDR) arbiters from the No Surprises Act program, including one that ruled in favor of providers in approximately 97% of cases. The removal of arbiters with demonstrated bias toward providers represents a regulatory enforcement action to ensure the IDR process functions fairly between insurers and healthcare providers. This development affects the administration of the No Surprises Act's balance-billing dispute resolution mechanism and signals federal commitment to maintaining neutral dispute-resolution processes. For revenue-cycle teams, this action may influence IDR outcomes in pending surprise-billing disputes and suggests heightened regulatory scrutiny of arbiters' decision-making patterns.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "The Perfect Child Sued by Elevance Health over $800M in Fraudulent Billing - Behavioral Health Business",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZUZFRVdRaHRRNlZSaW02LVVLZlc3X3RjM2RzdUtGcmtQUkIzV1VvWHJKRTdxNTRIbE9vUGtuR3NLRDhxRXVaSldwaWN2ajRFTnV0N1VmZVVfTTZtUjVzeVhMcDlERl9TMDhybjAyNUNmY1A5RGtrSFpqWTFmc19BMzVUaTFiaFdtdDc5eXdxNEZuVDVJbXYxYXE2YXBhdGhYcTFNZFR1OGJ5b0lO?oc=5",
+          "source": "Behavioral Health Business",
+          "published": "2026-11-06T20:39:49+00:00",
+          "published_display": "Nov 06, 2026",
+          "score": 0.95,
+          "reason": "This is a lawsuit by a major payer (Elevance Health/Anthem) against a provider alleging fraudulent billing, which directly fits the litigation category of the topic definition.",
+          "summary": "Elevance Health has sued The Perfect Child, a behavioral health provider, alleging approximately $800 million in fraudulent billing practices. The lawsuit represents enforcement action by a major national payer against a provider for claims-related misconduct. This case is relevant to revenue-cycle teams because it highlights payer litigation strategies around billing fraud allegations and the substantial financial exposure providers face from payer enforcement actions, potentially affecting contracting relationships and claims processing procedures.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
