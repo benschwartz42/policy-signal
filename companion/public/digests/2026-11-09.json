@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-11-09T13:03:33.652840+00:00",
+  "topic_count": 1,
+  "item_count": 2,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "CMS declines to recertify credentials of two No Surprises Act arbitrators, citing performance standards - HealthExec",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPVGVQeFFZUlhzVWVUd29OWm55OEhzS1lQeE00OTB3bFhEQTdhUTJlY0wzaUZjckt5U3hVbkZSMFhacVBEY3o0aENYQUtvV1RzbVB2ZDl2UWM2Ti1NMTc1QU9RWFg3SjJKZjc3cENKbkh0OHRzUXdreHlhQ3Z4NVZJQ182SWx6LVJuT2Vra2RDcE1QRUFtRFhPaU1kNkFpSy1na2paTEYyQmVtRnZ4NXRodFNNdkFPRXFsOEMxaVdiaDVZem56djJkN0hRN0hlMjBBOThwX2EtMnZCckRtczZmSHFwN3luN20tZ0JuakVVdmI1am53YXBpLWp3?oc=5",
+          "source": "HealthExec",
+          "published": "2026-11-09T00:42:56+00:00",
+          "published_display": "Nov 09, 2026",
+          "score": 0.85,
+          "reason": "CMS enforcement action directly impacts the Independent Dispute Resolution (IDR) process under the No Surprises Act by removing arbitrators, which affects how disputes are adjudicated and has operational implications for revenue-cycle teams managing balance-billing disputes.",
+          "summary": "CMS has declined to recertify the credentials of two No Surprises Act arbitrators due to failure to meet performance standards. This enforcement action directly affects the Independent Dispute Resolution (IDR) process, which is the mechanism through which out-of-network balance-billing disputes are resolved under the federal No Surprises Act. The decertification removes arbitrators from the panel available to adjudicate disputes between providers/insurers and patients, potentially reducing resolution capacity. Revenue-cycle teams relying on the IDR process for dispute resolution should monitor arbitrator availability and ensure compliance with CMS performance expectations for any team members involved in these proceedings.",
+          "also": []
+        },
+        {
+          "title": "CMS updates No Surprises Act IDR rules for radiology disputes - Radiology Business",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTHRhV1NkQW9QaHJaUmRwLUtyMDJYRU5zMzRlUWJjdzZDOGtqQ0ZGdnk1UFBfQVNFVXJGMUtSQkhpQTYzQ2h0TlFqdVBQNWdkQ3RLRERuci1PSG40UGxNN1UxbWFna0ZncmtFZ1BBNVlOUUlxSnhocW80bDNZanJQN0RpWWl6dzdzYnUyU3haM1VSalVKWG9RelI4SHdPQTZxdEhERG82TDVaNV8zeW9kS19panhWd1o2SkE5aEVIT2RoMTA1ekFwWVBrOEJFaXc?oc=5",
+          "source": "Radiology Business",
+          "published": "2026-11-08T23:08:30+00:00",
+          "published_display": "Nov 08, 2026",
+          "score": 0.85,
+          "reason": "CMS rulemaking updates to the No Surprises Act's Independent Dispute Resolution process directly impact revenue-cycle operations and claim resolution procedures.",
+          "summary": "CMS has updated the Independent Dispute Resolution (IDR) rules under the No Surprises Act specifically addressing how radiology disputes are handled. The update modifies the procedures and requirements for resolving out-of-network radiology billing disputes through the federal IDR process. This change affects how radiology service providers and payers handle balance-billing disputes and the mechanics of the dispute resolution timeline and submission requirements. Revenue-cycle teams managing radiology claims must understand these procedural updates to ensure compliant claim submission and timely dispute resolution.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
