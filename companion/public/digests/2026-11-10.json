@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-11-10T13:04:25.289504+00:00",
+  "topic_count": 1,
+  "item_count": 4,
+  "topics": [
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Elevance Health sues over $516M Medicare star ratings loss - Modern Healthcare",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOczFFMnpGZDRiZGpQa0t2ekd4OGstYXI4U2JON0pobDNManFMeVVMR0ZvX3AtR0NSS3RLS2UwRHVaWngxcjMyaXBPN3ZlS09tREViUGN1SWx1V1ZJaEJlWk94UFJkaExXdlNwZ0JYT0tKLTU2YndGeEYyb2FOQ2VlSFl2TEE0MVdKNTdoUG9VSkJaSUE5YkVKSWwxVQ?oc=5",
+          "source": "Modern Healthcare",
+          "published": "2026-11-10T04:08:54+00:00",
+          "published_display": "Nov 10, 2026",
+          "score": 0.95,
+          "reason": "This reports a lawsuit by a major payer (Elevance/Anthem) involving Medicare Advantage sanctions and financial penalties directly related to star ratings, which is a core enforcement and litigation topic affecting payer operations and revenue.",
+          "summary": "Elevance Health has filed a lawsuit over a $516 million loss related to Medicare star ratings, representing a significant regulatory enforcement action involving one of the nation's largest health insurers. The suit challenges CMS decisions regarding star rating determinations that resulted in substantial financial penalties to the payer. This litigation directly impacts Elevance's Medicare Advantage business and demonstrates ongoing disputes between major payers and CMS over rating methodologies and their financial consequences. Revenue-cycle teams should monitor this case as outcomes could affect payer reimbursement pressures and network sustainability strategies that flow to provider payments.",
+          "also": []
+        },
+        {
+          "title": "Jefferson Health Plans sued feds over drop in its Medicare Advantage star ratings for 2027 - Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEtESFlYSXZISFB0S0VZRDFqM2s3YldpT185bVMycjVxSVhiYmNBQWJLc1FJTG1kN0w5aUdXby1XZDFBSVFXeGtrV1pTWFBiMEFLejdzRkxfS2xjX1AxU1NIOEc5MVpRZzBGRThQemVLcFRqbjBDUDU0bE5YcWkydnJBNFZfalJUYzJoajREZ0N4TTlkd2QxaEVVMlJFVU1GcUV2Mg?oc=5",
+          "source": "Inquirer.com",
+          "published": "2026-11-09T19:25:08+00:00",
+          "published_display": "Nov 09, 2026",
+          "score": 0.92,
+          "reason": "This reports a lawsuit by a Medicare Advantage payer (Jefferson Health Plans) against federal authorities over star-rating penalties, directly matching the topic's coverage of payer litigation and CMS/Medicare Advantage enforcement actions.",
+          "summary": "Jefferson Health Plans has filed a lawsuit against federal authorities challenging a decline in its Medicare Advantage star ratings for 2027. The suit contests the CMS methodology or process that resulted in the rating reduction, which directly affects the payer's performance metrics and reimbursement under the Medicare Advantage program. Star rating changes trigger financial consequences and network perception impacts that ripple through provider contracting and claims processing. This litigation is significant for revenue-cycle teams because Medicare Advantage star-rating disputes can influence payer solvency, network stability, and the likelihood of payment challenges or network changes affecting provider reimbursement.",
+          "also": [
+            {
+              "title": "University health plan sues CMS, citing $43M in expected losses over Medicare Advantage star ratings drop - HealthExec",
+              "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOb3JhTUY2TlRwVUhmdmNiTml1bFBHaG5mbzB0RHdOVUprUFA4SEJyS2UxZjRNS0dLMkU0QTdmNkxlZy1aVkhybUhOckhUTXAyMmh3TDdQTGwwUHcwTFA4RGZhdWo5WHIzU1BFMGFSbU1weEtpc0VIVUNLTEdjVFdTZ0hQQzNaMC1VaF9UaXFMSEdac1RvcWQxUzh2SEh3YXJOZEdsbXFTaGFBRWY4Q3pTVlV0ck1wZ3ZmOHhMdmFsMDNNbVphOWVVaFk0SjVIMVNlNnRRS2lVaUJRcmpZX0ZoUnZTVjM1V2VjRlRZcEE2SW1XNkZoS3pHZXd2ZnpFMWs?oc=5",
+              "source": "HealthExec"
+            }
+          ]
+        },
+        {
+          "title": "UnitedHealthcare calls Fairview lawsuit ‘mudslinging,’ asks judge to dismiss it - Star Tribune",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXR6dkFabjBmLWlUNTZzdjdqZWE1cmhpbVpvbFNqUmtjbXVic0JuT0s3SGhDN3dpN0czZmdPdERmYVpkMjJYVDZ2X2xGbTBjWE5hQmJGVGREbWVqUzNqUU9GdmlkMGRjT0sxSmZWb0VZZUZCR0VoVHlVUHB6S0RraVlqNl9HTTFCYUtWMlFyT2tLb2pzb2tGYUtrOWthOGhRdHRBeWtvOEtTanl3Q0RQMGNNMnk?oc=5",
+          "source": "Star Tribune",
+          "published": "2026-11-09T18:06:55+00:00",
+          "published_display": "Nov 09, 2026",
+          "score": 0.92,
+          "reason": "This is a provider-payer litigation matter involving UnitedHealthcare and a motion to dismiss, which falls directly within the payer litigation and enforcement topic.",
+          "summary": "UnitedHealthcare has filed a motion to dismiss a lawsuit filed by Fairview Health Services, characterizing the claims as \"mudslinging\" in a filing with the court. The article indicates Fairview has sued the payer, though specific allegations and damages are not detailed in the excerpt. This litigation between a major health system and a national payer represents the type of provider-payer dispute that can significantly impact revenue-cycle operations, claims processing, and network relationships that healthcare revenue teams must monitor for potential settlement impacts or policy changes.",
+          "also": []
+        },
+        {
+          "title": "Attorney General Ellison secures more than $170K in refunds and medical-debt reduction - Minnesota Attorney General's Office",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fOEtOTVZCNHdVbmdxc1FYdGh4NHAxWmdHbXIzZVdSeTlnLXU2M0plVXpvV2VER3RmWTJCcFdYSzBFbkpGZFpkOHEzYUpUa1NjWlNXN3NwSlNoYmIwOXZWWUlGcjRjc1RwNlRjVUNONUYxSmlMcDR3LTQ3bjJMZw?oc=5",
+          "source": "Minnesota Attorney General's Office",
+          "published": "2026-11-09T18:08:38+00:00",
+          "published_display": "Nov 09, 2026",
+          "score": 0.75,
+          "reason": "This involves a state attorney general enforcement action against a payer resulting in refunds and debt reduction, which falls within payer litigation and regulatory enforcement scope, though the excerpt lacks specifics on the payer identity and nature of violations.",
+          "summary": "Minnesota Attorney General Keith Ellison secured more than $170,000 in refunds and medical-debt reduction through an enforcement action, though the excerpt does not identify the specific payer involved or the underlying violations. The action resulted in direct financial remedies for consumers in the form of refunds and medical-debt relief. This type of state-level payer enforcement is relevant to revenue-cycle teams as it signals regulatory scrutiny of payer practices and potential compliance risks. The details regarding which payer was targeted, the specific violations, and the mechanism of enforcement would be necessary to fully assess implications for provider contracting and claims-handling processes.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}

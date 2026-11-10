@@ -1,31 +1,59 @@
 {
-  "generated_at": "2026-11-09T13:03:33.652840+00:00",
+  "generated_at": "2026-11-10T13:04:25.289504+00:00",
   "topic_count": 1,
-  "item_count": 2,
+  "item_count": 4,
   "topics": [
     {
-      "name": "No Surprises Act Litigation",
+      "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "CMS declines to recertify credentials of two No Surprises Act arbitrators, citing performance standards - HealthExec",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPVGVQeFFZUlhzVWVUd29OWm55OEhzS1lQeE00OTB3bFhEQTdhUTJlY0wzaUZjckt5U3hVbkZSMFhacVBEY3o0aENYQUtvV1RzbVB2ZDl2UWM2Ti1NMTc1QU9RWFg3SjJKZjc3cENKbkh0OHRzUXdreHlhQ3Z4NVZJQ182SWx6LVJuT2Vra2RDcE1QRUFtRFhPaU1kNkFpSy1na2paTEYyQmVtRnZ4NXRodFNNdkFPRXFsOEMxaVdiaDVZem56djJkN0hRN0hlMjBBOThwX2EtMnZCckRtczZmSHFwN3luN20tZ0JuakVVdmI1am53YXBpLWp3?oc=5",
-          "source": "HealthExec",
-          "published": "2026-11-09T00:42:56+00:00",
-          "published_display": "Nov 09, 2026",
-          "score": 0.85,
-          "reason": "CMS enforcement action directly impacts the Independent Dispute Resolution (IDR) process under the No Surprises Act by removing arbitrators, which affects how disputes are adjudicated and has operational implications for revenue-cycle teams managing balance-billing disputes.",
-          "summary": "CMS has declined to recertify the credentials of two No Surprises Act arbitrators due to failure to meet performance standards. This enforcement action directly affects the Independent Dispute Resolution (IDR) process, which is the mechanism through which out-of-network balance-billing disputes are resolved under the federal No Surprises Act. The decertification removes arbitrators from the panel available to adjudicate disputes between providers/insurers and patients, potentially reducing resolution capacity. Revenue-cycle teams relying on the IDR process for dispute resolution should monitor arbitrator availability and ensure compliance with CMS performance expectations for any team members involved in these proceedings.",
+          "title": "Elevance Health sues over $516M Medicare star ratings loss - Modern Healthcare",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOczFFMnpGZDRiZGpQa0t2ekd4OGstYXI4U2JON0pobDNManFMeVVMR0ZvX3AtR0NSS3RLS2UwRHVaWngxcjMyaXBPN3ZlS09tREViUGN1SWx1V1ZJaEJlWk94UFJkaExXdlNwZ0JYT0tKLTU2YndGeEYyb2FOQ2VlSFl2TEE0MVdKNTdoUG9VSkJaSUE5YkVKSWwxVQ?oc=5",
+          "source": "Modern Healthcare",
+          "published": "2026-11-10T04:08:54+00:00",
+          "published_display": "Nov 10, 2026",
+          "score": 0.95,
+          "reason": "This reports a lawsuit by a major payer (Elevance/Anthem) involving Medicare Advantage sanctions and financial penalties directly related to star ratings, which is a core enforcement and litigation topic affecting payer operations and revenue.",
+          "summary": "Elevance Health has filed a lawsuit over a $516 million loss related to Medicare star ratings, representing a significant regulatory enforcement action involving one of the nation's largest health insurers. The suit challenges CMS decisions regarding star rating determinations that resulted in substantial financial penalties to the payer. This litigation directly impacts Elevance's Medicare Advantage business and demonstrates ongoing disputes between major payers and CMS over rating methodologies and their financial consequences. Revenue-cycle teams should monitor this case as outcomes could affect payer reimbursement pressures and network sustainability strategies that flow to provider payments.",
           "also": []
         },
         {
-          "title": "CMS updates No Surprises Act IDR rules for radiology disputes - Radiology Business",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTHRhV1NkQW9QaHJaUmRwLUtyMDJYRU5zMzRlUWJjdzZDOGtqQ0ZGdnk1UFBfQVNFVXJGMUtSQkhpQTYzQ2h0TlFqdVBQNWdkQ3RLRERuci1PSG40UGxNN1UxbWFna0ZncmtFZ1BBNVlOUUlxSnhocW80bDNZanJQN0RpWWl6dzdzYnUyU3haM1VSalVKWG9RelI4SHdPQTZxdEhERG82TDVaNV8zeW9kS19panhWd1o2SkE5aEVIT2RoMTA1ekFwWVBrOEJFaXc?oc=5",
-          "source": "Radiology Business",
-          "published": "2026-11-08T23:08:30+00:00",
-          "published_display": "Nov 08, 2026",
-          "score": 0.85,
-          "reason": "CMS rulemaking updates to the No Surprises Act's Independent Dispute Resolution process directly impact revenue-cycle operations and claim resolution procedures.",
-          "summary": "CMS has updated the Independent Dispute Resolution (IDR) rules under the No Surprises Act specifically addressing how radiology disputes are handled. The update modifies the procedures and requirements for resolving out-of-network radiology billing disputes through the federal IDR process. This change affects how radiology service providers and payers handle balance-billing disputes and the mechanics of the dispute resolution timeline and submission requirements. Revenue-cycle teams managing radiology claims must understand these procedural updates to ensure compliant claim submission and timely dispute resolution.",
+          "title": "Jefferson Health Plans sued feds over drop in its Medicare Advantage star ratings for 2027 - Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEtESFlYSXZISFB0S0VZRDFqM2s3YldpT185bVMycjVxSVhiYmNBQWJLc1FJTG1kN0w5aUdXby1XZDFBSVFXeGtrV1pTWFBiMEFLejdzRkxfS2xjX1AxU1NIOEc5MVpRZzBGRThQemVLcFRqbjBDUDU0bE5YcWkydnJBNFZfalJUYzJoajREZ0N4TTlkd2QxaEVVMlJFVU1GcUV2Mg?oc=5",
+          "source": "Inquirer.com",
+          "published": "2026-11-09T19:25:08+00:00",
+          "published_display": "Nov 09, 2026",
+          "score": 0.92,
+          "reason": "This reports a lawsuit by a Medicare Advantage payer (Jefferson Health Plans) against federal authorities over star-rating penalties, directly matching the topic's coverage of payer litigation and CMS/Medicare Advantage enforcement actions.",
+          "summary": "Jefferson Health Plans has filed a lawsuit against federal authorities challenging a decline in its Medicare Advantage star ratings for 2027. The suit contests the CMS methodology or process that resulted in the rating reduction, which directly affects the payer's performance metrics and reimbursement under the Medicare Advantage program. Star rating changes trigger financial consequences and network perception impacts that ripple through provider contracting and claims processing. This litigation is significant for revenue-cycle teams because Medicare Advantage star-rating disputes can influence payer solvency, network stability, and the likelihood of payment challenges or network changes affecting provider reimbursement.",
+          "also": [
+            {
+              "title": "University health plan sues CMS, citing $43M in expected losses over Medicare Advantage star ratings drop - HealthExec",
+              "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOb3JhTUY2TlRwVUhmdmNiTml1bFBHaG5mbzB0RHdOVUprUFA4SEJyS2UxZjRNS0dLMkU0QTdmNkxlZy1aVkhybUhOckhUTXAyMmh3TDdQTGwwUHcwTFA4RGZhdWo5WHIzU1BFMGFSbU1weEtpc0VIVUNLTEdjVFdTZ0hQQzNaMC1VaF9UaXFMSEdac1RvcWQxUzh2SEh3YXJOZEdsbXFTaGFBRWY4Q3pTVlV0ck1wZ3ZmOHhMdmFsMDNNbVphOWVVaFk0SjVIMVNlNnRRS2lVaUJRcmpZX0ZoUnZTVjM1V2VjRlRZcEE2SW1XNkZoS3pHZXd2ZnpFMWs?oc=5",
+              "source": "HealthExec"
+            }
+          ]
+        },
+        {
+          "title": "UnitedHealthcare calls Fairview lawsuit ‘mudslinging,’ asks judge to dismiss it - Star Tribune",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXR6dkFabjBmLWlUNTZzdjdqZWE1cmhpbVpvbFNqUmtjbXVic0JuT0s3SGhDN3dpN0czZmdPdERmYVpkMjJYVDZ2X2xGbTBjWE5hQmJGVGREbWVqUzNqUU9GdmlkMGRjT0sxSmZWb0VZZUZCR0VoVHlVUHB6S0RraVlqNl9HTTFCYUtWMlFyT2tLb2pzb2tGYUtrOWthOGhRdHRBeWtvOEtTanl3Q0RQMGNNMnk?oc=5",
+          "source": "Star Tribune",
+          "published": "2026-11-09T18:06:55+00:00",
+          "published_display": "Nov 09, 2026",
+          "score": 0.92,
+          "reason": "This is a provider-payer litigation matter involving UnitedHealthcare and a motion to dismiss, which falls directly within the payer litigation and enforcement topic.",
+          "summary": "UnitedHealthcare has filed a motion to dismiss a lawsuit filed by Fairview Health Services, characterizing the claims as \"mudslinging\" in a filing with the court. The article indicates Fairview has sued the payer, though specific allegations and damages are not detailed in the excerpt. This litigation between a major health system and a national payer represents the type of provider-payer dispute that can significantly impact revenue-cycle operations, claims processing, and network relationships that healthcare revenue teams must monitor for potential settlement impacts or policy changes.",
+          "also": []
+        },
+        {
+          "title": "Attorney General Ellison secures more than $170K in refunds and medical-debt reduction - Minnesota Attorney General's Office",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fOEtOTVZCNHdVbmdxc1FYdGh4NHAxWmdHbXIzZVdSeTlnLXU2M0plVXpvV2VER3RmWTJCcFdYSzBFbkpGZFpkOHEzYUpUa1NjWlNXN3NwSlNoYmIwOXZWWUlGcjRjc1RwNlRjVUNONUYxSmlMcDR3LTQ3bjJMZw?oc=5",
+          "source": "Minnesota Attorney General's Office",
+          "published": "2026-11-09T18:08:38+00:00",
+          "published_display": "Nov 09, 2026",
+          "score": 0.75,
+          "reason": "This involves a state attorney general enforcement action against a payer resulting in refunds and debt reduction, which falls within payer litigation and regulatory enforcement scope, though the excerpt lacks specifics on the payer identity and nature of violations.",
+          "summary": "Minnesota Attorney General Keith Ellison secured more than $170,000 in refunds and medical-debt reduction through an enforcement action, though the excerpt does not identify the specific payer involved or the underlying violations. The action resulted in direct financial remedies for consumers in the form of refunds and medical-debt relief. This type of state-level payer enforcement is relevant to revenue-cycle teams as it signals regulatory scrutiny of payer practices and potential compliance risks. The details regarding which payer was targeted, the specific violations, and the mechanism of enforcement would be necessary to fully assess implications for provider contracting and claims-handling processes.",
           "also": []
         }
       ]
