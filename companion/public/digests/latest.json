@@ -1,59 +1,58 @@
 {
-  "generated_at": "2026-11-10T13:04:25.289504+00:00",
-  "topic_count": 1,
+  "generated_at": "2026-11-11T13:03:23.760795+00:00",
+  "topic_count": 2,
   "item_count": 4,
   "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Agencies announce newest independent dispute resolution entity available to adjudicate disputes - American Hospital Association",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNUxiY2pyWHp3dDgzMi1aOEQxYkpHNzlFbWdINE1HUEhGd3hvcm5GLVNhblV6c2NTZmU4QVlGN0xpMlZadV94T1Q1N3ctWERaTVoxb0Z0QXR2S2VHOC0xNFpzNnRNaC0tWmx4X3pkQ0ZtQW9SWGV5RTJUbXdiZnBrY2NYNmZ6Y2dzQ2t5aC1zOXVVTkw5MWl1U2NRU25YdUxFQXFNSWJ1YlpVM0EwY19xRzRsUjFMWTFNYWlzTnFPcy1mWnFUak9VY0xPOXVaQWhxYm5B?oc=5",
+          "source": "American Hospital Association",
+          "published": "2026-11-10T21:54:21+00:00",
+          "published_display": "Nov 10, 2026",
+          "score": 0.85,
+          "reason": "This item directly addresses the Independent Dispute Resolution (IDR) process implementation under the No Surprises Act, a core component of the regulatory framework affecting revenue-cycle operations.",
+          "summary": "Federal agencies have announced the availability of a new independent dispute resolution (IDR) entity authorized to adjudicate No Surprises Act disputes between providers and payers. The IDR process is a key mechanism established under the No Surprises Act for resolving out-of-network payment disputes when good-faith negotiations fail. This expansion of available IDR entities affects how healthcare organizations resolve payment disagreements and impacts revenue-cycle workflows related to balance-billing dispute management. Revenue-cycle teams need awareness of which IDR entities are available in their operational regions, as the IDR process directly influences claim payment timelines and dispute resolution procedures.",
+          "also": []
+        }
+      ]
+    },
     {
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "Elevance Health sues over $516M Medicare star ratings loss - Modern Healthcare",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOczFFMnpGZDRiZGpQa0t2ekd4OGstYXI4U2JON0pobDNManFMeVVMR0ZvX3AtR0NSS3RLS2UwRHVaWngxcjMyaXBPN3ZlS09tREViUGN1SWx1V1ZJaEJlWk94UFJkaExXdlNwZ0JYT0tKLTU2YndGeEYyb2FOQ2VlSFl2TEE0MVdKNTdoUG9VSkJaSUE5YkVKSWwxVQ?oc=5",
-          "source": "Modern Healthcare",
-          "published": "2026-11-10T04:08:54+00:00",
+          "title": "Cigna lawsuit seeks class certifications over PxDx insurance denials - Top Class Actions",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLWVwbGxkd1IyV3Fmemx2WEJ2M016Mk91TEJwN3U3a2k1SUZBVnBGOGh2dnFCc3VQRUJtR3d0Q0JMLUZOVmxPVVpZTE9HdzZUNlNnVThjX2JFUzR6aDVTZ3g0SzVQd0dya0V1am5YS0szdWxEY2VMSDN6Q1VlX19oaEZyc2drQXhuN3FCS2pPaTNndy11RXNwX3RnUlpfX2hhdEFMcWhaTFg5cWNwWjNKYXJLYTlFanQxYWhYamFSamNPTE5VOHhDYkNB?oc=5",
+          "source": "Top Class Actions",
+          "published": "2026-11-10T15:02:20+00:00",
           "published_display": "Nov 10, 2026",
-          "score": 0.95,
-          "reason": "This reports a lawsuit by a major payer (Elevance/Anthem) involving Medicare Advantage sanctions and financial penalties directly related to star ratings, which is a core enforcement and litigation topic affecting payer operations and revenue.",
-          "summary": "Elevance Health has filed a lawsuit over a $516 million loss related to Medicare star ratings, representing a significant regulatory enforcement action involving one of the nation's largest health insurers. The suit challenges CMS decisions regarding star rating determinations that resulted in substantial financial penalties to the payer. This litigation directly impacts Elevance's Medicare Advantage business and demonstrates ongoing disputes between major payers and CMS over rating methodologies and their financial consequences. Revenue-cycle teams should monitor this case as outcomes could affect payer reimbursement pressures and network sustainability strategies that flow to provider payments.",
+          "score": 0.92,
+          "reason": "This reports a lawsuit against Cigna, a major health insurer, involving claims denials—a core payer litigation matter directly relevant to the topic rubric.",
+          "summary": "A class action lawsuit has been filed against Cigna seeking class certification over insurance denials related to PxDx (prescription drug-related or diagnostic testing denials, based on naming convention). The suit represents a claims-denial litigation action against a major payer, which directly impacts revenue-cycle operations through disputes over claim adjudication and payment. Revenue-cycle teams should monitor this case as outcomes could establish precedent or obligations regarding Cigna's denial practices, appeal procedures, and potential remediation for affected claims. The specific scope of denials and proposed class membership details would affect how extensively this impacts claims processing workflows and collections strategies.",
           "also": []
         },
         {
-          "title": "Jefferson Health Plans sued feds over drop in its Medicare Advantage star ratings for 2027 - Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEtESFlYSXZISFB0S0VZRDFqM2s3YldpT185bVMycjVxSVhiYmNBQWJLc1FJTG1kN0w5aUdXby1XZDFBSVFXeGtrV1pTWFBiMEFLejdzRkxfS2xjX1AxU1NIOEc5MVpRZzBGRThQemVLcFRqbjBDUDU0bE5YcWkydnJBNFZfalJUYzJoajREZ0N4TTlkd2QxaEVVMlJFVU1GcUV2Mg?oc=5",
-          "source": "Inquirer.com",
-          "published": "2026-11-09T19:25:08+00:00",
-          "published_display": "Nov 09, 2026",
-          "score": 0.92,
-          "reason": "This reports a lawsuit by a Medicare Advantage payer (Jefferson Health Plans) against federal authorities over star-rating penalties, directly matching the topic's coverage of payer litigation and CMS/Medicare Advantage enforcement actions.",
-          "summary": "Jefferson Health Plans has filed a lawsuit against federal authorities challenging a decline in its Medicare Advantage star ratings for 2027. The suit contests the CMS methodology or process that resulted in the rating reduction, which directly affects the payer's performance metrics and reimbursement under the Medicare Advantage program. Star rating changes trigger financial consequences and network perception impacts that ripple through provider contracting and claims processing. This litigation is significant for revenue-cycle teams because Medicare Advantage star-rating disputes can influence payer solvency, network stability, and the likelihood of payment challenges or network changes affecting provider reimbursement.",
-          "also": [
-            {
-              "title": "University health plan sues CMS, citing $43M in expected losses over Medicare Advantage star ratings drop - HealthExec",
-              "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOb3JhTUY2TlRwVUhmdmNiTml1bFBHaG5mbzB0RHdOVUprUFA4SEJyS2UxZjRNS0dLMkU0QTdmNkxlZy1aVkhybUhOckhUTXAyMmh3TDdQTGwwUHcwTFA4RGZhdWo5WHIzU1BFMGFSbU1weEtpc0VIVUNLTEdjVFdTZ0hQQzNaMC1VaF9UaXFMSEdac1RvcWQxUzh2SEh3YXJOZEdsbXFTaGFBRWY4Q3pTVlV0ck1wZ3ZmOHhMdmFsMDNNbVphOWVVaFk0SjVIMVNlNnRRS2lVaUJRcmpZX0ZoUnZTVjM1V2VjRlRZcEE2SW1XNkZoS3pHZXd2ZnpFMWs?oc=5",
-              "source": "HealthExec"
-            }
-          ]
-        },
-        {
-          "title": "UnitedHealthcare calls Fairview lawsuit ‘mudslinging,’ asks judge to dismiss it - Star Tribune",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXR6dkFabjBmLWlUNTZzdjdqZWE1cmhpbVpvbFNqUmtjbXVic0JuT0s3SGhDN3dpN0czZmdPdERmYVpkMjJYVDZ2X2xGbTBjWE5hQmJGVGREbWVqUzNqUU9GdmlkMGRjT0sxSmZWb0VZZUZCR0VoVHlVUHB6S0RraVlqNl9HTTFCYUtWMlFyT2tLb2pzb2tGYUtrOWthOGhRdHRBeWtvOEtTanl3Q0RQMGNNMnk?oc=5",
-          "source": "Star Tribune",
-          "published": "2026-11-09T18:06:55+00:00",
-          "published_display": "Nov 09, 2026",
-          "score": 0.92,
-          "reason": "This is a provider-payer litigation matter involving UnitedHealthcare and a motion to dismiss, which falls directly within the payer litigation and enforcement topic.",
-          "summary": "UnitedHealthcare has filed a motion to dismiss a lawsuit filed by Fairview Health Services, characterizing the claims as \"mudslinging\" in a filing with the court. The article indicates Fairview has sued the payer, though specific allegations and damages are not detailed in the excerpt. This litigation between a major health system and a national payer represents the type of provider-payer dispute that can significantly impact revenue-cycle operations, claims processing, and network relationships that healthcare revenue teams must monitor for potential settlement impacts or policy changes.",
+          "title": "California judge says she was fired after objecting to settlements with insurers seeking rate hikes - Los Angeles Times",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcHlMRGNKMmR3WEZINFdHd2FBbmN0QWIwZ1NhVWgwam9hS3NjTFRJTGZmQnRqZFF3bWwzWHFCbERHNVlIWHlCN053ckd1VXJKNVJWNkFuXzd2Unc4ZkZHMlZiQm45XzdhZGtnYXNvTVdQTk9taXphcGFwdlVfeEp0bkNTaHYzNlBpYXdsY3hZcVg5R1lRU3hxcnowc05VUkpxUEpodHlnTkJua3V5QTZTNm8xNDczMU01dWc0?oc=5",
+          "source": "Los Angeles Times",
+          "published": "2026-11-10T11:00:00+00:00",
+          "published_display": "Nov 10, 2026",
+          "score": 0.85,
+          "reason": "This item reports a lawsuit involving a judge's alleged retaliation for objecting to payer settlements, which directly implicates payer litigation and enforcement actions, though the focus is employment-related rather than claims-handling or network-penalty enforcement.",
+          "summary": "A California judge alleges she was fired after objecting to settlement agreements between insurers and the state that would allow rate increases, according to a Los Angeles Times report. The case involves potential retaliation by her employer over her opposition to payer-favorable settlement terms. This litigation raises questions about the integrity of insurer settlement negotiations and regulatory oversight of payer rate-setting practices. The matter is significant for revenue-cycle teams as it highlights potential vulnerabilities in how payer settlements are structured and approved, and may influence future regulatory scrutiny of insurer rate-hike arrangements.",
           "also": []
         },
         {
-          "title": "Attorney General Ellison secures more than $170K in refunds and medical-debt reduction - Minnesota Attorney General's Office",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fOEtOTVZCNHdVbmdxc1FYdGh4NHAxWmdHbXIzZVdSeTlnLXU2M0plVXpvV2VER3RmWTJCcFdYSzBFbkpGZFpkOHEzYUpUa1NjWlNXN3NwSlNoYmIwOXZWWUlGcjRjc1RwNlRjVUNONUYxSmlMcDR3LTQ3bjJMZw?oc=5",
-          "source": "Minnesota Attorney General's Office",
-          "published": "2026-11-09T18:08:38+00:00",
-          "published_display": "Nov 09, 2026",
-          "score": 0.75,
-          "reason": "This involves a state attorney general enforcement action against a payer resulting in refunds and debt reduction, which falls within payer litigation and regulatory enforcement scope, though the excerpt lacks specifics on the payer identity and nature of violations.",
-          "summary": "Minnesota Attorney General Keith Ellison secured more than $170,000 in refunds and medical-debt reduction through an enforcement action, though the excerpt does not identify the specific payer involved or the underlying violations. The action resulted in direct financial remedies for consumers in the form of refunds and medical-debt relief. This type of state-level payer enforcement is relevant to revenue-cycle teams as it signals regulatory scrutiny of payer practices and potential compliance risks. The details regarding which payer was targeted, the specific violations, and the mechanism of enforcement would be necessary to fully assess implications for provider contracting and claims-handling processes.",
+          "title": "A new tactic in the war over out-of-network bills: Health care providers are suing employers - STAT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNEJFdEFBV2JuS2kzN0h3QWpMVUpMTkM3clMxZVlhLVJDNnJMb3dDYVQ0ZDhPNFRTYzFBVkplTkV5LWt5N1lSNmEyRnhNbXZBbFdfSGhxTXJqYmxFdTItc1hhLW1NTFZsUnYyQjQwWms0bkt4bDIzbTlHYlZGSC11aE96UWdhLTBFdlNVZXI4ZDF2UjdCdXVjaA?oc=5",
+          "source": "STAT",
+          "published": "2026-11-11T09:31:18+00:00",
+          "published_display": "Nov 11, 2026",
+          "score": 0.78,
+          "reason": "This reports on provider litigation against employers over out-of-network billing practices, which represents an emerging enforcement/litigation mechanism related to payer network policies and claims-denial disputes that directly impact revenue-cycle operations.",
+          "summary": "Healthcare providers are initiating a new litigation strategy by suing employers directly over out-of-network billing disputes, rather than targeting payers exclusively. This tactic emerges from ongoing conflicts over how payers deny or reduce reimbursement for out-of-network care, shifting enforcement pressure upstream to self-insured employers who contract with payers and set plan design parameters. The litigation reflects broader disputes over claims denial and downcoding practices affecting provider revenue recovery. For revenue-cycle teams, this represents an evolving legal landscape where payer network policies and employer plan designs increasingly face direct legal challenge, potentially affecting claim denial rates and reimbursement negotiations.",
           "also": []
         }
       ]

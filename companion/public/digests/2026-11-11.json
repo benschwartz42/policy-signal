@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-11-11T13:03:23.760795+00:00",
+  "topic_count": 2,
+  "item_count": 4,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Agencies announce newest independent dispute resolution entity available to adjudicate disputes - American Hospital Association",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNUxiY2pyWHp3dDgzMi1aOEQxYkpHNzlFbWdINE1HUEhGd3hvcm5GLVNhblV6c2NTZmU4QVlGN0xpMlZadV94T1Q1N3ctWERaTVoxb0Z0QXR2S2VHOC0xNFpzNnRNaC0tWmx4X3pkQ0ZtQW9SWGV5RTJUbXdiZnBrY2NYNmZ6Y2dzQ2t5aC1zOXVVTkw5MWl1U2NRU25YdUxFQXFNSWJ1YlpVM0EwY19xRzRsUjFMWTFNYWlzTnFPcy1mWnFUak9VY0xPOXVaQWhxYm5B?oc=5",
+          "source": "American Hospital Association",
+          "published": "2026-11-10T21:54:21+00:00",
+          "published_display": "Nov 10, 2026",
+          "score": 0.85,
+          "reason": "This item directly addresses the Independent Dispute Resolution (IDR) process implementation under the No Surprises Act, a core component of the regulatory framework affecting revenue-cycle operations.",
+          "summary": "Federal agencies have announced the availability of a new independent dispute resolution (IDR) entity authorized to adjudicate No Surprises Act disputes between providers and payers. The IDR process is a key mechanism established under the No Surprises Act for resolving out-of-network payment disputes when good-faith negotiations fail. This expansion of available IDR entities affects how healthcare organizations resolve payment disagreements and impacts revenue-cycle workflows related to balance-billing dispute management. Revenue-cycle teams need awareness of which IDR entities are available in their operational regions, as the IDR process directly influences claim payment timelines and dispute resolution procedures.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Cigna lawsuit seeks class certifications over PxDx insurance denials - Top Class Actions",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLWVwbGxkd1IyV3Fmemx2WEJ2M016Mk91TEJwN3U3a2k1SUZBVnBGOGh2dnFCc3VQRUJtR3d0Q0JMLUZOVmxPVVpZTE9HdzZUNlNnVThjX2JFUzR6aDVTZ3g0SzVQd0dya0V1am5YS0szdWxEY2VMSDN6Q1VlX19oaEZyc2drQXhuN3FCS2pPaTNndy11RXNwX3RnUlpfX2hhdEFMcWhaTFg5cWNwWjNKYXJLYTlFanQxYWhYamFSamNPTE5VOHhDYkNB?oc=5",
+          "source": "Top Class Actions",
+          "published": "2026-11-10T15:02:20+00:00",
+          "published_display": "Nov 10, 2026",
+          "score": 0.92,
+          "reason": "This reports a lawsuit against Cigna, a major health insurer, involving claims denials—a core payer litigation matter directly relevant to the topic rubric.",
+          "summary": "A class action lawsuit has been filed against Cigna seeking class certification over insurance denials related to PxDx (prescription drug-related or diagnostic testing denials, based on naming convention). The suit represents a claims-denial litigation action against a major payer, which directly impacts revenue-cycle operations through disputes over claim adjudication and payment. Revenue-cycle teams should monitor this case as outcomes could establish precedent or obligations regarding Cigna's denial practices, appeal procedures, and potential remediation for affected claims. The specific scope of denials and proposed class membership details would affect how extensively this impacts claims processing workflows and collections strategies.",
+          "also": []
+        },
+        {
+          "title": "California judge says she was fired after objecting to settlements with insurers seeking rate hikes - Los Angeles Times",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcHlMRGNKMmR3WEZINFdHd2FBbmN0QWIwZ1NhVWgwam9hS3NjTFRJTGZmQnRqZFF3bWwzWHFCbERHNVlIWHlCN053ckd1VXJKNVJWNkFuXzd2Unc4ZkZHMlZiQm45XzdhZGtnYXNvTVdQTk9taXphcGFwdlVfeEp0bkNTaHYzNlBpYXdsY3hZcVg5R1lRU3hxcnowc05VUkpxUEpodHlnTkJua3V5QTZTNm8xNDczMU01dWc0?oc=5",
+          "source": "Los Angeles Times",
+          "published": "2026-11-10T11:00:00+00:00",
+          "published_display": "Nov 10, 2026",
+          "score": 0.85,
+          "reason": "This item reports a lawsuit involving a judge's alleged retaliation for objecting to payer settlements, which directly implicates payer litigation and enforcement actions, though the focus is employment-related rather than claims-handling or network-penalty enforcement.",
+          "summary": "A California judge alleges she was fired after objecting to settlement agreements between insurers and the state that would allow rate increases, according to a Los Angeles Times report. The case involves potential retaliation by her employer over her opposition to payer-favorable settlement terms. This litigation raises questions about the integrity of insurer settlement negotiations and regulatory oversight of payer rate-setting practices. The matter is significant for revenue-cycle teams as it highlights potential vulnerabilities in how payer settlements are structured and approved, and may influence future regulatory scrutiny of insurer rate-hike arrangements.",
+          "also": []
+        },
+        {
+          "title": "A new tactic in the war over out-of-network bills: Health care providers are suing employers - STAT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNEJFdEFBV2JuS2kzN0h3QWpMVUpMTkM3clMxZVlhLVJDNnJMb3dDYVQ0ZDhPNFRTYzFBVkplTkV5LWt5N1lSNmEyRnhNbXZBbFdfSGhxTXJqYmxFdTItc1hhLW1NTFZsUnYyQjQwWms0bkt4bDIzbTlHYlZGSC11aE96UWdhLTBFdlNVZXI4ZDF2UjdCdXVjaA?oc=5",
+          "source": "STAT",
+          "published": "2026-11-11T09:31:18+00:00",
+          "published_display": "Nov 11, 2026",
+          "score": 0.78,
+          "reason": "This reports on provider litigation against employers over out-of-network billing practices, which represents an emerging enforcement/litigation mechanism related to payer network policies and claims-denial disputes that directly impact revenue-cycle operations.",
+          "summary": "Healthcare providers are initiating a new litigation strategy by suing employers directly over out-of-network billing disputes, rather than targeting payers exclusively. This tactic emerges from ongoing conflicts over how payers deny or reduce reimbursement for out-of-network care, shifting enforcement pressure upstream to self-insured employers who contract with payers and set plan design parameters. The litigation reflects broader disputes over claims denial and downcoding practices affecting provider revenue recovery. For revenue-cycle teams, this represents an evolving legal landscape where payer network policies and employer plan designs increasingly face direct legal challenge, potentially affecting claim denial rates and reimbursement negotiations.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
