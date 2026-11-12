@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-11-12T13:03:07.023243+00:00",
+  "topic_count": 2,
+  "item_count": 4,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "No Surprises Act IDR process adds $8.39bn to health plan costs - Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaUc2Zno3anV1ckQzRXlzRjBzSnZpRHEweHItTXZON2IyWnVYX0pia0ZRVUdIU0JzckkyWHVEbWtaZjd5dWc1MVZvZ252VUJKYVBrYWZUQ3NtX1ZzcXpqNjlIZEExcXVXcktKZ1YwQzl3Z0dLNVN3RVIxRWpuSlJmNjkwT1NXbjFVeWxPd0hZYTNkNEdRemFOajU4TnlwUEFKNGUzNkRndGpkcXFwaHVueFAyNnl0aUNIX00tbFh2T0JWZHEwcUE?oc=5",
+          "source": "Insurance Business",
+          "published": "2026-11-12T11:24:54+00:00",
+          "published_display": "Nov 12, 2026",
+          "score": 0.85,
+          "reason": "The article directly addresses cost impacts of the No Surprises Act's IDR process implementation on health plans, which is central to understanding the Act's operational and financial effects on the healthcare revenue cycle.",
+          "summary": "The No Surprises Act's Independent Dispute Resolution (IDR) process has added approximately $8.39 billion to health plan costs since implementation. This figure quantifies the financial burden of administering the IDR mechanism, which is the primary vehicle for resolving payment disputes between insurers and out-of-network providers. The substantial cost increase affects health plans' operational budgets and may influence premium pricing and claims processing workflows for revenue-cycle teams managing dispute resolution and balance-billing prevention.",
+          "also": [
+            {
+              "title": "EBRI: Employers Owe Billions in 2025 Health Costs Under No Surprises Act Arbitrations - plansponsor",
+              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPX2JGcHN6YzJQTUR1YXNtTHM1RHhhM3IxaWlkWUJ1cFZiVVdWRDRNYmtKUXo0ejg4bm1UWVBuUFo4UHlteHZFbWpGZFBOMkNRN28xOVBlcGkwQWJsT2MwTURhVWIxdzkxcUNpcS1YTzQwZEFkWUd5S0ZrWmk2SExkazRxcU5fTUtkS2V3T2xweFRpcEluTFBNNmFlWWFyU3MwMTc2YnBQOU5nejNmVlVJZUpCLXZIZXN4TTB6X2FGMTZNLXliNHIxNjJSN2ZfUmNIR1dzWnA0RHFUekc1NXl5QzhR?oc=5",
+              "source": "plansponsor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "<a href=\"https://www.fiercehealthcare.com/payers/carelon-agrees-pay-10m-settle-ghost-network-coverage-denial-allegations-new-york\" hreflang=\"en\">Carelon agrees to pay $10M to settle ghost network, coverage denial allegations in New York</a>",
+          "url": "https://www.fiercehealthcare.com/payers/carelon-agrees-pay-10m-settle-ghost-network-coverage-denial-allegations-new-york",
+          "source": "Fierce Healthcare",
+          "published": null,
+          "published_display": "undated",
+          "score": 0.95,
+          "reason": "This reports a concrete settlement by a payer subsidiary involving alleged ghost networks and coverage denials, which directly fits the litigation and enforcement category of the rubric.",
+          "summary": "Carelon, a healthcare company, agreed to pay more than $10 million in two separate New York settlements related to allegations of ghost networks (inadequate mental health provider networks) and improper coverage denials. The settlements resolve state-level enforcement actions addressing payer practices that restrict access to mental health services and improperly deny coverage to members. This enforcement action is relevant to revenue-cycle teams as it highlights regulatory scrutiny of payer network adequacy and claims-denial practices, establishing precedent for state oversight of similar issues that may affect provider reimbursement and member access disputes.",
+          "also": [
+            {
+              "title": "Carelon could pay over $10M in restitution, penalties under NY settlement order - Newsday",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CemNIYzBxZDRSQjFtS002aEhUZ05Dc2xlVEVTUEVwOWMzWE5IS19SR2NscUxEWmo4amdPMTEtRGJVUWJfaFFheUNUNTZtYXI3aEl4YzVVclBnOVBWZXVzTnN1TDRJUzA0RWtodw?oc=5",
+              "source": "Newsday"
+            }
+          ]
+        },
+        {
+          "title": "<a href=\"https://www.fiercehealthcare.com/payers/alignment-healthcare-sues-cms-over-its-2027-medicare-advantage-star-ratings\" hreflang=\"en\">Elevance Health sues over 2027 Medicare Advantage star ratings</a>",
+          "url": "https://www.fiercehealthcare.com/payers/alignment-healthcare-sues-cms-over-its-2027-medicare-advantage-star-ratings",
+          "source": "Fierce Healthcare",
+          "published": null,
+          "published_display": "undated",
+          "score": 0.92,
+          "reason": "This reports a direct lawsuit by a major payer (Aetna/CVS Health) against CMS regarding Medicare Advantage star ratings, which falls squarely within payer litigation and CMS enforcement actions affecting MA payment and penalties.",
+          "summary": "Aetna, a CVS Health subsidiary, has filed a lawsuit against CMS challenging its 2027 Medicare Advantage star ratings results. Star rating disputes are significant for revenue-cycle teams because these ratings directly impact MA plan bonuses and penalties, affecting payer financial performance and potentially influencing network and payment policies that providers must navigate. The litigation reflects ongoing tensions between major insurers and CMS over rating methodologies and their financial consequences.",
+          "also": [
+            {
+              "title": "Elevance Health sues over 2027 Medicare Advantage star ratings - Fierce Healthcare",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcmRoNkl3eFZoeFhPM0VnX3BDRU5UT29TSVdmMHN4TEh5TWxZNl9yeExKRjBKQzA3TjhtaXd0Qlp4ZzZpaktxa2ZNcHMxNUJHYk9zcFBVY3QtVUhNRnI5cXBXWTdJYWczazNSc1ZJLVAyNjYteW1nWE5ULTA4OUwzLVMyOExVb1I3OE92ZUJfaVhKUFdId1V1SmFJOFM1OFBSdURzMmhNV2Z0UTNUNzU1Z2RvREtNZw?oc=5",
+              "source": "Fierce Healthcare"
+            }
+          ]
+        },
+        {
+          "title": "Insurance giant routinely blocks patients from going into long-term care: lawsuit - PennLive.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYjVoeldzLXJSY0gzNEU5WVUyT2VDUzFRWUJYRDR2c2dZMHB4UHVJYlRfWnBYanVuMWRuZ19xUDJtZ1NMclJJZ09GWnFCMmxVLTNsaXhIMjhoQl9qcFB0c0NGTUFLUFJGclhWY2RJMFZNcC03aDRQTVExRGZNNkg0VTczVjFjZW42dnJwdTVTUDdCWHJBWkFUSFl2NVV2MTNzZ2pGbTRieTJKMkhnYkxwd0hlZG4xZE9mMEdBbTJYbWxHOWc?oc=5",
+          "source": "PennLive.com",
+          "published": "2026-11-12T10:00:00+00:00",
+          "published_display": "Nov 12, 2026",
+          "score": 0.85,
+          "reason": "This reports a lawsuit against an insurance payer alleging systematic denial or obstruction of coverage for long-term care services, which falls squarely within payer litigation involving claims-denial practices.",
+          "summary": "A lawsuit has been filed against an insurance company alleging it routinely denies or blocks patients' access to long-term care services, according to PennLive.com. The suit claims the payer systematically obstructs coverage approvals for long-term care placements, preventing beneficiaries from accessing necessary post-acute and custodial services. This type of claims-denial litigation affects revenue-cycle teams by establishing liability precedent for insurers' authorization practices and may result in settlements requiring retroactive claim payments, policy changes to approval workflows, or damages that shift financial liability back to payers rather than providers or patients absorbing denials.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
