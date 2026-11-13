@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-11-13T13:03:28.506916+00:00",
+  "topic_count": 2,
+  "item_count": 4,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "No Surprises Act IDR claims cost employer plans an additional $8.4B last year, study finds - Fierce Healthcare",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNkRiTUdRRk1TUFRyQUNHVUloU0VocGk3R3dJSTVtYVRBYjNwdWdvVm9Hd1BSOWRxaG1nZlM1U2gzaU9uZkI3RUF1cUVJVnprMDJNbGhUbUFFRFMzaEdKZlJGSVMwUzRjM3ZoYXlETE9VMzB2blhZUkJ2TkVqVWo4cE83UHh0aGl1bk9xa0ZsS1hEVEdjR3FoNThlcXpoMjY0eHg5OS1wR0N2WUN0OU9YQ0dJRVBFZ1NDdFU0Wkd6ZFJrdw?oc=5",
+          "source": "Fierce Healthcare",
+          "published": "2026-11-12T18:45:20+00:00",
+          "published_display": "Nov 12, 2026",
+          "score": 0.85,
+          "reason": "This item directly addresses the financial impact of the No Surprises Act's Independent Dispute Resolution (IDR) process on employer plans, a core component of NSA implementation that affects revenue-cycle operations and claims management.",
+          "summary": "A study cited by Fierce Healthcare found that Independent Dispute Resolution (IDR) claims under the No Surprises Act cost employer plans an additional $8.4 billion in the prior year. The IDR process, a key mechanism of the federal No Surprises Act for resolving out-of-network billing disputes, has generated significant unexpected costs for self-funded employer health plans. This finding is relevant to revenue-cycle teams managing NSA compliance and IDR dispute resolution, as it highlights the substantial financial burden of the IDR system on payers and suggests potential pressure for operational or policy adjustments to the process.",
+          "also": [
+            {
+              "title": "<a href=\"https://www.fiercehealthcare.com/payers/no-surprises-act-idr-claims-cost-employer-plans-additional-84b-last-year-study-finds\" hreflang=\"en\">No Surprises Act IDR claims cost employer plans an additional $8.4B last year, study finds</a>",
+              "url": "https://www.fiercehealthcare.com/payers/no-surprises-act-idr-claims-cost-employer-plans-additional-84b-last-year-study-finds",
+              "source": "Fierce Healthcare"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Medicare Advantage insurers are suing over 2027 star ratings that could affect billions in future payments - Medical Daily",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTHJvay1jVE9HUEFNX01LOGh6OXNpZjF3YmgtN0MzbzFYcTNweDVYNFhIbV9hNk9Rb2hLdkFhMGtQUkR5OWJzdVBkY0lxVDAwNUpBbHVGNWtHNVRYNllQWEVXTkVVVWxTVXAyWXBha3JweEdsNzRscHloUTM4bXNabjFndlU0WGk1d21hblp3?oc=5",
+          "source": "Medical Daily",
+          "published": "2026-11-13T01:12:15+00:00",
+          "published_display": "Nov 13, 2026",
+          "score": 0.92,
+          "reason": "This reports litigation by Medicare Advantage insurers (a category of payers covered by the topic) challenging a regulatory action (CMS star ratings) that directly affects payment amounts, which is core payer litigation and enforcement activity.",
+          "summary": "Medicare Advantage insurers are filing lawsuits challenging CMS's 2027 star ratings methodology, which directly impacts billions of dollars in future capitated payments to these payers. Star ratings determine payment adjustments and bonuses under the Medicare Advantage program, making rating disputes material to payer finances. This litigation involves major national payers contesting what they argue is an unfair or improper rating calculation process. The outcome will affect MA insurer revenues and their ability to offer supplemental benefits, making it highly relevant to healthcare provider revenue-cycle teams that contract with and bill these plans.",
+          "also": []
+        },
+        {
+          "title": "UnitedHealth audit of insurer policies ducks question of denials",
+          "url": "https://www.healthcaredive.com/news/unitedhealth-internal-review-medical-policies-gaps-denials/874454/",
+          "source": "Healthcare Dive",
+          "published": "2026-11-12T17:09:50+00:00",
+          "published_display": "Nov 12, 2026",
+          "score": 0.78,
+          "reason": "This reports on a regulatory audit of UnitedHealthcare's medical policy development and claims-denial practices, which directly implicates payer enforcement and claims-denial issues central to the topic.",
+          "summary": "UnitedHealthcare underwent a regulatory audit examining its medical policy development processes that determine care approval and denial decisions. The audit identified minor issues with policy development but notably did not evaluate how those criteria are actually being applied in practice to approve or deny claims. This gap is significant for revenue-cycle teams because it suggests potential systemic vulnerabilities in claims-denial practices remain unexamined, leaving uncertainty about whether denials comply with policy standards and regulatory requirements.",
+          "also": []
+        },
+        {
+          "title": "California Judge Sues Insurance Commish For Firing After Ruling Against Insurer Settlements - California Globe",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMTkzdTVaUTVXc2VESkRlaDdvalZLQ1RaVmFfV09RZWpCQWRaSWhZbkRQbkxvYUo5V0hBcktYZzdidWNhd0NsY0RUYmU2TjUxWVFrVGpTeTdsRHlrVnp6Nm9xOW1la1U0dWFwc3dZSXpoMDJwZEpZaTJBQXIzYlZ6cm5wV1JQeHBfNHZWMlVfRjFkWEtLT1JKdDRDRERFNVJmcVVQbHlRbUEzaHBscDY2M1FfMGVKc2JjT01RTExSQk8?oc=5",
+          "source": "California Globe",
+          "published": "2026-11-12T00:47:04+00:00",
+          "published_display": "Nov 12, 2026",
+          "score": 0.75,
+          "reason": "This involves regulatory enforcement action against a California insurance commissioner, which falls within payer litigation and enforcement involving insurance regulatory bodies, though it is a personnel/retaliation claim rather than a direct payer enforcement action.",
+          "summary": "A California judge has filed a lawsuit against the state Insurance Commissioner, alleging wrongful termination following the judge's ruling that went against insurer settlement positions. The case implicates regulatory oversight of insurance practices and potential retaliation by state insurance regulators. While the specific details of the underlying insurer settlements and the judge's ruling are not provided in the excerpt, this development affects the administrative framework governing insurance regulation and enforcement in California. Revenue-cycle teams should monitor this case as it may influence how state insurance regulators handle payer disputes and settlements going forward.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
