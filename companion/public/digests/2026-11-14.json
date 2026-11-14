@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-11-14T13:03:25.910077+00:00",
+  "topic_count": 2,
+  "item_count": 4,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Health Care Weekly: No Surprises Act Arbiters Dropped for Poor Performance; Hims to Sell Unapproved Wellness Peptides; Telehealth Firm’s GLP-1 Ads Misleading, FDA Says; Novartis Gene Therapies Face Probe over Tumors; Quest Diagnostics Settles Kic - The Capitol Forum",
+          "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQN2sxZVRBR3k2dXp3YS13aThpMVBuT2tiazc1dmxCUzVQSnlfZk1tWVMxZWNzQXVuOGIwOTFrYmpvRVN1OEJEWWV6MVlJMHJZYTQ0QkRyNDhCOURfVlZyWXJINUM3RlNfNkc4R18wSzJiTE1FVkpZWThpLXdZbzFnU2pwZko5M1RNMHJpbUttSC1xeW81X1ZGenB0OV9xbFdsWktsd3psa1FtN25wQmIyNFI0cDQ0NDZkQkJxT1NGNHpOOHFabklidlNNaGE0c081d1JocWl6UHFNMFItOC0yaDV4ZXBvTDBhS0hqTzRtQU5laDdQMjEzQ3NtRXRvQ05IejBhamhBTFphc1N3X2FGSERaYjVYbVM1eWpSSlZ6TEV2ODhhTVJFU2J0Q09PaGYzWWU2OERWM09wNGc?oc=5",
+          "source": "The Capitol Forum",
+          "published": "2026-11-11T08:00:00+00:00",
+          "published_display": "Nov 11, 2026",
+          "score": 0.85,
+          "reason": "The item explicitly addresses No Surprises Act arbiters (IDR entities) being dropped for poor performance, which directly relates to Independent Dispute Resolution process implementation and enforcement of the No Surprises Act.",
+          "summary": "The Capitol Forum reported that No Surprises Act arbiters have been dropped due to poor performance, impacting the Independent Dispute Resolution (IDR) process that handles out-of-network balance-billing disputes. This development affects the operational implementation of the No Surprises Act's core dispute-resolution mechanism and has implications for how healthcare providers and payers resolve payment disagreements. The removal of underperforming IDR entities alters the landscape of which arbiters are available to handle disputes, potentially affecting dispute resolution timelines and outcomes for balance-billing cases. This is relevant to revenue-cycle teams as it directly impacts the IDR process they use to resolve payment disputes with insurers under the No Surprises Act.",
+          "also": [
+            {
+              "title": "No Surprises Act Arbitration Added $8.39B in 2025 Plan Obligations - The American Journal of Managed Care",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUEhwQ0YxeE5SRkY2VjR1OTVsQXJCY2dvT0FYOXpWc0o5R0xUb1JYVy1RTGprbU5qTWtFVG9YVkVlb1RIOWE2YTVDVjFYV2s0VGpyMEpNR3hQR1BVcTNHMVNQWVhCSVdQc1pWVUdXSURneDliYlJuRVlPbS1ZZDNXc1hqdWd5NmZiUUZfYWd0TUhKSjlLQVE?oc=5",
+              "source": "The American Journal of Managed Care"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Select Medical alleges Aetna denied 200 of 207 requests for long-term acute care in Pennsylvania - Medical Daily",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMXhPQ1RTMmhySnpmV2dlQ0tLdF8ycWpvZnhDYXJOajVWNl9XaUo5enowQ2I3bzFTakdiTmJ4OFRNYXh2ZmxrcldtN2FjRHpseFdZRmthSHVvYVM1anNNeE5kYmEzd0s5X3ppLXJ6ZGpRVkFUbDNKYWVyMzJFQnFjLXVzdDJqd01pMlNRRjJHcUctcmd0ckVzbUd3?oc=5",
+          "source": "Medical Daily",
+          "published": "2026-11-13T17:01:55+00:00",
+          "published_display": "Nov 13, 2026",
+          "score": 0.92,
+          "reason": "This report describes a provider lawsuit against a major payer (Aetna) alleging systematic claims denials, which directly falls within the payer litigation and enforcement topic covering claims-denial suits.",
+          "summary": "Select Medical has alleged that Aetna denied 200 out of 207 authorization requests for long-term acute care services in Pennsylvania, suggesting a pattern of improper claims denial by the payer. The lawsuit challenges Aetna's denial practices for a specific service line and care setting, raising questions about the insurer's medical necessity determinations and payment obligations. This claim-denial litigation is significant for healthcare revenue-cycle teams as it illustrates ongoing disputes over payer reimbursement decisions and the potential financial impact of high denial rates on provider operations and cash flow.",
+          "also": []
+        },
+        {
+          "title": "Law Firm Sues Insurer Over Claim From ‘Take Care of Maya’ Family - Bloomberg Law News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1J0VjIzc1ItZVZzMG9ST09USlJiaklkS3NKTmxfSk9obVFidmtMVlYwV0VZSEpnVWEtdzRQWTZFYW5ETEQybDNLaDBuYU9DSE9UUWxjNU1Qc0lETkpwS2hZcmhSOHBxdlhLNVV0Q0kwQ0xqZU5Sd2hZTTFSX0hyNzJGRmt2LUF1bUhwc2owR3V0d1pXWklNOEVHMTR2T0U2?oc=5",
+          "source": "Bloomberg Law News",
+          "published": "2026-11-14T00:00:00+00:00",
+          "published_display": "Nov 14, 2026",
+          "score": 0.87,
+          "reason": "This item reports a lawsuit against an insurer by a law firm, which constitutes payer litigation directly covered by the topic definition; the specific claim involves a disputed insurance claim from a prominent case, making it relevant to enforcement actions and member/provider disputes with payers.",
+          "summary": "A law firm has filed suit against an insurance company over a claim denial involving the family from the 'Take Care of Maya' case, a high-profile dispute over medical coverage for a child patient. The lawsuit represents a member claim-denial dispute against a payer, directly implicating insurance coverage and claims-handling practices. While the excerpt does not specify the insurer name, court venue, dollar amounts, or timeline, the filing itself constitutes a payer litigation action that healthcare revenue-cycle teams monitor for precedent-setting claim-denial patterns and enforcement trends. This case is significant because it involves a previously publicized family case, suggesting potential media attention and possible regulatory interest in the insurer's claims practices.",
+          "also": []
+        },
+        {
+          "title": "California Insurance Department responds to lawsuit over rate increases - The Business Journal",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRVlMN2FFS3c2MHVKWXlGTHdoSVVmZFpqMVBUMXZock16WVJ3OVB5c1NnNWU4QWFXV3NUTmFpY1hucHVNYXI3Y2Fkd2prTEVwbkhVOWpLdkVlbFdmUVFmNzJ4RFFOeDJFS1dEUldueEtPaUxSMDhkRXotblNQaE9YQ24xODFFeDdlM25IdWItZw?oc=5",
+          "source": "The Business Journal",
+          "published": "2026-11-13T23:24:21+00:00",
+          "published_display": "Nov 13, 2026",
+          "score": 0.75,
+          "reason": "This involves regulatory enforcement action by a state insurance department against a payer regarding rate increases, which falls within payer litigation and enforcement oversight, though the excerpt lacks specific details about the named payer, lawsuit claims, or financial impact.",
+          "summary": "California's Insurance Department has responded to a lawsuit challenging health insurance rate increases, representing state-level regulatory enforcement action against payer practices. The item indicates ongoing litigation involving rate-setting decisions, which directly affects payer regulatory compliance and potential penalties. Revenue-cycle teams should monitor outcomes as adverse rulings could impact payer finances, contracts, and reimbursement rates to providers, though specific payer names, claim amounts, and timeline details were not disclosed in the available excerpt.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}

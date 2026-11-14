@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:03:28.506916+00:00",
+  "generated_at": "2026-11-14T13:03:25.910077+00:00",
   "topic_count": 2,
   "item_count": 4,
   "topics": [
@@ -7,19 +7,19 @@
       "name": "No Surprises Act Litigation",
       "items": [
         {
-          "title": "No Surprises Act IDR claims cost employer plans an additional $8.4B last year, study finds - Fierce Healthcare",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNkRiTUdRRk1TUFRyQUNHVUloU0VocGk3R3dJSTVtYVRBYjNwdWdvVm9Hd1BSOWRxaG1nZlM1U2gzaU9uZkI3RUF1cUVJVnprMDJNbGhUbUFFRFMzaEdKZlJGSVMwUzRjM3ZoYXlETE9VMzB2blhZUkJ2TkVqVWo4cE83UHh0aGl1bk9xa0ZsS1hEVEdjR3FoNThlcXpoMjY0eHg5OS1wR0N2WUN0OU9YQ0dJRVBFZ1NDdFU0Wkd6ZFJrdw?oc=5",
-          "source": "Fierce Healthcare",
-          "published": "2026-11-12T18:45:20+00:00",
-          "published_display": "Nov 12, 2026",
+          "title": "Health Care Weekly: No Surprises Act Arbiters Dropped for Poor Performance; Hims to Sell Unapproved Wellness Peptides; Telehealth Firm’s GLP-1 Ads Misleading, FDA Says; Novartis Gene Therapies Face Probe over Tumors; Quest Diagnostics Settles Kic - The Capitol Forum",
+          "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQN2sxZVRBR3k2dXp3YS13aThpMVBuT2tiazc1dmxCUzVQSnlfZk1tWVMxZWNzQXVuOGIwOTFrYmpvRVN1OEJEWWV6MVlJMHJZYTQ0QkRyNDhCOURfVlZyWXJINUM3RlNfNkc4R18wSzJiTE1FVkpZWThpLXdZbzFnU2pwZko5M1RNMHJpbUttSC1xeW81X1ZGenB0OV9xbFdsWktsd3psa1FtN25wQmIyNFI0cDQ0NDZkQkJxT1NGNHpOOHFabklidlNNaGE0c081d1JocWl6UHFNMFItOC0yaDV4ZXBvTDBhS0hqTzRtQU5laDdQMjEzQ3NtRXRvQ05IejBhamhBTFphc1N3X2FGSERaYjVYbVM1eWpSSlZ6TEV2ODhhTVJFU2J0Q09PaGYzWWU2OERWM09wNGc?oc=5",
+          "source": "The Capitol Forum",
+          "published": "2026-11-11T08:00:00+00:00",
+          "published_display": "Nov 11, 2026",
           "score": 0.85,
-          "reason": "This item directly addresses the financial impact of the No Surprises Act's Independent Dispute Resolution (IDR) process on employer plans, a core component of NSA implementation that affects revenue-cycle operations and claims management.",
-          "summary": "A study cited by Fierce Healthcare found that Independent Dispute Resolution (IDR) claims under the No Surprises Act cost employer plans an additional $8.4 billion in the prior year. The IDR process, a key mechanism of the federal No Surprises Act for resolving out-of-network billing disputes, has generated significant unexpected costs for self-funded employer health plans. This finding is relevant to revenue-cycle teams managing NSA compliance and IDR dispute resolution, as it highlights the substantial financial burden of the IDR system on payers and suggests potential pressure for operational or policy adjustments to the process.",
+          "reason": "The item explicitly addresses No Surprises Act arbiters (IDR entities) being dropped for poor performance, which directly relates to Independent Dispute Resolution process implementation and enforcement of the No Surprises Act.",
+          "summary": "The Capitol Forum reported that No Surprises Act arbiters have been dropped due to poor performance, impacting the Independent Dispute Resolution (IDR) process that handles out-of-network balance-billing disputes. This development affects the operational implementation of the No Surprises Act's core dispute-resolution mechanism and has implications for how healthcare providers and payers resolve payment disagreements. The removal of underperforming IDR entities alters the landscape of which arbiters are available to handle disputes, potentially affecting dispute resolution timelines and outcomes for balance-billing cases. This is relevant to revenue-cycle teams as it directly impacts the IDR process they use to resolve payment disputes with insurers under the No Surprises Act.",
           "also": [
             {
-              "title": "<a href=\"https://www.fiercehealthcare.com/payers/no-surprises-act-idr-claims-cost-employer-plans-additional-84b-last-year-study-finds\" hreflang=\"en\">No Surprises Act IDR claims cost employer plans an additional $8.4B last year, study finds</a>",
-              "url": "https://www.fiercehealthcare.com/payers/no-surprises-act-idr-claims-cost-employer-plans-additional-84b-last-year-study-finds",
-              "source": "Fierce Healthcare"
+              "title": "No Surprises Act Arbitration Added $8.39B in 2025 Plan Obligations - The American Journal of Managed Care",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUEhwQ0YxeE5SRkY2VjR1OTVsQXJCY2dvT0FYOXpWc0o5R0xUb1JYVy1RTGprbU5qTWtFVG9YVkVlb1RIOWE2YTVDVjFYV2s0VGpyMEpNR3hQR1BVcTNHMVNQWVhCSVdQc1pWVUdXSURneDliYlJuRVlPbS1ZZDNXc1hqdWd5NmZiUUZfYWd0TUhKSjlLQVE?oc=5",
+              "source": "The American Journal of Managed Care"
             }
           ]
         }
@@ -29,36 +29,36 @@
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "Medicare Advantage insurers are suing over 2027 star ratings that could affect billions in future payments - Medical Daily",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTHJvay1jVE9HUEFNX01LOGh6OXNpZjF3YmgtN0MzbzFYcTNweDVYNFhIbV9hNk9Rb2hLdkFhMGtQUkR5OWJzdVBkY0lxVDAwNUpBbHVGNWtHNVRYNllQWEVXTkVVVWxTVXAyWXBha3JweEdsNzRscHloUTM4bXNabjFndlU0WGk1d21hblp3?oc=5",
+          "title": "Select Medical alleges Aetna denied 200 of 207 requests for long-term acute care in Pennsylvania - Medical Daily",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMXhPQ1RTMmhySnpmV2dlQ0tLdF8ycWpvZnhDYXJOajVWNl9XaUo5enowQ2I3bzFTakdiTmJ4OFRNYXh2ZmxrcldtN2FjRHpseFdZRmthSHVvYVM1anNNeE5kYmEzd0s5X3ppLXJ6ZGpRVkFUbDNKYWVyMzJFQnFjLXVzdDJqd01pMlNRRjJHcUctcmd0ckVzbUd3?oc=5",
           "source": "Medical Daily",
-          "published": "2026-11-13T01:12:15+00:00",
+          "published": "2026-11-13T17:01:55+00:00",
           "published_display": "Nov 13, 2026",
           "score": 0.92,
-          "reason": "This reports litigation by Medicare Advantage insurers (a category of payers covered by the topic) challenging a regulatory action (CMS star ratings) that directly affects payment amounts, which is core payer litigation and enforcement activity.",
-          "summary": "Medicare Advantage insurers are filing lawsuits challenging CMS's 2027 star ratings methodology, which directly impacts billions of dollars in future capitated payments to these payers. Star ratings determine payment adjustments and bonuses under the Medicare Advantage program, making rating disputes material to payer finances. This litigation involves major national payers contesting what they argue is an unfair or improper rating calculation process. The outcome will affect MA insurer revenues and their ability to offer supplemental benefits, making it highly relevant to healthcare provider revenue-cycle teams that contract with and bill these plans.",
+          "reason": "This report describes a provider lawsuit against a major payer (Aetna) alleging systematic claims denials, which directly falls within the payer litigation and enforcement topic covering claims-denial suits.",
+          "summary": "Select Medical has alleged that Aetna denied 200 out of 207 authorization requests for long-term acute care services in Pennsylvania, suggesting a pattern of improper claims denial by the payer. The lawsuit challenges Aetna's denial practices for a specific service line and care setting, raising questions about the insurer's medical necessity determinations and payment obligations. This claim-denial litigation is significant for healthcare revenue-cycle teams as it illustrates ongoing disputes over payer reimbursement decisions and the potential financial impact of high denial rates on provider operations and cash flow.",
           "also": []
         },
         {
-          "title": "UnitedHealth audit of insurer policies ducks question of denials",
-          "url": "https://www.healthcaredive.com/news/unitedhealth-internal-review-medical-policies-gaps-denials/874454/",
-          "source": "Healthcare Dive",
-          "published": "2026-11-12T17:09:50+00:00",
-          "published_display": "Nov 12, 2026",
-          "score": 0.78,
-          "reason": "This reports on a regulatory audit of UnitedHealthcare's medical policy development and claims-denial practices, which directly implicates payer enforcement and claims-denial issues central to the topic.",
-          "summary": "UnitedHealthcare underwent a regulatory audit examining its medical policy development processes that determine care approval and denial decisions. The audit identified minor issues with policy development but notably did not evaluate how those criteria are actually being applied in practice to approve or deny claims. This gap is significant for revenue-cycle teams because it suggests potential systemic vulnerabilities in claims-denial practices remain unexamined, leaving uncertainty about whether denials comply with policy standards and regulatory requirements.",
+          "title": "Law Firm Sues Insurer Over Claim From ‘Take Care of Maya’ Family - Bloomberg Law News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1J0VjIzc1ItZVZzMG9ST09USlJiaklkS3NKTmxfSk9obVFidmtMVlYwV0VZSEpnVWEtdzRQWTZFYW5ETEQybDNLaDBuYU9DSE9UUWxjNU1Qc0lETkpwS2hZcmhSOHBxdlhLNVV0Q0kwQ0xqZU5Sd2hZTTFSX0hyNzJGRmt2LUF1bUhwc2owR3V0d1pXWklNOEVHMTR2T0U2?oc=5",
+          "source": "Bloomberg Law News",
+          "published": "2026-11-14T00:00:00+00:00",
+          "published_display": "Nov 14, 2026",
+          "score": 0.87,
+          "reason": "This item reports a lawsuit against an insurer by a law firm, which constitutes payer litigation directly covered by the topic definition; the specific claim involves a disputed insurance claim from a prominent case, making it relevant to enforcement actions and member/provider disputes with payers.",
+          "summary": "A law firm has filed suit against an insurance company over a claim denial involving the family from the 'Take Care of Maya' case, a high-profile dispute over medical coverage for a child patient. The lawsuit represents a member claim-denial dispute against a payer, directly implicating insurance coverage and claims-handling practices. While the excerpt does not specify the insurer name, court venue, dollar amounts, or timeline, the filing itself constitutes a payer litigation action that healthcare revenue-cycle teams monitor for precedent-setting claim-denial patterns and enforcement trends. This case is significant because it involves a previously publicized family case, suggesting potential media attention and possible regulatory interest in the insurer's claims practices.",
           "also": []
         },
         {
-          "title": "California Judge Sues Insurance Commish For Firing After Ruling Against Insurer Settlements - California Globe",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMTkzdTVaUTVXc2VESkRlaDdvalZLQ1RaVmFfV09RZWpCQWRaSWhZbkRQbkxvYUo5V0hBcktYZzdidWNhd0NsY0RUYmU2TjUxWVFrVGpTeTdsRHlrVnp6Nm9xOW1la1U0dWFwc3dZSXpoMDJwZEpZaTJBQXIzYlZ6cm5wV1JQeHBfNHZWMlVfRjFkWEtLT1JKdDRDRERFNVJmcVVQbHlRbUEzaHBscDY2M1FfMGVKc2JjT01RTExSQk8?oc=5",
-          "source": "California Globe",
-          "published": "2026-11-12T00:47:04+00:00",
-          "published_display": "Nov 12, 2026",
+          "title": "California Insurance Department responds to lawsuit over rate increases - The Business Journal",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRVlMN2FFS3c2MHVKWXlGTHdoSVVmZFpqMVBUMXZock16WVJ3OVB5c1NnNWU4QWFXV3NUTmFpY1hucHVNYXI3Y2Fkd2prTEVwbkhVOWpLdkVlbFdmUVFmNzJ4RFFOeDJFS1dEUldueEtPaUxSMDhkRXotblNQaE9YQ24xODFFeDdlM25IdWItZw?oc=5",
+          "source": "The Business Journal",
+          "published": "2026-11-13T23:24:21+00:00",
+          "published_display": "Nov 13, 2026",
           "score": 0.75,
-          "reason": "This involves regulatory enforcement action against a California insurance commissioner, which falls within payer litigation and enforcement involving insurance regulatory bodies, though it is a personnel/retaliation claim rather than a direct payer enforcement action.",
-          "summary": "A California judge has filed a lawsuit against the state Insurance Commissioner, alleging wrongful termination following the judge's ruling that went against insurer settlement positions. The case implicates regulatory oversight of insurance practices and potential retaliation by state insurance regulators. While the specific details of the underlying insurer settlements and the judge's ruling are not provided in the excerpt, this development affects the administrative framework governing insurance regulation and enforcement in California. Revenue-cycle teams should monitor this case as it may influence how state insurance regulators handle payer disputes and settlements going forward.",
+          "reason": "This involves regulatory enforcement action by a state insurance department against a payer regarding rate increases, which falls within payer litigation and enforcement oversight, though the excerpt lacks specific details about the named payer, lawsuit claims, or financial impact.",
+          "summary": "California's Insurance Department has responded to a lawsuit challenging health insurance rate increases, representing state-level regulatory enforcement action against payer practices. The item indicates ongoing litigation involving rate-setting decisions, which directly affects payer regulatory compliance and potential penalties. Revenue-cycle teams should monitor outcomes as adverse rulings could impact payer finances, contracts, and reimbursement rates to providers, though specific payer names, claim amounts, and timeline details were not disclosed in the available excerpt.",
           "also": []
         }
       ]
