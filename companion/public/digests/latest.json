@@ -1,32 +1,54 @@
 {
-  "generated_at": "2026-11-16T13:02:48.761643+00:00",
+  "generated_at": "2026-11-17T13:02:50.410052+00:00",
   "topic_count": 1,
-  "item_count": 2,
+  "item_count": 3,
   "topics": [
     {
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "11 Medicare Advantage Insurers Sue CMS Over 2027 Star Ratings and Nearly $4 Billion in Payments - Medical Daily",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRk5QUm9xbEpDU1hYTHpQeWlGQ0kwd0M0ZkVEVTdwZ0xjekdOcXRqZEktZkpBbzBRT1BwdDYwalIzRU9OZWg1VHNCN1ZpZHNkd3NqYmZycGtMck12NVJQRWVfcWl0eGJSd3Y0amMwdk9zV2VRamZRVkZndjJ4OWF3OHdFakFNNnZMRnNjcw?oc=5",
-          "source": "Medical Daily",
-          "published": "2026-11-16T03:04:54+00:00",
+          "title": "Carelon to pay at least $10.35 million in New York settlement over mental health, addiction treatment access - Bee Group Newspapers",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdGpxRVRCU3I1YzVLaEJCR3ZweDg0a3dSQjQydVNydWtIMFhkTnQ2bmRod0cyNmpqZGJaQllmdURiSmxBY1psem1OMmlGRVNEMW9Vc3kxZkcxQkFGVGRuQy1CSXVfRmZEUUp5ZlE0S1RjZktJck9mdTZXLXZNcDhRNFFNcmx0bzBoRDYtYTFqaFVrdG5mT2s4MVAwRWx6dnpHcFhvX2FIc0JGdEdWLS1QeFh4Q0Y1QU5pci1DQk5ZaEFmVUpmekhiUGJmZ25MSkxBWEMyUU9xM2dQVXNSc1NoTnJ3NmpKWTkyOGxzaVVLWWM1OEFaVVY4clBUV0tPQkdQZ0xCOQ?oc=5",
+          "source": "Bee Group Newspapers",
+          "published": "2026-11-16T18:15:00+00:00",
           "published_display": "Nov 16, 2026",
-          "score": 0.92,
-          "reason": "This reports litigation by multiple Medicare Advantage insurers (payers) against CMS involving Star Ratings methodology and $4 billion in payment disputes, which directly falls under payer litigation and CMS enforcement/sanctions.",
-          "summary": "Eleven Medicare Advantage insurers have filed a lawsuit against CMS challenging the 2027 Star Ratings methodology and disputing approximately $4 billion in related payments. The suit contests CMS's approach to calculating Star Ratings, which determine MA plan quality scores and affect bonus payments to insurers. The litigation involves major payers operating in the Medicare Advantage market and directly impacts payment obligations and quality-metric incentives. For revenue-cycle teams, this case matters because Star Rating disputes can affect overall payer solvency, claims-payment capacity, and negotiating leverage with health plans, particularly if CMS enforcement or payment adjustments result from the litigation outcome.",
+          "score": 0.95,
+          "reason": "This item reports a regulatory settlement involving a payer (Carelon) with a state attorney general over access-to-care issues, which falls directly within the payer litigation and enforcement topic.",
+          "summary": "Carelon has agreed to pay at least $10.35 million in a settlement with New York authorities over failures to provide adequate access to mental health and addiction treatment services. The settlement represents a regulatory enforcement action by the state against the payer for access-to-care violations. This outcome affects Carelon's compliance obligations and financial liability in New York and may signal increased state scrutiny of payer practices around behavioral health coverage and network adequacy, matters that revenue-cycle teams track when evaluating claims processing, network management, and denial patterns by payers.",
           "also": []
         },
         {
-          "title": "Long-term care group sues Aetna over prior authorization denials associated with hospital transfers - HealthExec",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUGtpY0hTcDNyRmVORVlueTVxeUN0LUthRTVxRHp4bW16MHprSnluck1LNUIxTFQzV29WNEJ3MlhtSkhKMUN2UnJzVUs3QWx2eERqX0hwaHBnSnd5eGVOdm5yY0hZNlRSUmxvYm9BQVZTTTJhQlQ0YThET1VJVTU3VzVGS3ZhRVFSRGNRYTRnOEpiM1pkVmtLZXFJMWhBMFlVQUJvZFktOFBZRjZCUS0wYVNZd3dVRWtNbmNOaEpMM084azEzX0JKRUIyM0pIT3BDaUVjT0dRRWVyczVCcDc0NTNwMUVvdmxVeEZkT3F3?oc=5",
-          "source": "HealthExec",
-          "published": "2026-11-14T02:00:58+00:00",
-          "published_display": "Nov 14, 2026",
+          "title": "Molina Healthcare sues over $140M star ratings loss - Modern Healthcare",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2xqcm90VU9wOFJyWkE1T1I2cl8xVjJfWXJyX3RNVEJpcWZQc05qQlpVVXIyTlRTQ2NnZlM2YjVNY0d0Y2IwX2dMTk1Dd2NFdjVISWcxX194VkNwbEItYjBLNTl1ZmRzVWE2cl9GUldYb0Fmc0N2ckcyZW80SlRUOUtsT1hBemQ2cUhlWlhuZEZlb3c0a0VXUA?oc=5",
+          "source": "Modern Healthcare",
+          "published": "2026-11-16T21:00:48+00:00",
+          "published_display": "Nov 16, 2026",
           "score": 0.92,
-          "reason": "This item reports a lawsuit against Aetna (a major payer) involving claims-denial practices (prior authorization denials), which directly falls within the payer litigation and enforcement topic.",
-          "summary": "A long-term care group has filed a lawsuit against Aetna alleging improper denial of prior authorization requests related to hospital transfers. The suit challenges Aetna's prior authorization practices in the context of patient transitions from long-term care facilities to hospitals. This litigation is relevant to revenue-cycle teams as prior authorization denials and claims-denial disputes are common sources of payment delays and revenue loss, and the outcome may affect how payers process transfer-related authorization requests across the industry.",
+          "reason": "This reports a lawsuit by a payer (Molina Healthcare) involving financial penalties related to CMS star ratings, which falls directly within payer litigation and regulatory enforcement affecting revenue-cycle operations through quality metric enforcement mechanisms.",
+          "summary": "Molina Healthcare has filed a lawsuit concerning a $140 million loss related to CMS star ratings, according to Modern Healthcare. The suit represents a payer's challenge to star-rating-based penalties, which directly impact plan revenue and quality metric compliance obligations. This litigation is relevant to revenue-cycle teams as star ratings drive Medicare Advantage payment adjustments and affect overall payer financial performance, potentially influencing network policies and provider payment negotiations. The case highlights regulatory and financial risks payers face in quality reporting and performance measurement systems that ultimately influence provider reimbursement strategies.",
           "also": []
+        },
+        {
+          "title": "CMS Set to Recompete Medicare Advantage Audit Analytics as RADV Program Expands - OrangeSlices AI",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcFNkWi1wdXE0clVhLXZWZ3pjQThJdHJQQ2d3VThHOURmNDk2TDl3a2tFUF9TX19HUnJHQTVWQ2tZYVhtYjRqcEtEaTFxb0xsYktZandLWXozRmdDWEJhU01ZXzc5elZISXpUbm9CNEJlQzZZZ2ROWVFKRFBkQXQ2anhRWHNhbWtEQ2p0RzQ5ZWpWLVpTMzJhdkhNNk1OVWtaOTdjTnJkVQ?oc=5",
+          "source": "OrangeSlices AI",
+          "published": "2026-11-16T22:49:36+00:00",
+          "published_display": "Nov 16, 2026",
+          "score": 0.78,
+          "reason": "CMS enforcement and audit actions against Medicare Advantage plans (RADV program expansion) directly impact payer compliance, penalties, and revenue-cycle operations for health plans and their provider networks.",
+          "summary": "CMS is recompeting its Medicare Advantage audit analytics contract as the RADV (Risk Adjustment Data Validation) program expands its oversight of MA plans. The RADV program conducts audits to identify and recover improper payments and coding errors, with findings often resulting in penalties and payment adjustments for payers. This expansion signals increased CMS enforcement activity and audit frequency targeting Medicare Advantage plans, which affects how plans manage claims processing, documentation, and provider payment integrity. Revenue-cycle teams managing MA contracts should anticipate more rigorous audit scrutiny and prepare for potential recoupments and compliance demands.",
+          "also": [
+            {
+              "title": "New Trump regulation promises to crush ‘fraudsters.’ All the savings come from Medicare Advantage - STAT",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdnRuLW8yR0x1V1dYMTRrVy0ta3BoRk1UNzdCM2hQSjFCeG9VMFpQcVpaUGlGUjNsTVd2TEdzb0tYNnNXQ0gxNXExTFNuUGtwQjF3TmJ0RGZuWTdXcTFiMGljRWl0RkZYc0FWaXVUMHVMVURUclJheXcxQVl6ZDFjWG1VOEhFelBKWDFQbHZDN0JWdjRnLWkydnZia0E?oc=5",
+              "source": "STAT"
+            },
+            {
+              "title": "New CMS proposal would expand Medicare Advantage audits and stop unsolicited texts and door-to-door pitches from medical supply companies - Medical Daily",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTXMtUEZWeGpJeEZFWlcwdmFqaU1iby1DTEVjR1R6SWhGUE1YcUt5OHYxVjVEcXhZVXdRWUwtSUY0b2hmakQ5WTlZNWcxZEJQdWd6NEtBUzdmSnVWRUpvTmpoUkNZSkI2QmFVN3hJM2ZTSFJwTkdjQkl2a0FyYnZmWDJn?oc=5",
+              "source": "Medical Daily"
+            }
+          ]
         }
       ]
     }
