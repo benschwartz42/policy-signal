@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-11-19T13:03:33.922755+00:00",
+  "topic_count": 2,
+  "item_count": 2,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "Arkansas Healthcare Providers Collect Millions Through No Surprises Act Arbitration - Arkansas Business",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSTBWZ0V6MzNuTjhJeHFwZHhkcGZUVmNmNUJrNS00bmNqUFRpRTdNLTJrTXB0VWI2dDJKR1lvQTk2Vy1zY2QxVElRbXZnQV9yTWU5YldIazNpVjltaE5vTV9KTmhrQ0tQMEdGRGlMbEw5eXljWmcxejFmcVp5UUJCbTBRd0dYbzZ6VU81Y0w3Wl9hTVBuMWpURjROaFIwR0U?oc=5",
+          "source": "Arkansas Business",
+          "published": "2026-11-16T06:00:39+00:00",
+          "published_display": "Nov 16, 2026",
+          "score": 0.75,
+          "reason": "The article reports on outcomes from the No Surprises Act's Independent Dispute Resolution (IDR) arbitration process, demonstrating real-world implementation and enforcement impact that revenue-cycle teams need to understand.",
+          "summary": "Arkansas healthcare providers have collected millions of dollars through arbitration proceedings under the No Surprises Act's Independent Dispute Resolution (IDR) process. The article reports on actual settlement and arbitration outcomes from the balance-billing protections established by the federal law, showing how providers in Arkansas are utilizing the IDR mechanism to resolve payment disputes. This demonstrates concrete implementation of the No Surprises Act rules and their financial impact on providers' revenue cycles across the state. Revenue-cycle teams need to monitor these outcomes to understand IDR process effectiveness and benchmark their own dispute resolution strategies.",
+          "also": []
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Baystate Health ends contract, sues Commonwealth Care Alliance over unpaid claims - WWLP",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONW5raVpDQk9qbXJUWjd1ZDlqR0g5R24yQ1dSWE9OXzZxTFJPTGc1QWxNc0lzN25FekdqX2pSOG1HTnFTTTZfZl9pRFFPcTk0Y3NZYUNlaTNNaHJWM2N3MlJFc3Vxc2J6ODVEa1RVYm5YRl9rbGhQRTNhSVRiSVE3RGo0SW96YzFtU1ZLU25HQ3k1Y0haTm9VYTJESDVYbVA0S0FjTVNUbmJkcUE1U0xCSGZmQmlYUlZWVUNTeEpR0gHDAUFVX3lxTE9ZTkdGdGl0ZUZlTkpyaHQ5RG1KSHNiNktmSS1jQ1JpUjN4YkJKUGl4cFd4TTRNclFmOFNEd2huay1pUjF4UTJTV3F1ei1BdE5aUWJkWnpycEgtQnJzOVBodlAyX3lrT2J0TFU4LVdEYXlya3V4VGVDRklmWFp0bWNDWkxJNkF1NmJvVVY3LUhJNlhzVWhkZ1lETEVkLVlYNVpTS185SHZxallpWENxbHpiUTItelAtTVRMS0JFc25LbWVqVQ?oc=5",
+          "source": "WWLP",
+          "published": "2026-11-18T01:29:08+00:00",
+          "published_display": "Nov 18, 2026",
+          "score": 0.92,
+          "reason": "This reports a provider lawsuit against a payer (Commonwealth Care Alliance, a Medicaid managed-care plan) over unpaid claims and contract termination, which directly involves payer litigation and claims-denial disputes central to the topic.",
+          "summary": "Baystate Health has terminated its contract with Commonwealth Care Alliance (a Medicaid managed-care organization) and filed a lawsuit over unpaid claims. The dispute centers on CCA's failure to pay provider claims, prompting Baystate to end the contractual relationship and pursue legal action. This case affects provider cash flow and revenue cycle operations, as it demonstrates payer disputes over claim reimbursement that require litigation to recover outstanding payments. The outcome will be relevant to revenue-cycle teams managing payer relationships and claims disputes.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
