@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-11-20T13:02:49.411201+00:00",
+  "topic_count": 1,
+  "item_count": 1,
+  "topics": [
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "UnitedHealth sues to reverse downgraded Medicare Advantage quality scores - STAT",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWVCUEhzT0tQa3dpNVVJZ1hMS0RLaEVpVmEwRFQxa2NkRjBQTU1hYTVuMll2VlJxTGxKaXExd2ZHVUZtbm5kel9sTFFkUm8xYllNcU4xMU1YbEkxNTMwb1ZFXy1jNkJQYWwyR2syT2JPcDZSTHpPeC1ObU1yUmlJdGZVS0hZdWk1ZFdiRE9yRXBQdXEtMDkw?oc=5",
+          "source": "STAT",
+          "published": "2026-11-20T07:29:59+00:00",
+          "published_display": "Nov 20, 2026",
+          "score": 0.92,
+          "reason": "This reports litigation by a major payer (UnitedHealth) against a regulatory action, directly matching the topic's coverage of payer litigation and CMS/Medicare Advantage enforcement matters.",
+          "summary": "UnitedHealth is suing to reverse downgraded Medicare Advantage quality scores, representing litigation against regulatory enforcement action by CMS. The lawsuit challenges quality-score reductions that affect the payer's Medicare Advantage plans and their star ratings, which determine bonus payments and plan competitiveness. This directly impacts revenue-cycle operations, as Medicare Advantage star ratings influence plan enrollment, premium adjustments, and supplemental payment eligibility. The case outcome could affect UnitedHealth's Medicare Advantage profitability and set precedent for how payers can challenge CMS quality assessments.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
