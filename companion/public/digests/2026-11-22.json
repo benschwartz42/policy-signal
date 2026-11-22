@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-11-22T13:03:00.830041+00:00",
+  "topic_count": 1,
+  "item_count": 1,
+  "topics": [
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "UnitedHealth Is Suing the Government Over Medicare Advantage Star Ratings - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMlBQMUthcTdVR0RnZnlLTmhIZjlzQnB5dTU2VDA3SEw4bUdFYjlZeWs4QU02MFEtRzRmYnI0RXRLUS1OXzAtalZDMThJd3lpYzF3M2lqWU5fRGNsbVZjeGRPRWppSTJZYTBlSHBQZTJFNjJ0NVFkVWE4Wl9kM2Y0clUwQ2RvU3BTd1FBYzF3NWE1cWJRYXREZGtjb1VhQVhaN0ZKWk9lZlc3czdEQmlVOTMwRVZ3ZkVY?oc=5",
+          "source": "24/7 Wall St.",
+          "published": "2026-11-21T17:58:00+00:00",
+          "published_display": "Nov 21, 2026",
+          "score": 0.92,
+          "reason": "This item reports litigation by a major payer (UnitedHealth/UnitedHealthcare) against a government entity, which falls squarely within payer litigation and enforcement actions that affect revenue-cycle operations and regulatory compliance.",
+          "summary": "UnitedHealth is suing the federal government over Medicare Advantage Star Ratings, a performance metric system that directly affects payer reimbursement and bonus payments under the Medicare Advantage program. Star Ratings determine MA plan quality scores, which influence CMS payments and member enrollment—making this litigation relevant to revenue-cycle teams managing MA contracts and understanding payer payment methodologies. The lawsuit challenges how CMS calculates or applies these ratings, potentially impacting the financial performance metrics that drive payer behavior and network-related policies affecting providers. Revenue-cycle teams should monitor the outcome, as changes to Star Rating methodology could alter MA payment structures and payer incentives for cost containment or network restrictions.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}

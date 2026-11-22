@@ -1,63 +1,20 @@
 {
-  "generated_at": "2026-11-21T13:03:28.603799+00:00",
-  "topic_count": 2,
-  "item_count": 3,
+  "generated_at": "2026-11-22T13:03:00.830041+00:00",
+  "topic_count": 1,
+  "item_count": 1,
   "topics": [
-    {
-      "name": "No Surprises Act Litigation",
-      "items": [
-        {
-          "title": "Agencies launch centralized platform for managing independent dispute resolution operations - American Hospital Association",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZmdJVHIwUl81dHYtRl9KMmxmcmxkV0lFZ0VKS2Z0N1lZRjJyT0hYc1UyYmlJcV9TSHBkSFpVcEYwYWlsZkNxVWlUYmtLRWVULTdiTVVCWUdBS1BXT2xWckd6LUs3R3dyME55Qm1mb0F4Y01Jd2l4T3A1LV9KYkdSdUxoTHdqWVdGQzQ2U1NlTUZvaUN3V2JPNWMtU0lRdFdyRXZ4Q2FrZS1OcVVONTZUV3dmSGM5OERhQ1MxYTlQZEZwMEw0RHAyd01SNFU?oc=5",
-          "source": "American Hospital Association",
-          "published": "2026-11-20T21:01:56+00:00",
-          "published_display": "Nov 20, 2026",
-          "score": 0.85,
-          "reason": "This item directly addresses operational implementation of the Independent Dispute Resolution (IDR) process, a core component of No Surprises Act enforcement that revenue-cycle teams depend on.",
-          "summary": "Federal agencies have launched a centralized platform for managing Independent Dispute Resolution (IDR) operations under the No Surprises Act. This platform consolidates IDR administration, which handles disputes over out-of-network balance bills and other surprise billing claims. The centralized system affects hospitals, insurers, and dispute resolution entities involved in the IDR process. Revenue-cycle teams will need to adapt workflows and systems to interact with this new platform for submitting, tracking, and resolving IDR claims.",
-          "also": []
-        }
-      ]
-    },
     {
       "name": "Payer Litigation & Enforcement",
       "items": [
         {
-          "title": "UnitedHealth sues CMS over 2027 Medicare Advantage ratings - Minnesota Lawyer",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaWZNMVRlUnpMT0l4UnB5ODA0QUVBQS1QYk5XVk9ramY2MWJtbW1hMWl0akl1ZXpkUEtIOUdUQkhoUmNYUkJXbGNuUDBxZ2tjaTlseU5VYklMSFpXTV9rNDJMcER6NWVJU3prM3JHRllGZ3VnUm4wUlhxMlJNNF9oSjZqWVlidjRMUi1uNVFoZw?oc=5",
-          "source": "Minnesota Lawyer",
-          "published": "2026-11-20T17:57:30+00:00",
-          "published_display": "Nov 20, 2026",
-          "score": 0.92,
-          "reason": "This reports a lawsuit by a major payer (UnitedHealth) against CMS, a direct fit for payer litigation and enforcement topics that affect revenue cycle through Medicare Advantage reimbursement and rating mechanisms.",
-          "summary": "UnitedHealth Group has filed a lawsuit against the Centers for Medicare & Medicaid Services (CMS) challenging the agency's 2027 Medicare Advantage ratings methodology. The suit contests CMS's rating framework that affects plan star ratings and bonuses for Medicare Advantage insurers, which directly influences payment adjustments and financial performance under the MA program. Revenue-cycle teams are affected because MA ratings determine plan competitiveness, enrollment projections, and capitated reimbursement levels that drive provider payments and network stability for the upcoming plan year. This litigation outcome could reshape how CMS calculates ratings, impacting provider contract negotiations and payment forecasts tied to plan performance metrics.",
-          "also": [
-            {
-              "title": "UnitedHealth sues US government over lowered Medicare Advantage star ratings - Reuters",
-              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZkkzc3lmejhhOURUWFN1c2pwbHBrZXJYMlNmNUt3Nk5aYUpwVUJYRkVnMmZISXR4S1hfRkY4TUZpejNfcjQ3MExMem5pS0ZCQkhEajI2dmFKWjVBM1dXQzQxVlVYbU5wdDVZTmhjRjM3dXB3MlJvSXJGVlczb1lhS3lDaW9GbkxjbWpKVEFVWXBCUC1pcmlWZzA2ODl1V0taSUVLZFhGVTFBWE5XYkpJejFwRGtJOElDdzhuVkgtT3NmNVpqS2dSLQ?oc=5",
-              "source": "Reuters"
-            },
-            {
-              "title": "UnitedHealth Sues Over 2027 Medicare Advantage Star Ratings, Becoming at Least the 15th Plan to Challenge CMS - Medical Daily",
-              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN3hLUlo3Yll4ZVhrcHlZekUtN0hLV3hxX2VDc2g4aDF1dGd4b0h4TTNFUE1pTmpHeWRJYXNXRlB1c1pkblRQOEE3Y3NYZjZXN0NGbUhrcXplVjBLcG5hZFhpMFUtalRnQ3dkUV9RTGZZdE4wdkN1X0hCQmpCcUVvQWlXTW1FQTFNWG1XRkplZENDUTE4anYxbVBB?oc=5",
-              "source": "Medical Daily"
-            },
-            {
-              "title": "UnitedHealthcare sues over 2027 Medicare Advantage star ratings - Modern Healthcare News",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVHdYRU1tb0J2aHBNOVFuN21zZkRMYjU0SnByQThnMFVRRkdsSzBTOWx6dGRTeWxjVklySlpXRXZBY09YLXNnOTEtUHpXTnZDa0REaUxkYU1XUGFiNllhUFFTb0l3NGtKd3VaZFZpRDV4aDVWSGdQQXV2SF91aWY1UWpnNG9uN1dWYUg2eWpaYUZoYTZreUVkZXNTM1hScEJtYUxnUFdB?oc=5",
-              "source": "Modern Healthcare News"
-            }
-          ]
-        },
-        {
-          "title": "CMS proposes $107B Medicare Advantage Star Ratings pay cut - Modern Healthcare News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUFh1TTZCcWUzRDRldmlMQ1BvVmd5Q2w4TmRnbHRhNDVEYU5mcW5lM01WOTlnQVpvbWlRUGRqdDFKeTlmU3pRUHoyRDBvVnZGbjNyZXlQeGJiQkV2OFI5VkEzSEkzWENyTkpzOUk2ZHc0U0tDTEsxQnQtLWJvZFhRalBtUVVoanRRM2liNDJOYUpDdWVFTTdnUnZ6NFhZam0xV2RFdVZoci1UVFZs?oc=5",
-          "source": "Modern Healthcare News",
-          "published": "2026-11-21T01:45:01+00:00",
+          "title": "UnitedHealth Is Suing the Government Over Medicare Advantage Star Ratings - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMlBQMUthcTdVR0RnZnlLTmhIZjlzQnB5dTU2VDA3SEw4bUdFYjlZeWs4QU02MFEtRzRmYnI0RXRLUS1OXzAtalZDMThJd3lpYzF3M2lqWU5fRGNsbVZjeGRPRWppSTJZYTBlSHBQZTJFNjJ0NVFkVWE4Wl9kM2Y0clUwQ2RvU3BTd1FBYzF3NWE1cWJRYXREZGtjb1VhQVhaN0ZKWk9lZlc3czdEQmlVOTMwRVZ3ZkVY?oc=5",
+          "source": "24/7 Wall St.",
+          "published": "2026-11-21T17:58:00+00:00",
           "published_display": "Nov 21, 2026",
-          "score": 0.85,
-          "reason": "CMS enforcement action proposing substantial Medicare Advantage payment reductions based on Star Ratings performance directly impacts payer revenues and represents regulatory action by CMS against MA plans, which is core to payer litigation and enforcement.",
-          "summary": "CMS has proposed a $107 billion reduction in Medicare Advantage payments based on Star Ratings performance metrics. This regulatory action by CMS targets Medicare Advantage plans' reimbursement levels, with payment adjustments tied to quality-of-care ratings. The proposal affects all Medicare Advantage insurers and their financial performance. For revenue-cycle teams, this represents a major regulatory enforcement mechanism that will significantly impact MA plan revenues and require operational adjustments to quality metrics and billing practices to mitigate payment reductions.",
+          "score": 0.92,
+          "reason": "This item reports litigation by a major payer (UnitedHealth/UnitedHealthcare) against a government entity, which falls squarely within payer litigation and enforcement actions that affect revenue-cycle operations and regulatory compliance.",
+          "summary": "UnitedHealth is suing the federal government over Medicare Advantage Star Ratings, a performance metric system that directly affects payer reimbursement and bonus payments under the Medicare Advantage program. Star Ratings determine MA plan quality scores, which influence CMS payments and member enrollment—making this litigation relevant to revenue-cycle teams managing MA contracts and understanding payer payment methodologies. The lawsuit challenges how CMS calculates or applies these ratings, potentially impacting the financial performance metrics that drive payer behavior and network-related policies affecting providers. Revenue-cycle teams should monitor the outcome, as changes to Star Rating methodology could alter MA payment structures and payer incentives for cost containment or network restrictions.",
           "also": []
         }
       ]
