@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-11-23T13:02:55.396827+00:00",
+  "topic_count": 1,
+  "item_count": 3,
+  "topics": [
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "UnitedHealthcare enters legal fight over CMS’ Medicare Advantage star ratings - HealthExec",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONHFta2dSa2tRcXNTTFlOeFRQdzRKdGJ0ZTJSZ25zQm5GMmVGY3pZMTFZWFFYU0pCU1J5SnlxeUJXaG1iNXYyUTR0blNjMzdISFU0dzU2TEw4bnk5NmlpaENvWFd4ejFtRjkta1J4dlV2LWRNVG42ZWxWN2xSUjlxaG5tVzJrU3dwNHdqM3ZqSlhNVTdaSGpSdnJzWmlMU1c3dFZlcTBGRkN6TTdES3V1Z09iVGxWamRwTUJfbWdwQnkwVjZDTVl1OEVSMTJpcE82MlBYa21xRWZ0OWxkNnk4?oc=5",
+          "source": "HealthExec",
+          "published": "2026-11-23T00:49:15+00:00",
+          "published_display": "Nov 23, 2026",
+          "score": 0.92,
+          "reason": "This reports a lawsuit by a major payer (UnitedHealthcare) against CMS involving Medicare Advantage star ratings, which is a direct regulatory enforcement matter affecting a primary payer.",
+          "summary": "UnitedHealthcare has initiated legal action against CMS challenging the agency's Medicare Advantage star ratings methodology. The litigation centers on disputes over how CMS calculates and assigns star ratings to MA plans, which directly impact plan performance assessments and potentially enrollee selection and payment outcomes. This matters for revenue-cycle teams because MA star ratings influence which plans attract members and how CMS reimburses plans, ultimately affecting provider payment rates and contract negotiations with these health plans.",
+          "also": []
+        },
+        {
+          "title": "CMS’ Medicare Advantage audit push jolts insurers - Modern Healthcare",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM0xjcWJvUVhzb0NNMXhiWE9UTkhPc3NpMmFqdkVUZ1N0Y3hhM3ZkRWVjdVhaSzZ3cDhiUXg2Mm55eWl0NWZZTHVVU2MwREo4NHozbTh1ejl3bm1yVnFpWnFXRngyRTRvV3E3dWlPandJQk9JdGkzMzAxMzRLaHBSXzh4aTFjNWE1aHNsNVlnWjZpN1FfaWdBSkFXVQ?oc=5",
+          "source": "Modern Healthcare",
+          "published": "2026-11-23T11:04:45+00:00",
+          "published_display": "Nov 23, 2026",
+          "score": 0.85,
+          "reason": "CMS enforcement action against Medicare Advantage insurers through audit initiatives constitutes direct regulatory enforcement against payers, which is a core element of the payer litigation and enforcement topic.",
+          "summary": "CMS has intensified audits of Medicare Advantage insurers, creating significant compliance pressure on major payers. The audit initiative focuses on MA plan operations and performance, with CMS using expanded enforcement mechanisms to scrutinize insurer practices. This regulatory push affects all major MA carriers including UnitedHealthcare, Anthem/Elevance, Humana, Aetna, Cigna, and others operating Medicare Advantage plans. For revenue-cycle teams, the increased CMS audit activity may impact claim processing, payment policies, and documentation requirements as insurers face heightened regulatory oversight and potential sanctions.",
+          "also": []
+        },
+        {
+          "title": "Blue Cross Medicare Advantage Plans in Five States Will Stop Mailing Prior Authorization Approvals - Medical Daily",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZmoySHJBUzRJYWo1LW13elVIQ0VFQmlCRHh1TkpxT1dlZE1XNk5VU1FheG9uSXNPUklrSnpHOFI0MUJDQ1dvUG9jbHE4ZFROZFFFcXI0RmhYcjl1MTdFSG5YQnVHVTBvdXRpZjV4UHlFOXZnRF9SM1Y3RE9GUVpTX0pqTHlLV0ZnQnVLNlJDbUtDUkpQUmc?oc=5",
+          "source": "Medical Daily",
+          "published": "2026-11-23T04:30:28+00:00",
+          "published_display": "Nov 23, 2026",
+          "score": 0.78,
+          "reason": "This report describes a payer policy change by Blue Cross (a major BCBS plan) affecting prior authorization procedures across multiple states, which directly impacts provider claims processing, revenue cycle operations, and potentially creates grounds for provider disputes over authorization documentation and claims denial.",
+          "summary": "Blue Cross Medicare Advantage plans in five states are discontinuing mailed prior authorization approval letters, shifting to digital-only notification. This operational change affects how providers receive and document authorization for covered services, potentially creating claims-processing delays and disputes if providers cannot readily access or produce proof of prior approval for reimbursement claims. Revenue-cycle teams will need to establish new procedures for capturing and validating digital authorizations and may face increased claim denials if documentation cannot be produced in the payer's required format.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
