@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-24T13:03:40.080466+00:00",
+  "topic_count": 2,
+  "item_count": 6,
+  "topics": [
+    {
+      "name": "Federal IDR",
+      "items": [
+        {
+          "title": "No Surprises Act: Federal Court Invalidates Parts Of The Independent Dispute Resolution Process - Legal 500",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNUstVnBHdW01dUNBOUM2RGZpQmFfX3NaT2M1X2VjMDJ5UE9CVk10bFBQNDcyc0NMZzR0RHBHdHBZbm44dEJOQXpHc2lMZlRZb1NMQ2NTMFdjWldHS0pNa2x4RjlZcWJVTTNiRkxELU05MU4yZkRXcGZYLWZDVWl1OUI3NmF4LTlKajZzU0NFVnhrbVFkZWF4SGY0NmlKLXZ1UGs3ZldLZDBMb2tuazdPbVBVd09QelNFSWVsQkRmOE5RRWctaWlTRWRlYXVSd2g2N2VydFVlVnQzTllmclJmeDgxTXB3Q1pTVjh2QnRpdGJyelBRME9R?oc=5",
+          "source": "Legal 500",
+          "published": "2026-11-01T17:42:19+00:00",
+          "published_display": "Nov 01, 2026",
+          "score": 0.95,
+          "reason": "This item directly addresses federal court litigation invalidating parts of the IDR process, which is explicitly within scope as litigation over the IDR process itself.",
+          "summary": "A federal court has invalidated portions of the Independent Dispute Resolution (IDR) process established under the No Surprises Act, according to Legal 500. This litigation represents a direct challenge to how HHS/CMS has operationalized the federal IDR system for out-of-network payment disputes. Revenue-cycle teams must monitor this ruling's specifics to understand which IDR procedures are now invalidated and how CMS may need to revise guidance or portal operations in response. The invalidation could affect batching rules, eligibility determinations, or other administrative aspects of dispute arbitration, potentially creating uncertainty in dispute timelines and processes.",
+          "also": [
+            {
+              "title": "Second Circuit Rules Providers May Not Enforce No Surprises Act Payment Awards - Legal 500",
+              "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOdVllVmxrQVJsVGpFS096czJERXozVzhMOGxsT2lBWXZTNTU0RF9tTXRidnlLX0t1VTktbG9RNmlNb2dJcGp4d1I0NEJTMHNFS0tSRklHT1V5UEZIYXdya3lXLU5CNHc2MnRDZThLMWUtRkhRb2p0VHRfM21lUGtfb3R2UU5Rc0M1YUlTTW9tTVNkc3AwOHBzOF9oQXFVWXdYNks5TFVHclFzVFQwOUhqWXpuQ1FfSF9Mb1ZTS05BNWRSLUxQcjhIOHI0NlNtS1dESWJzWkV6Y1o5RVY5eDVFcHVsV0RmeF9DMS1PdmVRNVJ2c0pnUlE?oc=5",
+              "source": "Legal 500"
+            }
+          ]
+        },
+        {
+          "title": "Feds unveil portal to track No Surprises disputes",
+          "url": "https://www.healthcaredive.com/news/feds-unveil-portal-to-track-no-surprises-disputes/875472/",
+          "source": "Healthcare Dive",
+          "published": "2026-11-23T15:29:33+00:00",
+          "published_display": "Nov 23, 2026",
+          "score": 0.85,
+          "reason": "The item describes a new federal portal for tracking No Surprises Act IDR disputes, which directly impacts how revenue-cycle teams will manage and monitor out-of-network payment arbitrations.",
+          "summary": "The federal government has launched a centralized portal to track and manage No Surprises Act Independent Dispute Resolution (IDR) disputes, intended to streamline the out-of-network billing arbitration process. This portal enables entities—including providers and payers—to monitor dispute status and administration in one location rather than through fragmented systems. The initiative addresses longstanding complaints about the complexity of the IDR process and will affect how revenue-cycle teams submit, track, and manage out-of-network payment disputes going forward. The specific operational details of portal access, features, and effective date are not detailed in this excerpt, though the platform represents a significant infrastructure change to IDR administration under the No Surprises Act.",
+          "also": [
+            {
+              "title": "Patients can't use the new No Surprises Act Gateway—but its disputes reached nearly $15 billion in 2025 - Medical Daily",
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcWlucUJSNzZENjRGRmFkc1B0V2I2WEFZZldDS3lYNXlhcjRzX2hYaXRDREhLamV4ZnFGQ0FZUThDZFJfWEx5bm5XcEliNHE3dVdldGYzaGZZSGJyUzlRbGV2YzMxUEVRM1UyY2VxYTBxTDU1LUt2OHhVcVpkN1VCS2ZqUklPMTNFN0Nv?oc=5",
+              "source": "Medical Daily"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Cigna Reaches Settlement In ERISA Suit Over Misrepresentation Of Out-of-Network Providers - Legal 500",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOa1BJaHRIVDZ2eV84blVZRWZ0YnFSenJxUnhfc0tDdlFMRWtrOGEwRnA4YVF2M0ppU3ZXN3laSG1DNngtemNNc2dWVjUxNzl5NHpPX0NXZkNNUUhja2N6UkF0dWhFSVJRcWl3OFlmZHlROFZZaDdWYnZDTF9XTE9uS3AzdWVIMHJkSkh3UlNiUEM4WlRFZERnVFJjamZzS1VBZFd2Rkctc2NtaFNxLWdmVGlGQkFSak9rZW5ycEtmS01iaml4S0tlSGF4SGpNdE9SeTBpX2tMclV3M09WeVRPQVYyN3VxNXNFWlJ6QnVYZS0?oc=5",
+          "source": "Legal 500",
+          "published": "2026-10-30T10:13:24+00:00",
+          "published_display": "Oct 30, 2026",
+          "score": 0.95,
+          "reason": "This reports a settlement in an ERISA lawsuit against Cigna, a major payer, involving claims-denial and misrepresentation of network status—core payer litigation enforcement topics directly affecting revenue-cycle operations.",
+          "summary": "Cigna has reached a settlement in an ERISA lawsuit alleging misrepresentation of out-of-network provider status. The suit, covered by Legal 500, involves claims that Cigna inaccurately represented provider network participation, which directly impacts claims processing, reimbursement rates, and member cost-sharing determinations. This settlement is relevant to revenue-cycle teams as ERISA breaches related to network misrepresentation can affect claim denials, payment adjustments, and appeals processes across affected patient populations. The case illustrates enforcement risk for payers that misrepresent network status and creates potential precedent for similar provider and member claims.",
+          "also": []
+        },
+        {
+          "title": "Aetna sued over routine denials of long-term acute care - BenefitsPRO",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdzN1MmFBcHd6QW11bjdONzBHM2hBZlQyVXM2RzN0WUpmOWYtd3lJU0Z0QWEyMUpQVXo0UWdla1J5bEVYWWhIeVRWQmlCVGpCaWl5RGh2OGhzcmlNOVdmSkZpSk5KazhzWDhwa3JIN1k3OHFyQTFiT3hfTFdSdEszT3AxV1pnSWRYX1A2VGZEc1lkUmg0Ync?oc=5",
+          "source": "BenefitsPRO",
+          "published": "2026-11-23T13:45:21+00:00",
+          "published_display": "Nov 23, 2026",
+          "score": 0.92,
+          "reason": "This reports a lawsuit against a major payer (Aetna) alleging routine claims denials, which directly falls within the scope of payer litigation involving claims-denial practices.",
+          "summary": "Aetna faces a lawsuit alleging routine denials of long-term acute care claims. The suit addresses a pattern of claims-denial practices by the insurer, which is a core enforcement issue affecting provider reimbursement and revenue-cycle operations. Such litigation can result in remedies including claim reversals, penalties, and policy changes that impact how payers process and adjudicate long-term acute care benefits going forward.",
+          "also": []
+        },
+        {
+          "title": "CVS’s Aetna is one of the latest payers to sue CMS over 2027 star ratings - Healthcare Brew",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb1Y0NkRVU2lpb2xDYXgteERFdkhTQlRxaXJQSlRPVW5OTjdxY3pKY2hxQ0lGajkyN3VqWkRtY2pUN1ZwclZwNVAxVUdIMHR6REdfenhEZXRjc2tzR05YZjRGeGd2UXhZc1pnc0VteFVYNWhUZWswX0puRlY1R3F3U2tkd05Rd2RpSmJFUkpQQmpyNnZWS3Z4VTdMZUo?oc=5",
+          "source": "Healthcare Brew",
+          "published": "2026-10-28T07:00:00+00:00",
+          "published_display": "Oct 28, 2026",
+          "score": 0.92,
+          "reason": "This reports litigation by a major payer (CVS/Aetna) against CMS, a core example of payer enforcement actions that directly impact revenue-cycle operations through Medicare Advantage reimbursement and quality metrics.",
+          "summary": "CVS's Aetna has filed a lawsuit against CMS challenging the 2027 star ratings methodology, joining other payers in contesting how Medicare Advantage performance is measured and scored. Star ratings directly influence Medicare Advantage payment adjustments and bonuses, making litigation over rating methodology a critical concern for revenue-cycle teams managing MA contracts and reimbursement calculations. The lawsuit reflects growing payer pushback against CMS rating systems that affect financial performance and member enrollment projections.",
+          "also": [
+            {
+              "title": "UnitedHealthcare sues CMS over star ratings - Healthcare Finance News",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcnRJeHZOQ1V5MlQwb19UQVJYZk56dzc0TTlBZi16ZHdoV09WeFNkcHpzVjF2eUpVeXRGNGk0VTNlMHVKRnVLbG1TeEREcnlvM3lMN1p2MEJIcDdZN01uRHQ0QlJKMFZ2RS1hT3lrNE1SWlNQSTc1bHV1TUk3MW1aLUxkRTlmSkFwdmFGY0ZwSQ?oc=5",
+              "source": "Healthcare Finance News"
+            }
+          ]
+        },
+        {
+          "title": "CMS proposes $100B cut to Medicare Advantage star ratings pay - Healthcare Dive",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOUV4Wk9scEdQOS1qREtJTnBSV0k1a0RXNC04VFZITUJnSk5KMXR3bGJQMUR3SVZxd2RiZkVqbV9MX3FLMjJSWEtXMGpsdk5yOXlqbTJkNjM1U2x1Qk1KREp4NmZiV2dURm4zajFwUnp6bjNKd2ZpWng3MG5VVFI4QXhNSnBmYjVYQ0tURFQxbUdJZmtVS25TbnhZLVNMYjRzZzRHYkVYZw?oc=5",
+          "source": "Healthcare Dive",
+          "published": "2026-11-23T18:02:57+00:00",
+          "published_display": "Nov 23, 2026",
+          "score": 0.85,
+          "reason": "CMS enforcement action proposing significant Medicare Advantage payment reductions directly impacts payer revenues and represents regulatory action by CMS against MA plans, a core enforcement topic.",
+          "summary": "CMS has proposed a $100 billion cut to Medicare Advantage star ratings payments, representing a major regulatory enforcement action affecting MA plan revenues. This CMS-initiated payment reduction targets the bonus payments MA plans receive for achieving high quality star ratings, fundamentally altering payer compensation models. The proposal impacts all Medicare Advantage insurers (including major carriers like UnitedHealthcare, Humana, and Elevance) and directly affects revenue-cycle operations by reducing projected MA payment streams. For revenue-cycle teams, this signals potential need to revise MA payment forecasts and audit contracts for star-rating bonus provisions that may be eliminated or substantially reduced.",
+          "also": [
+            {
+              "title": "<a href=\"https://www.fiercehealthcare.com/regulatory/unpacking-implications-cms-latest-proposed-medicare-advantage-changes\" hreflang=\"en\">Unpacking the implications from CMS' latest proposed Medicare Advantage changes</a>",
+              "url": "https://www.fiercehealthcare.com/regulatory/unpacking-implications-cms-latest-proposed-medicare-advantage-changes",
+              "source": "Fierce Healthcare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
