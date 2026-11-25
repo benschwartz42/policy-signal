@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-11-25T13:04:25.626911+00:00",
+  "topic_count": 2,
+  "item_count": 4,
+  "topics": [
+    {
+      "name": "No Surprises Act Litigation",
+      "items": [
+        {
+          "title": "<a href=\"https://www.fiercehealthcare.com/payers/centralized-platform-submitting-managing-out-network-billing-disputes-launches\" hreflang=\"en\">Centralized platform for submitting, managing out-of-network billing disputes launches</a>",
+          "url": "https://www.fiercehealthcare.com/payers/centralized-platform-submitting-managing-out-network-billing-disputes-launches",
+          "source": "Fierce Healthcare",
+          "published": null,
+          "published_display": "undated",
+          "score": 0.85,
+          "reason": "The item directly addresses implementation infrastructure for the No Surprises Act's Independent Dispute Resolution (IDR) process, a core component of the law's operational mechanics.",
+          "summary": "A new centralized platform called the IDR Gateway has launched to streamline submission and management of out-of-network billing disputes under the No Surprises Act's Independent Dispute Resolution process. The Gateway replaces previous web-based forms that providers, payers, and other parties used to initiate and pursue payment arbitration. This operational tool directly affects how healthcare organizations manage balance-billing disputes and IDR claims, making it relevant to revenue-cycle teams managing out-of-network claim resolution workflows. The platform consolidation should improve efficiency in dispute processing, though specific timelines or technical requirements are not detailed in the excerpt provided.",
+          "also": [
+            {
+              "title": "Federal Government Launches No Surprises Act Portal - plansponsor",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcGh5ZGdSWU0waVVhSERydUljajEwaENSQ0JTR2dSQTNENEJURVBJLXhJcWt6aUV4NThzYnZuREpfcHhXWGlHUWJPS2FDLWh4OEdyQlA4VGNfNzFxQkRZWC1nbk9iNVE0ZDBhS2xwQy0zbm00a2pveThwLW5aZldEMGpYbEROUnc?oc=5",
+              "source": "plansponsor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Payer Litigation & Enforcement",
+      "items": [
+        {
+          "title": "Aetna Sued Over Alleged \"Anti-LTCH\" Prior Authorization Policy - HealthLeaders Media",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUlh1eEdpSWZfd2FPM1BCRDNFUmVlRjJwMzROSW55d0FGU3VOdnRzZ0xGVE40MUw1Y3cwWjh1RFdQMEJnNUhsZ1VzSVBSdm5KQjNRNEllclh1WXREdDd1VG94dUpnQ2RUQ2ptQmprSkMtTkZEWVFhLU1hT3NTNWtlZXE2ZFUtLWt0RWxsR1NFU1VUaEFRQmRWQmhVZjh0SUtBTXg3UHE0V3dKNkVjSFE?oc=5",
+          "source": "HealthLeaders Media",
+          "published": "2026-11-24T14:28:14+00:00",
+          "published_display": "Nov 24, 2026",
+          "score": 0.95,
+          "reason": "This reports a lawsuit against a major payer (Aetna) alleging a problematic prior authorization policy affecting a provider type (LTCHs), which directly falls under payer litigation and enforcement actions that impact provider operations and revenue cycle.",
+          "summary": "Aetna faces a lawsuit alleging it maintains an \"anti-LTCH\" prior authorization policy that disadvantages long-term care hospitals. The suit challenges Aetna's prior authorization practices as they apply to LTCH admissions and treatment decisions. This litigation is relevant to revenue-cycle teams because prior authorization policies directly affect provider claim approval timelines, payment certainty, and overall reimbursement rates; adverse rulings or settlements could force Aetna to modify authorization standards, potentially improving claims processing for affected providers.",
+          "also": []
+        },
+        {
+          "title": "Cigna Settles ERISA Suit Over Out-of-Network Providers For $5.7 Million - Legal 500",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ3hHMTZJMWR1WUhTcllCdmtTV0kwNUdCT2RFSk9Yc3BHV1Q4UTMwWUl5QzhMLTBnQkx6UmpUWGVBcEhOd2xMQ2xkRkhSd2xuZFZIVU9Pa0ltcjMteko4cFlXUE56cGZONmRaQVZ5NVJkazZWYUN5NWllRlFBVU9IV3NoeklXV1kzUU9ZNDBsdkZESnJZRXQtZ19ncUtHdThaakxUdWpSRXlHY0pOYzVzQzJQeXBHX3UwMHhzczdMUWJOQXdna2wwUEExaWdvS2ZXSXZYMWZtbUMzdw?oc=5",
+          "source": "Legal 500",
+          "published": "2026-10-27T17:21:28+00:00",
+          "published_display": "Oct 27, 2026",
+          "score": 0.95,
+          "reason": "This reports a settlement of an ERISA fiduciary lawsuit against Cigna involving out-of-network provider claims—a core payer enforcement matter directly matching the topic definition.",
+          "summary": "Cigna settled an ERISA fiduciary lawsuit for $5.7 million related to its handling of out-of-network provider claims. The settlement resolves allegations concerning Cigna's practices and obligations to plan participants regarding out-of-network provider reimbursements. This case exemplifies the category of ERISA and fiduciary claims against major insurers that revenue-cycle teams track, as such litigation outcomes can influence payer policies and reimbursement practices affecting provider networks and claims processing.",
+          "also": []
+        },
+        {
+          "title": "California judge alleges she was fired for ruling against insurer settlements - Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQY1hhMGM0SV9NWWF4dFJLWks5RmVhX2w4LTQyQlV6UGhRM1ZSamRPUldkZUNTNWtUSjZlcEFKTENLTHM1OHV4cU44LXBmeE5xUHNlVm00THczQlNaTG0yYkhla1FpOGxTR3VrUFBDTmpVSjNza3lyQUNxY0VxYl9tdzRmRGpFZHI0SktTLTNYMmFwLU9fNS1NYnVhRGhLWk9yR2NkcjJuSU9JLXlLYlRlVnNBLUMzbzM3WUxBc3hnb2FsZVZzaXBRT2pTU2dQbmxuOVdyaGJ4d0xiaXNsWk9ucU9FSmpiZE5kZTZHZg?oc=5",
+          "source": "Insurance Business",
+          "published": "2026-11-11T09:59:48+00:00",
+          "published_display": "Nov 11, 2026",
+          "score": 0.78,
+          "reason": "This item involves alleged retaliation against a judicial officer by an insurer over settlement rulings, which constitutes regulatory enforcement and potential misconduct by a payer affecting the judicial system's handling of insurance disputes.",
+          "summary": "A California judge has alleged she was terminated from her position in retaliation for issuing rulings unfavorable to insurer settlement proposals. The case raises questions about potential payer influence over judicial decision-making and independence in settlement disputes. This matters for revenue-cycle teams as it highlights legal risks and enforcement scrutiny around how insurers pursue settlement strategies and the judicial oversight mechanisms that govern them.",
+          "also": []
+        }
+      ]
+    }
+  ]
+}
